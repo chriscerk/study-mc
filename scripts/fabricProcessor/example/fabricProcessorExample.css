@@ -1,0 +1,34 @@
+canvas {
+    z-index: 100;
+}
+
+html, body {
+  width:  100%;
+  height: 100vh;
+  margin: 0px;
+  overflow: hidden;
+}
+
+main {
+	margin: 30px;
+}
+
+button {
+	border: none;
+	font-size: 16px;
+	background-color: forestgreen;
+	padding: 15px;
+	color: white;
+	border-radius: 7px;
+}
+
+canvas[resize] {
+    width: 100%;
+    height: 100%;
+	
+}
+
+canvas.lower-canvas {
+	border: 1px solid rgb(239, 239, 239);
+	border-radius: 20px;
+}

@@ -1,0 +1,43 @@
+[
+      {
+            "id": 1,
+            "status": "active",
+            "name": "Medicinal Chemistry 600",
+            "abbreviation": "MC",
+            "number": "600",
+            "topics": [
+                { "title": "Benzodiazepines", "id": 1, "status": "active" },
+                { "title": "Barbiturates", "id": 2, "status": "active" },
+                { "title": "Z-Drugs", "id": 3, "status": "active" },
+                { "title": "Anticonvulsants", "id": 4, "status": "active"  },
+                { "title": "SRIs", "id": 5, "status": "active" },
+                { "title": "SNRIs", "id": 6, "status": "active" },
+                { "title": "TCAs", "id": 7, "status": "active" },
+                { "title": "Atypical Agents", "id": 8, "status": "active" }
+            ]
+      },
+      {
+            "id": 2,
+            "status": "active",
+            "name": "Medicinal Chemistry 610",
+            "abbreviation": "MC",
+            "number": "610",
+            "topics": [
+                { "title": "CWB Inhibitors", "id": 9, "status": "active" },
+                { "title": "Beta-Lactams", "id": 10, "status": "active" },
+                { "title": "FAB Inhibitors", "id": 11, "status": "active" },
+                { "title": "DNA Topo Inhibitors", "id": 12, "status": "active" },
+                { "title": "30S PB Inhibitors", "id": 13, "status": "active" },
+                { "title": "50S PB Inhibitors", "id": 14, "status": "active" }
+            ]
+      },
+      {
+            "id": 3,
+            "status": "inactive",
+            "name": "Medicinal Chemistry 700",
+            "abbreviation": "MC",
+            "number": "700",
+            "topics": []
+      }
+]
+
