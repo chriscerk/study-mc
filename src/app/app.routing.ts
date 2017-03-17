@@ -1,8 +1,8 @@
+import { AboutComponent } from './about/about.component';
 import { RouterModule, Routes } from '@angular/router';
 import { CourseComponent } from './course/course.component';
 import { CoursesComponent } from './courses/courses.component';
 import { CourseTopicsComponent } from './course/courseTopics.component';
-
 import { TrainingComponent } from './training/training.component';
 import { TopicComponent } from './topic/topic.component';
 import { TopicLearnComponent } from './topic/topicLearn.component';
@@ -10,7 +10,6 @@ import { TopicTestComponent } from './topic/topicTest.component';
 import { TopicReviewComponent } from './topic/topicReview.component';
 
 const app_routes: Routes = [
-  { path: 'studymc/training', component: TrainingComponent},
   { path: 'studymc/course', component: CourseComponent},
   { path: 'studymc/courses', component: CoursesComponent},
   { path: 'studymc/course/:id', component: CourseComponent,
@@ -27,7 +26,9 @@ const app_routes: Routes = [
         { path: 'review', component: TopicReviewComponent}
       ]
   },
-  { path: '**', pathMatch:'full', redirectTo: 'studymc/courses' } //catch any unfound routes and redirect to home page
+  { path: 'studymc/about', component: AboutComponent},
+  { path: 'studymc/training', component: TrainingComponent},
+  { path: '**', pathMatch:'full', redirectTo: 'studymc/courses' }
 ];
 
 export const app_routing = RouterModule.forRoot(app_routes);

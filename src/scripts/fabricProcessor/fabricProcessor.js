@@ -5,7 +5,8 @@ var fabricProcessor = (function () {
       fabricCanvases = [],
       myObjs = [],
       canvasObjs = [],
-      canvasMovements = [];
+      canvasMovements = [],
+      canvasOptions = [];
 
   function setCanvasSize(canvasId, canvasSize) {
     contexts[canvasId].canvas.width = canvasSize.width;
@@ -77,11 +78,11 @@ var fabricProcessor = (function () {
 
       for(var i in options) {
         let option = options[i];
-        if(option.hasOwnProperty("canvasSize")) {
-          fabricCanvases[canvasId].setDimensions(option.canvasSize)
+        if(option.hasOwnProperty("relativeImgPath")) {
+          canvasOptions[canvasId].relativeImgPath = option.relativeImgPath;
         }
 
-        if(option.hasOwnProperty("canvasSize")) {
+        if(option.hasOwnProperty("canvasWidth")) {
           fabricCanvases[canvasId].setDimensions(option.canvasSize)
         }
       }
@@ -108,26 +109,26 @@ var fabricProcessor = (function () {
         enableScroll();
       }
 
-      function onScale(options) {
-        fadeIfOverlap(options);
+      function onScale(o) {
+        fadeIfOverlap(o);
         disableScroll();
       }
 
-      function onRotate(options) {
-        fadeIfOverlap(options);
+      function onRotate(o) {
+        fadeIfOverlap(o);
         disableScroll();
       }
 
-      function onMove(options) {
-        fadeIfOverlap(options);
+      function onMove(o) {
+        fadeIfOverlap(o);
         disableScroll();
       }
 
-      function fadeIfOverlap(options) {
-        options.target.setCoords();
+      function fadeIfOverlap(o) {
+        o.target.setCoords();
         fabricCanvases[canvasId].forEachObject(function(obj) {
-          if (obj === options.target) return;
-          obj.setOpacity(options.target.intersectsWithObject(obj) ? 0.5 : 1);
+          if (obj === o.target) return;
+          obj.setOpacity(o.target.intersectsWithObject(obj) ? 0.5 : 1);
         });
       }
   }
@@ -139,7 +140,9 @@ var fabricProcessor = (function () {
       myObjs[canvasId] = []
       canvasObjs[canvasId] = []
 
-      fabric.Image.fromURL(object.image, function(img) {
+      let imgPath = canvasOptions[canvasId].relativeImgPath + object.image;
+
+      fabric.Image.fromURL(imgPath, function(img) {
 
         img.scale(0.5).set({
           left: 0,
@@ -161,7 +164,7 @@ var fabricProcessor = (function () {
         var group = new fabric.Group([ img, text ], {
           left: object.startX,
           top: object.startY,
-          accessKey: object.image,
+          accessKey: imgPath,
           hasControls: false
         });
 

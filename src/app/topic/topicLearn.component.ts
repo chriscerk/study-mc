@@ -3,20 +3,17 @@ declare var fabricProcessor:any;
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
-
 import { ITopic } from '../shared/interfaces';
 import { DataService } from '../core/services/data.service';
-
 import { CompoundCanvasComponent } from '../shared/compoundCanvas.component';
 import { CanvasAnimationComponent } from '../shared/canvasAnimation.component';
 import { AlertBoxComponent } from '../shared/alertBox.component';
 import { EndMessageComponent } from '../shared/endMessage.component';
 import { nextPrevAnimation } from '../shared/animations';
 
-type Orientation = ( "void" | "next" | "none" | "previous" );
+type Orientation = ( 'void' | 'next' | 'none' | 'previous' );
 
 @Component({
-  //moduleId: module.id,
   selector: 'topic-learn',
   animations: [nextPrevAnimation],
   template: `
@@ -134,17 +131,21 @@ export class TopicLearnComponent implements OnInit {
 
   public orientation: Orientation;
 
-  constructor(private route: ActivatedRoute, router: Router, private dataService: DataService, private changeDetectorRef: ChangeDetectorRef) {
+  constructor(
+    private route: ActivatedRoute,
+    router: Router, private dataService: DataService,
+    private changeDetectorRef: ChangeDetectorRef) {
+
       this.router = router;
       this.validAnswer = true;
       this.answerSubmitted = false;
-      this.userAnswer = "Current Question Not Answered Yet";
+      this.userAnswer = 'Current Question Not Answered Yet';
       this.currentQuestion = 0;
       this.moduleIsComplete = false;
       this.incorrectAnswers = 0;
       this.currentAction = 'Submit';
       this.changeDetectorRef = changeDetectorRef;
-   } 
+   }
 
   ngOnInit() {
       this.sub = this.route.parent.params.subscribe(params => {
@@ -153,7 +154,7 @@ export class TopicLearnComponent implements OnInit {
             .subscribe((topic: ITopic) => this.topic = topic);
       });
 
-      this.orientation = "void";
+      this.orientation = 'void';
   }
 
   ngOnDestroy() {
@@ -161,26 +162,26 @@ export class TopicLearnComponent implements OnInit {
   }
 
   previousItem() {
-    this.orientation = "previous";
+    this.orientation = 'previous';
     this.changeDetectorRef.detectChanges();
 
     if(this.currentQuestion == 0)
     {
       return;
     }
-    else{
+    else {
       this.currentQuestion--;
     }
 
-    this.orientation = "void";
+    this.orientation = 'void';
   }
 
-  nextItem(){
-    this.orientation = "next";
+  nextItem() {
+    this.orientation = 'next';
     this.changeDetectorRef.detectChanges();
 
     this.answerSubmitted = false;
-    this.userAnswer = "Current Question Not Answered Yet";
+    this.userAnswer = 'Current Question Not Answered Yet';
     this.currentQuestion++;
 
     if(this.topic.learnItems.length == this.currentQuestion)
@@ -188,7 +189,7 @@ export class TopicLearnComponent implements OnInit {
       this.moduleIsComplete = true;
     }
 
-    this.orientation = "void";
+    this.orientation = 'void';
   }
 
   wrongAnswer(){
@@ -204,7 +205,7 @@ export class TopicLearnComponent implements OnInit {
 
   retryQuestion(){
     this.answerSubmitted = false;
-    this.userAnswer = "Current Question Not Answered Yet";
+    this.userAnswer = 'Current Question Not Answered Yet';
     this.validAnswer = true;
   }
 
@@ -221,7 +222,7 @@ export class TopicLearnComponent implements OnInit {
     }
   }
 
-  checkAnswer() {   
+  checkAnswer() {
     if(this.correctAnswer != this.userAnswer) {
       this.wrongAnswer();
       this.currentAction = 'retryQuestion';

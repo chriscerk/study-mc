@@ -6,10 +6,9 @@ import { ITopic } from '../shared/interfaces';
 import { DataService } from '../core/services/data.service';
 import { nextPrevAnimation } from '../shared/animations';
 
-type Orientation = ( "void" | "next" | "none" | "previous" );
+type Orientation = ( 'void' | 'next' | 'none' | 'previous' );
 
 @Component({
-  //moduleId: module.id,
   selector: 'topic-review',
   animations: [nextPrevAnimation],
   template: `
@@ -24,7 +23,9 @@ type Orientation = ( "void" | "next" | "none" | "previous" );
         </div>
       </div>
   </div>
-  <p class="advice">Please fill each section of the review. Below is a generated review worksheet, printable upon completion. <a href="/studymc-media/savePDF-HowTo-studymc.mp4">How to Save Review Worksheet as a PDF Video</a></p>
+  <p class="advice">Please fill each section of the review. Below is a generated review worksheet, printable upon completion. 
+  <a href="/studymc-media/savePDF-HowTo-studymc.mp4">How to Save Review Worksheet as a PDF Video</a>
+  </p>
 <div class="content review-module">
   <form #f="ngForm" (ngSubmit)="onSubmit()" method="post">
 
@@ -60,7 +61,7 @@ type Orientation = ( "void" | "next" | "none" | "previous" );
                       required>
               <br>
               <div *ngIf="section.imagePath">
-                <img src="/studymc-media/compounds/{{topic.name}}/{{section.imagePath}}" id="logo" alt="{{section.imagePath}}" style="max-width: 150px;">
+                <img src="/assets/media/compounds/{{topic.name}}/{{section.imagePath}}" id="logo" alt="{{section.imagePath}}" style="max-width: 150px;">
               </div>
               <div *ngIf="!section.imagePath">
                 <textarea class="form-control" 
@@ -104,7 +105,7 @@ type Orientation = ( "void" | "next" | "none" | "previous" );
                 <h4>{{section.title}}</h4>
                 <p class="review">{{section.content}}</p>
                 <div *ngIf="section.imagePath">
-                  <img src="/studymc-media/compounds/{{topic.name}}/{{section.imagePath}}" id="logo" alt="{{section.imagePath}}" style="max-width: 150px;">
+                  <img src="/assets/media/compounds/{{topic.name}}/{{section.imagePath}}" id="logo" alt="{{section.imagePath}}" style="max-width: 150px;">
                 </div>  
               </li>
             </ul>
@@ -118,8 +119,6 @@ No topic found
 `
 })
 
-//For each item in the review sheet provide a userSubmission. Items should be userProvided or fixed
-
 export class TopicReviewComponent implements OnInit {
 
   topic: ITopic;
@@ -128,16 +127,20 @@ export class TopicReviewComponent implements OnInit {
 
   studentName: string;
   currentItem: number;
-  nextItem:number;
-  lastItem:number;
+  nextItem: number;
+  lastItem: number;
   printingOptionsVisible: boolean;
   reviewComplete: boolean;
 
   public orientation: Orientation;
 
-  constructor(private route: ActivatedRoute, router: Router, private dataService: DataService, private changeDetectorRef: ChangeDetectorRef) {
+  constructor(
+    private route: ActivatedRoute,
+    router: Router, private dataService: DataService,
+    private changeDetectorRef: ChangeDetectorRef) {
+
       this.router = router;
-      this.studentName = "";
+      this.studentName = '';
       this.currentItem = 0;
       this.nextItem = 1;
       this.printingOptionsVisible = false;
@@ -153,7 +156,7 @@ export class TopicReviewComponent implements OnInit {
       });
 
       this.lastItem = this.topic.reviewItems.length - 1;
-      this.orientation = "void";
+      this.orientation = 'void';
   }
 
   ngOnDestroy() {
@@ -161,38 +164,35 @@ export class TopicReviewComponent implements OnInit {
   }
 
   toNextItem() {
-    this.orientation = "next";
+    this.orientation = 'next';
     this.changeDetectorRef.detectChanges();
 
-    if(this.currentItem == this.lastItem)
-    {
+    if(this.currentItem == this.lastItem) {
         this.currentItem = 0;
     }
-    else if(this.nextItem == this.lastItem)
-    {
+    else if(this.nextItem == this.lastItem) {
       this.reviewComplete = true;
       this.currentItem++;
     }
-    else{
+    else {
       this.currentItem++;
     }
     this.nextItem = this.currentItem + 1;
-    this.orientation = "void";
+    this.orientation = 'void';
   }
 
   toPreviousItem() {
-    this.orientation = "previous";
+    this.orientation = 'previous';
     this.changeDetectorRef.detectChanges();
 
-    if(this.currentItem == 0)
-    {
+    if(this.currentItem == 0) {
       this.currentItem = this.lastItem;
     }
-    else{
+    else {
       this.currentItem--;
     }
     this.nextItem = this.currentItem + 1;
-    this.orientation = "void";
+    this.orientation = 'void';
   }
 
   printPage() {
@@ -201,12 +201,12 @@ export class TopicReviewComponent implements OnInit {
 
   generateExampleReview() {
     this.topic.reviewItems = this.topic.exampleReview;
-    this.studentName = "MC Student";
+    this.studentName = 'MC Student';
     this.reviewComplete = true;
   }
 
 
-  togglePrintingOptions(){
+  togglePrintingOptions() {
     this.printingOptionsVisible = !this.printingOptionsVisible;
   }
 

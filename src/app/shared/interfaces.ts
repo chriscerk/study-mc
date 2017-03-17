@@ -7,9 +7,8 @@ export interface ICourse {
     topics: ITopic[];
 }
 
-export interface ITopic
-{
-    id: number,
+export interface ITopic {
+    id: number;
     title: string;
     name: string;
     status: string;
@@ -19,51 +18,44 @@ export interface ITopic
     exampleReview: IReviewItem[];
 }
 
-export interface ILearnItem
-{
+export interface ILearnItem {
     title: string;
     name: string;
 }
 
-export interface ITestItem
-{
+export interface ITestItem {
     title: string;
 }
 
-export interface IReviewItem
-{
+export interface IReviewItem {
     title: string;
     sections: ISection[];
 }
 
-export interface ISection
-{
+export interface ISection {
     title: string;
     content: string;
     imagePath: string;
 }
 
-export class PracticeProblem implements ILearnItem, IMultipleChoice
-{
+export class PracticeProblem implements ILearnItem, IMultipleChoice {
     title: string;
     name: string;
     imagePath: string;
     question: string;
-    options : string[];
+    options: string[];
     answer: string;
     explanation: string;
 }
 
-export class TestProblem implements ITestItem, IMultipleChoice
-{
+export class TestProblem implements ITestItem, IMultipleChoice {
     title: string;
     question: string;
-    options : string[];
+    options: string[];
     answer: string;
 }
 
-export class InteractiveMolecule implements ILearnItem 
-{
+export class InteractiveMolecule implements ILearnItem {
     title: string;
     name: string;
     imagePath: string;
@@ -73,21 +65,19 @@ export class InteractiveMolecule implements ILearnItem
     compoundHotspots: IHotspot[];
 }
 
-export interface CustomAnimation
-{
-    // Currently Unknown Properties, still investigating.
-}
-
-export class MovementAnimation implements ILearnItem, CustomAnimation
-{
+export class MovementAnimation implements ILearnItem {
     title: string;
     name: string;
-    options: any;
-    objects: fabricObject[];
+    options: AnimationOptions;
+    objects: FabricObject[];
 }
 
-export interface fabricObject
-{
+export class AnimationOptions {
+    canvasSize: IDimension;
+    relativeImgPath: string;
+}
+
+export interface FabricObject {
     image: string;
     startX: number;
     startY: number;
@@ -97,36 +87,32 @@ export interface fabricObject
     movement: IMovement;
 }
 
-export interface ITextItem
-{
+export interface ITextItem {
     value: string;
     left: number;
     top: number;
     fontSize: number;
 }
 
-export interface IMovement
-{
+export interface IMovement {
     destination: ICanvasLocation;
     origin: ICanvasLocation;
     on: string;
 }
 
-export interface IDimension
-{
+export interface IDimension {
     width: number;
     height: number;
 }
 
-export interface ICanvasLocation
-{
+export interface ICanvasLocation {
     x: number;
     y: number;
 }
 
 export interface IMultipleChoice extends IQuestion {
     question: string;
-    options : string[];
+    options: string[];
     answer: string;
 }
 
@@ -145,8 +131,7 @@ export interface IQuestion {
     answer: string;
 }
 
-export interface IHotspot 
-{
+export interface IHotspot {
     name: string;
     y: number;
     x: number;
@@ -155,10 +140,8 @@ export interface IHotspot
     text: string;
 }
 
-export class IColorLocationAssociation
-{
+export class IColorLocationAssociation {
     color: string;
     location: string;
     description: string;
-
 }

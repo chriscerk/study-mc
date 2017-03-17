@@ -1,0 +1,802 @@
+html {
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #292929;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: #292929; 
+}
+
+p.review {
+    font-size:13px; 
+    font-family:'Garamond';
+}
+
+.review-print-item {
+    margin-bottom: 0;
+}
+
+div.canvas-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.print-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.print-dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+
+main {
+    position: relative;
+    top:70px;
+    padding-top: 75px;
+    position: relative;
+    padding-top: 0px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-weight: 100;
+    font-family: 'Lato';
+}
+
+  span.topNav {
+    display: inline-block;
+    color: white;
+    font-size: 16pt;
+    padding: 10px;
+  }
+
+p {
+    font-family: 'Roboto';
+    font-size: 16pt;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 350%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 230%
+}
+
+img.loading {
+    margin-bottom:5%;
+    margin-top:5%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mc-logo {
+    padding: 3%;
+}
+
+.landing {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loading {
+    font-size: 75px;
+    font-weight: 300;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30vh;
+    width: 100%;
+    height: 100vh;
+    background-color: #007bcb;
+    color:white;
+    position: fixed;
+    top: -100;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999;
+}
+
+.title {
+    font-size: 75px;
+}
+
+/*** Works on common browsers ***/
+::selection {
+    background-color: #42A948;
+    color: #fff;
+}
+
+/*** Mozilla based browsers ***/
+::-moz-selection {
+    background-color: #42A948;
+    color: #fff;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+    background-color: #42A948;
+    color: #fff;
+}
+
+::-ms-selection {
+    background-color: #42A948;
+    color: #fff;
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+    background-color: #42A948;
+    color: #fff;
+}
+
+@media print {
+    @page { 
+        size:8.27in 11.69in; 
+        margin:.5in .5in .5in .5in; 
+        mso-header-margin:.5in; 
+        mso-footer-margin:.5in; 
+        mso-paper-source:0; 
+    }
+
+  .review-print-hide {
+      display: none !important;
+  }
+
+  main, html, body {
+    /*padding-top: 0px;
+    margin-top: 0px;*/
+  }
+}
+
+/* Ensure display:flex and others don't override a [hidden] */
+[hidden] { display: none !important; }
+
+.white {
+    color: white;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: inherit !important;
+}
+
+.flex-item {
+    border-radius: 25px;
+    margin-bottom: 35px;
+}
+
+.mediumBox {
+    width: 20em;
+    display: inline-block;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.classBox {
+    display: inline-block;
+    width: 4em;
+    line-height: 4em;
+    font-weight: bold;
+    font-size: 4em;
+    text-align: center;
+    margin: 10px;
+}
+
+.action-buttons {
+    POSITION: FIXED;
+    MARGIN-LEFT: 70%;
+    ALIGN-CONTENT: CENTER;
+    top: 50%;
+    z-index: 50;
+}
+
+.shaded > button {
+        z-index: 50;
+        box-shadow: 0 0 10px rgb(111, 111, 111);
+        font-size: 16pt;
+        padding: 0;
+        border-radius: 9px;
+        height: 50px;
+        width: 120px;
+    }
+
+.shaded > button.btn.btn-success, button.btn.btn-danger {
+        height: 60px;
+        font-size: 18pt;
+    }    
+
+select {
+    height: 30pt;
+    font-size: 20pt;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 15px 25px;
+    font-size: 25pt;
+    border-radius: 9px;
+    box-shadow: 0 0 15px rgb(111, 111, 111);
+}
+
+.topicBox {
+    display: inline-block;
+    width: 8em !important;
+    height: 8em;
+    line-height: 8em;
+    font-weight: bold;
+    font-size: 16pt;
+    text-align: center;
+}
+
+textarea {
+    height: 150px !important;
+}
+
+.content {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.hidden-course {
+    display: none !important;
+}
+
+.active-course {
+    background-color: #007bcb;
+    box-shadow: 0 0 15px rgb(111, 111, 111);
+    color: white;
+}
+
+.inactive-link {
+    pointer-events: none;
+}
+
+.inactive-course {
+    pointer-events: none;
+    color: transparent;
+    text-shadow: 0 0 5px rgb(105, 105, 105);
+    box-shadow: 0 0 15px rgb(111, 111, 111);
+}
+
+.hidden-course {
+    display: none !important;
+}
+
+.ng-valid[required], .ng-valid.required  {
+  border-left: 10px solid #42A948; /* green */
+}
+
+.ng-invalid:not(form), select.ng-pristine  {
+  border-left: 10px solid #a94442 !important; /* red */
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.white:hover{
+    color: white;
+}
+
+th {
+  cursor: pointer;
+}
+
+.test-question {
+    font-size: 30pt !important;
+}
+
+.alert {
+    font-size: 30pt;
+    text-align: center;
+    border-width: 1px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.smart-navbar {
+    position: fixed;
+    top: 0px;
+    right: 10%;
+    text-align: center;
+    font-size: 2em;
+    z-index: 10000;
+    color: white;
+  }
+
+.navbar .nav > li.toolbar-item > a {
+    color: white;
+    -webkit-text-shadow: none;
+    text-shadow: none;
+}
+
+.message-link {
+    font-size: 1.5em;
+    color: white;
+    top: -15px;
+    position: relative;
+}
+
+.message-link:hover {
+    color: #ff4949;
+}
+
+.navbar-header {
+    padding-left: 20px;
+}
+
+.nav.navbar-padding {
+    margin-left:25px;
+    margin-top: 10px;
+}
+
+.app-title {
+    font-size: 40px;
+    color: white;
+    font-weight: 300;
+    top: -5px;
+    position: fixed;
+    margin-left: 75px;
+}
+
+  .navbar .nav > .toolbar-item > a.active {
+    color: #009bff;
+}
+
+.toolbar-item a {
+  cursor: pointer;
+}
+
+.form-control {
+    width: 0;
+    width: inherit;
+    display: inline-block;
+    border-radius: 30px !important;
+    margin-top: 3px;
+    margin-bottom: 20px !important;
+}
+
+.edit-icon {
+    cursor: pointer;
+}
+
+.orders-table {
+    width:50%;
+}
+
+.indent {
+    margin-left:5px;
+}
+
+.navbar-brand {
+    float:none;
+}
+
+a.navbar-brand {
+    color: #fff;
+}
+
+.input-group {
+    font-weight: bold;
+}
+
+.navbar-inner {
+    padding-left: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background-color: #292929;
+    background-image: none;
+}
+
+footer {
+    font-size: 11pt;
+    box-shadow: 0px 0px 10px 1px rgb(111, 111, 111);
+    display: inline-block;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 30px;
+    background-color: #292929;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    z-index: 999;
+}
+
+header {
+    box-shadow: 0px 0px 10px 1px rgb(111, 111, 111);
+}
+
+span.glyphicon.topNav:hover {
+    color: #ff4949;
+}
+
+.navbar .nav > .active > a, .navbar .nav {
+    color: #808080;
+}
+
+.navbar .nav li.toolbaritem a:hover, .navbar .nav li a:hover {
+    color: #ff4949;
+}
+
+.navbar .nav > li  {
+    cursor:pointer;
+    display: inline-block;
+}
+
+.navbar .nav > li > a {
+    color: white;
+    font-weight:bold;
+    -webkit-text-shadow: none;
+    text-shadow: none;
+    height:30px;
+    padding-top: 6px;
+    padding-bottom: 0px;
+}
+
+.navbar .nav > li.toolbaritem > a {
+    color: #292929;
+    font-weight:bold;
+    -webkit-text-shadow: none;
+    text-shadow: none;
+}
+
+.nav.navBarPadding {
+    margin-left:25px;
+    margin-top: 10px;
+}
+
+.navbarText {
+    font-weight:bold;
+}
+
+.navbar .brand {
+    margin-top: 2px;
+    color: #fff;
+    -webkit-text-shadow: none;
+    text-shadow: none;
+}
+
+.navbar-toggle {
+  border: 1px solid white;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+filter-textbox {
+    margin-top: 5px;
+}
+
+.editForm .ng-invalid {
+  border-left: 5px solid #a94442;
+}
+
+.editForm .ng-valid {
+  border-left: 5px solid #42A948;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+@-webkit-keyframes hvr-back-pulse {
+  50% {
+    background-color: #42A948;
+  }
+}
+@keyframes hvr-back-pulse {
+  50% {
+    background-color: #42A948;
+  }
+}
+.hvr-back-pulse {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(-1);
+  transform: perspective(1px) translateZ(-1);
+  overflow: hidden;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-back-pulse:hover, #active-course:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active, .flashing {
+  background-color: #0096de;
+  background-color: #0096de;
+  -webkit-animation-name: hvr-back-pulse;
+  animation-name: hvr-back-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  color: white !important;
+}
+
+
+@-webkit-keyframes flashing-text-pulse {
+  50% {
+    color: #42A948;
+  }
+}
+@keyframes flashing-text-pulse {
+  50% {
+    color: #42A948;
+  }
+}
+
+.flashing-text-pulse {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(-1);
+  transform: perspective(1px) translateZ(-1);
+  overflow: hidden;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: color;
+  transition-property: color;
+}
+
+.flashing-text {
+    color: #0096de;
+    -webkit-animation-name: flashing-text-pulse;
+    animation-name: flashing-text-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+  /* iPhone, Android rules here */
+
+  .review-alert {
+      display: inline-block !important;
+  }
+
+  html, body {
+    overflow-x: unset;
+}
+
+  .loading {
+    font-size: 50px;
+    padding-top: 20vh;
+  }
+
+  h1 {
+    font-size: 200%;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 120%;
+  }
+
+  .review-module {
+      display: none !important;
+  }
+
+  p.review {
+    font-size:16px; 
+    font-family:'Garamond';
+  }
+
+  p.advice {
+      display: none !important;
+  }
+
+  #mc-logo {
+    width: 50px;
+    display: none;
+  }
+
+  .app-title {
+    font-size:30px;
+    top: 5px;
+  }
+
+  .navbar-nav {
+    margin: 0;
+  }
+  
+  .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 0px;
+    padding-left: 15px;
+}
+
+  .smart-navbar {
+    top: unset;
+    bottom: 0px !important;
+    right: unset;
+    z-index: unset;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 3em;
+    width: 100%;
+    display: block;
+    color: white;
+    background-color: #292929;
+    height: 55px;
+    margin-bottom: 0px;
+    box-shadow: 0 0 50px rgb(111, 111, 111);
+  }
+
+  .action-buttons {
+      Bottom: 0px;
+      right: -5px;
+      POSITION: fixed;
+      MARGIN-LEFT: 60%;
+      ALIGN-CONTENT: CENTER;
+      top: unset;
+      z-index: 50;
+    }
+
+
+    .mobile-top > button {
+      position: fixed;
+      z-index: 50;
+      bottom: 130px;
+      right: 0px;
+      box-shadow: 0 0 15px rgb(111, 111, 111);
+      font-size: 11pt;
+      border-radius: 55px 0px 0px 55px;
+      padding: 0;
+      height: 50px;
+      width: 75px;
+    }
+
+p {
+    font-size: 12pt;
+  }
+
+  .test-question {
+    font-size: 20pt !important;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    font-size: 20pt;
+    padding: 0;
+    border-radius: 75px 0 0 75px;
+    height: 100px;
+    width: 120px;
+}
+
+.shaded > button {
+        z-index: 50;
+        box-shadow: 0 0 10px rgb(111, 111, 111);
+        font-size: 16pt;
+        padding: 0;
+        border-radius: 75px 0 0 75px;
+        height: 60px;
+        width: 120px;
+    }
+
+.shaded > button.btn.btn-success, button.btn.btn-danger {
+        height: 70px;
+        font-size: 18pt;
+    } 
+
+  .classBox {
+    display: inline-block;
+    width: 4em !important;
+    height: 4em;
+    line-height: 4em;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+  .topicBox {
+    display: inline-block;
+    width: 8em !important;
+    height: 8em;
+    line-height: 8em;
+    font-weight: bold;
+    font-size: 16pt;
+    text-align: center;
+}
+
+.message-link {
+    font-size: 1.5em;
+    color: white;
+    top: -15px;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    padding: 0px;
+}
+
+img {
+  max-width: 300px;
+}
+
+main {
+    position:absolute;
+    bottom:0;
+    top:50px; /*must match the height of #header*/
+    width:100%;
+    overflow:auto;
+}
+
+  .graphic-title {
+      display: none;
+  }
+
+  footer {
+      display: none;
+  }
+}

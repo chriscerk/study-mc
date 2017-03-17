@@ -10,6 +10,7 @@ import { app_routing } from './app.routing';
 import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
 import { ReactiveFormsModule } from '@angular/forms';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   imports: [
@@ -24,7 +25,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     ReactiveFormsModule,
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
-  declarations: [ AppComponent ],
+  declarations: [ AppComponent, AboutComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

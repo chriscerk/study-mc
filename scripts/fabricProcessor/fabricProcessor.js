@@ -5,7 +5,8 @@ var fabricProcessor = (function () {
       fabricCanvases = [],
       myObjs = [],
       canvasObjs = [],
-      canvasMovements = [];
+      canvasMovements = [],
+      canvasRelativeImgPath = [];
 
   function setCanvasSize(canvasId, canvasSize) {
     contexts[canvasId].canvas.width = canvasSize.width;
@@ -75,24 +76,13 @@ var fabricProcessor = (function () {
         selectionLineWidth: 2
       });
 
-      for(var i in options) {
-        let option = options[i];
-        if(option.hasOwnProperty("canvasSize")) {
-          fabricCanvases[canvasId].setDimensions(option.canvasSize)
-        }
-
-        if(option.hasOwnProperty("canvasSize")) {
-          fabricCanvases[canvasId].setDimensions(option.canvasSize)
-        }
+      if(options["relativeImgPath"]) {
+        canvasRelativeImgPath[canvasId] = options["relativeImgPath"];
       }
 
-        function disableScroll() {
-          fabricCanvases[canvasId].allowTouchScrolling = false;
-        };
-
-        function enableScroll() {
-          fabricCanvases[canvasId].allowTouchScrolling = true;
-        };
+      if(options["canvasSize"]) {
+        fabricCanvases[canvasId].setDimensions(options["canvasSize"])
+      }
 
       fabricCanvases[canvasId].on({
         'object:moving': onMove,
@@ -102,32 +92,40 @@ var fabricProcessor = (function () {
         'mouse:up': onMouseUp
       });
 
+      function disableScroll() {
+        fabricCanvases[canvasId].allowTouchScrolling = false;
+      };
+
+      function enableScroll() {
+        fabricCanvases[canvasId].allowTouchScrolling = true;
+      };
+
       function onModify(obj) { }
 
       function onMouseUp() {
         enableScroll();
       }
 
-      function onScale(options) {
-        fadeIfOverlap(options);
+      function onScale(o) {
+        fadeIfOverlap(o);
         disableScroll();
       }
 
-      function onRotate(options) {
-        fadeIfOverlap(options);
+      function onRotate(o) {
+        fadeIfOverlap(o);
         disableScroll();
       }
 
-      function onMove(options) {
-        fadeIfOverlap(options);
+      function onMove(o) {
+        fadeIfOverlap(o);
         disableScroll();
       }
 
-      function fadeIfOverlap(options) {
-        options.target.setCoords();
+      function fadeIfOverlap(o) {
+        o.target.setCoords();
         fabricCanvases[canvasId].forEachObject(function(obj) {
-          if (obj === options.target) return;
-          obj.setOpacity(options.target.intersectsWithObject(obj) ? 0.5 : 1);
+          if (obj === o.target) return;
+          obj.setOpacity(o.target.intersectsWithObject(obj) ? 0.5 : 1);
         });
       }
   }
@@ -139,7 +137,9 @@ var fabricProcessor = (function () {
       myObjs[canvasId] = []
       canvasObjs[canvasId] = []
 
-      fabric.Image.fromURL(object.image, function(img) {
+      let imgPath = canvasRelativeImgPath[canvasId] + object.image;
+
+      fabric.Image.fromURL(imgPath, function(img) {
 
         img.scale(0.5).set({
           left: 0,
@@ -161,7 +161,7 @@ var fabricProcessor = (function () {
         var group = new fabric.Group([ img, text ], {
           left: object.startX,
           top: object.startY,
-          accessKey: object.image,
+          accessKey: imgPath,
           hasControls: false
         });
 
@@ -169,7 +169,7 @@ var fabricProcessor = (function () {
         myObjs[canvasId].push(group);
         canvasObjs[canvasId].push(group);
 
-        let objectName = object.image + canvasId
+        let objectName = imgPath + canvasId
         canvasMovements[objectName] = object.movement;
       });
     }
@@ -196,7 +196,6 @@ var fabricProcessor = (function () {
   };
 
   my.fireAllAnimations = function(canvasId) {
-    //let canvasId = getCanvasId(btnId);
     let objects = myObjs[canvasId];
 
     fabricCanvases[canvasId].forEachObject(function(obj) {
