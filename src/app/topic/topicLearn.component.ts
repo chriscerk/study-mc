@@ -74,7 +74,7 @@ type Orientation = ( 'void' | 'next' | 'none' | 'previous' );
 
           <ul *ngIf="!learnItem.compoundHotspots && !learnItem.objects" class="flex-container">
             <li class="flex-item">
-              <img src="/assets/media/compounds/{{topic.name}}/{{learnItem.imagePath}}" id="logo" alt="logo">
+              <img src="assets/media/compounds/{{topic.name}}/{{learnItem.imagePath}}" id="logo" alt="logo">
             </li>
             <li class="flex-item" style="width: 400px;">
               <ul>

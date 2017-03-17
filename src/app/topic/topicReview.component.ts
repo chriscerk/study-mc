@@ -24,7 +24,7 @@ type Orientation = ( 'void' | 'next' | 'none' | 'previous' );
       </div>
   </div>
   <p class="advice">Please fill each section of the review. Below is a generated review worksheet, printable upon completion. 
-  <a href="/studymc-media/savePDF-HowTo-studymc.mp4">How to Save Review Worksheet as a PDF Video</a>
+  <a href="/about/#savePDF">How to Save Review Worksheet as a PDF Video</a>
   </p>
 <div class="content review-module">
   <form #f="ngForm" (ngSubmit)="onSubmit()" method="post">
@@ -61,7 +61,7 @@ type Orientation = ( 'void' | 'next' | 'none' | 'previous' );
                       required>
               <br>
               <div *ngIf="section.imagePath">
-                <img src="/assets/media/compounds/{{topic.name}}/{{section.imagePath}}" id="logo" alt="{{section.imagePath}}" style="max-width: 150px;">
+                <img src="assets/media/compounds/{{topic.name}}/{{section.imagePath}}" id="logo" alt="{{section.imagePath}}" style="max-width: 150px;">
               </div>
               <div *ngIf="!section.imagePath">
                 <textarea class="form-control" 
@@ -105,7 +105,7 @@ type Orientation = ( 'void' | 'next' | 'none' | 'previous' );
                 <h4>{{section.title}}</h4>
                 <p class="review">{{section.content}}</p>
                 <div *ngIf="section.imagePath">
-                  <img src="/assets/media/compounds/{{topic.name}}/{{section.imagePath}}" id="logo" alt="{{section.imagePath}}" style="max-width: 150px;">
+                  <img src="assets/media/compounds/{{topic.name}}/{{section.imagePath}}" id="logo" alt="{{section.imagePath}}" style="max-width: 150px;">
                 </div>  
               </li>
             </ul>

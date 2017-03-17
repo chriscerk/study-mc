@@ -12,7 +12,7 @@ import { ICourse } from '../shared/interfaces';
         <div class="smart-navbar">
             <ul class="nav navbar-nav">
                 <li class="toolbar-item">
-                    <h3><a routerLink="/studymc/">
+                    <h3><a routerLink="courses">
                         <div class="message-link">
                             <span class="glyphicon glyphicon-arrow-left" style="margin-right: 30px;"></span>
                             All Courses
@@ -26,7 +26,7 @@ import { ICourse } from '../shared/interfaces';
             <router-outlet></router-outlet>
             <br />
             <br />
-            <h3><a routerLink="/studymc/">View all Courses</a></h3>
+            <h3><a routerLink="/courses">View all Courses</a></h3>
         </div>
 </div>
   

@@ -19,7 +19,7 @@ import { DataService } from '../core/services/data.service';
     <li class="flex-item">
       <ul class="flex-container">
         <div *ngFor="let course of courses;">
-          <a [routerLink]="['/studymc/course',course.id,'topics']">
+          <a [routerLink]="['/course',course.id,'topics']">
             <li class="flex-item classBox hvr-back-pulse {{course.status + '-course' }}">{{course.number}}</li>
           </a>
         </div>

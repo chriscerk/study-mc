@@ -28,7 +28,7 @@ export class CompoundCanvasComponent implements OnInit, AfterViewInit {
     }
 
     ngAfterViewInit() {
-        let fullImgPath = "/assets/media/compounds/" + this.topic.name + "/" + this.learnItem.imagePath;
+        let fullImgPath = 'assets/media/compounds/' + this.topic.name + "/" + this.learnItem.imagePath;
 
         if(this.learnItem.imgWidth){
           var imgWidth = this.learnItem.imgWidth;

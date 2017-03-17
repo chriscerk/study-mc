@@ -9,15 +9,13 @@ import { ICourse, ITopic } from '../../shared/interfaces';
 
 @Injectable()
 export class DataService {
-    _baseUrl: string = '/assets/data/';
+    _baseUrl: string = 'assets/data/';
     courses: ICourse[];
     topics: ITopic[];
 
-    constructor(private http: Http) { 
+    constructor(private http: Http) { }
 
-    }
-
-    getCourses() : Observable<ICourse[]> {
+    getCourses(): Observable<ICourse[]> {
         if (!this.courses) {
             return this.http.get(this._baseUrl + 'courses.json')
                         .map((res: Response) => {
@@ -31,8 +29,8 @@ export class DataService {
             return this.createObservable(this.courses);
         }
     }
-	
-	getCourse(id: number) : Observable<ICourse> {
+
+    getCourse(id: number) : Observable<ICourse> {
         if (this.courses) {
             //filter using cached data
             return this.findCourseObservable(id);
@@ -64,8 +62,8 @@ export class DataService {
             return this.createObservable(this.topics);
         }
     }
-	
-	getTopic(id: number) : Observable<ITopic> {
+
+    getTopic(id: number) : Observable<ITopic> {
         if (this.topics) {
             //filter using cached data
             return this.findTopicObservable(id);
@@ -88,7 +86,7 @@ export class DataService {
         return (cs.length) ? cs[0] : null;
     }
 
-    private findCourseObservable(id: number) : Observable<ICourse> {        
+    private findCourseObservable(id: number) : Observable<ICourse> {
         return this.createObservable(this.filterCourses(id));
     }
 
@@ -97,7 +95,7 @@ export class DataService {
         return (cs.length) ? cs[0] : null;
     }
 
-    private findTopicObservable(id: number) : Observable<ITopic> {        
+    private findTopicObservable(id: number) : Observable<ITopic> {
         return this.createObservable(this.filterTopics(id));
     }
 

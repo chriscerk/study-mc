@@ -1,10 +1,10 @@
 import { AboutComponent } from './about.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { course_routing } from './about.routing';
+import { about_routing } from './about.routing';
 
 @NgModule({
-  imports:      [ CommonModule, course_routing ],
+  imports:      [ CommonModule, about_routing ],
   declarations: [ AboutComponent ],
   exports: [AboutComponent ]
 })

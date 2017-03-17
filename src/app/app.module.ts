@@ -1,3 +1,4 @@
+import { AboutModule } from './about/about.module';
 import { TrainingModule } from './training/training.module';
 import { TopicModule } from './topic/topic.module';
 import { CourseModule } from './course/course.module';
@@ -16,6 +17,7 @@ import { AboutComponent } from './about/about.component';
   imports: [
     CoreModule,
     SharedModule,
+    AboutModule,
     CoursesModule,
     CourseModule,
     TopicModule,
@@ -25,7 +27,7 @@ import { AboutComponent } from './about/about.component';
     ReactiveFormsModule,
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
-  declarations: [ AppComponent, AboutComponent ],
+  declarations: [ AppComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

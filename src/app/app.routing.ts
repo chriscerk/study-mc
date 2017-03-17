@@ -10,15 +10,15 @@ import { TopicTestComponent } from './topic/topicTest.component';
 import { TopicReviewComponent } from './topic/topicReview.component';
 
 const app_routes: Routes = [
-  { path: 'studymc/course', component: CourseComponent},
-  { path: 'studymc/courses', component: CoursesComponent},
-  { path: 'studymc/course/:id', component: CourseComponent,
+  { path: 'course', component: CourseComponent},
+  { path: 'courses', component: CoursesComponent},
+  { path: 'course/:id', component: CourseComponent,
       children: [
         { path: '', redirectTo: '/topics', pathMatch: 'full' },
         { path: 'topics', component: CourseTopicsComponent},
       ]
   },
-  { path: 'studymc/topic/:id', component: TopicComponent,
+  { path: 'topic/:id', component: TopicComponent,
       children: [
         { path: '', redirectTo: '/learn', pathMatch: 'full' },
         { path: 'learn', component: TopicLearnComponent},
@@ -26,9 +26,9 @@ const app_routes: Routes = [
         { path: 'review', component: TopicReviewComponent}
       ]
   },
-  { path: 'studymc/about', component: AboutComponent},
-  { path: 'studymc/training', component: TrainingComponent},
-  { path: '**', pathMatch:'full', redirectTo: 'studymc/courses' }
+  { path: 'about', component: AboutComponent},
+  { path: 'training', component: TrainingComponent},
+  { path: '**', pathMatch:'full', redirectTo: 'courses' }
 ];
 
 export const app_routing = RouterModule.forRoot(app_routes);

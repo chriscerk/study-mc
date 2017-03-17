@@ -42,7 +42,7 @@ export class CanvasAnimationComponent implements OnInit, AfterViewInit {
     ngOnInit() {
       this.canvasId = this.topic.name + '-Canvas-' + this.i;
 
-      let path = '/assets/media/compounds/' + this.topic.name + '/';
+      let path = 'assets/media/compounds/' + this.topic.name + '/';
       this.options = { 'relativeImgPath': path, 'canvasSize': { 'width': 400 , 'height': 600 } }
     }
 
