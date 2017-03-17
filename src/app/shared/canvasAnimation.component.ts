@@ -42,7 +42,7 @@ export class CanvasAnimationComponent implements OnInit, AfterViewInit {
     }
 
     ngAfterViewInit() {
-        let relativeImgPath = "/studymc-media/compounds/" + this.topic.name + "/";
+        let relativeImgPath = "/assets/media/compounds/" + this.topic.name + "/";
 
         fabricProcessor.initCanvas(this.canvasId, this.currentAnimation.options);
         fabricProcessor.applyObjects(this.canvasId, this.currentAnimation.objects);
