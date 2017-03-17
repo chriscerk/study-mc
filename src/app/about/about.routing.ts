@@ -3,7 +3,7 @@ import { AboutComponent } from './about.component';
 
 const about_routes: Routes = [
   { 
-    path: '', 
+    path: 'about', 
     component: AboutComponent
   }
 ];

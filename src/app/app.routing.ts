@@ -10,7 +10,7 @@ import { TopicTestComponent } from './topic/topicTest.component';
 import { TopicReviewComponent } from './topic/topicReview.component';
 
 const app_routes: Routes = [
-  { path: 'course', component: CourseComponent},
+  { path: '', pathMatch: 'full', redirectTo: '/courses' },
   { path: 'courses', component: CoursesComponent},
   { path: 'course/:id', component: CourseComponent,
       children: [
@@ -28,7 +28,7 @@ const app_routes: Routes = [
   },
   { path: 'about', component: AboutComponent},
   { path: 'training', component: TrainingComponent},
-  { path: '**', pathMatch:'full', redirectTo: 'courses' }
+  { path: '**', pathMatch:'full', redirectTo: '/courses'  }
 ];
 
 export const app_routing = RouterModule.forRoot(app_routes);
