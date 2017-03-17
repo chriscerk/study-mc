@@ -40,7 +40,7 @@
     }
   ],
   "theme_color": "#007bcb",
-  "start_url": "index.html",
+  "start_url": "index.html?launcher=true",
   "display": "standalone",
   "orientation": "portrait"
 }
