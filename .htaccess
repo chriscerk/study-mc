@@ -1,5 +1,3 @@
-ErrorDocument 404 /study-mc/
-
 <ifModule mod_rewrite.c>
     RewriteEngine on
     RewriteCond %{HTTPS} !=on
@@ -9,5 +7,5 @@ ErrorDocument 404 /study-mc/
     RewriteCond %{REQUEST_FILENAME} -d
     RewriteRule ^.*$ - [NC,L]
 
-    RewriteRule ^(.*) /study-mc/ [NC,L]
+    RewriteRule ^(.*) /study-mc/index.html [NC,L]
 </ifModule>
