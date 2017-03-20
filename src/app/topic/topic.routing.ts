@@ -14,7 +14,15 @@ const topic_routes: Routes = [
       { path:'test', component: TopicTestComponent },
       { path:'review', component: TopicReviewComponent }
     ]
-  }
+  },
+  { path: 'topic/:id', component: TopicComponent,
+      children: [
+        { path: '', redirectTo: '/learn', pathMatch: 'full' },
+        { path: 'learn', component: TopicLearnComponent},
+        { path: 'test', component: TopicTestComponent},
+        { path: 'review', component: TopicReviewComponent}
+      ]
+  },
 ];
 
 export const topic_routing = RouterModule.forChild(topic_routes);

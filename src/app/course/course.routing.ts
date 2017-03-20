@@ -7,8 +7,14 @@ const course_routes: Routes = [
     path: '', 
     component: CourseComponent,
     children: [
-      { path:'studymc/topics', component: CourseTopicsComponent }
+      { path:'topics', component: CourseTopicsComponent }
     ]
+  },
+  { path: 'course/:id', component: CourseComponent,
+      children: [
+        { path: '', redirectTo: '/topics', pathMatch: 'full' },
+        { path: 'topics', component: CourseTopicsComponent},
+      ]
   }
 ];
 
