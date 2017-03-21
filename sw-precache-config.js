@@ -12,7 +12,7 @@ module.exports = {
   navigateFallback: '/index.html',
   runtimeCaching: [{
     urlPattern: /apps\.phar\.umich\.edu[/]study-mc/,
-    handler: 'fastest'
+    handler: 'networkFirst'
   }]
 };
 

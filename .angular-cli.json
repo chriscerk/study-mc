@@ -10,7 +10,9 @@
       "assets": [
         "assets",
         "data",
-        "favicon.ico"
+        "favicon.ico",
+        "manifest.json",
+        ".htaccess"
       ],
       "index": "index.html",
       "main": "main.ts",
@@ -20,8 +22,7 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css",
-        "../node_modules/font-awesome/css/font-awesome.min.css"
+        "styles.css"
       ],
       "scripts": [
         "../scripts/fabricProcessor/fabricProcessor.js",
