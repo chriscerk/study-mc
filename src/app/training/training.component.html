@@ -1,3 +1,12 @@
-<p>
-  training works!
-</p>
+<h1>Training Module</h1>
+<p>This module is for the purpose of testing new ideas without harming the existing codebase</p>
+
+<push-notification #myNotification
+        [title]="notification.title"
+        [body]="notification.body"
+        [icon]="notification.icon"
+        [closeDelay]="notification.closeDelay"
+        (action)="notification.action($event)">
+      </push-notification>
+      
+  <button (click)="showNotification(myNotification)">SHOW NOTIFICATION</button>

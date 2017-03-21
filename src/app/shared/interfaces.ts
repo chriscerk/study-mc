@@ -145,3 +145,11 @@ export class IColorLocationAssociation {
     location: string;
     description: string;
 }
+
+export interface INotification {
+    show: boolean;
+    title: string;
+    body: string;
+    icon: string;
+    action: any;
+}

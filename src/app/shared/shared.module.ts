@@ -11,6 +11,7 @@ import { HttpModule } from '@angular/http';
 import { CapitalizePipe } from './pipes/capitalize.pipe';
 import { TrimPipe } from './pipes/trim.pipe';
 import { MyPercentPipe } from './pipes/percent.pipe';
+import { PushNotificationComponent } from './push-notification/push-notification.component';
 
 @NgModule({
   imports: [ CommonModule ],
@@ -21,7 +22,8 @@ import { MyPercentPipe } from './pipes/percent.pipe';
     CompoundCanvasComponent,
     CanvasAnimationComponent,
     EndMessageComponent,
-    AlertBoxComponent
+    AlertBoxComponent,
+    PushNotificationComponent
     ],
   exports: [
     CapitalizePipe,
