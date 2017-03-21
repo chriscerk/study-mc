@@ -1,7 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'training',
-  template: `<h1>Training</h1> <h2>{{info}}</h2>`
+  selector: 'app-training',
+  templateUrl: './training.component.html',
+  styleUrls: ['./training.component.css']
 })
-export class TrainingComponent { info = 'This is a Training Component for new hires to learn Angular.'; }
+export class TrainingComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}

@@ -13,6 +13,7 @@ import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AboutComponent } from './about/about.component';
+import { TrainingComponent } from './training/training.component';
 
 @NgModule({
   imports: [
@@ -28,7 +29,7 @@ import { AboutComponent } from './about/about.component';
     ReactiveFormsModule,
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
-  declarations: [ AppComponent ],
+  declarations: [ AppComponent, TrainingComponent ],
   providers: [ { provide: APP_BASE_HREF, useValue: '/study-mc/'} ],
   bootstrap:    [ AppComponent ]
 })
