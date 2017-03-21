@@ -11,11 +11,13 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" />
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name='apple-mobile-web-app-capable' content='yes'>
+    
     <meta name='application-name' content='StudyMC'>
-    <meta name='apple-mobile-web-app-status-bar-style' content='black'>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#007bcb">
     <meta name='apple-mobile-web-app-title' content='StudyMC'>
+    <meta name='apple-mobile-web-app-capable' content='yes'>
+    <meta name='apple-mobile-web-app-status-bar-style' content='#007bcb'>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" sizes="80x80" href="assets/media/logos/icon.png">
     <link rel="icon" type="image/png" href="assets/media/logos/icon-logo-192.png" sizes="192x192">
@@ -25,8 +27,7 @@
     <link rel="icon" type="image/png" href="assets/media/logos/icon-logo-48.png" sizes="48x48">
 	<link rel="icon" type="image/png" href="assets/media/logos/icon-logo-32.png" sizes="32x32">
 	<link rel="icon" type="image/png" href="assets/media/logos/icon-logo-16.png" sizes="16x16">
-    <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#007bcb">
+    <link rel="manifest" href="assets/manifest.json">
 
 </head>
 <body>
@@ -57,11 +58,11 @@
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('service-worker.js').then(function(registration) {
-            // Registration was successful
-            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                // Registration was successful
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
             }).catch(function(err) {
-            // registration failed :(
-            console.log('ServiceWorker registration failed: ', err);
+                // registration failed :(
+                console.log('ServiceWorker registration failed: ', err);
             });
         }
     </script>
