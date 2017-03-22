@@ -12,10 +12,6 @@ Study-MC (Study Medicinal Chemistry) is a College of Pharmacy web application to
 
 [Development](https://github.com/chriscerk/study-mc#development)
 
-
-
-[UM Access](https://github.com/chriscerk/study-mc#um-access)
-
 [Other Info.](https://github.com/chriscerk/studymc#other-information)
 
 [Screenshots](https://github.com/chriscerk/studymc#screenshots)
@@ -90,10 +86,9 @@ Before running the tests make sure you are serving the app via `ng serve`.
 5. Copy the contents of the `dist` directory to the server through FileZilla.
 
 
+# Other Information
 
-# UM Access
-
-The live version of this application is currently "bodyless" (without Laravel) due to inability to update the UM server version of PHP and install dependencies for Laravel. The "bodyless" application is located at: `studymc/public/studymc`.
+### UM Access
 
 <strong>Dev Environment</strong>: http://dev-apps.phar.umich.edu/study-mc/
 
@@ -104,8 +99,11 @@ The live version of this application is currently "bodyless" (without Laravel) d
 `/afs/umich.edu/group/acadaff/pharmacy/Private/html/study-mc`
 
 
-# Further help
+### Further help
 
 [Angular](https://angular.io)
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+# Screenshots
+
