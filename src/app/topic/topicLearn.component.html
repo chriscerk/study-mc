@@ -1,0 +1,92 @@
+<div *ngIf="topic">
+  <h1> <strong>Learn</strong> about {{topic.name}}</h1>
+
+    <div class="content">
+      <end-message *ngIf="moduleIsComplete" [topicName]="topic.name" [incorrectAnswers]="incorrectAnswers">
+      </end-message>
+
+    <div *ngFor="let learnItem of topic.learnItems; let i = index" [@NextPrevAnimation]="orientation">
+      <div *ngIf="currentQuestion == i">
+
+        <h3>{{i/topic.learnItems.length | MyPercentPipe }} Complete</h3>
+
+        <alert-box [learnItem]="learnItem" [validAnswer]="validAnswer" [answerSubmitted]="answerSubmitted"></alert-box>
+  
+          <p>{{learnItem.title}} | {{learnItem.name}}</p>
+
+            <div class="action-buttons">
+              <div class="shaded">
+                <button  type="button" class="btn btn-default" (click)="previousItem()"> Previous </button>
+                <br>
+                <br>
+                <button (click)="retryQuestion()" class="btn btn-danger" *ngIf="!validAnswer">Retry</button>
+              </div>
+
+              <div *ngIf="learnItem.answer && !answerSubmitted" class="shaded">
+                <button type="button" 
+                        (click)="rightAnswer()" 
+                        class="btn btn-success" 
+                        *ngIf="learnItem.answer == userAnswer">
+                    Submit
+                </button>
+
+                <button type="button" 
+                        (click)="wrongAnswer()" 
+                        class="btn btn-success" 
+                        *ngIf="learnItem.answer != userAnswer && validAnswer">
+                    Submit
+                </button>
+              </div>
+
+              <div *ngIf="!learnItem.answer || answerSubmitted" class="shaded">
+                <button type="button" (click)="nextItem()" class="btn btn-success" *ngIf="validAnswer">
+                  Next
+                </button>
+              </div>
+            </div>
+
+          <div *ngIf="learnItem.compoundHotspots">
+            <compound-Canvas [learnItem]="learnItem" [topic]="topic" [i]="i">Loading Canvas...</compound-Canvas>
+          </div>
+
+           <div *ngIf="learnItem.objects">
+            <canvas-animation [currentAnimation]="learnItem" [topic]="topic" [i]="i">Loading Canvas...</canvas-animation>
+          </div>
+
+          <ul *ngIf="!learnItem.compoundHotspots && !learnItem.objects" class="flex-container">
+            <li class="flex-item">
+              <img src="assets/media/compounds/{{topic.name}}/{{learnItem.imagePath}}" id="logo" alt="logo">
+            </li>
+            <li class="flex-item" style="width: 400px;">
+              <ul>
+                <li *ngFor="let info of learnItem.colorLocationAssociations">
+                      <p [style.color]=[info.color]> {{info.description}} </p>
+                </li>
+              </ul>
+
+              <p *ngIf="learnItem.answer">
+                {{learnItem.question}}
+                <br>
+                <br>
+                <select class="form-control input-lg" [(ngModel)]="userAnswer" name="userAnswerInput" *ngIf="!answerSubmitted" required>
+                  <option [value]="''" disabled="disabled"></option>
+                  <option *ngFor="let option of learnItem.options;">{{option}}</option>
+                </select>
+              </p>
+              <br>
+            </li>
+          </ul>
+
+      </div>
+    </div>
+
+    <div *ngIf="!topic.learnItems.length">
+        <div class="alert alert-info review-alert" role="alert">
+          <a href="#" class="alert-link"> There are currently no Learning items for {{topic.name}}.</a>
+        </div>
+    </div>
+  </div>
+  <div *ngIf="!topic" class="row">
+    No topic found
+  </div>
+</div> 
