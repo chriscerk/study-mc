@@ -1,6 +1,48 @@
 <h1>Training Module</h1>
 <p>This module is for the purpose of testing new ideas without harming the existing codebase</p>
 
+<h2>NPM angular2-notifications</h2>
+<form>
+  <div>
+    <label>Title</label>
+    <p>The title of the notification.</p>
+    <input type="text" [(ngModel)]="title" name="title">
+  </div>
+  <div>
+    <label>Content</label>
+    <p>The content of the notification.</p>
+    <input type="text" [(ngModel)]="content" name="content">
+  </div>
+  <div>
+    <label>Type</label>
+    <p>The type of the notification.</p>
+    <select [(ngModel)]="type" name="type">
+    <option value="success" selected>Success</option>
+    <option value="error">Error</option>
+    <option value="alert">Alert</option>
+    <option value="info">Info</option>
+    <option value="bare">Bare</option>
+  </select>
+  </div>
+      <button (click)="create()">Create Notification</button>
+</form>
+
+<button (click)="removeAll()">Clean all notifications</button>
+<simple-notifications [options]="options" (onCreate)="onCreate($event)" (onDestroy)="onDestroy($event)"></simple-notifications>
+<button (click)="withOverride()">with override</button>
+<button (click)="withHtml()">with html</button>
+
+<form (ngSubmit)="cleanSingle()">
+  <input type="text" [(ngModel)]="deleteId" name="bla">
+  <button type="submit">Delete</button>
+</form>
+
+<button (click)="getPermission()">Get push permission</button>
+<button (click)="createPush()">Create Push</button>
+
+
+<h2>Custom Push Notification</h2>
+
 <push-notification #myNotification
         [title]="notification.title"
         [body]="notification.body"

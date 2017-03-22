@@ -12,9 +12,10 @@ import { CapitalizePipe } from './pipes/capitalize.pipe';
 import { TrimPipe } from './pipes/trim.pipe';
 import { MyPercentPipe } from './pipes/percent.pipe';
 import { PushNotificationComponent } from './push-notification/push-notification.component';
+import {SimpleNotificationsModule, PushNotificationsModule} from 'angular2-notifications';
 
 @NgModule({
-  imports: [ CommonModule ],
+  imports: [ CommonModule, SimpleNotificationsModule, PushNotificationsModule, FormsModule ],
   declarations: [
     CapitalizePipe,
     TrimPipe,
@@ -35,7 +36,9 @@ import { PushNotificationComponent } from './push-notification/push-notification
     CompoundCanvasComponent,
     CanvasAnimationComponent,
     EndMessageComponent,
-    AlertBoxComponent
+    AlertBoxComponent,
+    SimpleNotificationsModule,
+    PushNotificationsModule
   ],
 })
 export class SharedModule { }
