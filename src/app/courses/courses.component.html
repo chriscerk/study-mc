@@ -1,0 +1,23 @@
+<ul class="flex-container">
+    <li class="flex-item">
+        <div class="landing">
+            <h2>{{university}}</h2>
+            <h1>{{college}}</h1>
+            <div class="title">
+                {{appTitle}}
+            </div>
+        </div>
+    </li>
+    <li class="flex-item">
+        <ul class="flex-container">
+        <div *ngFor="let course of courses;">
+            <a [routerLink]="['/course',course.id,'topics']">
+            <li class="flex-item classBox hvr-back-pulse {{course.status + '-course' }}">{{course.number}}</li>
+            </a>
+        </div>
+        <div *ngIf="!courses.length">
+            <h1></h1>
+        </div>
+        </ul>
+    </li>
+</ul>

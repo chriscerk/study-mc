@@ -79,11 +79,9 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 2. `ng e2e` Ensure all end-to-end tests pass
 
-3. `ng build -prod --base-href study-mc --aot` 
+3. `npm run deploy` 
 
-4. `npm run precache`
-
-5. Copy the contents of the `dist` directory to the server through FileZilla.
+4. Copy the contents of the `dist` directory to the server through FileZilla.
 
 
 # Other Information
