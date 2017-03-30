@@ -120,7 +120,6 @@ img.loading {
 
 .landing {
     text-align: center;
-    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -385,13 +384,14 @@ th {
     margin-top: 10px;
 }
 
-.app-title {
+.nav-title {
     font-size: 40px;
     color: white;
     font-weight: 300;
     top: -5px;
     position: fixed;
-    margin-left: 75px;
+    margin-left: 130px;
+    z-index: 9999;
 }
 
   .navbar .nav > .toolbar-item > a.active {
@@ -627,6 +627,10 @@ a:hover, a:focus {
     padding-top: 20vh;
   }
 
+  canvas {
+      width: 300px;
+  }
+
   h1 {
     font-size: 200%;
     font-weight: 300;
@@ -655,13 +659,17 @@ a:hover, a:focus {
     display: none;
   }
 
-  .app-title {
-    font-size:30px;
+  .nav-title {
+    font-size:20px;
     top: 5px;
   }
 
   .navbar-nav {
     margin: 0;
+  }
+
+  .navbar {
+    min-height: 40px;
   }
   
   .nav>li>a {

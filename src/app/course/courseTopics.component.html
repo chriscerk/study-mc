@@ -1,0 +1,20 @@
+    <div *ngIf="course">
+        <span class="nav-title">{{course.abbreviation}} - {{course.number}}</span>
+        <div class="row">
+        <h1>Course Topics</h1><br><br>
+
+        <ul class="flex-container"> 
+        <div *ngFor="let topic of course.topics;">
+            <a [routerLink]="['/topic', topic.id,'learn']" class="{{topic.status + '-link' }}">
+                <li class="flex-item topicBox hvr-back-pulse {{topic.status + '-course' }}">{{topic.title}}</li>
+            </a>
+        </div>
+        <div *ngIf="!course.topics.length">
+            <h1>No Topics!</h1>
+        </div>
+        </ul>
+
+    </div>   
+    <div *ngIf="!course" class="row">
+        No course found
+    </div>  

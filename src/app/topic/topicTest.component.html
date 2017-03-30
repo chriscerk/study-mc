@@ -1,12 +1,10 @@
 <div *ngIf="topic">
-  <h1><b>Test</b> your Knowledge on {{topic.name}}</h1>
+  <span class="nav-title">{{topic.name}}</span>
 <div class="content">
   <end-message *ngIf="moduleIsComplete" [topicName]="topic.name" [incorrectAnswers]="incorrectAnswers"></end-message>
     <div *ngFor="let testItem of topic.testItems; let i = index" [@NextPrevAnimation]="orientation">
       <div *ngIf="currentQuestion == i">
-        <br>
-          <h2> {{i/topic.testItems.length | MyPercentPipe }} Complete</h2> 
-        <br>
+          <h3> {{i/topic.testItems.length | MyPercentPipe }} Complete</h3> 
         <form #f="ngForm" (ngSubmit)="onSubmit(testItem.answer)" *ngIf="validAnswer" method="post">
           <p class="test-question">
             {{testItem.question}}

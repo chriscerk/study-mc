@@ -8,27 +8,7 @@ import { DataService } from '../core/services/data.service';
 @Component({
   //moduleId: module.id,
   selector: 'course-learn',
-  template: `
-    <div *ngIf="course">
-        <div class="row">
-        <h1>Course Topics for {{course.abbreviation}} - {{course.number}} </h1><br><br>
-
-        <ul class="flex-container"> 
-        <div *ngFor="let topic of course.topics;">
-            <a [routerLink]="['/topic', topic.id,'learn']" class="{{topic.status + '-link' }}">
-                <li class="flex-item topicBox hvr-back-pulse {{topic.status + '-course' }}">{{topic.title}}</li>
-            </a>
-        </div>
-        <div *ngIf="!course.topics.length">
-            <h1>No Topics!</h1>
-        </div>
-        </ul>
-
-    </div>   
-    <div *ngIf="!course" class="row">
-        No course found
-    </div>  
-`
+  templateUrl: 'courseTopics.component.html'
 })
 export class CourseTopicsComponent implements OnInit {
 

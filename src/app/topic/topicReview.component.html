@@ -1,8 +1,7 @@
 <div *ngIf="topic">
 <div class="review-print-hide">
-  <h1><b>Review</b> of {{topic.name}}</h1>
-  <div class="alert alert-info review-alert" role="alert" style="display:none;">
-    <a href="#" class="alert-link">Autofill only on mobile device.</a>
+  <span class="nav-title">{{topic.name}}</span>
+  <div class="review-alert" role="alert" style="display:none;">
       <div class="action-buttons">
         <div class="shaded">
           <button type="button" class="btn btn-success shaded" (click)="generateExampleReview()"> Autofill </button>
@@ -81,7 +80,7 @@
   </form>
  </div>
 </div>
-  <h1 style="text-align: center;">Review of <strong>{{topic.name}}</strong> | {{studentName}} </h1>
+  <h1 style="text-align: center;"><strong>{{topic.name}}</strong> | {{studentName}} </h1>
     <ul class="flex-container">
         <li *ngFor="let reviewItem of topic.reviewItems;" class="flex-item review-print-item">
             <h3><strong>{{reviewItem.title}}</strong></h3>

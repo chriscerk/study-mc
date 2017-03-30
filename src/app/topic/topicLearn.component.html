@@ -1,5 +1,5 @@
 <div *ngIf="topic">
-  <h1> <strong>Learn</strong> about {{topic.name}}</h1>
+  <span class="nav-title">{{topic.name}}</span>
 
     <div class="content">
       <end-message *ngIf="moduleIsComplete" [topicName]="topic.name" [incorrectAnswers]="incorrectAnswers">
