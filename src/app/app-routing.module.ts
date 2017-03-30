@@ -1,3 +1,6 @@
+import { LocationStrategy } from '@angular/common';
+import { BaseHrefHashLocationStrategy } from './core/strategies/base-href-hash-location.strategy';
+import { APP_BASE_HREF } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { AboutComponent } from './about/about.component';
 import { RouterModule, Routes } from '@angular/router';
@@ -33,7 +36,8 @@ const app_routes: Routes = [
 ];
 
 @NgModule({
-  imports: [ RouterModule.forRoot(app_routes, { useHash: true }) ],
+  imports: [ RouterModule.forRoot(app_routes, {useHash: true}) ],
+  providers: [ { provide: APP_BASE_HREF, useValue: '/study-mc/'}, {provide: LocationStrategy, useClass: BaseHrefHashLocationStrategy} ],
   exports: [ RouterModule ]
 })
 export class AppRoutingModule { }

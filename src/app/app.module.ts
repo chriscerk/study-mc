@@ -30,7 +30,6 @@ import { TrainingComponent } from './training/training.component';
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   declarations: [ AppComponent, TrainingComponent ],
-  providers: [ { provide: APP_BASE_HREF, useValue: '/study-mc/'} ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
