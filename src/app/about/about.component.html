@@ -1,34 +1,23 @@
 <span class="nav-title">About</span>
+<div class="navbar smart-navbar review-print-hide">
+    <ul class="nav navbar-nav">
+        <li class="toolbar-item">
+            <a routerLink="info" routerLinkActive="active">
+                <span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;
+                <span class ="graphic-title">Info</span>
+            </a>
+        </li>
+        <li class="toolbar-item">
+            <a routerLink="help" routerLinkActive="active">
+                <span class="glyphicon glyphicon-exclamation-sign"></span>&nbsp;&nbsp;
+                <span class ="graphic-title">Help!</span>
+            </a>
+        </li>
+    </ul>
+</div>
 <div class="content">
 <img type="image/png" src="assets/media/logos/studymc-logo-title.jpg" style="margin-right:auto; margin-left:auto; display:list-item;"/>
-<p>StudyMC (Study Medicinal Chemistry) is a web application to help students in learning, testing, and reviewing their course materials.</p>
+<router-outlet></router-outlet>
 <br>
+</div>
 
-<div class="flex-container">
-  <div class="flex-item mediumBox">
-      <h2><span class="glyphicon glyphicon-education"></span>&nbsp;&nbsp;Learn</h2>
-      <p>Content provided to help expand students' knowledge along with practice problems with feedback.</p>
-  </div>
-  <div class="flex-item mediumBox">
-      <h2><span class="glyphicon glyphicon-pencil"></span>&nbsp;&nbsp;Test</h2>
-      <p>Example test questions to gauge a student's knowledge on a particular topic.</p>
-  </div>
-  <div class="flex-item mediumBox">
-      <h2><span class="glyphicon glyphicon-repeat"></span>&nbsp;&nbsp;Review</h2>
-      <p>Printable online review sheet. The "Autocomplete" button on the right provides an example sheet.</p>
-  </div>
-</div>
-<br>
-<h1>Help</h1>
-<h2>Printing Review</h2>
-<p><a href="assets/media/videos/savePDF-HowTo-studymc.mp4">How to Save Review Worksheet as a PDF Video</a></p>
-<p>After clicking the "Print!" button, a print page will appear. From the print page, Click on "Change..." under Destination in the top left side of the screen. A window will popup. Under "Local Destinations" click "Save as PDF." The window will close. In the top left side of the screen, click the "Save" button.</p>
-<br>
-<br>
-<h2>Mobile</h2>
-<p><a href="assets/media/videos/mobileReview.mp4">Mobile Review: Studying on the go.</a></p>
-</div>
-<br /><br />
-<hr>
-<img type="image/png" src="assets/media/logos/icon-logo-144.png" style="margin-right:auto; margin-left:auto; display:list-item;"/>
-<br /><br /><br />

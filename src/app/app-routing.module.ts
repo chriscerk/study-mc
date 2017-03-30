@@ -1,3 +1,5 @@
+import { AboutInfoComponent } from './about/about-info.component';
+import { AboutHelpComponent } from './about/about-help.component';
 import { LocationStrategy } from '@angular/common';
 import { BaseHrefHashLocationStrategy } from './core/strategies/base-href-hash-location.strategy';
 import { APP_BASE_HREF } from '@angular/common';
@@ -30,7 +32,13 @@ const app_routes: Routes = [
         { path: 'review', component: TopicReviewComponent}
       ]
   },
-  { path: 'about', component: AboutComponent},
+  { path: 'about', component: AboutComponent,
+    children: [
+        { path: '', redirectTo: '/info', pathMatch: 'full' },
+        { path: 'help', component: AboutHelpComponent},
+        { path: 'info', component: AboutInfoComponent}
+      ]
+  },
   { path: 'training', component: TrainingComponent},
   { path: '**', pathMatch: 'full', redirectTo: '/courses'  }
 ];
