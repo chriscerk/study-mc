@@ -1,7 +1,3 @@
-canvas {
-      width: 300px;
-}
-
 p.review {
     font-size:13px; 
     font-family:'Garamond';
@@ -94,6 +90,10 @@ div.canvas-container {
 
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+  canvas {
+    width: 300px;
+  }
+  
   .review-alert {
       display: inline-block !important;
   }
