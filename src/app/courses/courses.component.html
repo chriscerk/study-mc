@@ -13,7 +13,7 @@
         <ul class="flex-container">
         <div *ngFor="let course of courses;">
             <a [routerLink]="['/course',course.id,'topics']">
-            <li class="flex-item classBox hvr-back-pulse {{course.status + '-course' }}">{{course.number}}</li>
+            <li class="flex-item classBox hvr-back-pulse {{course.status + '-box' }}">{{course.number}}</li>
             </a>
         </div>
         <div *ngIf="!courses.length">

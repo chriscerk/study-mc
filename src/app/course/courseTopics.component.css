@@ -1,0 +1,9 @@
+.topicBox {
+    display: inline-block;
+    width: 8em !important;
+    height: 8em;
+    line-height: 8em;
+    font-weight: bold;
+    font-size: 16pt;
+    text-align: center;
+}

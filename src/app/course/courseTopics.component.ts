@@ -7,7 +7,8 @@ import { DataService } from '../core/services/data.service';
 @Component({
   //moduleId: module.id,
   selector: 'course-learn',
-  templateUrl: 'courseTopics.component.html'
+  templateUrl: 'courseTopics.component.html',
+  styleUrls: ['courseTopics.component.css']
 })
 export class CourseTopicsComponent implements OnInit {
 

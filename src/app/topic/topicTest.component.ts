@@ -14,7 +14,7 @@ type Orientation = ( 'void' | 'next' | 'none' | 'previous' );
 @Component({
   selector: 'topic-test',
   templateUrl: './topicTest.component.html',
-  styleUrls: ['./topicTest.component.css'],
+  styleUrls: ['./topic.component.css'],
   animations: [nextPrevAnimation]
 })
 

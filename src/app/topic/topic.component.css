@@ -1,0 +1,113 @@
+canvas {
+      width: 300px;
+}
+
+p.review {
+    font-size:13px; 
+    font-family:'Garamond';
+}
+
+.review-print-item {
+    margin-bottom: 0;
+}
+
+div.canvas-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ng-valid[required], .ng-valid.required  {
+  border-left: 10px solid #42A948; /* green */
+}
+
+.ng-invalid:not(form), select.ng-pristine  {
+  border-left: 10px solid #a94442 !important; /* red */
+}
+
+@media print {
+    @page { 
+        size:8.27in 11.69in; 
+        margin:.5in .5in .5in .5in; 
+        mso-header-margin:.5in; 
+        mso-footer-margin:.5in; 
+        mso-paper-source:0; 
+    }
+
+  .review-print-hide {
+      display: none !important;
+  }
+
+  main, html, body {
+    /*padding-top: 0px;
+    margin-top: 0px;*/
+  }
+}
+
+.print-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.print-dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+
+.test-question {
+    font-size: 30pt !important;
+}
+
+.input-group {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 0;
+    width: inherit;
+    display: inline-block;
+    border-radius: 30px !important;
+    margin-top: 3px;
+    margin-bottom: 20px !important;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+  .review-alert {
+      display: inline-block !important;
+  }
+
+  .review-module {
+      display: none !important;
+  }
+
+  p.review {
+    font-size:16px; 
+    font-family:'Garamond';
+  }
+
+  .test-question {
+    font-size: 20pt !important;
+  }
+}

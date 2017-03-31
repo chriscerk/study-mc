@@ -1,0 +1,23 @@
+.classBox {
+    display: inline-block;
+    width: 4em;
+    line-height: 4em;
+    font-weight: bold;
+    font-size: 4em;
+    text-align: center;
+    margin: 10px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
+
+    .classBox {
+        display: inline-block;
+        width: 4em !important;
+        height: 4em;
+        line-height: 4em;
+        font-weight: bold;
+        font-size: 3em;
+        text-align: center;
+    }
+
+}

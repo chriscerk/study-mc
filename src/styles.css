@@ -22,52 +22,6 @@ html {
 	background: #292929; 
 }
 
-p.review {
-    font-size:13px; 
-    font-family:'Garamond';
-}
-
-.review-print-item {
-    margin-bottom: 0;
-}
-
-div.canvas-container {
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.print-dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
-    float: left;
-    min-width: 160px;
-    padding: 5px 0;
-    margin: 2px 0 0;
-    font-size: 14px;
-    text-align: left;
-    list-style: none;
-    background-color: #fff;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    border: 1px solid #ccc;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: 4px;
-    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
-    box-shadow: 0 6px 12px rgba(0,0,0,.175);
-}
-
-.print-dropdown-menu>li>a {
-    display: block;
-    padding: 3px 20px;
-    clear: both;
-    font-weight: 400;
-    line-height: 1.42857143;
-    color: #333;
-    white-space: nowrap;
-}
-
 main {
     position: relative;
     top:70px;
@@ -106,14 +60,6 @@ h2 {
     font-size: 230%
 }
 
-img.loading {
-    margin-bottom:5%;
-    margin-top:5%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 #mc-logo {
     padding: 3%;
 }
@@ -122,25 +68,6 @@ img.loading {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-}
-
-.loading {
-    font-size: 75px;
-    font-weight: 300;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 30vh;
-    width: 100%;
-    height: 100vh;
-    background-color: #007bcb;
-    color:white;
-    position: fixed;
-    top: -100;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 99999;
 }
 
 .title {
@@ -176,26 +103,6 @@ img.loading {
     color: #fff;
 }
 
-@media print {
-    @page { 
-        size:8.27in 11.69in; 
-        margin:.5in .5in .5in .5in; 
-        mso-header-margin:.5in; 
-        mso-footer-margin:.5in; 
-        mso-paper-source:0; 
-    }
-
-  .review-print-hide {
-      display: none !important;
-  }
-
-  main, html, body {
-    /*padding-top: 0px;
-    margin-top: 0px;*/
-  }
-}
-
-/* Ensure display:flex and others don't override a [hidden] */
 [hidden] { display: none !important; }
 
 .white {
@@ -218,16 +125,6 @@ img.loading {
     background-color: #f1f1f1;
     padding-left: 20px;
     padding-right: 20px;
-}
-
-.classBox {
-    display: inline-block;
-    width: 4em;
-    line-height: 4em;
-    font-weight: bold;
-    font-size: 4em;
-    text-align: center;
-    margin: 10px;
 }
 
 .action-buttons {
@@ -265,16 +162,6 @@ select {
     box-shadow: 0 0 15px rgb(111, 111, 111);
 }
 
-.topicBox {
-    display: inline-block;
-    width: 8em !important;
-    height: 8em;
-    line-height: 8em;
-    font-weight: bold;
-    font-size: 16pt;
-    text-align: center;
-}
-
 textarea {
     height: 150px !important;
 }
@@ -284,11 +171,11 @@ textarea {
     margin-left: 5%;
 }
 
-.hidden-course {
+.hidden-box {
     display: none !important;
 }
 
-.active-course {
+.active-box {
     background-color: #007bcb;
     box-shadow: 0 0 15px rgb(111, 111, 111);
     color: white;
@@ -298,23 +185,11 @@ textarea {
     pointer-events: none;
 }
 
-.inactive-course {
+.inactive-box {
     pointer-events: none;
     color: transparent;
     text-shadow: 0 0 5px rgb(105, 105, 105);
     box-shadow: 0 0 15px rgb(111, 111, 111);
-}
-
-.hidden-course {
-    display: none !important;
-}
-
-.ng-valid[required], .ng-valid.required  {
-  border-left: 10px solid #42A948; /* green */
-}
-
-.ng-invalid:not(form), select.ng-pristine  {
-  border-left: 10px solid #a94442 !important; /* red */
 }
 
 .flex-container {
@@ -323,6 +198,7 @@ textarea {
   list-style: none;
   display: -webkit-flex;
   display: flex;
+  flex-wrap: wrap;
   
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
@@ -334,10 +210,6 @@ textarea {
 
 th {
   cursor: pointer;
-}
-
-.test-question {
-    font-size: 30pt !important;
 }
 
 .alert {
@@ -402,15 +274,6 @@ th {
   cursor: pointer;
 }
 
-.form-control {
-    width: 0;
-    width: inherit;
-    display: inline-block;
-    border-radius: 30px !important;
-    margin-top: 3px;
-    margin-bottom: 20px !important;
-}
-
 .edit-icon {
     cursor: pointer;
 }
@@ -429,10 +292,6 @@ th {
 
 a.navbar-brand {
     color: #fff;
-}
-
-.input-group {
-    font-weight: bold;
 }
 
 .navbar-inner {
@@ -557,7 +416,7 @@ a:hover, a:focus {
   -webkit-transition-property: color, background-color;
   transition-property: color, background-color;
 }
-.hvr-back-pulse:hover, #active-course:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active, .flashing {
+.hvr-back-pulse:hover, #active-box:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active, .flashing {
   background-color: #0096de;
   background-color: #0096de;
   -webkit-animation-name: hvr-back-pulse;
@@ -614,21 +473,8 @@ a:hover, a:focus {
 @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
   /* iPhone, Android rules here */
 
-  .review-alert {
-      display: inline-block !important;
-  }
-
   html, body {
     overflow-x: unset;
-}
-
-  .loading {
-    font-size: 50px;
-    padding-top: 20vh;
-  }
-
-  canvas {
-      width: 300px;
   }
 
   h1 {
@@ -639,15 +485,6 @@ a:hover, a:focus {
 
   h2 {
     font-size: 120%;
-  }
-
-  .review-module {
-      display: none !important;
-  }
-
-  p.review {
-    font-size:16px; 
-    font-family:'Garamond';
   }
 
   p.advice {
@@ -726,10 +563,6 @@ p {
     font-size: 12pt;
   }
 
-  .test-question {
-    font-size: 20pt !important;
-}
-
 .btn-group-lg>.btn, .btn-lg {
     font-size: 20pt;
     padding: 0;
@@ -753,26 +586,6 @@ p {
         font-size: 18pt;
     } 
 
-  .classBox {
-    display: inline-block;
-    width: 4em !important;
-    height: 4em;
-    line-height: 4em;
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
-}
-
-  .topicBox {
-    display: inline-block;
-    width: 8em !important;
-    height: 8em;
-    line-height: 8em;
-    font-weight: bold;
-    font-size: 16pt;
-    text-align: center;
-}
-
 .message-link {
     font-size: 1.5em;
     color: white;
@@ -785,17 +598,17 @@ p {
     padding: 0px;
 }
 
-img {
-  max-width: 300px;
-}
+    img {
+    max-width: 300px;
+    }
 
-main {
-    position:absolute;
-    bottom:0;
-    top:50px; /*must match the height of #header*/
-    width:100%;
-    overflow:auto;
-}
+    main {
+        position:absolute;
+        bottom:0;
+        top:50px; /*must match the height of #header*/
+        width:100%;
+        overflow:auto;
+    }
 
   .graphic-title {
       display: none;
