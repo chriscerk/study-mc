@@ -140,7 +140,7 @@ export interface IHotspot {
     text: string;
 }
 
-export class IColorLocationAssociation {
+export interface IColorLocationAssociation {
     color: string;
     location: string;
     description: string;

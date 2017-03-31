@@ -4,11 +4,10 @@ import { Subscription } from 'rxjs/Subscription';
 import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
 import { ITopic } from '../shared/interfaces';
 import { MyPercentPipe } from '../shared/pipes/percent.pipe'
-import { AlertBoxComponent } from '../shared/alertBox.component';
+import { AlertBoxComponent } from '../shared/alert-box/alert-box.component';
 import { EndMessageComponent } from '../shared/endMessage.component';
 import { nextPrevAnimation } from '../shared/animations';
 import { DataService } from '../core/services/data.service';
-
 
 type Orientation = ( 'void' | 'next' | 'none' | 'previous' );
 
@@ -18,6 +17,7 @@ type Orientation = ( 'void' | 'next' | 'none' | 'previous' );
   styleUrls: ['./topicTest.component.css'],
   animations: [nextPrevAnimation]
 })
+
 
 export class TopicTestComponent implements OnInit {
 
@@ -30,7 +30,6 @@ export class TopicTestComponent implements OnInit {
   validAnswer: boolean;
   incorrectAnswers: number;
   moduleIsComplete: boolean;
-
   public orientation: Orientation;
 
   constructor(

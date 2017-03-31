@@ -1,5 +1,5 @@
-declare var hotspotsModule:any;
-declare var fabricProcessor:any;
+declare var hotspotsModule: any;
+declare var fabricProcessor: any;
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
@@ -7,7 +7,7 @@ import { ITopic } from '../shared/interfaces';
 import { DataService } from '../core/services/data.service';
 import { CompoundCanvasComponent } from '../shared/compoundCanvas.component';
 import { CanvasAnimationComponent } from '../shared/canvasAnimation.component';
-import { AlertBoxComponent } from '../shared/alertBox.component';
+import { AlertBoxComponent } from '../shared/alert-box/alert-box.component';
 import { EndMessageComponent } from '../shared/endMessage.component';
 import { nextPrevAnimation } from '../shared/animations';
 
@@ -17,7 +17,7 @@ type Orientation = ( 'void' | 'next' | 'none' | 'previous' );
   selector: 'topic-learn',
   templateUrl: './topicLearn.component.html',
   styleUrls: ['./topic.component.css'],
-  animations: [nextPrevAnimation]
+  animations: [ nextPrevAnimation ]
 })
 
 
@@ -25,9 +25,7 @@ export class TopicLearnComponent implements OnInit {
 
   topic: ITopic;
   private sub: Subscription;
-
   router: Router;
-
   userAnswer: string;
   correctAnswer: string;
   currentQuestion: number;
@@ -35,7 +33,6 @@ export class TopicLearnComponent implements OnInit {
   answerSubmitted: boolean;
   moduleIsComplete: boolean;
   incorrectAnswers: number;
-
   currentAction: string;
 
   public orientation: Orientation;

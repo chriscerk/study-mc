@@ -20,14 +20,12 @@ export class TopicReviewComponent implements OnInit {
   topic: ITopic;
   private sub: Subscription;
   router: Router;
-
   studentName: string;
   currentItem: number;
   nextItem: number;
   lastItem: number;
   printingOptionsVisible: boolean;
   reviewComplete: boolean;
-
   public orientation: Orientation;
 
   constructor(

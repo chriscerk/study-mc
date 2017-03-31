@@ -1,4 +1,5 @@
-import { animate, AnimationEntryMetadata, state, style, transition, trigger } from '@angular/core';
+import { AnimationEntryMetadata } from '@angular/core';
+import { trigger, state, style, transition, animate } from '@angular/animations';
 
 // Component transition animations
 export const nextPrevAnimation: AnimationEntryMetadata =

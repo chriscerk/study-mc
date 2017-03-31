@@ -1,4 +1,5 @@
-import { AlertBoxComponent } from './alertBox.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AlertBoxComponent } from './alert-box/alert-box.component';
 import { EndMessageComponent } from './endMessage.component';
 import { CanvasAnimationComponent } from './canvasAnimation.component';
 import { CompoundCanvasComponent } from './compoundCanvas.component';
@@ -15,7 +16,7 @@ import { PushNotificationComponent } from './push-notification/push-notification
 import {SimpleNotificationsModule, PushNotificationsModule} from 'angular2-notifications';
 
 @NgModule({
-  imports: [ CommonModule, SimpleNotificationsModule, PushNotificationsModule, FormsModule ],
+  imports: [ CommonModule, SimpleNotificationsModule, PushNotificationsModule, FormsModule, BrowserAnimationsModule ],
   declarations: [
     CapitalizePipe,
     TrimPipe,
@@ -38,7 +39,8 @@ import {SimpleNotificationsModule, PushNotificationsModule} from 'angular2-notif
     EndMessageComponent,
     AlertBoxComponent,
     SimpleNotificationsModule,
-    PushNotificationsModule
+    PushNotificationsModule,
+    BrowserAnimationsModule
   ],
 })
 export class SharedModule { }

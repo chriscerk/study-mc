@@ -1,3 +1,4 @@
+import { RouterModule, Routes } from '@angular/router';
 import { AboutInfoComponent } from './about/about-info.component';
 import { AboutHelpComponent } from './about/about-help.component';
 import { LocationStrategy } from '@angular/common';
@@ -5,7 +6,6 @@ import { BaseHrefHashLocationStrategy } from './core/strategies/base-href-hash-l
 import { APP_BASE_HREF } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { AboutComponent } from './about/about.component';
-import { RouterModule, Routes } from '@angular/router';
 import { CourseComponent } from './course/course.component';
 import { CoursesComponent } from './courses/courses.component';
 import { CourseTopicsComponent } from './course/courseTopics.component';
