@@ -46,11 +46,11 @@
             </div>
 
           <div *ngIf="learnItem.compoundHotspots">
-            <compound-Canvas [learnItem]="learnItem" [topic]="topic" [i]="i">Loading Canvas...</compound-Canvas>
+            <canvas-compound [learnItem]="learnItem" [topic]="topic" [i]="i">Loading Canvas...</canvas-compound>
           </div>
 
            <div *ngIf="learnItem.objects">
-            <canvas-animation [currentAnimation]="learnItem" [topic]="topic" [i]="i">Loading Canvas...</canvas-animation>
+            <canvas-interaction [currentAnimation]="learnItem" [topic]="topic" [i]="i">Loading Canvas...</canvas-interaction>
           </div>
 
           <ul *ngIf="!learnItem.compoundHotspots && !learnItem.objects" class="flex-container">

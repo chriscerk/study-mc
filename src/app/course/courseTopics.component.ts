@@ -1,8 +1,7 @@
+import { ICourse } from './../shared/models/course';
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
-import { ITopic } from '../shared/interfaces';
-import { ICourse } from '../shared/interfaces';
 import { DataService } from '../core/services/data.service';
 
 @Component({

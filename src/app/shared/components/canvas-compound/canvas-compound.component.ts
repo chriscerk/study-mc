@@ -1,21 +1,14 @@
-declare var hotspotsModule:any;
+import { ITopic } from './../../models/topic';
+import { InteractiveMolecule } from './../../models/learn';
+declare var hotspotsModule: any;
 import { Component, OnInit, Input, AfterViewInit } from '@angular/core';
-import { ITopic, ILearnItem, InteractiveMolecule } from '../shared/interfaces';
 
 @Component({ 
-  selector: 'compound-Canvas',
-  template: 
-  `
-  <button class="btn btn-default" (click)="showCompoundAreas()" type="button" id="{{canvasId}}-button">Display Areas</button>
-  <canvas id="{{canvasId}}">
-  </canvas>`,
-  styles: [`
-    button {
-      float: left;
-    }
-  `],
+  selector: 'canvas-compound',
+  templateUrl: 'canvas-compound.component.html',
+  styleUrls: ['canvas-compound.component.css'],
 })
-export class CompoundCanvasComponent implements OnInit, AfterViewInit {
+export class CanvasCompoundComponent implements OnInit, AfterViewInit {
     @Input() learnItem: InteractiveMolecule;
     @Input() topic: ITopic;
     @Input() i: number;

@@ -1,6 +1,6 @@
+import { ICourse } from './../shared/models/course';
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
-import { ICourse } from '../shared/interfaces';
 import { DataService } from '../core/services/data.service';
 
 @Component({ 

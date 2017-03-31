@@ -1,5 +1,6 @@
+import { ITestItem } from './../../models/test';
+import { ILearnItem } from './../../models/learn';
 import { Component, OnInit, Input, AfterViewInit } from '@angular/core';
-import { ITopic, ILearnItem, InteractiveMolecule, ITestItem } from '../../shared/interfaces';
 
 @Component({ 
   selector: 'alert-box',

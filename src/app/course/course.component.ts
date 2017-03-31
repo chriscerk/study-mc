@@ -1,6 +1,6 @@
+import { ICourse } from './../shared/models/course';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { ICourse } from '../shared/interfaces';
 
 @Component({ 
   selector: 'course',

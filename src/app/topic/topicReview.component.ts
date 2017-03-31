@@ -1,7 +1,7 @@
+import { ITopic } from './../shared/models/topic';
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
-import { ITopic } from '../shared/interfaces';
 import { DataService } from '../core/services/data.service';
 import { nextPrevAnimation } from '../shared/animations';
 

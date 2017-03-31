@@ -1,14 +1,14 @@
+import { EndMessageComponent } from './../shared/components/end-message/end-message.component';
+import { ITopic } from './../shared/models/topic';
 declare var hotspotsModule: any;
 declare var fabricProcessor: any;
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
-import { ITopic } from '../shared/interfaces';
 import { DataService } from '../core/services/data.service';
-import { CompoundCanvasComponent } from '../shared/compoundCanvas.component';
-import { CanvasAnimationComponent } from '../shared/canvasAnimation.component';
-import { AlertBoxComponent } from '../shared/alert-box/alert-box.component';
-import { EndMessageComponent } from '../shared/endMessage.component';
+import { CanvasCompoundComponent } from '../shared/components/canvas-compound/canvas-compound.component';
+import { CanvasInteractionComponent } from '../shared/components/canvas-interaction/canvas-interaction.component';
+import { AlertBoxComponent } from '../shared/components/alert-box/alert-box.component';
 import { nextPrevAnimation } from '../shared/animations';
 
 type Orientation = ( 'void' | 'next' | 'none' | 'previous' );

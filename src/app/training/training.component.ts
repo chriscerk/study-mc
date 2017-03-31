@@ -1,4 +1,3 @@
-import { INotification } from './../shared/interfaces';
 import { Component, OnInit } from '@angular/core';
 import {NotificationsService, SimpleNotificationsComponent, PushNotificationsService} from 'angular2-notifications';
 

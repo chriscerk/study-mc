@@ -1,6 +1,6 @@
+import { ITopic } from './../shared/models/topic';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { ITopic } from '../shared/interfaces';
 import { MyPercentPipe } from '../shared/pipes/percent.pipe'
 
 

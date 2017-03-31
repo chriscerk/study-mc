@@ -1,41 +1,8 @@
-export interface ICourse {
-    id: number;
-    status: string;
-    name: string;
-    abbreviation: string;
-    number: string;
-    topics: ITopic[];
-}
-
-export interface ITopic {
-    id: number;
-    title: string;
-    name: string;
-    status: string;
-    learnItems: ILearnItem[];
-    testItems: ITestItem[];
-    reviewItems: IReviewItem[];
-    exampleReview: IReviewItem[];
-}
+import { IMultipleChoice } from './question';
 
 export interface ILearnItem {
     title: string;
     name: string;
-}
-
-export interface ITestItem {
-    title: string;
-}
-
-export interface IReviewItem {
-    title: string;
-    sections: ISection[];
-}
-
-export interface ISection {
-    title: string;
-    content: string;
-    imagePath: string;
 }
 
 export class PracticeProblem implements ILearnItem, IMultipleChoice {
@@ -46,13 +13,6 @@ export class PracticeProblem implements ILearnItem, IMultipleChoice {
     options: string[];
     answer: string;
     explanation: string;
-}
-
-export class TestProblem implements ITestItem, IMultipleChoice {
-    title: string;
-    question: string;
-    options: string[];
-    answer: string;
 }
 
 export class InteractiveMolecule implements ILearnItem {
@@ -110,27 +70,6 @@ export interface ICanvasLocation {
     y: number;
 }
 
-export interface IMultipleChoice extends IQuestion {
-    question: string;
-    options: string[];
-    answer: string;
-}
-
-export interface IFillInTheBlank extends IQuestion {
-    question: string;
-    answer: string;
-}
-
-export interface ILongAnswer extends IQuestion {
-    question: string;
-    answer: string;
-}
-
-export interface IQuestion {
-    question: string;
-    answer: string;
-}
-
 export interface IHotspot {
     name: string;
     y: number;
@@ -144,12 +83,4 @@ export interface IColorLocationAssociation {
     color: string;
     location: string;
     description: string;
-}
-
-export interface INotification {
-    show: boolean;
-    title: string;
-    body: string;
-    icon: string;
-    action: any;
 }

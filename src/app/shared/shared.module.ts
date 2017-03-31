@@ -1,28 +1,27 @@
+import { EndMessageComponent } from './components/end-message/end-message.component';
+import { CanvasCompoundComponent } from './components/canvas-compound/canvas-compound.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { AlertBoxComponent } from './alert-box/alert-box.component';
-import { EndMessageComponent } from './endMessage.component';
-import { CanvasAnimationComponent } from './canvasAnimation.component';
-import { CompoundCanvasComponent } from './compoundCanvas.component';
-
+import { AlertBoxComponent } from './components/alert-box/alert-box.component';
+import { CanvasInteractionComponent } from './components/canvas-interaction/canvas-interaction.component';
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-
 import { CapitalizePipe } from './pipes/capitalize.pipe';
 import { TrimPipe } from './pipes/trim.pipe';
 import { MyPercentPipe } from './pipes/percent.pipe';
-import { PushNotificationComponent } from './push-notification/push-notification.component';
-import {SimpleNotificationsModule, PushNotificationsModule} from 'angular2-notifications';
+import { PushNotificationComponent } from './components/push-notification/push-notification.component';
+import { SimpleNotificationsModule, PushNotificationsModule } from 'angular2-notifications';
+
 
 @NgModule({
-  imports: [ CommonModule, SimpleNotificationsModule, PushNotificationsModule, FormsModule, BrowserAnimationsModule ],
+  imports: [ CommonModule, SimpleNotificationsModule, PushNotificationsModule, FormsModule, BrowserAnimationsModule, ReactiveFormsModule ],
   declarations: [
     CapitalizePipe,
     TrimPipe,
     MyPercentPipe,
-    CompoundCanvasComponent,
-    CanvasAnimationComponent,
+    CanvasCompoundComponent,
+    CanvasInteractionComponent,
     EndMessageComponent,
     AlertBoxComponent,
     PushNotificationComponent
@@ -34,13 +33,14 @@ import {SimpleNotificationsModule, PushNotificationsModule} from 'angular2-notif
     CommonModule,
     FormsModule,
     HttpModule,
-    CompoundCanvasComponent,
-    CanvasAnimationComponent,
+    CanvasCompoundComponent,
+    CanvasInteractionComponent,
     EndMessageComponent,
     AlertBoxComponent,
     SimpleNotificationsModule,
     PushNotificationsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ReactiveFormsModule
   ],
 })
 export class SharedModule { }

@@ -2,10 +2,16 @@ import { Injectable } from '@angular/core';
 import { Http, Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import {Observer} from 'rxjs/Observer';
-import 'rxjs/add/operator/map'; 
+import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
-import { ICourse, ITopic, INotification } from '../../shared/interfaces';
+export interface INotification {
+    show: boolean;
+    title: string;
+    body: string;
+    icon: string;
+    action: any;
+}
 
 @Injectable()
 export class DataService {
