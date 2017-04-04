@@ -13,7 +13,7 @@ export class TestService {
   items: ITestItem[];
   courseDataUrl = 'assets/data/test-items.json';
   errorMessage = 'Course Data could not be retrieved.' +
-   '\n 1. Verify ' + this.courseDataUrl + ' exists. \n 2. JSON Lint the file.';
+   '\n 1. Verify ' + this.courseDataUrl + ' exists. \n 2. JSON Lint the file. ';
 
   constructor(private http: Http, private errorHandler: ErrorHandlerService) { }
 
