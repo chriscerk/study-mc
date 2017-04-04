@@ -27,7 +27,7 @@
       "scripts": [
         "../scripts/fabricProcessor/fabricProcessor.js",
         "../scripts/canvasHotspots/hotspots.js",
-        "../scripts/fabric/dist/fabric.js"
+        "../node_modules/fabric/dist/fabric.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
