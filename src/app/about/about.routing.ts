@@ -5,12 +5,12 @@ import { AboutComponent } from './about.component';
 
 const about_routes: Routes = [
   { 
-    path: 'about', 
+    path: 'about',
     component: AboutComponent,
     children: [
       { path: '', redirectTo: 'info', pathMatch: 'full' },
-      { path:'help',  component: AboutHelpComponent },
-      { path:'info',  component: AboutInfoComponent }
+      { path: 'help',  component: AboutHelpComponent },
+      { path: 'info',  component: AboutInfoComponent }
     ]
   }
 ];

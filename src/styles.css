@@ -266,7 +266,21 @@ th {
     z-index: 9999;
 }
 
-  .navbar .nav > .toolbar-item > a.active {
+.search-data {
+    font-size: 12px;
+    color: white;
+    font-weight: 300;
+    bottom: 5px;
+    position: fixed;
+    margin-right: 130px;
+    z-index: 9999;
+}
+
+.search-data:hover {
+    color:#ff4949;
+}
+
+.navbar .nav > .toolbar-item > a.active {
     color: #009bff;
 }
 

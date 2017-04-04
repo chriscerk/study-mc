@@ -1,0 +1,133 @@
+[
+    {
+        "topicName": "Benzodiazepines",
+        "courseId": "600",
+        "title":"Side-Effects",  
+        "question" : "Benzodiazepines act at _______ receptor to increase _______ channel opening:",
+        "options" : [ 
+                "GABA, Ca2+",
+                "GABA, Na+",
+                "GABA, Cl-",
+                "glutamate, Ca2+",
+                "glutamate, Na+",
+                "glutamate, Cl-"
+        ],
+        "answer" : "GABA, Cl-"
+    },
+    {
+        "topicName": "Benzodiazepines",
+        "courseId": "600",
+        "title":"Side-Effects",  
+        "question" : "Benzodiazepines will be affected by the inhibitors or activators of",
+        "options" : [
+                "CYP2B6", 
+                "CYP3A4", 
+                "CYP2C9",
+                "C3PO"
+        ],
+        "answer" : "CYP3A4"
+    },
+    {
+        "topicName": "Benzodiazepines",
+        "courseId": "600",
+        "title":"Side-Effects",  
+        "question" : "Diazepam and ______ are useful to treat withdrawal from _______",
+        "options" : [
+                "clonazepam, nicotine", 
+                "clonazepam, alcohol", 
+                "triazolam, opioids",
+                "triazolam, nicotine",
+                "midazolam, alcohol",
+                "midazolam, opioids",
+                "lorazepam, nicotine",
+                "lorazepam, alcohol"
+        ],
+        "answer" : "lorazepam, alcohol"
+    },
+    {
+        "topicName": "Benzodiazepines",
+        "courseId": "600",
+        "title":"Side-Effects",  
+        "question" : "Lorazepam, ______, and ______ are all used to treat status epilepticus",
+        "options" : [
+                "clonazepam, midazolam", 
+                "clonazepam, triazolam", 
+                "diazepam, clonazepam",
+                "diazepam, midazolam"
+        ],
+        "answer" : "diazepam, clonazepam"
+    },
+    {
+        "topicName": "Benzodiazepines",
+        "courseId": "600",
+        "title":"Side-Effects",  
+        "question" : "Patient Smith has been prescribed a benzodiazepine and another medication for OCD. Smith feels excessively sleepy and has noticed her balance is off. Smith is probably taking diazepam and",
+        "options" : [
+                "bupropion",
+                "nortriptyline",
+                "fluoxetine"
+        ],
+        "answer" : "bupropion"
+    },
+    {
+        "topicName": "Benzodiazepines",
+        "courseId": "600",
+        "title":"Contraindication",  
+        "question" : "This benzodiazepine is best suited for elderly individuals with liver damage:",
+        "options" : [
+                "Lorazepam", 
+                "Diazepam", 
+                "Clonazepam"
+        ],
+        "answer" : "Lorazepam"
+    },
+    {
+        "topicName": "Benzodiazepines",
+        "courseId": "600",
+        "title":"Side-Effects",  
+        "question" : "An individual who takes benzodiazepine usually develops tolerance to",
+        "options" : [
+                "sedative effects", 
+                "anxiolytic effects", 
+                "anesthetic effects"
+        ],
+        "answer" : "sedative effects"
+    },
+    {
+        "topicName": "Benzodiazepines",
+        "courseId": "600",
+        "title":"Side-Effects",  
+        "question" : "When a benzodiazepine is taken for sleep, benzodiazepine's long elimination half life can cause:",
+        "options" : [
+                "headache", 
+                "insomnia", 
+                "grogginess",
+                "amnesia"
+        ],
+        "answer" : "grogginess"
+    },
+    {
+        "topicName": "Benzodiazepines",
+        "courseId": "600",
+        "title":"Side-Effects",  
+        "question" : "A serious and unusual side effect of a benzodiazepine is",
+        "options" : [
+                "Induction of P450s", 
+                "G6P deficiency", 
+                "amnesia"
+        ],
+        "answer" : "amnesia"
+    },
+    {
+        "topicName": "Benzodiazepines",
+        "courseId": "600",
+        "title":"Side-Effects",  
+        "question" : "An individual who takes benzodiazepine rarely develops tolerance to",
+        "options" : [
+                "sedative effects", 
+                "anxiolytic effects", 
+                "anesthetic effects"
+        ],
+        "answer" : "anxiolytic effects"
+    }
+]

@@ -1,6 +1,6 @@
 import { Routes, RouterModule } from '@angular/router';
 
-import { TopicComponent }   from './topic.component';
+import { TopicComponent } from './topic.component';
 import { TopicLearnComponent } from './topicLearn.component';
 import { TopicTestComponent } from './topicTest.component';
 import { TopicReviewComponent } from './topicReview.component';

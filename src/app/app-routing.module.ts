@@ -1,3 +1,4 @@
+import { DataViewerComponent } from './data-viewer/data-viewer.component';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutInfoComponent } from './about/about-info.component';
 import { AboutHelpComponent } from './about/about-help.component';
@@ -39,6 +40,7 @@ const app_routes: Routes = [
         { path: 'info', component: AboutInfoComponent}
       ]
   },
+  { path: 'data-viewer', component: DataViewerComponent},
   { path: 'training', component: TrainingComponent},
   { path: '**', pathMatch: 'full', redirectTo: '/courses'  }
 ];

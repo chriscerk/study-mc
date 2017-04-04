@@ -1,11 +1,11 @@
+import { CourseService } from './../core/services/course/course.service';
 import { ICourse } from './../shared/models/course';
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
-import { DataService } from '../core/services/data.service';
 
 @Component({
-  selector: 'course-learn',
+  selector: 'course-topics',
   templateUrl: 'courseTopics.component.html',
   styleUrls: ['courseTopics.component.css']
 })
@@ -14,12 +14,12 @@ export class CourseTopicsComponent implements OnInit {
   course: ICourse;
   private sub: Subscription;
 
-  constructor(private route: ActivatedRoute, private dataService: DataService) { } 
+  constructor(private route: ActivatedRoute, private courseService: CourseService) { }
 
   ngOnInit() {
       this.sub = this.route.parent.params.subscribe(params => {
         let id = +params['id'];
-        this.dataService.getCourse(id)
+        this.courseService.getCourse(id)
             .subscribe((course: ICourse) => this.course = course);
       });
   }
@@ -27,5 +27,4 @@ export class CourseTopicsComponent implements OnInit {
   ngOnDestroy() {
     this.sub.unsubscribe();
   }
-
 }

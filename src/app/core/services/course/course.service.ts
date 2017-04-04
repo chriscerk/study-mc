@@ -36,12 +36,12 @@ export class CourseService {
         return this.findCourseObservable(id);
     } else {
         return Observable.create((observer: Observer<ICourse>) => {
-                this.getCourses().subscribe((courses: ICourse[]) => {
-                    this.courses = courses;
-                    const course = this.filterCourses(id);
-                    observer.next(course);
-                    observer.complete();
-            });
+          this.getCourses().subscribe((courses: ICourse[]) => {
+              this.courses = courses;
+              const course = this.filterCourses(id);
+              observer.next(course);
+              observer.complete();
+          });
         })
         .catch(this.handleCourseError.bind(this));
     }

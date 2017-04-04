@@ -1,3 +1,4 @@
+import { DataViewerModule } from './data-viewer/data-viewer.module';
 import { APP_BASE_HREF } from '@angular/common';
 import { AboutModule } from './about/about.module';
 import { TrainingModule } from './training/training.module';
@@ -23,6 +24,7 @@ import { TrainingComponent } from './training/training.component';
     CoursesModule,
     CourseModule,
     TopicModule,
+    DataViewerModule,
     TrainingModule,
     BrowserModule,
     AppRoutingModule,
