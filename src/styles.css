@@ -477,6 +477,10 @@ a:hover, a:focus {
     overflow-x: unset;
   }
 
+  canvas {
+    width: 300px;
+  }
+
   h1 {
     font-size: 200%;
     font-weight: 300;
