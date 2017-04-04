@@ -1,3 +1,4 @@
+import { CourseService } from './../core/services/course/course.service';
 import { ICourse } from './../shared/models/course';
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
@@ -17,14 +18,14 @@ export class CoursesComponent implements OnInit {
   college: string;
   university: string;
 
-  constructor(private dataService: DataService) { }
+  constructor(private courseService: CourseService) { }
 
   ngOnInit() {
     this.appTitle = 'StudyMC';
     this.college = 'College of Pharmacy';
     this.university = 'University of Michigan';
 
-     this.dataService.getCourses()
+     this.courseService.getCourses()
         .subscribe((courses: ICourse[]) => {
           this.courses = this.filteredCourses = courses;
         });

@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
 import { Http, Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import {Observer} from 'rxjs/Observer';
-import 'rxjs/add/operator/map'; 
+import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
 @Injectable()
@@ -30,7 +30,7 @@ export class DataService {
         }
     }
 
-    getCourse(id: number) : Observable<ICourse> {
+    getCourse(id: number): Observable<ICourse> {
         if (this.courses) {
             //filter using cached data
             return this.findCourseObservable(id);
@@ -38,7 +38,7 @@ export class DataService {
             //Query the existing courses to find the target course
             return Observable.create((observer: Observer<ICourse>) => {
                     this.getCourses().subscribe((courses: ICourse[]) => {
-                        this.courses = courses;                
+                        this.courses = courses;
                         const cust = this.filterCourses(id);
                         observer.next(cust);
                         observer.complete();
