@@ -1,6 +1,6 @@
 [
       {
-            "id": 1,
+            "id": 600,
             "status": "active",
             "name": "Medicinal Chemistry 600",
             "abbreviation": "MC",
@@ -17,7 +17,7 @@
             ]
       },
       {
-            "id": 2,
+            "id": 610,
             "status": "active",
             "name": "Medicinal Chemistry 610",
             "abbreviation": "MC",
@@ -32,7 +32,7 @@
             ]
       },
       {
-            "id": 3,
+            "id": 700,
             "status": "inactive",
             "name": "Medicinal Chemistry 700",
             "abbreviation": "MC",
