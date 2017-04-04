@@ -129,5 +129,711 @@
                 "anesthetic effects"
         ],
         "answer" : "anxiolytic effects"
+    },
+    {
+        "topicName": "Barbiturates",
+        "courseId": "600",
+        "title":"Mechanism of Action",  
+        "question" : "Higher doses of barbiturates bind these receptors in the cerebellum",
+        "options" : [
+                "GABAa", 
+                "GABAb", 
+                "glutamate"
+        ],
+        "answer" : "GABAa"
+    },
+    {
+        "topicName": "Barbiturates",
+        "courseId": "600",
+        "title":"Mechanism of Action",  
+        "question" : "The long half life of barbiturates causes this effect",
+        "options" : [
+                "hangover", 
+                "rebound"
+        ],
+        "answer" : "hangover"
+    },
+    {
+        "topicName": "Barbiturates",
+        "courseId": "600",
+        "title":"Mechanism of Action",  
+        "question" : "The short half life or abrupt discontinuation of barbiturates causes this effect",
+        "options" : [
+                "hangover", 
+                "rebound"
+        ],
+        "answer" : "rebound"
+    },
+    {
+        "topicName": "Barbiturates",
+        "courseId": "600",
+        "title":"Mechanism of Action",  
+        "question" : "Higher doses of barbiturates bind [ans] receptors in the cerebellum causing the side effect of",
+        "options" : [
+                "Ataxia", 
+                "amnesia", 
+                "sedation"
+        ],
+        "answer" : "sedation"
+    },
+    {
+        "topicName": "Z-Drugs",
+        "courseId": "600",
+        "title":"Mechanism of Action",  
+        "question" : "Eszopiclone binds to this receptor",
+        "options" : [
+                "barbiturate", 
+                "benzodiazepine", 
+                "dopamine"
+        ],
+        "answer" : "benzodiazepine"
+    },
+    {
+        "topicName": "Z-Drugs",
+        "courseId": "600",
+        "title":"Mechanism of Action",  
+        "question" : "Normal circadian rhythm is re-established by a drug acting at this receptor",
+        "options" : [
+                "dopamine", 
+                "serotonin", 
+                "melatonin"
+        ],
+        "answer" : "melatonin"
+    },
+    {
+        "topicName": "Z-Drugs",
+        "courseId": "600",
+        "title":"Mechanism of Action",  
+        "question" : "Eszopiclone binds to the benzodiazepine receptor and potentiates",
+        "options" : [
+                "GABA", 
+                "Glutamate", 
+                "dopamine"
+        ],
+        "answer" : "GABA"
+    },
+    {
+        "topicName": "Z-Drugs",
+        "courseId": "600",
+        "title":"Side-Effects",  
+        "question" : "Normal circadian rhythm is re-established at the melatonin receptor when this drug acts upon it",
+        "options" : [
+                "zolpidem", 
+                "mirtazapine", 
+                "ramelteon "
+        ],
+        "answer" : "ramelteon"
+    },
+    {
+        "topicName": "Z-Drugs",
+        "courseId": "600",
+        "title":"Side-Effects",  
+        "question" : "This drug has the longest half-life",
+        "options" : [
+                "Zolpidem", 
+                "Eszopiclone", 
+                "Ramelteon"
+        ],
+        "answer" : "Eszopiclone"
+    },
+    {
+        "topicName": "Z-Drugs",
+        "courseId": "600",
+        "title":"Side-Effects",  
+        "question" : "This drug has the longest potency",
+        "options" : [
+                "Zolpidem", 
+                "Eszopiclone", 
+                "Ramelteon"
+        ],
+        "answer" : "Zolpidem"
+    },
+    {
+        "topicName": "Z-Drugs",
+        "courseId": "600",
+        "title":"Side-Effects",  
+        "question" : "This drug is used to induce sleep",
+        "options" : [
+                "zolpidem", 
+                "zaleplon", 
+                "eszopiclone"
+        ],
+        "answer" : "zolpidem"
+    },
+    {
+        "topicName": "Z-Drugs",
+        "courseId": "600",
+        "title":"Side-Effects",  
+        "question" : "Zolpidem is metabolized slower by ",
+        "options" : [
+                "Men", 
+                "Women"
+        ],
+        "answer" : "Women"
+    },
+    {
+        "topicName": "Z-Drugs",
+        "courseId": "600",
+        "title":"Side-Effects",  
+        "question" : "John Smith is waking up regularly in the middle of the night. A good therapy for him would be",
+        "options" : [
+                "zolpidem",
+                "eszopiclone", 
+                "zaleplon"
+        ],
+        "answer" : "zaleplon"
+    },
+    {
+        "topicName": "Z-Drugs",
+        "courseId": "600",
+        "title":"Side-Effects",  
+        "question" : "Both the a1 and a1 benzodiazepine receptor is acted upon by ",
+        "options" : [
+                "eszopiclone", 
+                "zaleplon", 
+                "zolpidem "
+        ],
+        "answer" : "eszopiclone"
+    },
+    {
+        "topicName": "Z-Drugs",
+        "courseId": "600",
+        "title":"Side-Effects",  
+        "question" : "Z-drugs primarily cause",
+        "options" : [
+                "sedation", 
+                "amnesia", 
+                "anxiety relief"
+        ],
+        "answer" : "sedation"
+    },
+    {
+        "topicName": "Z-Drugs",
+        "courseId": "600",
+        "title":"Side-Effects",  
+        "question" : "Z-drugs bind primarily to this receptor",
+        "options" : [
+                "GABA", 
+                "benzodiazepine", 
+                "barbiturate "
+        ],
+        "answer" : "benzodiazepine"
+    },
+    {
+        "topicName": "Z-Drugs",
+        "courseId": "600",
+        "title":"Side-Effects",  
+        "question" : "Z-drugs bind primarily to benzodiazepine's subunit receptor:",
+        "options" : [
+                "benzodiazepine", 
+                "alpha1", 
+                "alpha2",
+                "beta"
+        ],
+        "answer" : "alpha1"
+    },
+    {
+        "topicName": "Z-Drugs",
+        "courseId": "600",
+        "title":"Side-Effects",  
+        "question" : "Z drugs are not effective antianxiety drugs because they bind primarily to the alpha1 subunit of benzodiazepine not the subunit:",
+        "options" : [
+                "benzodiazepine", 
+                "alpha1", 
+                "alpha2",
+                "beta"
+        ],
+        "answer" : "alpha2"
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title":"",  
+        "question" : "Antiepileptic drugs primarily reduce this activity",
+        "options" : [
+                "excitatory", 
+                "inhibitory "
+        ],
+        "answer" : "excitatory"
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title":"",  
+        "question" : "Consciousness is impaired for 30 seconds - 2 minutes by this seizure type: ",
+        "options" : [
+                "partial", 
+                "complex partial",
+                "absence "
+        ],
+        "answer" : "complex partial"
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title":"",  
+        "question" : "Antiepileptic drugs targeting sodium channels block",
+        "options" : [
+                "Sodium efflux",
+                "normal action potentials",
+                "epileptiform discharges"
+        ],
+        "answer" : "epileptiform discharges"
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title":"",  
+        "question" : "Antiepileptic drugs primarily enhance this activity",
+        "options" : [
+                "excitatory", 
+                "inhibitory "
+        ],
+        "answer" : "inhibitory"
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title":"",  
+        "question" : "Felbamate is an antiepileptic that blocks these receptors",
+        "options" : [
+                "AMPA", 
+                "dopamine",
+                "GABA",
+                "NMDA"
+        ],
+        "answer" : "GABA"
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title":"",  
+        "question" : "Reducing seizures and weight is possible with this anticonvulsant drug",
+        "options" : [
+                "topiramate", 
+                "valproic acid",
+                "gabapentin"
+        ],
+        "answer" : "topiramate"
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title":"",  
+        "question" : "Ethosuximide acts by inhibiting the activity of these channels",
+        "options" : [
+                "Calcium",
+                "Sodium",
+                "Chloride",
+                "Potassium"
+        ],
+        "answer" : "Calcium"
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title":"",  
+        "question" : "Ethosuximide is only used for this type of seizure",
+        "options" : [
+                "complex",
+                "partial",
+                "absence "
+        ],
+        "answer" : "absence"
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title":"",  
+        "question" : "This drug induces its own metabolism",
+        "options" : [
+                "Phenytoin", 
+                "Carbamazepine",
+                "Gabapentin"
+        ],
+        "answer" : "Carbamazepine"
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title":"",  
+        "question" : "Steven's Johnson syndrome is a rare but serious side effect of",
+        "options" : [
+                "Levetiracetam", 
+                "Lamotrigine",
+                "Carbamazepine"
+        ],
+        "answer" : "Lamotrigine"
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title":"",  
+        "question" : "Dizziness and somnolence is the most common side effect of",
+        "options" : [
+                "Phenytoin & Gabapentin", 
+                "Pregabalin & Phenobarbital",
+                "Pregabalin & Gabapentin",
+                "Phenobarbital & Gabapentin"
+        ],
+        "answer" : "Pregabalin & Gabapentin"
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title":"",  
+        "question" : "This binds to a synaptic vesicle protein and reduces presynaptic neurotransmitter release mediated by Ca2+",
+        "options" : [
+                "Levetiracetam", 
+                "Lamotrigine",
+                "topiramate"
+        ],
+        "answer" : "Levetiracetam"
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title":"",  
+        "question" : "Carbamazepine can be administered most safely without interaction with",
+        "options" : [
+                "lorazepam", 
+                "phenytoin",
+                "diazepam"
+        ],
+        "answer" : "diazepam"
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title":"",  
+        "question" : "This is an irreversible inhibitor of GABA transaminase",
+        "options" : [
+                "Gabapentin", 
+                "Pregabalin",
+                "Valproic acid",
+                "Vigabatrin "
+        ],
+        "answer" : "Vigabatrin"
+    },
+    {
+        "topicName": "SRIs",
+        "courseId": "600",
+        "title":"",  
+        "question" : "Escitalopram, fluoxetine, sertraline, and citalopram are examples of:",
+        "options" : [
+                "Tricyclic antidepressants",
+                "Atypical antidepressants",
+                "Norepinephrine Reuptake Inhibitors",
+                "Serotonin Reuptake Inhibitors"
+        ],
+        "answer" : "Serotonin Reuptake Inhibitors"
+    },
+    {
+        "topicName": "SRIs",
+        "courseId": "600",
+        "title":"",  
+        "question" : "___________ are the most widely prescribed antidepressants",
+        "options" : [
+                "TCAs",
+                "SRIs",
+                "Lithium",
+                "SNRIs"
+        ],
+        "answer" : "SRIs"
+    },
+    {
+        "topicName": "SRIs",
+        "courseId": "600",
+        "title":"",  
+        "question" : "__________ inhibits CYPs more significantly than other _______",
+        "options" : [
+                "(Escitalopram, TCAs)",
+                "(Sertraline, Atypical Antidepressants)",
+                "(Fluoxetine, SRIs)",
+                "(Citalopram, NRIs)"
+        ],
+        "answer" : "(Fluoxetine, SRIs)"
+    },
+    {
+        "topicName": "SRIs",
+        "courseId": "600",
+        "title":"",  
+        "question" : "The most common adverse effects of SRIs GI and ________________",
+        "options" : [
+                "sexual side effects",
+                "orthostatic hypotension",
+                "constipation",
+                "drowsiness"
+        ],
+        "answer" : "sexual side effects"
+    },
+    {
+        "topicName": "SRIs",
+        "courseId": "600",
+        "title":"",  
+        "question" : "SRIs have common drug interactions with _______ and can cause elevated levels of __________",
+        "options" : [
+                "(Acetylcholinesterase inhibitors, Acetylcholine)",
+                "(Anticonvulsants, Norepinephrine)",
+                "(Antibiotics, Dopamine)",
+                "(MAOIs, Serotonin)"
+        ],
+        "answer" : "(MAOIs, Serotonin)"
+    },
+    {
+        "topicName": "SRIs",
+        "courseId": "600",
+        "title":"",  
+        "question" : "_________ can be recognized with side effects such as increased heart rate and diarrhea",
+        "options" : [
+                "Orthostatic Hypotension,",
+                "Antihistaminic Effects,",
+                "Serotonin Syndrome",
+                "Antimuscarinic Effects"
+        ],
+        "answer" : "Serotonin Syndrome"
+    },
+    {
+        "topicName": "SRIs",
+        "courseId": "600",
+        "title":"",  
+        "question" : "SRIs are ________ tolerated than TCA",
+        "options" : [
+                "more",
+                "less",
+                "equally"
+        ],
+        "answer" : "more"
+    },
+    {
+        "topicName": "SRIs",
+        "courseId": "600",
+        "title":"",  
+        "question" : "Abrupt withdrawal of SRIs can cause:",
+        "options" : [
+                "physical dependence",
+                "rebound effect",
+                "hangover",
+                "medullary depression"
+        ],
+        "answer" : "rebound effect"
+    },
+    {
+        "topicName": "SNRIs",
+        "courseId": "600",
+        "title":"",  
+        "question" : "Venlafaxine and duloxetine are examples of: ",
+        "options" : [
+                "Tricyclic Antidepressants",
+                "Atypical Antidepressants",
+                "Serotonin-Norepinephrine Reuptake Inhibitors",
+                "Selective Serotonin Reuptake Inhibitors"
+        ],
+        "answer" : "Serotonin-Norepinephrine Reuptake Inhibitors"
+    },
+    {
+        "topicName": "SNRIs",
+        "courseId": "600",
+        "title":"",  
+        "question" : "SNRI’s have _________ effects such as agitation",
+        "options" : [
+                "seratonergic",
+                "noradrenergic",
+                "histaminergic",
+                "cholinergic"
+        ],
+        "answer" : "noradrenergic"
+    },
+    {
+        "topicName": "SNRIs",
+        "courseId": "600",
+        "title":"",  
+        "question" : "(venlafaxine/duloxetine) is more potent than (venlafaxine/duloxetine)",
+        "options" : [
+                "(venlafaxine, duloxetine)",
+                "(duloxetine, venlafaxine)"
+        ],
+        "answer" : "(venlafaxine, duloxetine)"
+    },
+    {
+        "topicName": "SNRIs",
+        "courseId": "600",
+        "title":"",  
+        "question" : "SNRI’s are similar to TCA potency, have (less/more) side effects, and (faster/slower) than SRI alone",
+        "options" : [
+                "(less, faster)",
+                "(more, slower)",
+                "(more, faster)",
+                "(less, slower)"
+        ],
+        "answer" : "(less, faster)"
+    },
+    {
+        "topicName": "SNRIs",
+        "courseId": "600",
+        "title":"",  
+        "question" : "_________ has an active metabolite",
+        "options" : [
+                "Duloxetine",
+                "Sibutramine",
+                "Venlafaxine",
+                "Milnacipran"
+        ],
+        "answer" : "Venlafaxine"
+    },
+    {
+        "topicName": "SNRIs",
+        "courseId": "600",
+        "title":"",  
+        "question" : "BONUS: Venlafaxine's active metabolite's name is:",
+        "options" : [
+                "Ansofaxine",
+                "Duloxetine",
+                "Atomoxetine",
+                "Desvenlafaxine"
+        ],
+        "answer" : "Desvenlafaxine"
+    },
+    {
+        "topicName": "TCAs",
+        "courseId": "600",
+        "title":"",  
+        "question" : "Tertiary TCAs have slightly greater selectivity for blockade of (Norepinephrine/Serotonin) reuptake over (Norepinephrine/Serotonin) reuptake",
+        "options" : [
+                "(Norepinephrine, Serotonin)",
+                "(Serotonin, Norepinephrine)"
+        ],
+        "answer" : "(Serotonin, Norepinephrine)"
+    },
+    {
+        "topicName": "TCAs",
+        "courseId": "600",
+        "title":"",  
+        "question" : "Secondary TCA’s, such as (Nortriptyline/Amitriptyline) have greater selectivity for blockade of (Norepinephrine/Serotonin)",
+        "options" : [
+                "(Nortriptyline, Norepinephrine)",
+                "(Nortriptyline, Serotonin)",
+                "(Amitriptyline, Norepinephrine)",
+                "(Amitriptyline, Serotonin)"
+        ],
+        "answer" : "(Nortriptyline, Norepinephrine)"
+    },
+    {
+        "topicName": "TCAs",
+        "courseId": "600",
+        "title":"",  
+        "question" : "TCA adverse effects include _____________ effects such as dry eyes and mouth",
+        "options" : [
+                "adrenergic",
+                "antihistaminic",
+                "anticholinergic",
+                "antimuscarinic"
+        ],
+        "answer" : "antimuscarinic"
+    },
+    {
+        "topicName": "TCAs",
+        "courseId": "600",
+        "title":"",  
+        "question" : "Onset of action for TCA’s takes 2-3:",
+        "options" : [
+                "months",
+                "weeks",
+                "days",
+                "minutes"
+        ],
+        "answer" : "weeks"
+    },
+    {
+        "topicName": "TCAs",
+        "courseId": "600",
+        "title":"",  
+        "question" : "Side effects include sexual dysfunction, constipation, and: ",
+        "options" : [
+                "prominent GI effects",
+                "sedation",
+                "migraines",
+                "blood disorders"
+        ],
+        "answer" : "sedation"
+    },
+    {
+        "topicName": "Atypical-Antidepressants",
+        "courseId": "600",
+        "title":"",  
+        "question" : "Significant side effect of both trazodone and mirtazepine is: ",
+        "options" : [
+                "orthostatic hypotension",
+                "sedation",
+                "constipation",
+                "sexual effects"
+        ],
+        "answer" : "sedation"
+    },
+    {
+        "topicName": "Atypical-Antidepressants",
+        "courseId": "600",
+        "title":"",  
+        "question" : "Trazodone works by blocking the ______ serotonin receptor and being an agonist at the _______ serotonin receptor",
+        "options" : [
+                "(5HT_1A, 5HT_2A)",
+                "(5HT_1D, 5HT_2B)",
+                "(5HT_2A, 5HT_1A)",
+                "(5HT_2B, 5HT_1D)"
+        ],
+        "answer" : "(5HT_2A, 5HT_1A)"
+    },
+    {
+        "topicName": "Atypical-Antidepressants",
+        "courseId": "600",
+        "title":"",  
+        "question" : "Mirtazapine blocks a serotonin receptor and a ________ receptor",
+        "options" : [
+                "adrenergic",
+                "dopamine",
+                "histamine",
+                "muscarinic"
+        ],
+        "answer" : "histamine"
+    },
+    {
+        "topicName": "Atypical-Antidepressants",
+        "courseId": "600",
+        "title":"",  
+        "question" : "Buproprion has a potential for ___________ at high doses",
+        "options" : [
+                "seizures",
+                "dyskinesia",
+                "memory loss",
+                "respiratory depression"
+        ],
+        "answer" : "seizures"
+    },
+    {
+        "topicName": "Atypical-Antidepressants",
+        "courseId": "600",
+        "title":"",  
+        "question" : "__________ can cause increase appetite and weight gain while ___________ can have the opposite effect",
+        "options" : [
+                "(Mirtazapine, Buproprion)",
+                "(Buproprion, Mirtazapine)",
+                "(Trazodone, Buproprion)",
+                "(Buproprion, Trazodone)"
+                
+        ],
+        "answer" : "(Trazodone, Buproprion)"
+    },
+    {
+        "topicName": "Atypical-Antidepressants",
+        "courseId": "600",
+        "title":"",  
+        "question" : "______________ can be used a sleep aid independent of its antidepressant activity",
+        "options" : [
+                "Fluoxetine",
+                "Mirtazapine",
+                "Buproprion",
+                "Trazadone"
+        ],
+        "answer" : "Trazadone"
     }
 ]

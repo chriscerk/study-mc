@@ -1,11 +1,11 @@
-import { ICourse } from './../shared/models/course';
-import { CourseService } from './../core/services/course/course.service';
+import { ICourse } from './../../shared/models/course';
+import { CourseService } from './../../core/services/course/course.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'courses-data',
   templateUrl: './courses-data.component.html',
-  styleUrls: ['./data-viewer.component.css']
+  styleUrls: ['../data-viewer.component.css']
 })
 export class CoursesDataComponent implements OnInit {
     courses: ICourse[] = [];

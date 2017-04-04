@@ -1,0 +1,36 @@
+<h1>Test Items Data</h1>
+<div class="input-group input-group-lg input-users">
+    <input class="form-control input-lg"
+           [(ngModel)]="searchTerm"
+           (keyup)="filterChanged()"
+           id="test-search" type="text"
+           placeholder="{{searchPlaceholder}}"/>
+
+    <span class="input-group-btn">
+        <button (click)="filterChanged()" class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+        </button>
+    </span>
+</div>
+<br/>
+<span *ngIf="!isLoading">{{searchedTestItems.length}} results from {{testItems.length}} items</span> <br/>
+<span *ngIf="isLoading"> Loading...</span> <br/>
+<br/>
+<table class="table" *ngIf="testItems">
+    <thead class={{displayMode}}>
+    <tr>
+        <th>Topic Name</th>
+        <th>Course Id</th>
+        <th>Question</th>
+        <th>Options</th>
+    </tr>
+    </thead>
+    <tbody>
+            <tr *ngFor="let item of searchedTestItems"> 
+                <td>{{item.topicName}}</td>
+                <td>{{item.courseId}}</td> 
+                <td>{{item.question}}</td> 
+                <td><span *ngFor="let option of item.options">({{option}}), </span></td>
+            </tr>
+    </tbody>
+</table>
