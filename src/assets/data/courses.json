@@ -3,7 +3,7 @@
             "id": 600,
             "status": "active",
             "name": "Medicinal Chemistry 600",
-            "abbreviation": "MC",
+            "isLocked": true,
             "number": "600",
             "topics": [
                 { "title": "Benzodiazepines", "id": 1, "status": "active" },
@@ -20,7 +20,7 @@
             "id": 610,
             "status": "active",
             "name": "Medicinal Chemistry 610",
-            "abbreviation": "MC",
+            "isLocked": true,
             "number": "610",
             "topics": [
                 { "title": "CWB Inhibitors", "id": 9, "status": "active" },
@@ -35,7 +35,7 @@
             "id": 700,
             "status": "inactive",
             "name": "Medicinal Chemistry 700",
-            "abbreviation": "MC",
+            "isLocked": true,
             "number": "700",
             "topics": []
       }

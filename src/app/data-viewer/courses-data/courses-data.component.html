@@ -46,17 +46,20 @@
     </tr>
     </thead>
     <tbody>
-            <tr *ngFor="let course of afCourses | async"> 
-                <td>{{course.id}}</td>
-                <td *ngIf="course.topics; else zero">{{course.topics.length}}</td> 
-                <td>{{course.status}}</td> 
-                <td>{{course.name}}</td>
-                <td *ngIf="!editBoxDisplayed">
+        <tr *ngFor="let course of afCourses | async"> 
+            <td>{{course.id}}</td>
+            <td *ngIf="course.topics; else zero">{{course.topics.length}}</td> 
+            <td>{{course.status}}</td> 
+            <td>{{course.name}}</td>
+            <td *ngIf="!editBoxDisplayed">
+                <div *ngIf="!course.isLocked; else locked">
                     <button class="btn btn-info" *ngIf="course.number" (click)="updateCourse(course.number)">Update</button>&nbsp;&nbsp;
                     <button class="btn btn-danger" *ngIf="course.number" (click)="deleteCourse(course.number)">Delete</button>&nbsp;&nbsp;
-                </td>
-            </tr>
-            <ng-template #zero><td>0</td></ng-template>
+                </div>
+            </td>
+        </tr>
+        <ng-template #zero><td>0</td></ng-template>
+        <ng-template #locked><td><span class="glyphicon glyphicon-lock"></span>&nbsp;&nbsp;Locked</td></ng-template>
     </tbody>
 </table>
 

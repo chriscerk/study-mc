@@ -1,5 +1,5 @@
-import { ITopic } from './../../shared/models/topic';
 import { ICourse } from './../../shared/models/course';
+import { ITopic } from './../../shared/models/topic';
 import { CourseService } from './../../core/services/course/course.service';
 import { Component, OnInit } from '@angular/core';
 import { AngularFire, FirebaseListObservable, AngularFireDatabase } from 'angularfire2';
@@ -30,7 +30,17 @@ export class CoursesDataComponent implements OnInit {
     });
 
     this.afCourses = this.af.database.list('/courses');
-    this.currentCourse = { 'id': null, 'name': null, 'status': null, 'topics': [null], 'abbreviation': null, 'number': null };
+    this.currentCourse = {
+        'id': null,
+        'name': null,
+        'status': null,
+        'topics': [null],
+        'number': null,
+        'isLocked': false
+    };
+
+
+
     this.currentTopic = {
         'id': null,
         'name': null,
@@ -40,7 +50,7 @@ export class CoursesDataComponent implements OnInit {
         'testItems': null,
         'reviewItems': null,
         'exampleReview': null
-    }
+    };
   }
 
     addCourse() {
