@@ -17,7 +17,7 @@
 <span *ngIf="isLoading"> Loading...</span> <br/>
 <br/>
 <table class="table" *ngIf="courses">
-    <thead class={{displayMode}}>
+    <thead>
     <tr>
         <th>Id</th>
         <th>Number of Topics</th>
@@ -34,3 +34,72 @@
             </tr>
     </tbody>
 </table>
+<h1>Firebase</h1>
+<table class="table" *ngIf="afCourses">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Number of Topics</th>
+        <th>Status</th>
+        <th>Full Name</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+            <tr *ngFor="let course of afCourses | async"> 
+                <td>{{course.id}}</td>
+                <td *ngIf="course.topics; else zero">{{course.topics.length}}</td> 
+                <td>{{course.status}}</td> 
+                <td>{{course.name}}</td>
+                <td *ngIf="!editBoxDisplayed">
+                    <button class="btn btn-info" *ngIf="course.number" (click)="updateCourse(course.number)">Update</button>&nbsp;&nbsp;
+                    <button class="btn btn-danger" *ngIf="course.number" (click)="deleteCourse(course.number)">Delete</button>&nbsp;&nbsp;
+                </td>
+            </tr>
+            <ng-template #zero><td>0</td></ng-template>
+    </tbody>
+</table>
+
+<div class="shaded" *ngIf="!editBoxDisplayed">
+    <button type='button' class="btn-success add-button" (click)="editBoxDisplayed = true">+</button>
+</div>
+<div *ngIf="editBoxDisplayed" class="input-group input-group-lg center-block text-center col-lg-6" id="editBox">
+    <h2>Add Course</h2>
+    <div class="">
+        <label for="courseId">Course Id</label>
+        <input type="text"
+            [(ngModel)]="currentCourse.id" 
+            id="courseId" 
+            required/>
+    </div>
+     <div class="">
+        <label for="courseName">Course Name</label>
+        <input type="text"
+            [(ngModel)]="currentCourse.name" 
+            id="courseName" 
+            required/>
+    </div>
+    <div class="">
+        <label for="courseStatus">Course Status</label>
+        <input type="text"
+            [(ngModel)]="currentCourse.status" 
+            id="courseStatus" 
+            required/>
+    </div>
+    <br>
+    <label for="courseTopics">Topics</label>
+     <div id="courseTopics" *ngIf="currentCourse.topics.length">
+            <div *ngFor="let topic of currentCourse.topics; let i = index;" >
+                <input [(ngModel)]="currentCourse.topics[i]" type="text" id="courseTopic" value="topic" name="topic"required />
+                <br/>
+            </div>
+    </div>
+    <br>
+     <button type='button' class="btn-default btn" (click)="editBoxDisplayed = false">
+      Cancel
+    </button>
+    <button type='button' class="btn-success btn-default btn" (click)="addCourse()">
+       Add Course
+    </button>
+</div>
+

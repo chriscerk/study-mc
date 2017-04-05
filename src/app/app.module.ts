@@ -1,3 +1,4 @@
+import { firebaseConfig } from './../environments/firebase.config';
 import { DataViewerModule } from './data-viewer/data-viewer.module';
 import { APP_BASE_HREF } from '@angular/common';
 import { AboutModule } from './about/about.module';
@@ -15,6 +16,7 @@ import { SharedModule } from './shared/shared.module';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AboutComponent } from './about/about.component';
 import { TrainingComponent } from './training/training.component';
+import { AngularFireModule } from 'angularfire2';
 
 @NgModule({
   imports: [
@@ -29,6 +31,7 @@ import { TrainingComponent } from './training/training.component';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
+    AngularFireModule.initializeApp(firebaseConfig)
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   declarations: [ AppComponent, TrainingComponent ],
