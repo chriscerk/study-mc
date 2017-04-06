@@ -1,3 +1,5 @@
+import { ReviewService } from './services/review/review.service';
+import { LearnService } from './services/learn/learn.service';
 import { TestService } from './services/test/test.service';
 import { ErrorHandlerService } from './services/error-handler/error-handler.service';
 import { CourseService } from './services/course/course.service';
@@ -14,7 +16,7 @@ import { HttpModule } from '@angular/http';
   imports: [ CommonModule, RouterModule, HttpModule ],
   declarations: [ NavbarComponent ],
   exports: [ NavbarComponent, RouterModule, HttpModule ],
-  providers: [ ErrorHandlerService, DataService, CourseService, TestService ] // these should be singleton
+  providers: [ ErrorHandlerService, DataService, CourseService, TestService, LearnService, ReviewService ] // these should be singleton
 })
 export class CoreModule extends EnsureModuleLoadedOnceGuard {
   //Looks for the module in the parent injector to see if it's already been loaded

@@ -1,5 +1,5 @@
 import { EndMessageComponent } from './../shared/components/end-message/end-message.component';
-import { ITopic } from './../shared/models/topic';
+import { IOldTopic } from './../shared/models/topic';
 declare var hotspotsModule: any;
 declare var fabricProcessor: any;
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
@@ -23,7 +23,7 @@ type Orientation = ( 'void' | 'next' | 'none' | 'previous' );
 
 export class TopicLearnComponent implements OnInit {
 
-  topic: ITopic;
+  topic: IOldTopic;
   private sub: Subscription;
   router: Router;
   userAnswer: string;
@@ -57,7 +57,7 @@ export class TopicLearnComponent implements OnInit {
       this.sub = this.route.parent.params.subscribe(params => {
         let id = +params['id'];
         this.dataService.getTopic(id)
-            .subscribe((topic: ITopic) => this.topic = topic);
+            .subscribe((topic: IOldTopic) => this.topic = topic);
       });
 
       this.orientation = 'void';

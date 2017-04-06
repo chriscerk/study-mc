@@ -2,39 +2,39 @@
       {
             "id": 600,
             "status": "active",
-            "name": "Medicinal Chemistry 600",
+            "title": "Medicinal Chemistry 600",
             "isLocked": true,
             "number": "600",
             "topics": [
-                { "title": "Benzodiazepines", "id": 1, "status": "active" },
-                { "title": "Barbiturates", "id": 2, "status": "active" },
-                { "title": "Z-Drugs", "id": 3, "status": "active" },
-                { "title": "Anticonvulsants", "id": 4, "status": "active"  },
-                { "title": "SRIs", "id": 5, "status": "active" },
-                { "title": "SNRIs", "id": 6, "status": "active" },
-                { "title": "TCAs", "id": 7, "status": "active" },
-                { "title": "Atypical Agents", "id": 8, "status": "active" }
+                { "name": "Benzodiazepines", "status": "active" },
+                { "name": "Barbiturates", "status": "active" },
+                { "name": "Z-Drugs", "status": "active" },
+                { "name": "Anticonvulsants", "status": "active"  },
+                { "name": "SRIs", "status": "active" },
+                { "name": "SNRIs", "status": "active" },
+                { "name": "TCAs", "status": "active" },
+                { "name": "Atypical-Agents", "status": "active" }
             ]
       },
       {
             "id": 610,
             "status": "active",
-            "name": "Medicinal Chemistry 610",
+            "title": "Medicinal Chemistry 610",
             "isLocked": true,
             "number": "610",
             "topics": [
-                { "title": "CWB Inhibitors", "id": 9, "status": "active" },
-                { "title": "Beta-Lactams", "id": 10, "status": "active" },
-                { "title": "FAB Inhibitors", "id": 11, "status": "active" },
-                { "title": "DNA Topo Inhibitors", "id": 12, "status": "active" },
-                { "title": "30S PB Inhibitors", "id": 13, "status": "active" },
-                { "title": "50S PB Inhibitors", "id": 14, "status": "active" }
+                { "name": "CWB-Inhibitors", "status": "active" },
+                { "name": "Beta-Lactams", "status": "active" },
+                { "name": "FAB-Inhibitors", "status": "active" },
+                { "name": "DNA-Topo", "status": "active" },
+                { "name": "30S-PB-Inhibitors", "status": "active" },
+                { "name": "50S-PB-Inhibitors", "status": "active" }
             ]
       },
       {
             "id": 700,
             "status": "inactive",
-            "name": "Medicinal Chemistry 700",
+            "title": "Medicinal Chemistry 700",
             "isLocked": true,
             "number": "700",
             "topics": []

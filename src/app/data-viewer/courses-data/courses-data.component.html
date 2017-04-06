@@ -34,7 +34,7 @@
             </tr>
     </tbody>
 </table>
-<h1>Firebase</h1>
+<h1>Courses</h1>
 <table class="table" *ngIf="afCourses">
     <thead>
     <tr>
@@ -48,11 +48,11 @@
     <tbody>
         <tr *ngFor="let course of afCourses | async"> 
             <td>{{course.id}}</td>
-            <td *ngIf="course.topics; else zero">{{course.topics.length}}</td> 
+            <td *ngIf="course.topicNames; else zero">{{course.topicNames.length}}</td> 
             <td>{{course.status}}</td> 
             <td>{{course.name}}</td>
             <td *ngIf="!editBoxDisplayed">
-                <div *ngIf="!course.isLocked; else locked">
+                <div *ngIf="!course.isLocked; else locked" class="pull-right">
                     <button class="btn btn-info" *ngIf="course.number" (click)="updateCourse(course.number)">Update</button>&nbsp;&nbsp;
                     <button class="btn btn-danger" *ngIf="course.number" (click)="deleteCourse(course.number)">Delete</button>&nbsp;&nbsp;
                 </div>
@@ -66,43 +66,67 @@
 <div class="shaded" *ngIf="!editBoxDisplayed">
     <button type='button' class="btn-success add-button" (click)="editBoxDisplayed = true">+</button>
 </div>
-<div *ngIf="editBoxDisplayed" class="input-group input-group-lg center-block text-center col-lg-6" id="editBox">
+<div *ngIf="editBoxDisplayed" class="input-group input-group-sm text-center" id="editBox">
     <h2>Add Course</h2>
-    <div class="">
+    <form (ngSubmit)="submit()" #coursesForm="ngForm" class="courses-form" novalidate>
+    <div class="form-group">
         <label for="courseId">Course Id</label>
-        <input type="text"
+        <input type="number"
             [(ngModel)]="currentCourse.id" 
-            id="courseId" 
+            #courseId="ngModel"
+            name="courseId"
             required/>
+            <div class="alert alert-danger" [hidden]="courseId.valid">Course Id is required</div>
     </div>
-     <div class="">
+     <div class="form-group">
+        <label for="courseStatus">Course Visibility</label>
+        <select [(ngModel)]="currentCourse.status"
+                #courseStatus="ngModel"
+                name="courseStatus"
+                required>
+            <option value="active">active</option>
+            <option value="inactive">inactive</option>
+            <option value="hidden">hidden</option>
+        </select>
+         <div class="alert alert-danger" [hidden]="courseStatus.valid">Course Status is required</div>
+    </div>
+     <div class="form-group">
         <label for="courseName">Course Name</label>
         <input type="text"
             [(ngModel)]="currentCourse.name" 
-            id="courseName" 
-            required/>
+            #courseName="ngModel"
+            name="courseName"/>
     </div>
-    <div class="">
-        <label for="courseStatus">Course Status</label>
-        <input type="text"
-            [(ngModel)]="currentCourse.status" 
-            id="courseStatus" 
-            required/>
+    <div class="checkbox">
+        <label>
+            <input type="checkbox"  
+            [(ngModel)]="currentCourse.isLocked" 
+            #isLocked="ngModel"
+            name="isLocked" > Lock Course
+        </label>
     </div>
-    <br>
     <label for="courseTopics">Topics</label>
-     <div id="courseTopics" *ngIf="currentCourse.topics.length">
-            <div *ngFor="let topic of currentCourse.topics; let i = index;" >
-                <input [(ngModel)]="currentCourse.topics[i]" type="text" id="courseTopic" value="topic" name="topic"required />
-                <br/>
-            </div>
+     <div id="courseTopics" *ngIf="currentCourse.topicNames.length">
+        <div *ngFor="let topic of currentCourse.topicNames; let i = index;" >
+            <input [(ngModel)]="currentCourse.topicNames[i]" type="text" id="{{currentCourse.id}}-topic-{{i}}" name="{{currentCourse.id}}-topic-{{i}}" required/>
+            <div class="alert alert-danger" [hidden]="currentCourse.topicNames[i].valid">Write Topic or delete.</div>
+            <br/>
+        </div>
     </div>
     <br>
-     <button type='button' class="btn-default btn" (click)="editBoxDisplayed = false">
+     <button type='button' class="btn-danger btn-default btn btn-sm" (click)="removeTopic()">
+       <span class="glyphicon glyphicon-minus"></span>
+    </button>
+     <button type='button' class="btn-success btn-default btn btn-sm" (click)="addTopic()">
+       <span class="glyphicon glyphicon-plus"></span>
+    </button>
+    <br>
+    <br>
+     <button type='button' class="btn-default btn" (click)="cancelAction()">
       Cancel
     </button>
-    <button type='button' class="btn-success btn-default btn" (click)="addCourse()">
+    <button type='button' *ngIf="coursesForm.valid" class="btn-success btn-default btn" (click)="addCourse()">
        Add Course
     </button>
+    </form>
 </div>
-

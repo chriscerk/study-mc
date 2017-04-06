@@ -1,4 +1,4 @@
-import { ITopic } from './../../shared/models/topic';
+import { IOldTopic } from './../../shared/models/topic';
 import { ICourse } from './../../shared/models/course';
 import { Injectable } from '@angular/core';
 import { Http, Response } from '@angular/http';
@@ -11,7 +11,7 @@ import 'rxjs/add/operator/catch';
 export class DataService {
     _baseUrl: string = 'assets/data/';
     courses: ICourse[];
-    topics: ITopic[];
+    topics: IOldTopic[];
 
     constructor(private http: Http) { }
 
@@ -48,7 +48,7 @@ export class DataService {
         }
     }
 
-    getTopics() : Observable<ITopic[]> {
+    getTopics() : Observable<IOldTopic[]> {
         if (!this.topics) {
             return this.http.get(this._baseUrl + 'topics.json')
                         .map((res: Response) => {
@@ -63,14 +63,14 @@ export class DataService {
         }
     }
 
-    getTopic(id: number) : Observable<ITopic> {
+    getTopic(id: number) : Observable<IOldTopic> {
         if (this.topics) {
             //filter using cached data
             return this.findTopicObservable(id);
         } else {
             //Query the existing topics to find the target course
-            return Observable.create((observer: Observer<ITopic>) => {
-                    this.getTopics().subscribe((topics: ITopic[]) => {
+            return Observable.create((observer: Observer<IOldTopic>) => {
+                    this.getTopics().subscribe((topics: IOldTopic[]) => {
                         this.topics = topics;                
                         const cust = this.filterTopics(id);
                         observer.next(cust);
@@ -90,12 +90,12 @@ export class DataService {
         return this.createObservable(this.filterCourses(id));
     }
 
-    private filterTopics(id: number) : ITopic {
+    private filterTopics(id: number) : IOldTopic {
         const cs = this.topics.filter((c) => c.id === id);
         return (cs.length) ? cs[0] : null;
     }
 
-    private findTopicObservable(id: number) : Observable<ITopic> {
+    private findTopicObservable(id: number) : Observable<IOldTopic> {
         return this.createObservable(this.filterTopics(id));
     }
 

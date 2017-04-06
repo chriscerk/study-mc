@@ -15,7 +15,7 @@ const topic_routes: Routes = [
       { path:'review', component: TopicReviewComponent }
     ]
   },
-  { path: 'topic/:id', component: TopicComponent,
+  { path: 'topic/:name', component: TopicComponent,
       children: [
         { path: '', redirectTo: '/learn', pathMatch: 'full' },
         { path: 'learn', component: TopicLearnComponent},

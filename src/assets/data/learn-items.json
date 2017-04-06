@@ -1,0 +1,358 @@
+[{
+    "title":"SAR Requirements",  
+    "name" : "Hover over the compound to learn about the SAR Characteristics",
+    "imagePath" : "slide-4a.PNG",
+    "compoundHotspots" : [
+            {
+                "name": "Ring A",
+                "y": 263,
+                "x": 292,
+                "size": 40,
+                "color": "red",
+                "text": "Pi-Pi stacking with BZR"
+            },
+            {
+                "name": "Ring B",
+                "y": 280,
+                "x": 203,
+                "size": 30,
+                "color": "green",
+                "text": "H-bond acceptor (O, N, S) or N-heterocycle required. 1,2 annelation (N-heterocycle) increases affinity for BZR"
+            },
+            {
+                "name": "N1",
+                "y": 209,
+                "x": 266,
+                "size": 30,
+                "color": "blue",
+                "text": "Methyl group preferred; bulky group decreases activity because it prevents binding to BZR"
+            },
+            {
+                "name": "C7",
+                "y": 317,
+                "x": 154,
+                "size": 30,
+                "color": "orange",
+                "text": "EWG increases activity"
+            },
+            {
+                "name": "Ring C",
+                "y": 411,
+                "x": 288,
+                "size": 30,
+                "color": "deeppink",
+                "text": "Hydrophobic interaction with BZR"
+            },
+            {
+                "name": "C2",
+                "y": 375,
+                "x": 340,
+                "size": 25,
+                "color": "brown",
+                "text": "F or Cl substitution reduces aromatic hydroxylation and improves half-life"
+            },
+            {
+                "name": "C3",
+                "y": 245,
+                "x": 354,
+                "size": 25,
+                "color": "purple",
+                "text": "OH group eliminates first pass metabolism as the hydroxyl acts as a “handle” for conjugation."
+            },
+            {
+                "name": "C4",
+                "y": 466,
+                "x": 288,
+                "size": 25,
+                "color": "darkgoldenrod",
+                "text": "steric repulsion occurs with para substituent"
+            }
+    ]
+},
+{
+    "title":"SAR Requirements",  
+    "name" : "Hover over the compound to learn about the SAR Characteristics",
+    "imagePath" : "slide-4b.PNG",
+    "compoundHotspots" : [
+            {
+                "name": "Ring A",
+                "y": 291,
+                "x": 292,
+                "size": 40,
+                "color": "red",
+                "text": "Pi-Pi stacking with BZR"
+            },
+            {
+                "name": "Ring B",
+                "y": 305,
+                "x": 203,
+                "size": 30,
+                "color": "green",
+                "text": "H-bond acceptor (O, N, S) or N-heterocycle required. 1,2 annelation (N-heterocycle) increases affinity for BZR"
+            },
+            {
+                "name": "N1",
+                "y": 241,
+                "x": 266,
+                "size": 30,
+                "color": "blue",
+                "text": "Methyl group preferred; bulky group decreases activity because it prevents binding to BZR"
+            },
+            {
+                "name": "C7",
+                "y": 345,
+                "x": 159,
+                "size": 30,
+                "color": "orange",
+                "text": "EWG increases activity"
+            },
+            {
+                "name": "Ring C",
+                "y": 440,
+                "x": 291,
+                "size": 30,
+                "color": "deeppink",
+                "text": "Hydrophobic interaction with BZR"
+            },
+            {
+                "name": "C2",
+                "y": 410,
+                "x": 340,
+                "size": 25,
+                "color": "brown",
+                "text": "F or Cl substitution reduces aromatic hydroxylation and improves half-life"
+            },
+            {
+                "name": "C3",
+                "y": 273,
+                "x": 356,
+                "size": 25,
+                "color": "purple",
+                "text": "OH group eliminates first pass metabolism as the hydroxyl acts as a “handle” for conjugation."
+            },
+            {
+                "name": "C4",
+                "y": 490,
+                "x": 288,
+                "size": 25,
+                "color": "darkgoldenrod",
+                "text": "steric repulsion occurs with para substituent"
+            }
+    ]
+},
+{
+    "title":"SAR Requirements",  
+    "name" : "Hover over Lorazepam to learn about the SAR Characteristics",
+    "imagePath" : "slide-5a.PNG",
+    "compoundHotspots" : [
+            {
+                "name": "Ring A",
+                "y": 227,
+                "x": 209,
+                "size": 30,
+                "color": "red",
+                "text": "Pi-Pi stacking with BZR"
+            },
+            {
+                "name": "Ring B",
+                "y": 158,
+                "x": 291,
+                "size": 30,
+                "color": "green",
+                "text": "H-bond acceptor (O, N, S) or N-heterocycle required. 1,2 annelation (N-heterocycle) increases affinity for BZR"
+            },
+            {
+                "name": "N1",
+                "y": 164,
+                "x": 223,
+                "size": 30,
+                "color": "blue",
+                "text": "Methyl group preferred; bulky group decreases activity because it prevents binding to BZR"
+            },
+            {
+                "name": "C7",
+                "y": 264,
+                "x": 159,
+                "size": 30,
+                "color": "orange",
+                "text": "EWG increases activity"
+            },
+            {
+                "name": "Ring C",
+                "y": 310,
+                "x": 263,
+                "size": 30,
+                "color": "deeppink",
+                "text": "Hydrophobic interaction with BZR"
+            },
+            {
+                "name": "C3",
+                "y": 202,
+                "x": 335,
+                "size": 25,
+                "color": "purple",
+                "text": "OH group eliminates first pass metabolism as the hydroxyl acts as a “handle” for conjugation."
+            },
+            {
+                "name": "C2",
+                "y": 279,
+                "x": 319,
+                "size": 25,
+                "color": "brown",
+                "text": "F or Cl substitution reduces aromatic hydroxylation and improves half-life"
+            }
+    ],
+    "colorLocationAssociations" : [
+            {"color": "red", "location": "Ring A", "description" : "Ring A: Pi-Pi stacking with BZR" },
+            {"color": "orange", "location": "C7", "description" : "C7: EWG increases activity" },
+            {"color": "green", "location": "Ring B", "description" : "Ring B:  H-bond acceptor (O, N, S) or N-heterocycle required 1,2 annelation (N-heterocycle) increases affinity for BZR" },
+            {"color": "blue", "location": "N1", "description" : "N1: methyl group preferred; bulky group decreases activity because it prevents binding to BZR" },
+            {"color": "purple", "location": "C3", "description" : "C3: OH group eliminates first pass metabolism as the hydroxyl acts as a “handle” for conjugation." },
+            {"color": "deeppink", "location": "Ring C", "description" : "Ring C: Hydrophobic interaction with BZR" },
+            {"color": "darkgoldenrod", "location": "C4", "description" : "C4: Steric repulsion occurs with para substituent " },
+            {"color": "teal", "location": "C2", "description" : "C2:  F or Cl substitution reduces aromatic hydroxylation and improves half-life" }
+    ]
+},
+{
+    "title":"SAR Requirements",
+    "name" : "Hover over Alprazolam to learn about the SAR Characteristics",
+    "imagePath" : "slide-5b.PNG",
+    "compoundHotspots" : [
+            {
+                "name": "Ring A",
+                "y": 276,
+                "x": 229,
+                "size": 50,
+                "color": "red",
+                "text": "Pi-Pi stacking with BZR"
+            },
+            {
+                "name": "Ring B",
+                "y": 197,
+                "x": 303,
+                "size": 50,
+                "color": "green",
+                "text": "H-bond acceptor (O, N, S) or N-heterocycle required. 1,2 annelation (N-heterocycle) increases affinity for BZR"
+            },
+            {
+                "name": "N1",
+                "y": 178,
+                "x": 223,
+                "size": 30,
+                "color": "blue",
+                "text": "Methyl group preferred; bulky group decreases activity because it prevents binding to BZR"
+            },
+            {
+                "name": "C7",
+                "y": 328,
+                "x": 165,
+                "size": 40,
+                "color": "orange",
+                "text": "EWG increases activity"
+            },
+            {
+                "name": "Ring C",
+                "y": 384,
+                "x": 300,
+                "size": 50,
+                "color": "deeppink",
+                "text": "Hydrophobic interaction with BZR"
+            }
+    ]
+},
+{
+    "title":"SAR Practice Problem",
+    "name" : "Activity Change",
+    "imagePath" : "slide7-transition.jpg",
+    "question" : "Would the following change to the compound increase, decrease, or have no effect upon activity?",
+    "options" : [
+            "Increase",
+            "Decrease",
+            "No Effect"
+    ],
+    "answer" : "Decrease",
+    "explanation" : "Addition of a bulky group at N1 prevents binding to the BZR; methyl group is preferred"
+},
+{
+    "title":"SAR Practice Problem",  
+    "name" : "Activity Change",
+    "imagePath" : "slide8.PNG",
+    "question" : "Would the following change to the compound increase, decrease, or have no effect upon activity?",
+    "options" : [
+            "Increase", 
+            "Decrease", 
+            "No Effect"
+    ],
+    "answer" : "Increase",
+    "explanation" : "Addition of Cl to position 2 reduces aromatic hydroxylation (phase one P450 metabolism) and increases half-life"
+},
+{
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide10.PNG",
+    "question" : "Which of these 3 compounds would be the best benzodiazepine for use as a hypnotic?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 1",
+    "explanation" : "It already has the hydroxyl handle (position 3) so it is quickly metabolized to an inactive metabolite by conjugation; thus it has a short elimination half-life, which is ideal for hypnotics"
+},
+{
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide11.PNG",
+    "question" : "Which of these 3 compounds would be the best benzodiazepine for use as an anxiolytic?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 2",
+    "explanation" : "The compound is slowly absorbed because it has a carboxylic acid that must be cleaved first (like a prodrug) and it is metabolized to an active metabolite; thus it has a long elimination half-life (40-50 hr), which is ideal for anxiolytics"
+},
+{
+    "title":"SAR Practice Problem",  
+    "name" : "Predict Metabolite Activity",
+    "imagePath" : "slide13.PNG",
+    "question" : "Predict whether the metabolites will be active or inactive for the compounds (2, 3) and Conjugated Products",
+    "options" : [ 
+            "Active, Active, Inactive",
+            "Active, Inactive, Inactive", 
+            "Inactive, Inactive, Active",
+            "Inactive, Active, Inactive"
+    ],
+    "answer" : "Active, Active, Inactive",
+    "explanation" : ""
+},
+{
+    "title":"SAR Practice Problem",  
+    "name" : "Predict Metabolite Activity",
+    "imagePath" : "slide14.PNG",
+    "question" : "Would compound 1 (temazepam) be an ideal hypnotic or anxiolytic? Predict whether the metabolites will be active or inactive for compound 2",
+    "options" : [
+            "Anxiolytic, Active",
+            "Anxiolytic, Inactive",
+            "Hypnotic, Inactive",
+            "Hypnotic, Active"
+    ],
+    "answer" : "Hypnotic, Inactive",
+    "explanation" : ""
+},
+{
+    "title":"SAR Practice Problem",  
+    "name" : "Predict Metabolite Activity",
+    "imagePath" : "slide15.PNG",
+    "question" : "Would compound 1 (triazolam) be an ideal hypnotic or anxiolytic? Predict whether the metabolites will be active or inactive for the compounds (2, 3) and Conjugated Products",
+    "options" : [
+            "Anxiolytic, Active, Inactive, Inactive",
+            "Anxiolytic, Inactive, Active, Inactive",
+            "Hypnotic, Inactive, Active, Inactive",
+            "Hypnotic, Active, Inactive, Inactive"
+    ],
+    "answer" : "Hypnotic, Inactive, Active, Inactive",
+    "explanation" : ""
+}
+
+]

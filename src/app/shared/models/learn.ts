@@ -3,9 +3,13 @@ import { IMultipleChoice } from './question';
 export interface ILearnItem {
     title: string;
     name: string;
+    topicName: string;
+    courseId: number;
 }
 
 export class PracticeProblem implements ILearnItem, IMultipleChoice {
+    public topicName: string;
+    public courseId: number;
     title: string;
     name: string;
     imagePath: string;
@@ -16,6 +20,8 @@ export class PracticeProblem implements ILearnItem, IMultipleChoice {
 }
 
 export class InteractiveMolecule implements ILearnItem {
+    public topicName: string;
+    public courseId: number;
     title: string;
     name: string;
     imagePath: string;
@@ -26,6 +32,8 @@ export class InteractiveMolecule implements ILearnItem {
 }
 
 export class MovementAnimation implements ILearnItem {
+    public topicName: string;
+    public courseId: number;
     title: string;
     name: string;
     options: AnimationOptions;

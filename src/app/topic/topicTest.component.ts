@@ -1,5 +1,5 @@
 import { EndMessageComponent } from './../shared/components/end-message/end-message.component';
-import { ITopic } from './../shared/models/topic';
+import { IOldTopic } from './../shared/models/topic';
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
@@ -21,7 +21,7 @@ type Orientation = ( 'void' | 'next' | 'none' | 'previous' );
 
 export class TopicTestComponent implements OnInit {
 
-  topic: ITopic;
+  topic: IOldTopic;
   private sub: Subscription;
   router: Router;
   userAnswer: string;
@@ -47,11 +47,12 @@ export class TopicTestComponent implements OnInit {
       this.changeDetectorRef = changeDetectorRef;
    }
 
+//TODO: get testTopic by name to use for params...
   ngOnInit() {
       this.sub = this.route.parent.params.subscribe(params => {
         let id = +params['id'];
         this.dataService.getTopic(id)
-            .subscribe((topic: ITopic) => this.topic = topic);
+            .subscribe((topic: IOldTopic) => this.topic = topic);
       });
 
       this.orientation = 'void';
