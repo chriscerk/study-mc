@@ -18,7 +18,6 @@ export class CoursesDataComponent implements OnInit {
     isLoading: boolean;
     afCourses: FirebaseListObservable<any[]>;
     currentCourse: ICourse;
-    currentRef: any;
     editBoxDisplayed: boolean;
     @ViewChild('coursesForm') coursesForm: NgForm;
 

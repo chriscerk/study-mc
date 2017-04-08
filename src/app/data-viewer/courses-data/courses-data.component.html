@@ -1,39 +1,3 @@
-<h1>Courses Data</h1>
-<div class="input-group input-group-lg input-users">
-    <input class="form-control input-lg"
-           [(ngModel)]="searchTerm"
-           (keyup)="filterChanged()"
-           id="courses-search" type="text"
-           placeholder="Search for courses..."/>
-
-    <span class="input-group-btn">
-        <button (click)="filterChanged()" class="btn btn-default" type="button">
-            <span class="glyphicon glyphicon-search"></span>
-        </button>
-    </span>
-</div>
-<br/>
-<span *ngIf="!isLoading">{{searchedCourses.length}} results from {{courses.length}} courses</span> <br/>
-<span *ngIf="isLoading"> Loading...</span> <br/>
-<br/>
-<table class="table" *ngIf="courses">
-    <thead>
-    <tr>
-        <th>Id</th>
-        <th>Number of Topics</th>
-        <th>Status</th>
-        <th>Full Name</th>
-    </tr>
-    </thead>
-    <tbody>
-            <tr *ngFor="let course of searchedCourses"> 
-                <td>{{course.id}}</td>
-                <td>{{course.topics.length}}</td> 
-                <td>{{course.status}}</td> 
-                <td>{{course.name}}</td>
-            </tr>
-    </tbody>
-</table>
 <h1>Courses</h1>
 <table class="table" *ngIf="afCourses">
     <thead>
@@ -48,7 +12,7 @@
     <tbody>
         <tr *ngFor="let course of afCourses | async"> 
             <td>{{course.id}}</td>
-            <td *ngIf="course.topicNames; else zero">{{course.topicNames.length}}</td> 
+            <td *ngIf="course.topics; else zero">{{course.topics.length}}</td> 
             <td>{{course.status}}</td> 
             <td>{{course.name}}</td>
             <td *ngIf="!editBoxDisplayed">
@@ -106,10 +70,10 @@
         </label>
     </div>
     <label for="courseTopics">Topics</label>
-     <div id="courseTopics" *ngIf="currentCourse.topicNames.length">
-        <div *ngFor="let topic of currentCourse.topicNames; let i = index;" >
-            <input [(ngModel)]="currentCourse.topicNames[i]" type="text" id="{{currentCourse.id}}-topic-{{i}}" name="{{currentCourse.id}}-topic-{{i}}" required/>
-            <div class="alert alert-danger" [hidden]="currentCourse.topicNames[i].valid">Write Topic or delete.</div>
+     <div id="courseTopics" *ngIf="currentCourse.topics.length">
+        <div *ngFor="let topic of currentCourse.topics; let i = index;" >
+            <input [(ngModel)]="currentCourse.topics[i]" type="text" id="{{currentCourse.id}}-topic-{{i}}" name="{{currentCourse.id}}-topic-{{i}}" required/>
+            <div class="alert alert-danger" [hidden]="currentCourse.topics[i].valid">Write Topic or delete.</div>
             <br/>
         </div>
     </div>

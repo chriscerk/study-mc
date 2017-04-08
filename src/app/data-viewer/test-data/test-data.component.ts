@@ -1,5 +1,7 @@
+import { ITopic } from './../../shared/models/topic';
+import { AngularFire, FirebaseListObservable } from 'angularfire2';
 import { TestService } from './../../core/services/test/test.service';
-import { ITestItem } from './../../shared/models/test';
+import { ITestItem, TestProblem } from './../../shared/models/test';
 import { CourseService } from './../../core/services/course/course.service';
 import { Component, OnInit } from '@angular/core';
 
@@ -15,14 +17,27 @@ export class TestDataComponent implements OnInit {
     searchPlaceholder = 'Search by: ' + this.filterProperties + '...';
     searchTerm: string;
     isLoading: boolean;
+    afCourses: FirebaseListObservable<any[]>;
+    currentTestProblem: TestProblem;
+    editBoxDisplayed: boolean;
 
-  constructor(private testService: TestService) { }
+  constructor(private testService: TestService, private af: AngularFire) { }
 
   ngOnInit() {
        this.testService.getTestItems()
         .subscribe((testItems: ITestItem[]) => {
           this.testItems = this.searchedTestItems = testItems;
         });
+
+        this.afCourses = this.af.database.list('/testitems');
+        this.currentTestProblem = {
+            'topicName': null,
+            'courseId': null,
+            'title': null,
+            'question': null,
+            'options': [null],
+            'answer': null
+        };
   }
 
   filterResults() {
