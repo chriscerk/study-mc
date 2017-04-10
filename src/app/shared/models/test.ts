@@ -13,4 +13,5 @@ export class TestProblem implements ITestItem, IMultipleChoice {
     question: string;
     options: string[];
     answer: string;
+    isLocked: boolean;
 }

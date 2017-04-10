@@ -13,7 +13,7 @@ import { Component, OnInit } from '@angular/core';
 export class TestDataComponent implements OnInit {
     testItems: ITestItem[] = [];
     searchedTestItems: ITestItem[] = [];
-    filterProperties = ['topicName', 'courseId', 'question', 'options'];
+    filterProperties = ['topicName', 'courseId', 'question'];
     searchPlaceholder = 'Search by: ' + this.filterProperties + '...';
     searchTerm: string;
     isLoading: boolean;
@@ -24,11 +24,11 @@ export class TestDataComponent implements OnInit {
   constructor(private testService: TestService, private af: AngularFire) { }
 
   ngOnInit() {
-       this.testService.getTestItems()
-        .subscribe((testItems: ITestItem[]) => {
-          this.testItems = this.searchedTestItems = testItems;
-        });
-
+        this.af.database.list('/testproblems').subscribe(
+            (items: ITestItem[]) => {
+                this.testItems = this.searchedTestItems = items;
+            }
+        );
         this.afTestProblems = this.af.database.list('/testproblems');
         this.currentTestProblem = {
             'topicName': null,
@@ -41,7 +41,7 @@ export class TestDataComponent implements OnInit {
   }
 
   filterResults() {
-        if (this.searchTerm && this.afTestProblems) {
+        if (this.searchTerm && this.testItems) {
             const props = this.filterProperties;
             let filtered = this.testItems.filter(u => {
                 let match = false;

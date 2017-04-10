@@ -32,10 +32,6 @@ export class CoursesDataComponent implements OnInit {
             this.courses = this.searchedCourses = courses;
         }
     );
-    // this.courseService.getCourses()
-    // .subscribe((courses: ICourse[]) => {
-    //     this.courses = this.searchedCourses = courses;
-    // });
 
     this.afCourses = this.af.database.list('/courses');
     this.currentCourse = {
