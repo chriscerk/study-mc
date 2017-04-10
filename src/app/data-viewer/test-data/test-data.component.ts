@@ -13,7 +13,7 @@ import { Component, OnInit } from '@angular/core';
 export class TestDataComponent implements OnInit {
     testItems: ITestItem[] = [];
     searchedTestItems: ITestItem[] = [];
-    filterProperties = ['topicName','courseId', 'question', 'options'];
+    filterProperties = ['topicName', 'courseId', 'question', 'options'];
     searchPlaceholder = 'Search by: ' + this.filterProperties + '...';
     searchTerm: string;
     isLoading: boolean;

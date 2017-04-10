@@ -1,5 +1,22 @@
 <h1>Courses</h1>
-<table class="table" *ngIf="afCourses">
+<div class="input-group input-group-lg">
+    <input class="form-control input-lg"
+           [(ngModel)]="searchTerm"
+           (keyup)="filterChanged()"
+           id="test-search" type="text"
+           placeholder="{{searchPlaceholder}}"/>
+
+    <span class="input-group-btn">
+        <button (click)="filterChanged()" class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+        </button>
+    </span>
+</div>
+<br/>
+<span *ngIf="!isLoading">{{searchedCourses.length}} results from {{courses.length}} items</span><br/>
+<span *ngIf="isLoading"> Loading...</span> <br/>
+<br/>
+<table class="table" *ngIf="courses">
     <thead>
     <tr>
         <th>Id</th>
@@ -10,7 +27,7 @@
     </tr>
     </thead>
     <tbody>
-        <tr *ngFor="let course of afCourses | async"> 
+        <tr *ngFor="let course of searchedCourses"> 
             <td>{{course.id}}</td>
             <td *ngIf="course.topics; else zero">{{course.topics.length}}</td> 
             <td>{{course.status}}</td> 

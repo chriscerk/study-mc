@@ -16,7 +16,9 @@ export class CoursesDataComponent implements OnInit {
     searchedCourses: ICourse[] = [];
     searchTerm: string;
     isLoading: boolean;
-    afCourses: FirebaseListObservable<any[]>;
+    filterProperties = ['id', 'status', 'name'];
+    searchPlaceholder = 'Search by: ' + this.filterProperties + '...';
+    afCourses: FirebaseListObservable<ICourse[]>;
     currentCourse: ICourse;
     editBoxDisplayed: boolean;
     @ViewChild('coursesForm') coursesForm: NgForm;
@@ -25,10 +27,15 @@ export class CoursesDataComponent implements OnInit {
     private af: AngularFire) { }
 
   ngOnInit() {
-    this.courseService.getCourses()
-    .subscribe((courses: ICourse[]) => {
-        this.courses = this.searchedCourses = courses;
-    });
+    this.af.database.list('/courses').subscribe(
+        (courses: ICourse[]) => {
+            this.courses = this.searchedCourses = courses;
+        }
+    );
+    // this.courseService.getCourses()
+    // .subscribe((courses: ICourse[]) => {
+    //     this.courses = this.searchedCourses = courses;
+    // });
 
     this.afCourses = this.af.database.list('/courses');
     this.currentCourse = {
@@ -83,11 +90,11 @@ export class CoursesDataComponent implements OnInit {
 
   filterResults() {
         if (this.searchTerm && this.courses) {
-            const props = ['status', 'name'];
-            const filtered = this.courses.filter(u => {
+             const props = this.filterProperties;
+            let filtered = this.courses.filter(u => {
                 let match = false;
-                for (const prop of props) {
-                    const value = u[prop];
+                for (let prop of props) {
+                    let value = u[prop];
                     if (value.toString().toLowerCase().indexOf(this.searchTerm.toLowerCase()) > -1) {
                         match = true;
                         break;
