@@ -17,7 +17,7 @@ export class TestDataComponent implements OnInit {
     searchPlaceholder = 'Search by: ' + this.filterProperties + '...';
     searchTerm: string;
     isLoading: boolean;
-    afCourses: FirebaseListObservable<any[]>;
+    afTestProblems: FirebaseListObservable<any[]>;
     currentTestProblem: TestProblem;
     editBoxDisplayed: boolean;
 
@@ -29,7 +29,7 @@ export class TestDataComponent implements OnInit {
           this.testItems = this.searchedTestItems = testItems;
         });
 
-        this.afCourses = this.af.database.list('/testitems');
+        this.afTestProblems = this.af.database.list('/testproblems');
         this.currentTestProblem = {
             'topicName': null,
             'courseId': null,
@@ -41,7 +41,7 @@ export class TestDataComponent implements OnInit {
   }
 
   filterResults() {
-        if (this.searchTerm && this.testItems) {
+        if (this.searchTerm && this.afTestProblems) {
             const props = this.filterProperties;
             let filtered = this.testItems.filter(u => {
                 let match = false;
@@ -66,5 +66,4 @@ export class TestDataComponent implements OnInit {
         this.isLoading = true;
         this.filterResults();
     }
-
 }
