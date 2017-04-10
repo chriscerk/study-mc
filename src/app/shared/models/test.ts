@@ -7,6 +7,7 @@ export interface ITestItem {
 }
 
 export class TestProblem implements ITestItem, IMultipleChoice {
+    key: string;
     topicName: string;
     courseId: number;
     title: string;

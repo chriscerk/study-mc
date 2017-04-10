@@ -78,6 +78,13 @@
             #courseName="ngModel"
             name="courseName"/>
     </div>
+    <label for="courseTopics">Topics</label>
+     <div id="courseTopics" *ngIf="currentCourse.topics.length">
+        <div *ngFor="let topic of currentCourse.topics; let i = index;" >
+            <input [(ngModel)]="currentCourse.topics[i]" type="text" id="{{currentCourse.id}}-topic-{{i}}" name="{{currentCourse.id}}-topic-{{i}}" required/>
+            <br/>
+        </div>
+    </div>
     <div class="checkbox">
         <label>
             <input type="checkbox"  
@@ -85,14 +92,6 @@
             #isLocked="ngModel"
             name="isLocked" > Lock Course
         </label>
-    </div>
-    <label for="courseTopics">Topics</label>
-     <div id="courseTopics" *ngIf="currentCourse.topics.length">
-        <div *ngFor="let topic of currentCourse.topics; let i = index;" >
-            <input [(ngModel)]="currentCourse.topics[i]" type="text" id="{{currentCourse.id}}-topic-{{i}}" name="{{currentCourse.id}}-topic-{{i}}" required/>
-            <div class="alert alert-danger" [hidden]="currentCourse.topics[i].valid">Write Topic or delete.</div>
-            <br/>
-        </div>
     </div>
     <br>
      <button type='button' class="btn-danger btn-default btn btn-sm" (click)="removeTopic()">
