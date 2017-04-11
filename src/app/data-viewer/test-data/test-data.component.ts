@@ -15,6 +15,7 @@ import { Component, OnInit } from '@angular/core';
 export class TestDataComponent implements OnInit {
     testItems: ITestItem[] = [];
     courses: ICourse[] = [];
+    topics: ITopic[] = [];
     searchedTestItems: ITestItem[] = [];
     filterProperties = ['topicName', 'courseId', 'question', 'answer'];
     searchPlaceholder = 'Search by: ' + this.filterProperties + '...';
@@ -32,7 +33,6 @@ export class TestDataComponent implements OnInit {
                 this.courses = courses;
             }
         );
-
         this.af.database.list('/testproblems').subscribe(
             (items: ITestItem[]) => {
                 this.testItems = this.searchedTestItems = items;
@@ -40,6 +40,15 @@ export class TestDataComponent implements OnInit {
         );
         this.afTestProblems = this.af.database.list('/testproblems');
         this.resetTestProblem();
+    }
+
+    getTopicsByCourse() {
+        this.courses.forEach(course => {
+            if(course.id == this.currentTestProblem.courseId) {
+                this.topics = course.topics;
+                return;
+            }
+        });
     }
 
     addTestProblem() {
