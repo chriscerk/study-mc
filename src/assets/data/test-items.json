@@ -902,5 +902,721 @@
                 "Trazadone"
         ],
         "answer" : "Trazadone"
+    },
+    {
+        "topicName": "CWB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Gram positive bacteria have ___________ in their cell wall that determine its rigidity and __________ to regulate cation movement.",
+        "options" : [
+                "teichoic acid, peptidoglycan",
+                "cellulose, teichoic acid",
+                "peptidoglycan, porins",
+                "cellulose, porins", 
+                "peptidoglycan, teichoic acid"
+        ],
+        "answer" : "peptidoglycan, teichoic acid"
+    },
+    {
+        "topicName": "CWB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "In Gram negative bacteria the area between the cytoplasmic membrane and thin layer of peptidoglycan is called the ___________.",
+        "options" : [
+                "pericardium space",
+                "endoplasmic space",
+                "periplasmic space",
+                "pleuraplasmic space"
+        ],
+        "answer" : "periplasmic space"
+    },
+    {
+        "topicName": "CWB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Source of acetate in N-acetyl glucosamine (NAG) is _________.",
+        "options" : [
+                "MurA",
+                "pyrophosphatase",
+                "phosphoenolpyruvate",
+                "acetyl CoA"
+        ],
+        "answer" : "acetyl CoA"
+    },
+    {
+        "topicName": "CWB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "__________ is an irreversible inhibitor of MurA and targets the enzyme UDP-NAG Transferase",
+        "options" : [
+                "Cycloserin",
+                "Bactoprene",
+                "Fosfomycin",
+                "Nitrofurantoin"
+        ],
+        "answer" : "Fosfomycin"
+    },
+    {
+        "topicName": "CWB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Fosfomycin is indicated for ___________",
+        "options" : [
+                "meningitis",
+                "UTI",
+                "pneumonia",
+                "yeast infection"
+                
+        ],
+        "answer" : "UTI"
+    },
+    {
+        "topicName": "CWB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "_____________ is a reversible competitive inhibitor of Alanine racemase and D-Ala D-Ala ligase",
+        "options" : [
+                "Fosfomycin",
+                "Bacitracin",
+                "Vancomycin",
+                "Cycloserine"
+        ],
+        "answer" : "Cycloserine"
+    },
+    {
+        "topicName": "CWB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "A serious side effect of cycloserine is ____________ caused by NMDA binding",
+        "options" : [
+                "muscle aches",
+                "ototoxicity",
+                "nephrotoxicity",
+                "neurotoxicity"
+        ],
+        "answer" : "neurotoxicity"
+    },
+    {
+        "topicName": "CWB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "_________ binds to pyrophosphatase and prevents regeneration of _________",
+        "options" : [
+                "Bactoprene, Bacitracin",
+                "Bacitracin, Bactoprene",
+                "Vancomycin, Acetyl coA",
+                "Cycloserine, Acetyl coA",
+                "Bacitracin, Peptidoglycan",
+                "Vancomycin, Peptidoglycan"
+        ],
+        "answer" : "Bacitracin, Bactoprene"
+    },
+    {
+        "topicName": "CWB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Vancomycin binds to peptidoglycan to prevent crosslinking. Resistance to Vancomycin occurs through a change in structure of peptidoglycan from an ___________.",
+        "options" : [
+                "ester, to an amide",
+                "amide to an ester",
+                "amine to an ester",
+                "amide to an ether",
+                "amide to an ether"
+        ],
+        "answer" : "amide to an ester"
+    },
+    {
+        "topicName": "CWB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Vancomycin is not orally absorbed but can treat ___________",
+        "options" : [
+                "Meningitis",
+                "UTI",
+                "C. Diff Infections",
+                "Pheumonia"
+        ],
+        "answer" : "C. Diff Infections"
+    },
+    {
+        "topicName": "CWB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "To avoid the side effect ___________, vancomycin should be infused _________",
+        "options" : [
+                "Steven’s Johnson Syndrome, slowly",
+                "Reye’s Syndrome, rapidly",
+                "Red Man Syndrome, slowly",
+                "Extrapyramidal symptoms, rapidly"
+        ],
+        "answer" : "Red Man Syndrome, slowly"
+    },
+    {
+        "topicName": "CWB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Daptomycin cannot be used for ________ because of inactivation by surfactants",
+        "options" : [
+                "UTI",
+                "Pneumonia",
+                "Otitis",
+                "Sinusitis"
+        ],
+        "answer" : "Pneumonia"
+    },
+    {
+        "topicName": "Beta-Lactams",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Penicillins bind and inhibit __________ to prevent crosslinking.",
+        "options" : [
+                "Ligases",
+                "Mur A",
+                "Pyrophosphatases",
+                "Penicillin Binding Proteins (PBP)"
+        ],
+        "answer" : "Penicillin Binding Proteins (PBP)"
+    },
+    {
+        "topicName": "Beta-Lactams",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Resistance to penicillins develops quickly due to ________ or PBP mutations",
+        "options" : [
+                "β-lactamases",
+                "acid-base condition changes",
+                "alteration of side chains"
+        ],
+        "answer" : "β-lactamases"
+    },
+    {
+        "topicName": "Beta-Lactams",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Clavulanic acid, Sulbactam, and Tazobactam are all examples of β-lactamase ________.",
+        "options" : [
+                "inducers",
+                "inhibitors",
+                "producers"
+        ],
+        "answer" : "inhibitors"
+    },
+    {
+        "topicName": "Beta-Lactams",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "_________ is combined with imipenem to avoid degradation in the kidney.",
+        "options" : [
+                "Polymixin",
+                "Colistin",
+                "Cilastatin",
+                "Clavulanic acid "
+        ],
+        "answer" : "Cilastatin"
+    },
+    {
+        "topicName": "Beta-Lactams",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Carbapenem resistant Enterobacteriaceae (CRE) can be treated with polymixin and ______. ",
+        "options" : [
+                "cilastatin",
+                "clavulanic acid",
+                "sulbactam",
+                "colistin"
+        ],
+        "answer" : "colistin"
+    },
+    {
+        "topicName": "Beta-Lactams",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Carbapenems cannot be combined with _________. ",
+        "options" : [
+                "tetracyclines",
+                "other beta lactams",
+                "aminoglycosides",
+                "macrolides"
+        ],
+        "answer" : "aminoglycosides"
+    },
+    {
+        "topicName": "Beta-Lactams",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Cephalosporins are inherently ____ active than Penicillins but are ____ resistant to β-lactamases.",
+        "options" : [
+                "less, more",
+                "more, less",
+                "more, not"
+        ],
+        "answer" : "less, more"
+    },
+    {
+        "topicName": "Beta-Lactams",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Cephalosporins substituted with a _______ can extend the spectrum but also cause side effects such as _______ and Disulfiram-like effect.",
+        "options" : [
+                "amide, hemolytic anemia",
+                "ester, thrombocytosis",
+                "sulfa group, leukopenia",
+                "MTT group, hypothrombocytopenia"
+        ],
+        "answer" : "MTT group, hypothrombocytopenia"
+    },
+    {
+        "topicName": "Beta-Lactams",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "_______ are mostly reserved for serious Gram-negative infections such as meningitis.",
+        "options" : [
+                "Carbapenems",
+                "Beta Lactams",
+                "Aminoglycosides",
+                "Monobactams"
+        ],
+        "answer" : "Monobactams"
+    },
+    {
+        "topicName": "Beta-Lactams",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "_______ is an inhalent to treat chronic pseudomonas infections with CF patients, has activity against pseudomonas because it has the same side chain as _______.",
+        "options" : [
+                "Imipenem, cefixime",
+                "Meropenem, ceftaxime",
+                "Aztreonam, ceftazidine",
+                "Ertapenem, cephalexin"
+        ],
+        "answer" : "Aztreonam, ceftazidine"
+    },
+    {
+        "topicName": "FAB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Sulfonamides can be slow to act because you must deplete the _______ pool before seeing an effect.",
+        "options" : [
+                "glutathione",
+                "sulfa",
+                "folate",
+                "DHPS"
+        ],
+        "answer" : "folate"
+    },
+    {
+        "topicName": "FAB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Sulfonamides can cause _______ in infants.",
+        "options" : [
+                "ototoxicity",
+                "kernicterus",
+                "grey baby syndrome",
+                "nephrotoxicity "
+        ],
+        "answer" : "kernicterus"
+    },
+    {
+        "topicName": "FAB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "_______ is a side effect of sulfonamides so the medication should be taken at night.",
+        "options" : [
+                "Drowsiness",
+                "Confusion",
+                "Photosensitivity",
+                "Blindness"
+        ],
+        "answer" : "Photosensitivity"
+    },
+    {
+        "topicName": "FAB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Patients with _______ may show increased incidence of side effects.",
+        "options" : [
+                "alcoholism",
+                "diabetes",
+                "G6P deficiency",
+                "neuropathy"
+        ],
+        "answer" : "G6P deficiency"
+    },
+    {
+        "topicName": "FAB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Selective toxicity to sulfonamides in bacterial cells over mammalian cells occurs because humans lack _______ .",
+        "options" : [
+                "dihydrofolate reductase",
+                "cell walls",
+                "folic acid synthesis pathways",
+                "peptidoglycan"
+        ],
+        "answer" : "folic acid synthesis pathways"
+    },
+    {
+        "topicName": "FAB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "A side effect of Bactrim that affects skin and mucous membranes is either _______ .",
+        "options" : [
+                "Eczema or Impetigo",
+                "Toxic Epidermal Necrolysis or Stevens Johnson Syndrome",
+                "Impetigo or Toxic Epidermal Necrolysis",
+                "Psoriasis or Stevens Johnson Syndrome"
+        ],
+        "answer" : "Toxic Epidermal Necrolysis or Stevens Johnson Syndrome"
+    },
+    {
+        "topicName": "FAB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "If a patient is taking Bactrim and is G6DP deficient, _______ may be depleted and affect drug metabolism.",
+        "options" : [
+                "Folic acid",
+                "liver enzymes",
+                "white blood cells",
+                "lymph",
+                "Glutathione"
+        ],
+        "answer" : "Glutathione"
+    },
+    {
+        "topicName": "FAB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Sulfonamides target _______ to ultimately inhibit Folic Acid.",
+        "options" : [
+                "DHFR",
+                "DHPS",
+                "G6P",
+                "Folic Acid"
+        ],
+        "answer" : "DHPS"
+    },
+    {
+        "topicName": "DNA-Topo",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Quinolones have a side effect of _______ due to a high pka of the acid.",
+        "options" : [
+                "UTI",
+                "Crystalluria",
+                "Cystitis",
+                "BPH"
+        ],
+        "answer" : "Crystalluria"
+    },
+    {
+        "topicName": "DNA-Topo",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "A serious side effect of quinolones that have given it a black box warning is _______ .",
+        "options" : [
+                "myelosuppression",
+                "myalgia",
+                "muscular dystrophy",
+                "tendon rupture"
+        ],
+        "answer" : "tendon rupture"
+    },
+    {
+        "topicName": "DNA-Topo",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Combination with _______ cause synergistic inhibition of GABA receptors and neuroexcitatory activity.",
+        "options" : [
+                "Narcotics",
+                "Antidepressants",
+                "Antipsychotics",
+                "NSAIDs"
+        ],
+        "answer" : "NSAIDs"
+    },
+    {
+        "topicName": "DNA-Topo",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "A side effect of quinolones is _______ so caution should be taken with heart condition.",
+        "options" : [
+                "Bradycardia",
+                "QT prolongation",
+                "ST segment prolongation",
+                "Hypertension"
+        ],
+        "answer" : "QT prolongation"
+    },
+    {
+        "topicName": "DNA-Topo",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Fluoroquinolones should be taken in the evening due to _______ .",
+        "options" : [
+                "drowsiness",
+                "overactive bladder",
+                "photosensitivity"
+        ],
+        "answer" : "photosensitivity"
+    },
+    {
+        "topicName": "30S-PB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Toxicity to tetracyclines include chelation with _______ which can affect teeth and bone formation.",
+        "options" : [
+                "magnesium",
+                "sodium",
+                "potassium",
+                "calcium"
+        ],
+        "answer" : "calcium"
+    },
+    {
+        "topicName": "30S-PB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Tetracyclines can cause drug induced _______ so caution in renally impaired patients.",
+        "options" : [
+                "Renal Fanconi syndrome",
+                "renal failure",
+                "kidney stones",
+                "CKD"
+        ],
+        "answer" : "Renal Fanconi syndrome"
+    },
+    {
+        "topicName": "30S-PB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Contraindicated in patients less than eight years old or _______.",
+        "options" : [
+                "Diabetic",
+                "asthmatic",
+                "pregnant",
+                "lactating"
+        ],
+        "answer" : "pregnant"
+    },
+    {
+        "topicName": "30S-PB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Aminoglycosides have toxicity problems such as ototoxicity and _______ .",
+        "options" : [
+                "neurotoxicity",
+                "retinal toxicity",
+                "nephrotoxocity",
+                "hepatotoxicity"
+        ],
+        "answer" : "nephrotoxocity"
+    },
+    {
+        "topicName": "30S-PB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Can be deadly due to _______ failure.",
+        "options" : [
+                "renal",
+                "liver",
+                "respiratory"
+        ],
+        "answer" : "respiratory"
+    },
+    {
+        "topicName": "30S-PB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Prolonged exposure to aminoglycosides can cause toxic side effects so “ _______ ” is used to give the dose once daily.",
+        "options" : [
+                "Extended interval dosing",
+                "pulse dosing",
+                "dosing pump"
+        ],
+        "answer" : "pulse dosing"
+    },
+    {
+        "topicName": "30S-PB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "The most toxic aminoglycoside that is used therapeutically is _______ but it is only used _______ .",
+        "options" : [
+                "Bleomycin, Orally",
+                "Bleomycin, Intravenously",
+                "Neomycin, Topically",
+                "Neomycin, Intravenously",
+                "Streptomycin, Orally",
+                "Streptomycin, Topically"
+        ],
+        "answer" : "Neomycin, Topically"
+    },
+    {
+        "topicName": "30S-PB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Two disorders that put patients at higher risk for neurotoxicity with aminoglycosides are Myasthenia Gravis and _______ .",
+        "options" : [
+                "Parkinson’s disease",
+                "epilepsy",
+                "dementia",
+                "multiple sclerosis"
+        ],
+        "answer" : "Parkinson’s disease"
+    },
+    {
+        "topicName": "50S-PB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Macrolides have many DDI’s with other drugs such as _______ .",
+        "options" : [
+                "ACE inhibitors",
+                "NSAIDs",
+                "Beta Blockers",
+                "statins"
+        ],
+        "answer" : "statins"
+    },
+    {
+        "topicName": "50S-PB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : " _______ has evidence for liver transplant.",
+        "options" : [
+                "Dirithromycin",
+                "Azithromycin",
+                "Erythromycin",
+                "Telithromycin"
+        ],
+        "answer" : "Telithromycin"
+    },
+    {
+        "topicName": "50S-PB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "The macrolide ________ is a prodrug activated by hydrolysis.",
+        "options" : [
+                "Dirithromycin",
+                "Telithromycin",
+                "Erythromycin",
+                "Azithromycin"
+        ],
+        "answer" : "Dirithromycin"
+    },
+    {
+        "topicName": "50S-PB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Synercid, a combination including quinupristin and dalfopristin, can only be administered with _______.",
+        "options" : [
+                "orally",
+                "IV",
+                "intrathecal",
+                "injection"
+        ],
+        "answer" : "IV"
+    },
+    {
+        "topicName": "50S-PB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "High levels of chloramphenicol may cause fatal neonatal toxicity and _______ .",
+        "options" : [
+                "thrombocytopenia",
+                "hemolytic anemia",
+                "aplastic anemia",
+                "leukemia"
+        ],
+        "answer" : "aplastic anemia"
+    },
+    {
+        "topicName": "50S-PB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "A side effect of Streptogramin is _______ .",
+        "options" : [
+                "muscle/joint pain",
+                "myalgia",
+                "constipation",
+                "neuropathy"
+        ],
+        "answer" : "muscle/joint pain"
+    },
+    {
+        "topicName": "50S-PB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : "Azithromycin has a caution for patients as risk of _______ .",
+        "options" : [
+                "Diabetes",
+                "Heart failure",
+                "QT prolongation",
+                "Liver failure"
+        ],
+        "answer" : "QT prolongation"
+    },
+    {
+        "topicName": "50S-PB-Inhibitors",
+        "courseId": 610,
+		"isLocked": true,
+        "title":"",  
+        "question" : " _______ has the least potential for Cyp450 inhibition.",
+        "options" : [
+                "Azithromycin",
+                "Erythromycin",
+                "Telithromycin",
+                "Bleomycin"
+        ],
+        "answer" : "Azithromycin"
     }
 ]

@@ -24,25 +24,25 @@ export class TestDataComponent implements OnInit {
     currentTestProblem: TestProblem;
     editBoxDisplayed: boolean;
 
-  constructor(private testService: TestService, private af: AngularFire) { }
+    constructor(private testService: TestService, private af: AngularFire) { }
 
-  ngOnInit() {
-    this.af.database.list('/courses').subscribe(
-        (courses: ICourse[]) => {
-            this.courses = courses;
-        }
-    );
+    ngOnInit() {
+        this.af.database.list('/courses').subscribe(
+            (courses: ICourse[]) => {
+                this.courses = courses;
+            }
+        );
 
-    this.af.database.list('/testproblems').subscribe(
-        (items: ITestItem[]) => {
-            this.testItems = this.searchedTestItems = items;
-        }
-    );
-    this.afTestProblems = this.af.database.list('/testproblems');
-    this.resetTestProblem();
-  }
+        this.af.database.list('/testproblems').subscribe(
+            (items: ITestItem[]) => {
+                this.testItems = this.searchedTestItems = items;
+            }
+        );
+        this.afTestProblems = this.af.database.list('/testproblems');
+        this.resetTestProblem();
+    }
 
-  addTestProblem() {
+    addTestProblem() {
         const key = this.afTestProblems.push(this.currentTestProblem).key;
         this.currentTestProblem.key = key;
         this.afTestProblems.$ref.ref.child(key).update(this.currentTestProblem);
