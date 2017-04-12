@@ -1,8 +1,7 @@
-    <div *ngIf="course">
-        <span class="nav-title">MC - {{course.number}}</span>
-        <div class="row">
+<div *ngIf="course">
+    <span class="nav-title">MC - {{course.id}}</span>
+    <div class="row">
         <h1>Course Topics</h1><br><br>
-
         <ul class="flex-container"> 
         <div *ngFor="let topic of course.topics;">
             <a [routerLink]="['/topic', topic.name,'learn']" class="{{topic.status + '-link' }}">
@@ -13,8 +12,10 @@
             <h1>No Topics!</h1>
         </div>
         </ul>
+    </div>
+</div>
 
-    </div>   
-    <div *ngIf="!course" class="row">
-        No course found
-    </div>  
+<div *ngIf="!course" class="row">
+    No course found
+</div>
+  

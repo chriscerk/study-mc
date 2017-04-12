@@ -1,4 +1,4 @@
-import { IMultipleChoice } from './question';
+import { IMultipleChoice, Option } from './question';
 
 export interface ITestItem {
     title: string;
@@ -12,7 +12,7 @@ export class TestProblem implements ITestItem, IMultipleChoice {
     courseId: number;
     title: string;
     question: string;
-    options: string[];
+    options: Option[];
     answer: string;
     isLocked: boolean;
 }

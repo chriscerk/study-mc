@@ -1,8 +1,8 @@
 <div *ngIf="learnItems" class="content">
+    <end-message *ngIf="moduleIsComplete" [incorrectAnswers]="incorrectAnswers">
+    </end-message>
     <div *ngFor="let learnItem of learnItems; let i = index" [@NextPrevAnimation]="orientation">
       <span class="nav-title">{{learnItem.topicName}}</span>
-       <end-message *ngIf="moduleIsComplete" [topicName]="learnItem.topicName" [incorrectAnswers]="incorrectAnswers">
-       </end-message>
       <div *ngIf="currentQuestion == i">
 
         <h3>{{i/learnItems.length | MyPercentPipe }} Complete</h3>
@@ -74,6 +74,11 @@
             </li>
           </ul>
 
+      </div>
+    </div>
+    <div *ngIf="!learnItems.length">
+      <div class="alert alert-info review-alert" role="alert">
+        <a href="#" class="alert-link"> There are currently no Learn items for this topic.</a>
       </div>
     </div>
 </div> 

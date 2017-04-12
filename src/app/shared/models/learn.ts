@@ -1,4 +1,4 @@
-import { IMultipleChoice } from './question';
+import { IMultipleChoice, Option } from './question';
 
 export interface ILearnItem {
     title: string;
@@ -14,7 +14,7 @@ export class PracticeProblem implements ILearnItem, IMultipleChoice {
     name: string;
     imagePath: string;
     question: string;
-    options: string[];
+    options: Option[];
     answer: string;
     explanation: string;
 }

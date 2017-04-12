@@ -8,5 +8,9 @@ export class EndMessageComponent {
     @Input() topicName: string;
     @Input() incorrectAnswers: number;
 
-    constructor() { }
+    constructor() { 
+      if(!this.topicName) {
+        this.topicName = "topic's";
+      }
+    }
 }

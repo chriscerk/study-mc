@@ -36,7 +36,7 @@
             <td>{{testproblem.answer}}</td>
             <td *ngIf="action == CurrentAction.View">
                 <div *ngIf="!testproblem.isLocked; else locked" class="pull-right">
-                    <button class="btn btn-info" *ngIf="testproblem.key" (click)="setEditKey(testproblem.key)">Update</button>&nbsp;&nbsp;
+                    <button class="btn btn-info" *ngIf="testproblem.key" (click)="setEditKey(testproblem.key)">Edit</button>&nbsp;&nbsp;
                     <button class="btn btn-danger" *ngIf="testproblem.key" (click)="deleteTestProblem(testproblem.key)">Delete</button>&nbsp;&nbsp;
                 </div>
             </td>
@@ -91,10 +91,12 @@
             required/>
             <div class="alert alert-danger" [hidden]="question.valid">Problem Question is required</div>
     </div>
-    <label for="options">Options</label>
-     <div id="options" *ngIf="currentTestProblem.options.length">
+    <label>Options</label>
+     <div class="inputYoverflow" *ngIf="currentTestProblem.options.length">
         <div *ngFor="let option of currentTestProblem.options; let i = index;" >
-            <input [(ngModel)]="currentTestProblem.options[i]" type="text" id="{{currentTestProblem.id}}-option-{{i}}" name="{{currentTestProblem.id}}-option-{{i}}" required/>
+            <label>{{i+1}}.</label>
+            <input [(ngModel)]="currentTestProblem.options[i].value" type="text" id="{{currentTestProblem.id}}-option-{{i}}" name="{{currentTestProblem.id}}-option-{{i}}" required/>
+            <br/>
             <br/>
         </div>
     </div>
@@ -128,8 +130,8 @@
     <button type='button' class="btn-default btn" (click)="cancelAction()">
       Cancel
     </button>
-    <button type='button' *ngIf="testProblemForm.valid" class="btn-success btn-default btn" (click)="addTestProblem()">
-       {{CurrentAction[action]}} Topic
+    <button type='button' *ngIf="testProblemForm.valid" class="btn-success btn-default btn" (click)="submit()">
+       {{CurrentAction[action]}} Question
     </button>
     </form>
 </div>

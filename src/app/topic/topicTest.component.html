@@ -1,7 +1,7 @@
 <div *ngIf="testItems" class="content">
+    <end-message *ngIf="moduleIsComplete" [incorrectAnswers]="incorrectAnswers"></end-message>
     <div *ngFor="let testItem of testItems; let i = index" [@NextPrevAnimation]="orientation">
       <span class="nav-title">{{testItem.topicName}}</span>
-      <end-message *ngIf="moduleIsComplete" [topicName]="testItem.topicName" [incorrectAnswers]="incorrectAnswers"></end-message>
       <div *ngIf="currentQuestion == i">
           <h3> {{i/testItems.length | MyPercentPipe }} Complete</h3> 
         <form #f="ngForm" (ngSubmit)="onSubmit(testItem.answer)" *ngIf="validAnswer" method="post">
@@ -11,7 +11,7 @@
             <br>
             <select class="form-control input-lg" [(ngModel)]="userAnswer" name="userAnswerInput" required>
               <option  value="" selected="selected" disabled="disabled"></option>
-              <option *ngFor="let option of testItem.options;">{{option}}</option>
+              <option *ngFor="let option of testItem.options;">{{option.value}}</option>
             </select>
           </p>
           <div class="action-buttons shaded">
@@ -27,6 +27,11 @@
             <a href="#" class="alert-link">Incorrect Answer!</a>
          </div>
 
+      </div>
+    </div>
+    <div *ngIf="!testItems.length">
+      <div class="alert alert-info review-alert" role="alert">
+        <a href="#" class="alert-link"> There are currently no Test items for this topic.</a>
       </div>
     </div>
 </div>

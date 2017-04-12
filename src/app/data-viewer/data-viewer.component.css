@@ -62,3 +62,11 @@ select {
     font-size: unset;
     font-weight: bold;
 }
+
+.inputYoverflow {
+    overflow-y: scroll;
+    height: 150px;
+    width: 250px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}

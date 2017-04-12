@@ -5,13 +5,13 @@
         "isLocked": true,
         "title":"Side-Effects",  
         "question" : "Benzodiazepines act at _______ receptor to increase _______ channel opening:",
-        "options" : [ 
-                "GABA, Ca2+",
-                "GABA, Na+",
-                "GABA, Cl-",
-                "glutamate, Ca2+",
-                "glutamate, Na+",
-                "glutamate, Cl-"
+        "options" : [
+			{"value": "GABA, Ca2+"},
+			{"value": "GABA, Na+"},
+			{"value":"GABA, Cl-"},
+			{"value":"glutamate, Ca2+"},
+			{"value":"glutamate, Na+"},
+			{"value":"glutamate, Cl-"}
         ],
         "answer" : "GABA, Cl-"
     },
@@ -22,10 +22,10 @@
         "title":"Side-Effects",  
         "question" : "Benzodiazepines will be affected by the inhibitors or activators of",
         "options" : [
-                "CYP2B6", 
-                "CYP3A4", 
-                "CYP2C9",
-                "C3PO"
+			{"value": "CYP2B6"},
+			{"value": "CYP3A4"},
+			{"value":"CYP2C9"},
+			{"value":"C3PO"}
         ],
         "answer" : "CYP3A4"
     },
@@ -36,14 +36,14 @@
         "title":"Side-Effects",  
         "question" : "Diazepam and ______ are useful to treat withdrawal from _______",
         "options" : [
-                "clonazepam, nicotine", 
-                "clonazepam, alcohol", 
-                "triazolam, opioids",
-                "triazolam, nicotine",
-                "midazolam, alcohol",
-                "midazolam, opioids",
-                "lorazepam, nicotine",
-                "lorazepam, alcohol"
+			{"value": "clonazepam, nicotine"},
+			{"value": "clonazepam, alcohol"},
+			{"value":"triazolam, opioids"},
+			{"value":"triazolam, nicotine"},
+			{"value":"midazolam, alcohol"},
+			{"value":"midazolam, opioids"},
+			{"value":"lorazepam, nicotine"},
+			{"value":"lorazepam, alcohol"}
         ],
         "answer" : "lorazepam, alcohol"
     },
@@ -54,10 +54,10 @@
         "title":"Side-Effects",  
         "question" : "Lorazepam, ______, and ______ are all used to treat status epilepticus",
         "options" : [
-                "clonazepam, midazolam", 
-                "clonazepam, triazolam", 
-                "diazepam, clonazepam",
-                "diazepam, midazolam"
+			{"value": "clonazepam, midazolam"},
+			{"value": "clonazepam, triazolam"},
+			{"value":"diazepam, clonazepam"},
+			{"value":"diazepam, midazolam"}
         ],
         "answer" : "diazepam, clonazepam"
     },
@@ -68,9 +68,9 @@
         "title":"Side-Effects",  
         "question" : "Patient Smith has been prescribed a benzodiazepine and another medication for OCD. Smith feels excessively sleepy and has noticed her balance is off. Smith is probably taking diazepam and",
         "options" : [
-                "bupropion",
-                "nortriptyline",
-                "fluoxetine"
+			{"value": "bupropion"},
+			{"value": "nortriptyline"},
+			{"value":"fluoxetine"}
         ],
         "answer" : "bupropion"
     },
@@ -81,9 +81,9 @@
         "title":"Contraindication",  
         "question" : "This benzodiazepine is best suited for elderly individuals with liver damage:",
         "options" : [
-                "Lorazepam", 
-                "Diazepam", 
-                "Clonazepam"
+			{"value": "Lorazepam"},
+			{"value": "Diazepam"},
+			{"value":"Clonazepam"}
         ],
         "answer" : "Lorazepam"
     },
@@ -94,9 +94,9 @@
         "title":"Side-Effects",  
         "question" : "An individual who takes benzodiazepine usually develops tolerance to",
         "options" : [
-                "sedative effects", 
-                "anxiolytic effects", 
-                "anesthetic effects"
+			{"value": "sedative effects"},
+			{"value": "anxiolytic effects"},
+			{"value":"anesthetic effects"}
         ],
         "answer" : "sedative effects"
     },
@@ -107,10 +107,10 @@
         "title":"Side-Effects",  
         "question" : "When a benzodiazepine is taken for sleep, benzodiazepine's long elimination half life can cause:",
         "options" : [
-                "headache", 
-                "insomnia", 
-                "grogginess",
-                "amnesia"
+			{"value": "headache"},
+			{"value": "insomnia"},
+			{"value":"grogginess"},
+			{"value":"amnesia"}
         ],
         "answer" : "grogginess"
     },
@@ -121,9 +121,9 @@
         "title":"Side-Effects",  
         "question" : "A serious and unusual side effect of a benzodiazepine is",
         "options" : [
-                "Induction of P450s", 
-                "G6P deficiency", 
-                "amnesia"
+			{"value": "Induction of P450s"},
+			{"value": "G6P deficiency"},
+			{"value":"amnesia"}
         ],
         "answer" : "amnesia"
     },
@@ -134,9 +134,9 @@
         "title":"Side-Effects",  
         "question" : "An individual who takes benzodiazepine rarely develops tolerance to",
         "options" : [
-                "sedative effects", 
-                "anxiolytic effects", 
-                "anesthetic effects"
+			{"value": "sedative effects"},
+			{"value": "anxiolytic effects"},
+			{"value":"anesthetic effects"}
         ],
         "answer" : "anxiolytic effects"
     },
@@ -147,9 +147,9 @@
         "title":"Mechanism of Action",  
         "question" : "Higher doses of barbiturates bind these receptors in the cerebellum",
         "options" : [
-                "GABAa", 
-                "GABAb", 
-                "glutamate"
+			{"value": "GABAa"},
+			{"value": "GABAb"},
+			{"value":"glutamate"}
         ],
         "answer" : "GABAa"
     },
@@ -160,8 +160,8 @@
         "title":"Mechanism of Action",  
         "question" : "The long half life of barbiturates causes this effect",
         "options" : [
-                "hangover", 
-                "rebound"
+			{"value": "hangover"},
+			{"value":"rebound"}
         ],
         "answer" : "hangover"
     },
@@ -172,8 +172,8 @@
         "title":"Mechanism of Action",  
         "question" : "The short half life or abrupt discontinuation of barbiturates causes this effect",
         "options" : [
-                "hangover", 
-                "rebound"
+			{"value": "hangover"},
+			{"value":"rebound"}
         ],
         "answer" : "rebound"
     },
@@ -184,9 +184,9 @@
         "title":"Mechanism of Action",  
         "question" : "Higher doses of barbiturates bind [ans] receptors in the cerebellum causing the side effect of",
         "options" : [
-                "Ataxia", 
-                "amnesia", 
-                "sedation"
+			{"value": "Ataxia"},
+			{"value": "amnesia"},
+			{"value":"sedation"}
         ],
         "answer" : "sedation"
     },
@@ -197,9 +197,9 @@
         "title":"Mechanism of Action",  
         "question" : "Eszopiclone binds to this receptor",
         "options" : [
-                "barbiturate", 
-                "benzodiazepine", 
-                "dopamine"
+			{"value": "barbiturate"},
+			{"value": "benzodiazepine"},
+			{"value":"dopamine"}
         ],
         "answer" : "benzodiazepine"
     },
@@ -210,9 +210,9 @@
         "title":"Mechanism of Action",  
         "question" : "Normal circadian rhythm is re-established by a drug acting at this receptor",
         "options" : [
-                "dopamine", 
-                "serotonin", 
-                "melatonin"
+			{"value": "dopamine"},
+			{"value": "serotonin"},
+			{"value":"melatonin"}
         ],
         "answer" : "melatonin"
     },
@@ -223,9 +223,9 @@
         "title":"Mechanism of Action",  
         "question" : "Eszopiclone binds to the benzodiazepine receptor and potentiates",
         "options" : [
-                "GABA", 
-                "Glutamate", 
-                "dopamine"
+			{"value": "GABA"},
+			{"value": "Glutamate"},
+			{"value":"dopamine"}
         ],
         "answer" : "GABA"
     },
@@ -236,9 +236,9 @@
         "title":"Side-Effects",  
         "question" : "Normal circadian rhythm is re-established at the melatonin receptor when this drug acts upon it",
         "options" : [
-                "zolpidem", 
-                "mirtazapine", 
-                "ramelteon "
+			{"value": "zolpidem"},
+			{"value": "mirtazapine"},
+			{"value":"ramelteon "}
         ],
         "answer" : "ramelteon"
     },
@@ -249,9 +249,9 @@
         "title":"Side-Effects",  
         "question" : "This drug has the longest half-life",
         "options" : [
-                "Zolpidem", 
-                "Eszopiclone", 
-                "Ramelteon"
+			{"value": "Zolpidem"},
+			{"value": "Eszopiclone"},
+			{"value":"Ramelteon"}
         ],
         "answer" : "Eszopiclone"
     },
@@ -262,9 +262,9 @@
         "title":"Side-Effects",  
         "question" : "This drug has the longest potency",
         "options" : [
-                "Zolpidem", 
-                "Eszopiclone", 
-                "Ramelteon"
+			{"value": "Zolpidem"},
+			{"value": "Eszopiclone"},
+			{"value":"Ramelteon"}
         ],
         "answer" : "Zolpidem"
     },
@@ -275,9 +275,9 @@
         "title":"Side-Effects",  
         "question" : "This drug is used to induce sleep",
         "options" : [
-                "zolpidem", 
-                "zaleplon", 
-                "eszopiclone"
+			{"value": "zolpidem"},
+			{"value": "zaleplon"},
+			{"value":"eszopiclone"}
         ],
         "answer" : "zolpidem"
     },
@@ -288,8 +288,8 @@
         "title":"Side-Effects",  
         "question" : "Zolpidem is metabolized slower by ",
         "options" : [
-                "Men", 
-                "Women"
+			{"value": "Men"},
+			{"value":"Women"}
         ],
         "answer" : "Women"
     },
@@ -300,9 +300,9 @@
         "title":"Side-Effects",  
         "question" : "John Smith is waking up regularly in the middle of the night. A good therapy for him would be",
         "options" : [
-                "zolpidem",
-                "eszopiclone", 
-                "zaleplon"
+			{"value": "zolpidem"},
+			{"value": "eszopiclone"},
+			{"value":"zaleplon"}
         ],
         "answer" : "zaleplon"
     },
@@ -313,9 +313,9 @@
         "title":"Side-Effects",  
         "question" : "Both the a1 and a1 benzodiazepine receptor is acted upon by ",
         "options" : [
-                "eszopiclone", 
-                "zaleplon", 
-                "zolpidem "
+			{"value": "eszopiclone"},
+			{"value": "zaleplon"},
+			{"value":"zolpidem "}
         ],
         "answer" : "eszopiclone"
     },
@@ -326,9 +326,9 @@
         "title":"Side-Effects",  
         "question" : "Z-drugs primarily cause",
         "options" : [
-                "sedation", 
-                "amnesia", 
-                "anxiety relief"
+			{"value": "sedation"},
+			{"value": "amnesia"},
+			{"value":"anxiety relief"}
         ],
         "answer" : "sedation"
     },
@@ -339,9 +339,9 @@
         "title":"Side-Effects",  
         "question" : "Z-drugs bind primarily to this receptor",
         "options" : [
-                "GABA", 
-                "benzodiazepine", 
-                "barbiturate "
+			{"value": "GABA"},
+			{"value": "benzodiazepine"},
+			{"value":"barbiturate "}
         ],
         "answer" : "benzodiazepine"
     },
@@ -352,10 +352,10 @@
         "title":"Side-Effects",  
         "question" : "Z-drugs bind primarily to benzodiazepine's subunit receptor:",
         "options" : [
-                "benzodiazepine", 
-                "alpha1", 
-                "alpha2",
-                "beta"
+			{"value": "benzodiazepine"},
+			{"value": "alpha1"},
+			{"value":"alpha2"},
+			{"value":"beta"}
         ],
         "answer" : "alpha1"
     },
@@ -366,10 +366,10 @@
         "title":"Side-Effects",  
         "question" : "Z drugs are not effective antianxiety drugs because they bind primarily to the alpha1 subunit of benzodiazepine not the subunit:",
         "options" : [
-                "benzodiazepine", 
-                "alpha1", 
-                "alpha2",
-                "beta"
+			{"value": "benzodiazepine"},
+			{"value": "alpha1"},
+			{"value":"alpha2"},
+			{"value":"beta"}
         ],
         "answer" : "alpha2"
     },
@@ -380,8 +380,8 @@
         "title":"",  
         "question" : "Antiepileptic drugs primarily reduce this activity",
         "options" : [
-                "excitatory", 
-                "inhibitory "
+			{"value": "excitatory"},
+			{"value":"inhibitory "}
         ],
         "answer" : "excitatory"
     },
@@ -392,9 +392,9 @@
         "title":"",  
         "question" : "Consciousness is impaired for 30 seconds - 2 minutes by this seizure type: ",
         "options" : [
-                "partial", 
-                "complex partial",
-                "absence "
+			{"value": "partial"},
+			{"value": "complex partial"},
+			{"value":"absence "}
         ],
         "answer" : "complex partial"
     },
@@ -405,9 +405,9 @@
         "title":"",  
         "question" : "Antiepileptic drugs targeting sodium channels block",
         "options" : [
-                "Sodium efflux",
-                "normal action potentials",
-                "epileptiform discharges"
+			{"value": "Sodium efflux"},
+			{"value": "normal action potentials"},
+			{"value":"epileptiform discharges"}
         ],
         "answer" : "epileptiform discharges"
     },
@@ -418,8 +418,8 @@
         "title":"",  
         "question" : "Antiepileptic drugs primarily enhance this activity",
         "options" : [
-                "excitatory", 
-                "inhibitory "
+			{"value": "excitatory"},
+			{"value":"inhibitory "}
         ],
         "answer" : "inhibitory"
     },
@@ -430,10 +430,10 @@
         "title":"",  
         "question" : "Felbamate is an antiepileptic that blocks these receptors",
         "options" : [
-                "AMPA", 
-                "dopamine",
-                "GABA",
-                "NMDA"
+			{"value": "AMPA"},
+			{"value": "dopamine"},
+			{"value":"GABA"},
+			{"value":"NMDA"}
         ],
         "answer" : "GABA"
     },
@@ -444,9 +444,9 @@
         "title":"",  
         "question" : "Reducing seizures and weight is possible with this anticonvulsant drug",
         "options" : [
-                "topiramate", 
-                "valproic acid",
-                "gabapentin"
+			{"value": "topiramate"},
+			{"value": "valproic acid"},
+			{"value":"gabapentin"}
         ],
         "answer" : "topiramate"
     },
@@ -457,10 +457,10 @@
         "title":"",  
         "question" : "Ethosuximide acts by inhibiting the activity of these channels",
         "options" : [
-                "Calcium",
-                "Sodium",
-                "Chloride",
-                "Potassium"
+			{"value": "Calcium"},
+			{"value": "Sodium"},
+			{"value":"Chloride"},
+			{"value":"Potassium"}
         ],
         "answer" : "Calcium"
     },
@@ -471,9 +471,9 @@
         "title":"",  
         "question" : "Ethosuximide is only used for this type of seizure",
         "options" : [
-                "complex",
-                "partial",
-                "absence "
+			{"value": "complex"},
+			{"value": "partial"},
+			{"value":"absence "}
         ],
         "answer" : "absence"
     },
@@ -484,9 +484,9 @@
         "title":"",  
         "question" : "This drug induces its own metabolism",
         "options" : [
-                "Phenytoin", 
-                "Carbamazepine",
-                "Gabapentin"
+			{"value": "Phenytoin"},
+			{"value": "Carbamazepine"},
+			{"value":"Gabapentin"}
         ],
         "answer" : "Carbamazepine"
     },
@@ -497,9 +497,9 @@
         "title":"",  
         "question" : "Steven's Johnson syndrome is a rare but serious side effect of",
         "options" : [
-                "Levetiracetam", 
-                "Lamotrigine",
-                "Carbamazepine"
+			{"value": "Levetiracetam"},
+			{"value": "Lamotrigine"},
+			{"value":"Carbamazepine"}
         ],
         "answer" : "Lamotrigine"
     },
@@ -510,10 +510,10 @@
         "title":"",  
         "question" : "Dizziness and somnolence is the most common side effect of",
         "options" : [
-                "Phenytoin & Gabapentin", 
-                "Pregabalin & Phenobarbital",
-                "Pregabalin & Gabapentin",
-                "Phenobarbital & Gabapentin"
+			{"value": "Phenytoin & Gabapentin"},
+			{"value": "Pregabalin & Phenobarbital"},
+			{"value":"Pregabalin & Gabapentin"},
+			{"value":"Phenobarbital & Gabapentin"}
         ],
         "answer" : "Pregabalin & Gabapentin"
     },
@@ -524,9 +524,9 @@
         "title":"",  
         "question" : "This binds to a synaptic vesicle protein and reduces presynaptic neurotransmitter release mediated by Ca2+",
         "options" : [
-                "Levetiracetam", 
-                "Lamotrigine",
-                "topiramate"
+			{"value": "Levetiracetam"},
+			{"value": "Lamotrigine"},
+			{"value":"topiramate"}
         ],
         "answer" : "Levetiracetam"
     },
@@ -537,9 +537,9 @@
         "title":"",  
         "question" : "Carbamazepine can be administered most safely without interaction with",
         "options" : [
-                "lorazepam", 
-                "phenytoin",
-                "diazepam"
+			{"value": "lorazepam"},
+			{"value": "phenytoin"},
+			{"value":"diazepam"}
         ],
         "answer" : "diazepam"
     },
@@ -550,10 +550,10 @@
         "title":"",  
         "question" : "This is an irreversible inhibitor of GABA transaminase",
         "options" : [
-                "Gabapentin", 
-                "Pregabalin",
-                "Valproic acid",
-                "Vigabatrin "
+			{"value": "Gabapentin"},
+			{"value": "Pregabalin"},
+			{"value":"Valproic acid"},
+			{"value":"Vigabatrin "}
         ],
         "answer" : "Vigabatrin"
     },
@@ -564,10 +564,10 @@
         "title":"",  
         "question" : "Escitalopram, fluoxetine, sertraline, and citalopram are examples of:",
         "options" : [
-                "Tricyclic antidepressants",
-                "Atypical antidepressants",
-                "Norepinephrine Reuptake Inhibitors",
-                "Serotonin Reuptake Inhibitors"
+			{"value": "Tricyclic antidepressants"},
+			{"value": "Atypical antidepressants"},
+			{"value":"Norepinephrine Reuptake Inhibitors"},
+			{"value":"Serotonin Reuptake Inhibitors"}
         ],
         "answer" : "Serotonin Reuptake Inhibitors"
     },
@@ -578,10 +578,10 @@
         "title":"",  
         "question" : "___________ are the most widely prescribed antidepressants",
         "options" : [
-                "TCAs",
-                "SRIs",
-                "Lithium",
-                "SNRIs"
+			{"value": "TCAs"},
+			{"value": "SRIs"},
+			{"value":"Lithium"},
+			{"value":"SNRIs"}
         ],
         "answer" : "SRIs"
     },
@@ -592,10 +592,10 @@
         "title":"",  
         "question" : "__________ inhibits CYPs more significantly than other _______",
         "options" : [
-                "(Escitalopram, TCAs)",
-                "(Sertraline, Atypical Antidepressants)",
-                "(Fluoxetine, SRIs)",
-                "(Citalopram, NRIs)"
+			{"value": "(Escitalopram, TCAs)"},
+			{"value": "(Sertraline, Atypical Antidepressants)"},
+			{"value":"(Fluoxetine, SRIs)"},
+			{"value":"(Citalopram, NRIs)"}
         ],
         "answer" : "(Fluoxetine, SRIs)"
     },
@@ -606,10 +606,10 @@
         "title":"",  
         "question" : "The most common adverse effects of SRIs GI and ________________",
         "options" : [
-                "sexual side effects",
-                "orthostatic hypotension",
-                "constipation",
-                "drowsiness"
+			{"value": "sexual side effects"},
+			{"value": "orthostatic hypotension"},
+			{"value":"constipation"},
+			{"value":"drowsiness"}
         ],
         "answer" : "sexual side effects"
     },
@@ -620,10 +620,10 @@
         "title":"",  
         "question" : "SRIs have common drug interactions with _______ and can cause elevated levels of __________",
         "options" : [
-                "(Acetylcholinesterase inhibitors, Acetylcholine)",
-                "(Anticonvulsants, Norepinephrine)",
-                "(Antibiotics, Dopamine)",
-                "(MAOIs, Serotonin)"
+			{"value": "(Acetylcholinesterase inhibitors, Acetylcholine)"},
+			{"value": "(Anticonvulsants, Norepinephrine)"},
+			{"value":"(Antibiotics, Dopamine)"},
+			{"value":"(MAOIs, Serotonin)"}
         ],
         "answer" : "(MAOIs, Serotonin)"
     },
@@ -634,10 +634,10 @@
         "title":"",  
         "question" : "_________ can be recognized with side effects such as increased heart rate and diarrhea",
         "options" : [
-                "Orthostatic Hypotension,",
-                "Antihistaminic Effects,",
-                "Serotonin Syndrome",
-                "Antimuscarinic Effects"
+			{"value": "Orthostatic Hypotension,"},
+			{"value": "Antihistaminic Effects,"},
+			{"value":"Serotonin Syndrome"},
+			{"value":"Antimuscarinic Effects"}
         ],
         "answer" : "Serotonin Syndrome"
     },
@@ -648,9 +648,9 @@
         "title":"",  
         "question" : "SRIs are ________ tolerated than TCA",
         "options" : [
-                "more",
-                "less",
-                "equally"
+			{"value": "more"},
+			{"value": "less"},
+			{"value":"equally"}
         ],
         "answer" : "more"
     },
@@ -661,10 +661,10 @@
         "title":"",  
         "question" : "Abrupt withdrawal of SRIs can cause:",
         "options" : [
-                "physical dependence",
-                "rebound effect",
-                "hangover",
-                "medullary depression"
+			{"value": "physical dependence"},
+			{"value": "rebound effect"},
+			{"value":"hangover"},
+			{"value":"medullary depression"}
         ],
         "answer" : "rebound effect"
     },
@@ -675,10 +675,10 @@
         "title":"",  
         "question" : "Venlafaxine and duloxetine are examples of: ",
         "options" : [
-                "Tricyclic Antidepressants",
-                "Atypical Antidepressants",
-                "Serotonin-Norepinephrine Reuptake Inhibitors",
-                "Selective Serotonin Reuptake Inhibitors"
+			{"value": "Tricyclic Antidepressants"},
+			{"value": "Atypical Antidepressants"},
+			{"value":"Serotonin-Norepinephrine Reuptake Inhibitors"},
+			{"value":"Selective Serotonin Reuptake Inhibitors"}
         ],
         "answer" : "Serotonin-Norepinephrine Reuptake Inhibitors"
     },
@@ -689,10 +689,10 @@
         "title":"",  
         "question" : "SNRI’s have _________ effects such as agitation",
         "options" : [
-                "seratonergic",
-                "noradrenergic",
-                "histaminergic",
-                "cholinergic"
+			{"value": "seratonergic"},
+			{"value": "noradrenergic"},
+			{"value":"histaminergic"},
+			{"value":"cholinergic"}
         ],
         "answer" : "noradrenergic"
     },
@@ -703,8 +703,8 @@
         "title":"",  
         "question" : "(venlafaxine/duloxetine) is more potent than (venlafaxine/duloxetine)",
         "options" : [
-                "(venlafaxine, duloxetine)",
-                "(duloxetine, venlafaxine)"
+			{"value": "(venlafaxine, duloxetine)"},
+			{"value":"(duloxetine, venlafaxine)"}
         ],
         "answer" : "(venlafaxine, duloxetine)"
     },
@@ -715,10 +715,10 @@
         "title":"",  
         "question" : "SNRI’s are similar to TCA potency, have (less/more) side effects, and (faster/slower) than SRI alone",
         "options" : [
-                "(less, faster)",
-                "(more, slower)",
-                "(more, faster)",
-                "(less, slower)"
+			{"value": "(less, faster)"},
+			{"value": "(more, slower)"},
+			{"value":"(more, faster)"},
+			{"value":"(less, slower)"}
         ],
         "answer" : "(less, faster)"
     },
@@ -729,10 +729,10 @@
         "title":"",  
         "question" : "_________ has an active metabolite",
         "options" : [
-                "Duloxetine",
-                "Sibutramine",
-                "Venlafaxine",
-                "Milnacipran"
+			{"value": "Duloxetine"},
+			{"value": "Sibutramine"},
+			{"value":"Venlafaxine"},
+			{"value":"Milnacipran"}
         ],
         "answer" : "Venlafaxine"
     },
@@ -743,10 +743,10 @@
         "title":"",  
         "question" : "BONUS: Venlafaxine's active metabolite's name is:",
         "options" : [
-                "Ansofaxine",
-                "Duloxetine",
-                "Atomoxetine",
-                "Desvenlafaxine"
+			{"value": "Ansofaxine"},
+			{"value": "Duloxetine"},
+			{"value":"Atomoxetine"},
+			{"value":"Desvenlafaxine"}
         ],
         "answer" : "Desvenlafaxine"
     },
@@ -757,8 +757,8 @@
         "title":"",  
         "question" : "Tertiary TCAs have slightly greater selectivity for blockade of (Norepinephrine/Serotonin) reuptake over (Norepinephrine/Serotonin) reuptake",
         "options" : [
-                "(Norepinephrine, Serotonin)",
-                "(Serotonin, Norepinephrine)"
+			{"value": "(Norepinephrine, Serotonin)"},
+			{"value":"(Serotonin, Norepinephrine)"}
         ],
         "answer" : "(Serotonin, Norepinephrine)"
     },
@@ -769,10 +769,10 @@
         "title":"",  
         "question" : "Secondary TCA’s, such as (Nortriptyline/Amitriptyline) have greater selectivity for blockade of (Norepinephrine/Serotonin)",
         "options" : [
-                "(Nortriptyline, Norepinephrine)",
-                "(Nortriptyline, Serotonin)",
-                "(Amitriptyline, Norepinephrine)",
-                "(Amitriptyline, Serotonin)"
+			{"value": "(Nortriptyline, Norepinephrine)"},
+			{"value": "(Nortriptyline, Serotonin)"},
+			{"value":"(Amitriptyline, Norepinephrine)"},
+			{"value":"(Amitriptyline, Serotonin)"}
         ],
         "answer" : "(Nortriptyline, Norepinephrine)"
     },
@@ -783,10 +783,10 @@
         "title":"",  
         "question" : "TCA adverse effects include _____________ effects such as dry eyes and mouth",
         "options" : [
-                "adrenergic",
-                "antihistaminic",
-                "anticholinergic",
-                "antimuscarinic"
+			{"value": "adrenergic"},
+			{"value": "antihistaminic"},
+			{"value":"anticholinergic"},
+			{"value":"antimuscarinic"}
         ],
         "answer" : "antimuscarinic"
     },
@@ -797,10 +797,10 @@
         "title":"",  
         "question" : "Onset of action for TCA’s takes 2-3:",
         "options" : [
-                "months",
-                "weeks",
-                "days",
-                "minutes"
+			{"value": "months"},
+			{"value": "weeks"},
+			{"value":"days"},
+			{"value":"minutes"}
         ],
         "answer" : "weeks"
     },
@@ -811,10 +811,10 @@
         "title":"",  
         "question" : "Side effects include sexual dysfunction, constipation, and: ",
         "options" : [
-                "prominent GI effects",
-                "sedation",
-                "migraines",
-                "blood disorders"
+			{"value": "prominent GI effects"},
+			{"value": "sedation"},
+			{"value":"migraines"},
+			{"value":"blood disorders"}
         ],
         "answer" : "sedation"
     },
@@ -825,10 +825,10 @@
         "title":"",  
         "question" : "Significant side effect of both trazodone and mirtazepine is: ",
         "options" : [
-                "orthostatic hypotension",
-                "sedation",
-                "constipation",
-                "sexual effects"
+			{"value": "orthostatic hypotension"},
+			{"value": "sedation"},
+			{"value":"constipation"},
+			{"value":"sexual effects"}
         ],
         "answer" : "sedation"
     },
@@ -839,10 +839,10 @@
         "title":"",  
         "question" : "Trazodone works by blocking the ______ serotonin receptor and being an agonist at the _______ serotonin receptor",
         "options" : [
-                "(5HT_1A, 5HT_2A)",
-                "(5HT_1D, 5HT_2B)",
-                "(5HT_2A, 5HT_1A)",
-                "(5HT_2B, 5HT_1D)"
+			{"value": "(5HT_1A, 5HT_2A)"},
+			{"value": "(5HT_1D, 5HT_2B)"},
+			{"value":"(5HT_2A, 5HT_1A)"},
+			{"value":"(5HT_2B, 5HT_1D)"}
         ],
         "answer" : "(5HT_2A, 5HT_1A)"
     },
@@ -853,10 +853,10 @@
         "title":"",  
         "question" : "Mirtazapine blocks a serotonin receptor and a ________ receptor",
         "options" : [
-                "adrenergic",
-                "dopamine",
-                "histamine",
-                "muscarinic"
+			{"value": "adrenergic"},
+			{"value": "dopamine"},
+			{"value":"histamine"},
+			{"value":"muscarinic"}
         ],
         "answer" : "histamine"
     },
@@ -867,10 +867,10 @@
         "title":"",  
         "question" : "Buproprion has a potential for ___________ at high doses",
         "options" : [
-                "seizures",
-                "dyskinesia",
-                "memory loss",
-                "respiratory depression"
+			{"value": "seizures"},
+			{"value": "dyskinesia"},
+			{"value":"memory loss"},
+			{"value":"respiratory depression"}
         ],
         "answer" : "seizures"
     },
@@ -881,10 +881,10 @@
         "title":"",  
         "question" : "__________ can cause increase appetite and weight gain while ___________ can have the opposite effect",
         "options" : [
-                "(Mirtazapine, Buproprion)",
-                "(Buproprion, Mirtazapine)",
-                "(Trazodone, Buproprion)",
-                "(Buproprion, Trazodone)"
+			{"value": "(Mirtazapine, Buproprion)"},
+			{"value": "(Buproprion, Mirtazapine)"},
+			{"value":"(Trazodone, Buproprion)"},
+			{"value":"(Buproprion, Trazodone)"}
                 
         ],
         "answer" : "(Trazodone, Buproprion)"
@@ -896,10 +896,10 @@
         "title":"",  
         "question" : "______________ can be used a sleep aid independent of its antidepressant activity",
         "options" : [
-                "Fluoxetine",
-                "Mirtazapine",
-                "Buproprion",
-                "Trazadone"
+			{"value": "Fluoxetine"},
+			{"value": "Mirtazapine"},
+			{"value":"Buproprion"},
+			{"value":"Trazadone"}
         ],
         "answer" : "Trazadone"
     },
@@ -910,11 +910,11 @@
         "title":"",  
         "question" : "Gram positive bacteria have ___________ in their cell wall that determine its rigidity and __________ to regulate cation movement.",
         "options" : [
-                "teichoic acid, peptidoglycan",
-                "cellulose, teichoic acid",
-                "peptidoglycan, porins",
-                "cellulose, porins", 
-                "peptidoglycan, teichoic acid"
+			{"value": "teichoic acid, peptidoglycan"},
+			{"value": "cellulose, teichoic acid"},
+			{"value":"peptidoglycan, porins"},
+			{"value":"cellulose, porins"},
+			{"value":"peptidoglycan, teichoic acid"}
         ],
         "answer" : "peptidoglycan, teichoic acid"
     },
@@ -925,10 +925,10 @@
         "title":"",  
         "question" : "In Gram negative bacteria the area between the cytoplasmic membrane and thin layer of peptidoglycan is called the ___________.",
         "options" : [
-                "pericardium space",
-                "endoplasmic space",
-                "periplasmic space",
-                "pleuraplasmic space"
+			{"value": "pericardium space"},
+			{"value": "endoplasmic space"},
+			{"value":"periplasmic space"},
+			{"value":"pleuraplasmic space"}
         ],
         "answer" : "periplasmic space"
     },
@@ -939,10 +939,10 @@
         "title":"",  
         "question" : "Source of acetate in N-acetyl glucosamine (NAG) is _________.",
         "options" : [
-                "MurA",
-                "pyrophosphatase",
-                "phosphoenolpyruvate",
-                "acetyl CoA"
+			{"value": "MurA"},
+			{"value": "pyrophosphatase"},
+			{"value":"phosphoenolpyruvate"},
+			{"value":"acetyl CoA"}
         ],
         "answer" : "acetyl CoA"
     },
@@ -953,10 +953,10 @@
         "title":"",  
         "question" : "__________ is an irreversible inhibitor of MurA and targets the enzyme UDP-NAG Transferase",
         "options" : [
-                "Cycloserin",
-                "Bactoprene",
-                "Fosfomycin",
-                "Nitrofurantoin"
+			{"value": "Cycloserin"},
+			{"value": "Bactoprene"},
+			{"value":"Fosfomycin"},
+			{"value":"Nitrofurantoin"}
         ],
         "answer" : "Fosfomycin"
     },
@@ -967,10 +967,10 @@
         "title":"",  
         "question" : "Fosfomycin is indicated for ___________",
         "options" : [
-                "meningitis",
-                "UTI",
-                "pneumonia",
-                "yeast infection"
+			{"value": "meningitis"},
+			{"value": "UTI"},
+			{"value":"pneumonia"},
+			{"value":"yeast infection"}
                 
         ],
         "answer" : "UTI"
@@ -982,10 +982,10 @@
         "title":"",  
         "question" : "_____________ is a reversible competitive inhibitor of Alanine racemase and D-Ala D-Ala ligase",
         "options" : [
-                "Fosfomycin",
-                "Bacitracin",
-                "Vancomycin",
-                "Cycloserine"
+			{"value": "Fosfomycin"},
+			{"value": "Bacitracin"},
+			{"value":"Vancomycin"},
+			{"value":"Cycloserine"}
         ],
         "answer" : "Cycloserine"
     },
@@ -996,10 +996,10 @@
         "title":"",  
         "question" : "A serious side effect of cycloserine is ____________ caused by NMDA binding",
         "options" : [
-                "muscle aches",
-                "ototoxicity",
-                "nephrotoxicity",
-                "neurotoxicity"
+			{"value": "muscle aches"},
+			{"value": "ototoxicity"},
+			{"value":"nephrotoxicity"},
+			{"value":"neurotoxicity"}
         ],
         "answer" : "neurotoxicity"
     },
@@ -1010,12 +1010,12 @@
         "title":"",  
         "question" : "_________ binds to pyrophosphatase and prevents regeneration of _________",
         "options" : [
-                "Bactoprene, Bacitracin",
-                "Bacitracin, Bactoprene",
-                "Vancomycin, Acetyl coA",
-                "Cycloserine, Acetyl coA",
-                "Bacitracin, Peptidoglycan",
-                "Vancomycin, Peptidoglycan"
+			{"value": "Bactoprene, Bacitracin"},
+			{"value": "Bacitracin, Bactoprene"},
+			{"value":"Vancomycin, Acetyl coA"},
+			{"value":"Cycloserine, Acetyl coA"},
+			{"value":"Bacitracin, Peptidoglycan"},
+			{"value":"Vancomycin, Peptidoglycan"}
         ],
         "answer" : "Bacitracin, Bactoprene"
     },
@@ -1026,11 +1026,11 @@
         "title":"",  
         "question" : "Vancomycin binds to peptidoglycan to prevent crosslinking. Resistance to Vancomycin occurs through a change in structure of peptidoglycan from an ___________.",
         "options" : [
-                "ester, to an amide",
-                "amide to an ester",
-                "amine to an ester",
-                "amide to an ether",
-                "amide to an ether"
+			{"value": "ester, to an amide"},
+			{"value": "amide to an ester"},
+			{"value":"amine to an ester"},
+			{"value":"amide to an ether"},
+			{"value":"amide to an ether"}
         ],
         "answer" : "amide to an ester"
     },
@@ -1041,10 +1041,10 @@
         "title":"",  
         "question" : "Vancomycin is not orally absorbed but can treat ___________",
         "options" : [
-                "Meningitis",
-                "UTI",
-                "C. Diff Infections",
-                "Pheumonia"
+			{"value": "Meningitis"},
+			{"value": "UTI"},
+			{"value":"C. Diff Infections"},
+			{"value":"Pheumonia"}
         ],
         "answer" : "C. Diff Infections"
     },
@@ -1055,10 +1055,10 @@
         "title":"",  
         "question" : "To avoid the side effect ___________, vancomycin should be infused _________",
         "options" : [
-                "Steven’s Johnson Syndrome, slowly",
-                "Reye’s Syndrome, rapidly",
-                "Red Man Syndrome, slowly",
-                "Extrapyramidal symptoms, rapidly"
+			{"value": "Steven’s Johnson Syndrome, slowly"},
+			{"value": "Reye’s Syndrome, rapidly"},
+			{"value":"Red Man Syndrome, slowly"},
+			{"value":"Extrapyramidal symptoms, rapidly"}
         ],
         "answer" : "Red Man Syndrome, slowly"
     },
@@ -1069,10 +1069,10 @@
         "title":"",  
         "question" : "Daptomycin cannot be used for ________ because of inactivation by surfactants",
         "options" : [
-                "UTI",
-                "Pneumonia",
-                "Otitis",
-                "Sinusitis"
+			{"value": "UTI"},
+			{"value": "Pneumonia"},
+			{"value":"Otitis"},
+			{"value":"Sinusitis"}
         ],
         "answer" : "Pneumonia"
     },
@@ -1083,10 +1083,10 @@
         "title":"",  
         "question" : "Penicillins bind and inhibit __________ to prevent crosslinking.",
         "options" : [
-                "Ligases",
-                "Mur A",
-                "Pyrophosphatases",
-                "Penicillin Binding Proteins (PBP)"
+			{"value": "Ligases"},
+			{"value": "Mur A"},
+			{"value":"Pyrophosphatases"},
+			{"value":"Penicillin Binding Proteins (PBP)"}
         ],
         "answer" : "Penicillin Binding Proteins (PBP)"
     },
@@ -1097,9 +1097,9 @@
         "title":"",  
         "question" : "Resistance to penicillins develops quickly due to ________ or PBP mutations",
         "options" : [
-                "β-lactamases",
-                "acid-base condition changes",
-                "alteration of side chains"
+			{"value": "β-lactamases"},
+			{"value": "acid-base condition changes"},
+			{"value":"alteration of side chains"}
         ],
         "answer" : "β-lactamases"
     },
@@ -1110,9 +1110,9 @@
         "title":"",  
         "question" : "Clavulanic acid, Sulbactam, and Tazobactam are all examples of β-lactamase ________.",
         "options" : [
-                "inducers",
-                "inhibitors",
-                "producers"
+			{"value": "inducers"},
+			{"value": "inhibitors"},
+			{"value":"producers"}
         ],
         "answer" : "inhibitors"
     },
@@ -1123,10 +1123,10 @@
         "title":"",  
         "question" : "_________ is combined with imipenem to avoid degradation in the kidney.",
         "options" : [
-                "Polymixin",
-                "Colistin",
-                "Cilastatin",
-                "Clavulanic acid "
+			{"value": "Polymixin"},
+			{"value": "Colistin"},
+			{"value":"Cilastatin"},
+			{"value":"Clavulanic acid "}
         ],
         "answer" : "Cilastatin"
     },
@@ -1137,10 +1137,10 @@
         "title":"",  
         "question" : "Carbapenem resistant Enterobacteriaceae (CRE) can be treated with polymixin and ______. ",
         "options" : [
-                "cilastatin",
-                "clavulanic acid",
-                "sulbactam",
-                "colistin"
+			{"value": "cilastatin"},
+			{"value": "clavulanic acid"},
+			{"value":"sulbactam"},
+			{"value":"colistin"}
         ],
         "answer" : "colistin"
     },
@@ -1151,10 +1151,10 @@
         "title":"",  
         "question" : "Carbapenems cannot be combined with _________. ",
         "options" : [
-                "tetracyclines",
-                "other beta lactams",
-                "aminoglycosides",
-                "macrolides"
+			{"value": "tetracyclines"},
+			{"value": "other beta lactams"},
+			{"value":"aminoglycosides"},
+			{"value":"macrolides"}
         ],
         "answer" : "aminoglycosides"
     },
@@ -1165,9 +1165,9 @@
         "title":"",  
         "question" : "Cephalosporins are inherently ____ active than Penicillins but are ____ resistant to β-lactamases.",
         "options" : [
-                "less, more",
-                "more, less",
-                "more, not"
+			{"value": "less, more"},
+			{"value": "more, less"},
+			{"value":"more, not"}
         ],
         "answer" : "less, more"
     },
@@ -1178,10 +1178,10 @@
         "title":"",  
         "question" : "Cephalosporins substituted with a _______ can extend the spectrum but also cause side effects such as _______ and Disulfiram-like effect.",
         "options" : [
-                "amide, hemolytic anemia",
-                "ester, thrombocytosis",
-                "sulfa group, leukopenia",
-                "MTT group, hypothrombocytopenia"
+			{"value": "amide, hemolytic anemia"},
+			{"value": "ester, thrombocytosis"},
+			{"value":"sulfa group, leukopenia"},
+			{"value":"MTT group, hypothrombocytopenia"}
         ],
         "answer" : "MTT group, hypothrombocytopenia"
     },
@@ -1192,10 +1192,10 @@
         "title":"",  
         "question" : "_______ are mostly reserved for serious Gram-negative infections such as meningitis.",
         "options" : [
-                "Carbapenems",
-                "Beta Lactams",
-                "Aminoglycosides",
-                "Monobactams"
+			{"value": "Carbapenems"},
+			{"value": "Beta Lactams"},
+			{"value":"Aminoglycosides"},
+			{"value":"Monobactams"}
         ],
         "answer" : "Monobactams"
     },
@@ -1206,10 +1206,10 @@
         "title":"",  
         "question" : "_______ is an inhalent to treat chronic pseudomonas infections with CF patients, has activity against pseudomonas because it has the same side chain as _______.",
         "options" : [
-                "Imipenem, cefixime",
-                "Meropenem, ceftaxime",
-                "Aztreonam, ceftazidine",
-                "Ertapenem, cephalexin"
+			{"value": "Imipenem, cefixime"},
+			{"value": "Meropenem, ceftaxime"},
+			{"value":"Aztreonam, ceftazidine"},
+			{"value":"Ertapenem, cephalexin"}
         ],
         "answer" : "Aztreonam, ceftazidine"
     },
@@ -1220,10 +1220,10 @@
         "title":"",  
         "question" : "Sulfonamides can be slow to act because you must deplete the _______ pool before seeing an effect.",
         "options" : [
-                "glutathione",
-                "sulfa",
-                "folate",
-                "DHPS"
+			{"value": "glutathione"},
+			{"value": "sulfa"},
+			{"value":"folate"},
+			{"value":"DHPS"}
         ],
         "answer" : "folate"
     },
@@ -1234,10 +1234,10 @@
         "title":"",  
         "question" : "Sulfonamides can cause _______ in infants.",
         "options" : [
-                "ototoxicity",
-                "kernicterus",
-                "grey baby syndrome",
-                "nephrotoxicity "
+			{"value": "ototoxicity"},
+			{"value": "kernicterus"},
+			{"value":"grey baby syndrome"},
+			{"value":"nephrotoxicity "}
         ],
         "answer" : "kernicterus"
     },
@@ -1248,10 +1248,10 @@
         "title":"",  
         "question" : "_______ is a side effect of sulfonamides so the medication should be taken at night.",
         "options" : [
-                "Drowsiness",
-                "Confusion",
-                "Photosensitivity",
-                "Blindness"
+			{"value": "Drowsiness"},
+			{"value": "Confusion"},
+			{"value":"Photosensitivity"},
+			{"value":"Blindness"}
         ],
         "answer" : "Photosensitivity"
     },
@@ -1262,10 +1262,10 @@
         "title":"",  
         "question" : "Patients with _______ may show increased incidence of side effects.",
         "options" : [
-                "alcoholism",
-                "diabetes",
-                "G6P deficiency",
-                "neuropathy"
+			{"value": "alcoholism"},
+			{"value": "diabetes"},
+			{"value":"G6P deficiency"},
+			{"value":"neuropathy"}
         ],
         "answer" : "G6P deficiency"
     },
@@ -1276,10 +1276,10 @@
         "title":"",  
         "question" : "Selective toxicity to sulfonamides in bacterial cells over mammalian cells occurs because humans lack _______ .",
         "options" : [
-                "dihydrofolate reductase",
-                "cell walls",
-                "folic acid synthesis pathways",
-                "peptidoglycan"
+			{"value": "dihydrofolate reductase"},
+			{"value": "cell walls"},
+			{"value":"folic acid synthesis pathways"},
+			{"value":"peptidoglycan"}
         ],
         "answer" : "folic acid synthesis pathways"
     },
@@ -1290,10 +1290,10 @@
         "title":"",  
         "question" : "A side effect of Bactrim that affects skin and mucous membranes is either _______ .",
         "options" : [
-                "Eczema or Impetigo",
-                "Toxic Epidermal Necrolysis or Stevens Johnson Syndrome",
-                "Impetigo or Toxic Epidermal Necrolysis",
-                "Psoriasis or Stevens Johnson Syndrome"
+			{"value": "Eczema or Impetigo"},
+			{"value": "Toxic Epidermal Necrolysis or Stevens Johnson Syndrome"},
+			{"value":"Impetigo or Toxic Epidermal Necrolysis"},
+			{"value":"Psoriasis or Stevens Johnson Syndrome"}
         ],
         "answer" : "Toxic Epidermal Necrolysis or Stevens Johnson Syndrome"
     },
@@ -1304,11 +1304,11 @@
         "title":"",  
         "question" : "If a patient is taking Bactrim and is G6DP deficient, _______ may be depleted and affect drug metabolism.",
         "options" : [
-                "Folic acid",
-                "liver enzymes",
-                "white blood cells",
-                "lymph",
-                "Glutathione"
+			{"value": "Folic acid"},
+			{"value": "liver enzymes"},
+			{"value":"white blood cells"},
+			{"value":"lymph"},
+			{"value":"Glutathione"}
         ],
         "answer" : "Glutathione"
     },
@@ -1319,10 +1319,10 @@
         "title":"",  
         "question" : "Sulfonamides target _______ to ultimately inhibit Folic Acid.",
         "options" : [
-                "DHFR",
-                "DHPS",
-                "G6P",
-                "Folic Acid"
+			{"value": "DHFR"},
+			{"value": "DHPS"},
+			{"value":"G6P"},
+			{"value":"Folic Acid"}
         ],
         "answer" : "DHPS"
     },
@@ -1333,10 +1333,10 @@
         "title":"",  
         "question" : "Quinolones have a side effect of _______ due to a high pka of the acid.",
         "options" : [
-                "UTI",
-                "Crystalluria",
-                "Cystitis",
-                "BPH"
+			{"value": "UTI"},
+			{"value": "Crystalluria"},
+			{"value":"Cystitis"},
+			{"value":"BPH"}
         ],
         "answer" : "Crystalluria"
     },
@@ -1347,10 +1347,10 @@
         "title":"",  
         "question" : "A serious side effect of quinolones that have given it a black box warning is _______ .",
         "options" : [
-                "myelosuppression",
-                "myalgia",
-                "muscular dystrophy",
-                "tendon rupture"
+			{"value": "myelosuppression"},
+			{"value": "myalgia"},
+			{"value":"muscular dystrophy"},
+			{"value":"tendon rupture"}
         ],
         "answer" : "tendon rupture"
     },
@@ -1361,10 +1361,10 @@
         "title":"",  
         "question" : "Combination with _______ cause synergistic inhibition of GABA receptors and neuroexcitatory activity.",
         "options" : [
-                "Narcotics",
-                "Antidepressants",
-                "Antipsychotics",
-                "NSAIDs"
+			{"value": "Narcotics"},
+			{"value": "Antidepressants"},
+			{"value":"Antipsychotics"},
+			{"value":"NSAIDs"}
         ],
         "answer" : "NSAIDs"
     },
@@ -1375,10 +1375,10 @@
         "title":"",  
         "question" : "A side effect of quinolones is _______ so caution should be taken with heart condition.",
         "options" : [
-                "Bradycardia",
-                "QT prolongation",
-                "ST segment prolongation",
-                "Hypertension"
+			{"value": "Bradycardia"},
+			{"value": "QT prolongation"},
+			{"value":"ST segment prolongation"},
+			{"value":"Hypertension"}
         ],
         "answer" : "QT prolongation"
     },
@@ -1389,9 +1389,9 @@
         "title":"",  
         "question" : "Fluoroquinolones should be taken in the evening due to _______ .",
         "options" : [
-                "drowsiness",
-                "overactive bladder",
-                "photosensitivity"
+			{"value": "drowsiness"},
+			{"value": "overactive bladder"},
+			{"value":"photosensitivity"}
         ],
         "answer" : "photosensitivity"
     },
@@ -1402,10 +1402,10 @@
         "title":"",  
         "question" : "Toxicity to tetracyclines include chelation with _______ which can affect teeth and bone formation.",
         "options" : [
-                "magnesium",
-                "sodium",
-                "potassium",
-                "calcium"
+			{"value": "magnesium"},
+			{"value": "sodium"},
+			{"value":"potassium"},
+			{"value":"calcium"}
         ],
         "answer" : "calcium"
     },
@@ -1416,10 +1416,10 @@
         "title":"",  
         "question" : "Tetracyclines can cause drug induced _______ so caution in renally impaired patients.",
         "options" : [
-                "Renal Fanconi syndrome",
-                "renal failure",
-                "kidney stones",
-                "CKD"
+			{"value": "Renal Fanconi syndrome"},
+			{"value": "renal failure"},
+			{"value":"kidney stones"},
+			{"value":"CKD"}
         ],
         "answer" : "Renal Fanconi syndrome"
     },
@@ -1430,10 +1430,10 @@
         "title":"",  
         "question" : "Contraindicated in patients less than eight years old or _______.",
         "options" : [
-                "Diabetic",
-                "asthmatic",
-                "pregnant",
-                "lactating"
+			{"value": "Diabetic"},
+			{"value": "asthmatic"},
+			{"value":"pregnant"},
+			{"value":"lactating"}
         ],
         "answer" : "pregnant"
     },
@@ -1444,10 +1444,10 @@
         "title":"",  
         "question" : "Aminoglycosides have toxicity problems such as ototoxicity and _______ .",
         "options" : [
-                "neurotoxicity",
-                "retinal toxicity",
-                "nephrotoxocity",
-                "hepatotoxicity"
+			{"value": "neurotoxicity"},
+			{"value": "retinal toxicity"},
+			{"value":"nephrotoxocity"},
+			{"value":"hepatotoxicity"}
         ],
         "answer" : "nephrotoxocity"
     },
@@ -1458,9 +1458,9 @@
         "title":"",  
         "question" : "Can be deadly due to _______ failure.",
         "options" : [
-                "renal",
-                "liver",
-                "respiratory"
+			{"value": "renal"},
+			{"value": "liver"},
+			{"value":"respiratory"}
         ],
         "answer" : "respiratory"
     },
@@ -1471,9 +1471,9 @@
         "title":"",  
         "question" : "Prolonged exposure to aminoglycosides can cause toxic side effects so “ _______ ” is used to give the dose once daily.",
         "options" : [
-                "Extended interval dosing",
-                "pulse dosing",
-                "dosing pump"
+			{"value": "Extended interval dosing"},
+			{"value": "pulse dosing"},
+			{"value":"dosing pump"}
         ],
         "answer" : "pulse dosing"
     },
@@ -1484,12 +1484,12 @@
         "title":"",  
         "question" : "The most toxic aminoglycoside that is used therapeutically is _______ but it is only used _______ .",
         "options" : [
-                "Bleomycin, Orally",
-                "Bleomycin, Intravenously",
-                "Neomycin, Topically",
-                "Neomycin, Intravenously",
-                "Streptomycin, Orally",
-                "Streptomycin, Topically"
+			{"value": "Bleomycin, Orally"},
+			{"value": "Bleomycin, Intravenously"},
+			{"value":"Neomycin, Topically"},
+			{"value":"Neomycin, Intravenously"},
+			{"value":"Streptomycin, Orally"},
+			{"value":"Streptomycin, Topically"}
         ],
         "answer" : "Neomycin, Topically"
     },
@@ -1500,10 +1500,10 @@
         "title":"",  
         "question" : "Two disorders that put patients at higher risk for neurotoxicity with aminoglycosides are Myasthenia Gravis and _______ .",
         "options" : [
-                "Parkinson’s disease",
-                "epilepsy",
-                "dementia",
-                "multiple sclerosis"
+			{"value": "Parkinson’s disease"},
+			{"value": "epilepsy"},
+			{"value":"dementia"},
+			{"value":"multiple sclerosis"}
         ],
         "answer" : "Parkinson’s disease"
     },
@@ -1514,10 +1514,10 @@
         "title":"",  
         "question" : "Macrolides have many DDI’s with other drugs such as _______ .",
         "options" : [
-                "ACE inhibitors",
-                "NSAIDs",
-                "Beta Blockers",
-                "statins"
+			{"value": "ACE inhibitors"},
+			{"value": "NSAIDs"},
+			{"value":"Beta Blockers"},
+			{"value":"statins"}
         ],
         "answer" : "statins"
     },
@@ -1528,10 +1528,10 @@
         "title":"",  
         "question" : " _______ has evidence for liver transplant.",
         "options" : [
-                "Dirithromycin",
-                "Azithromycin",
-                "Erythromycin",
-                "Telithromycin"
+			{"value": "Dirithromycin"},
+			{"value": "Azithromycin"},
+			{"value":"Erythromycin"},
+			{"value":"Telithromycin"}
         ],
         "answer" : "Telithromycin"
     },
@@ -1542,10 +1542,10 @@
         "title":"",  
         "question" : "The macrolide ________ is a prodrug activated by hydrolysis.",
         "options" : [
-                "Dirithromycin",
-                "Telithromycin",
-                "Erythromycin",
-                "Azithromycin"
+			{"value": "Dirithromycin"},
+			{"value": "Telithromycin"},
+			{"value":"Erythromycin"},
+			{"value":"Azithromycin"}
         ],
         "answer" : "Dirithromycin"
     },
@@ -1556,10 +1556,10 @@
         "title":"",  
         "question" : "Synercid, a combination including quinupristin and dalfopristin, can only be administered with _______.",
         "options" : [
-                "orally",
-                "IV",
-                "intrathecal",
-                "injection"
+			{"value": "orally"},
+			{"value": "IV"},
+			{"value":"intrathecal"},
+			{"value":"injection"}
         ],
         "answer" : "IV"
     },
@@ -1570,10 +1570,10 @@
         "title":"",  
         "question" : "High levels of chloramphenicol may cause fatal neonatal toxicity and _______ .",
         "options" : [
-                "thrombocytopenia",
-                "hemolytic anemia",
-                "aplastic anemia",
-                "leukemia"
+			{"value": "thrombocytopenia"},
+			{"value": "hemolytic anemia"},
+			{"value":"aplastic anemia"},
+			{"value":"leukemia"}
         ],
         "answer" : "aplastic anemia"
     },
@@ -1584,10 +1584,10 @@
         "title":"",  
         "question" : "A side effect of Streptogramin is _______ .",
         "options" : [
-                "muscle/joint pain",
-                "myalgia",
-                "constipation",
-                "neuropathy"
+			{"value": "muscle/joint pain"},
+			{"value": "myalgia"},
+			{"value":"constipation"},
+			{"value":"neuropathy"}
         ],
         "answer" : "muscle/joint pain"
     },
@@ -1598,10 +1598,10 @@
         "title":"",  
         "question" : "Azithromycin has a caution for patients as risk of _______ .",
         "options" : [
-                "Diabetes",
-                "Heart failure",
-                "QT prolongation",
-                "Liver failure"
+			{"value": "Diabetes"},
+			{"value": "Heart failure"},
+			{"value":"QT prolongation"},
+			{"value":"Liver failure"}
         ],
         "answer" : "QT prolongation"
     },
@@ -1612,10 +1612,10 @@
         "title":"",  
         "question" : " _______ has the least potential for Cyp450 inhibition.",
         "options" : [
-                "Azithromycin",
-                "Erythromycin",
-                "Telithromycin",
-                "Bleomycin"
+			{"value": "Azithromycin"},
+			{"value": "Erythromycin"},
+			{"value":"Telithromycin"},
+			{"value":"Bleomycin"}
         ],
         "answer" : "Azithromycin"
     }

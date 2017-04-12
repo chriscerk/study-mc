@@ -52,7 +52,7 @@
     <h2>{{CurrentAction[action]}} Course</h2>
     <form (ngSubmit)="submit()" #coursesForm="ngForm" class="courses-form" novalidate>
     <div class="form-group">
-        <label for="courseId">Course Id</label>
+        <label>Course Id</label>
         <input type="number"
             [(ngModel)]="currentCourse.id" 
             #courseId="ngModel"
@@ -61,7 +61,7 @@
             <div class="alert alert-danger" [hidden]="courseId.valid">Course Id is required</div>
     </div>
      <div class="form-group">
-        <label for="courseStatus">Course Visibility</label>
+        <label>Course Visibility</label>
         <select [(ngModel)]="currentCourse.status"
                 #courseStatus="ngModel"
                 name="courseStatus"
@@ -73,16 +73,30 @@
          <div class="alert alert-danger" [hidden]="courseStatus.valid">Course Status is required</div>
     </div>
      <div class="form-group">
-        <label for="courseName">Course Title</label>
+        <label>Course Title</label>
         <input type="text"
             [(ngModel)]="currentCourse.title" 
             #courseTitle="ngModel"
             name="courseTitle"/>
     </div>
-    <label for="courseTopics">Topics</label>
-     <div id="courseTopics" *ngIf="currentCourse.topics.length">
+    <label><h3>Topics</h3></label>
+     <div *ngIf="currentCourse.topics.length" class="inputYoverflow">
         <div *ngFor="let topic of currentCourse.topics; let i = index;" >
-            <input [(ngModel)]="currentCourse.topics[i]" type="text" id="{{currentCourse.id}}-topic-{{i}}" name="{{currentCourse.id}}-topic-{{i}}" required/>
+            <label>{{i+1}}. Topic Name</label>
+            <input [(ngModel)]="currentCourse.topics[i].name" type="text" #topicName="ngModel" name="{{currentCourse.id}}-topic-{{i}}-name" required/>
+            <div class="alert alert-danger" [hidden]="topicName.valid">Course Status is required</div>
+            <br/>
+            <label>{{i+1}}. Topic Status</label>
+            <select [(ngModel)]="currentCourse.topics[i].status"
+                #topicStatus="ngModel"
+                name="{{currentCourse.id}}-topic-{{i}}-topicStatus"
+                required>
+                <option value="active">active</option>
+                <option value="inactive">inactive</option>
+                <option value="hidden">hidden</option>
+            </select>
+            <div class="alert alert-danger" [hidden]="topicStatus.valid">Course Status is required</div>
+            <br/>
             <br/>
         </div>
     </div>

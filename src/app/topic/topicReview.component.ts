@@ -50,7 +50,7 @@ export class TopicReviewComponent implements OnInit {
             .subscribe((items: IReviewItem[]) => this.reviewItems = items);
       });
 
-      this.lastItem = this.reviewItems.length - 1;
+      this.lastItem = this.reviewItems ? this.reviewItems.length - 1 : 0;
       this.orientation = 'void';
   }
 

@@ -89,7 +89,7 @@ export class TestDataComponent implements OnInit {
     }
 
     addOption() {
-        this.currentTestProblem.options.push('');
+        this.currentTestProblem.options.push({'value': ''});
     }
 
     removeOption() {

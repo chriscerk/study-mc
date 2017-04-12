@@ -1,0 +1,60 @@
+[
+    {
+        "title": "Drugs",  
+        "sections" : [
+                {"title": "Diazepam", "imagePath": "diazepam.PNG" },
+                {"title": "Lorazepam", "imagePath": "lorazepam.PNG" }, 
+                {"title": "Temazepam", "imagePath": "temazepam.PNG" },
+                {"title": "Triazolam", "imagePath": "triazolam.PNG" },
+                {"title": "Midazolam", "imagePath": "midazolam.PNG" }
+        ]
+    },
+    {
+        "title": "SAR Characteristics",  
+        "sections" : [
+                {"title": "", "content": "" },
+                {"title": "", "content": "" }, 
+                {"title": "", "content": "" },
+                {"title": "", "content": "" },
+                {"title": "", "content": "" },
+                {"title": "", "content": "" },
+                {"title": "", "content": "" },
+                {"title": "", "content": "" }
+        ]
+    },
+    {
+        "title": "Pharmokinetic",  
+        "sections" : [
+                {"title": "Absorption", "content": "" },
+                {"title": "Distribution", "content": "" }, 
+                {"title": "Metabolism", "content": "" },
+                {"title": "Excretion", "content": ""  }
+        ]
+    },
+    {
+        "title": "Action",  
+        "sections" : [
+                {"title": "MOA", "imagePath": "moa.PNG" },
+                {"title": "Mechanism of Action", "content": "" },
+                {"title": "Pharmacological Action", "content": "" }
+        ]
+    },
+    {
+        "title": "Side-Effects",  
+        "sections" : [
+                {"title": "Side-Effects", "content": "" }
+        ]
+    },
+    {
+        "title": "Uses",  
+        "sections" : [
+                {"title": "Uses", "content": "" }
+        ]
+    },
+    {
+        "title": "Notes",  
+        "sections" : [
+                {"title": "Notes", "content": "" }
+        ]
+    }
+]

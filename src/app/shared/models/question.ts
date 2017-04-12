@@ -5,7 +5,7 @@ export interface IQuestion {
 
 export interface IMultipleChoice extends IQuestion {
     question: string;
-    options: string[];
+    options: Option[];
     answer: string;
 }
 
@@ -17,4 +17,8 @@ export interface IFillInTheBlank extends IQuestion {
 export interface ILongAnswer extends IQuestion {
     question: string;
     answer: string;
+}
+
+export class Option {
+    value: string;
 }
