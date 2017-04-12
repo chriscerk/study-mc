@@ -1,3 +1,5 @@
+import { ITestItem, TestProblem } from './../shared/models/test';
+import { TestService } from './../core/services/test/test.service';
 import { EndMessageComponent } from './../shared/components/end-message/end-message.component';
 import { IOldTopic } from './../shared/models/topic';
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
@@ -17,11 +19,8 @@ type Orientation = ( 'void' | 'next' | 'none' | 'previous' );
   styleUrls: ['./topic.component.css'],
   animations: [nextPrevAnimation]
 })
-
-
 export class TopicTestComponent implements OnInit {
-
-  topic: IOldTopic;
+  testItems: TestProblem[];
   private sub: Subscription;
   router: Router;
   userAnswer: string;
@@ -35,24 +34,23 @@ export class TopicTestComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     router: Router,
-    private dataService: DataService,
-    private changeDetectorRef: ChangeDetectorRef) {
+    private changeDetectorRef: ChangeDetectorRef,
+    private testService: TestService) {
 
-      this.router = router;
-      this.validAnswer = true;
-      this.userAnswer = 'Current Question Not Answered Yet';
-      this.currentQuestion = 0;
-      this.incorrectAnswers = 0;
-      this.moduleIsComplete = false;
-      this.changeDetectorRef = changeDetectorRef;
+    this.router = router;
+    this.validAnswer = true;
+    this.userAnswer = 'Current Question Not Answered Yet';
+    this.currentQuestion = 0;
+    this.incorrectAnswers = 0;
+    this.moduleIsComplete = false;
+    this.changeDetectorRef = changeDetectorRef;
    }
 
-//TODO: get testTopic by name to use for params...
   ngOnInit() {
       this.sub = this.route.parent.params.subscribe(params => {
-        let id = +params['id'];
-        this.dataService.getTopic(id)
-            .subscribe((topic: IOldTopic) => this.topic = topic);
+        let name = params['name'];
+        this.testService.getFirebaseTestProblemsByTopic(name)
+            .subscribe((items: TestProblem[]) => this.testItems = items);
       });
 
       this.orientation = 'void';
@@ -79,18 +77,18 @@ export class TopicTestComponent implements OnInit {
     this.userAnswer = 'Current Question Not Answered Yet';
     this.currentQuestion++;
 
-    if(this.topic.testItems.length == this.currentQuestion)
+    if(this.testItems.length == this.currentQuestion)
     {
       this.moduleIsComplete = true;
     }
     this.orientation = 'void';
   }
 
-  wrongAnswer(){
+  wrongAnswer() {
     this.validAnswer = false;
   }
 
-  retryQuestion(){
+  retryQuestion() {
     this.userAnswer = 'Current Question Not Answered Yet';
     this.validAnswer = true;
     this.incorrectAnswers++;

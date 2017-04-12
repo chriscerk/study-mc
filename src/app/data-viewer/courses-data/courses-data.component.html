@@ -31,10 +31,10 @@
             <td>{{course.id}}</td>
             <td *ngIf="course.topics; else zero">{{course.topics.length}}</td> 
             <td>{{course.status}}</td> 
-            <td>{{course.name}}</td>
-            <td *ngIf="!editBoxDisplayed">
+            <td>{{course.title}}</td>
+            <td *ngIf="CurrentAction.View == action">
                 <div *ngIf="!course.isLocked; else locked" class="pull-right">
-                    <button class="btn btn-info" *ngIf="course.number" (click)="updateCourse(course.number)">Update</button>&nbsp;&nbsp;
+                    <button class="btn btn-info" *ngIf="course.number" (click)="setEditKey(course.number)">Edit</button>&nbsp;&nbsp;
                     <button class="btn btn-danger" *ngIf="course.number" (click)="deleteCourse(course.number)">Delete</button>&nbsp;&nbsp;
                 </div>
             </td>
@@ -44,11 +44,12 @@
     </tbody>
 </table>
 
-<div class="shaded" *ngIf="!editBoxDisplayed">
-    <button type='button' class="btn-success add-button" (click)="editBoxDisplayed = true">+</button>
+<div class="shaded" *ngIf="CurrentAction.View == action">
+    <button type='button' class="btn-success add-button" (click)="action = CurrentAction.Add">+</button>
 </div>
-<div *ngIf="editBoxDisplayed" class="input-group input-group-sm text-center" id="editBox">
-    <h2>Add Course</h2>
+
+<div *ngIf="action != CurrentAction.View" class="input-group input-group-sm text-center" id="editBox">
+    <h2>{{CurrentAction[action]}} Course</h2>
     <form (ngSubmit)="submit()" #coursesForm="ngForm" class="courses-form" novalidate>
     <div class="form-group">
         <label for="courseId">Course Id</label>
@@ -72,11 +73,11 @@
          <div class="alert alert-danger" [hidden]="courseStatus.valid">Course Status is required</div>
     </div>
      <div class="form-group">
-        <label for="courseName">Course Name</label>
+        <label for="courseName">Course Title</label>
         <input type="text"
-            [(ngModel)]="currentCourse.name" 
-            #courseName="ngModel"
-            name="courseName"/>
+            [(ngModel)]="currentCourse.title" 
+            #courseTitle="ngModel"
+            name="courseTitle"/>
     </div>
     <label for="courseTopics">Topics</label>
      <div id="courseTopics" *ngIf="currentCourse.topics.length">
@@ -84,14 +85,6 @@
             <input [(ngModel)]="currentCourse.topics[i]" type="text" id="{{currentCourse.id}}-topic-{{i}}" name="{{currentCourse.id}}-topic-{{i}}" required/>
             <br/>
         </div>
-    </div>
-    <div class="checkbox">
-        <label>
-            <input type="checkbox"  
-            [(ngModel)]="currentCourse.isLocked" 
-            #isLocked="ngModel"
-            name="isLocked" > Lock Course
-        </label>
     </div>
     <br>
      <button type='button' class="btn-danger btn-default btn btn-sm" (click)="removeTopic()">
@@ -102,11 +95,19 @@
     </button>
     <br>
     <br>
+    <div class="checkbox">
+        <label>
+            <input type="checkbox"  
+            [(ngModel)]="currentCourse.isLocked" 
+            #isLocked="ngModel"
+            name="isLocked" > Lock Course
+        </label>
+    </div>
      <button type='button' class="btn-default btn" (click)="cancelAction()">
       Cancel
     </button>
-    <button type='button' *ngIf="coursesForm.valid" class="btn-success btn-default btn" (click)="addCourse()">
-       Add Course
+    <button type='button' *ngIf="coursesForm.valid" class="btn-success btn-default btn" (click)="submit()">
+       {{CurrentAction[action]}} Course
     </button>
     </form>
 </div>

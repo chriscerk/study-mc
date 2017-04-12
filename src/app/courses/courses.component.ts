@@ -12,8 +12,6 @@ import { DataService } from '../core/services/data.service';
 export class CoursesComponent implements OnInit {
 
   courses: ICourse[] = [];
-  filteredCourses: ICourse[] = [];
-
   appTitle: string;
   college: string;
   university: string;
@@ -24,10 +22,9 @@ export class CoursesComponent implements OnInit {
     this.appTitle = 'StudyMC';
     this.college = 'College of Pharmacy';
     this.university = 'University of Michigan';
-
-     this.courseService.getCourses()
-        .subscribe((courses: ICourse[]) => {
-          this.courses = this.filteredCourses = courses;
-        });
+    this.courseService.getFirebaseCourses()
+      .subscribe((courses: ICourse[]) => {
+        this.courses = courses;
+      });
   }
 }

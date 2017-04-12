@@ -10,18 +10,17 @@ import { Component, OnInit, Input, AfterViewInit } from '@angular/core';
 })
 export class CanvasCompoundComponent implements OnInit, AfterViewInit {
     @Input() learnItem: InteractiveMolecule;
-    @Input() topic: ITopic;
     @Input() i: number;
     canvasId: string;
   
     constructor() { }
 
     ngOnInit() {
-      this.canvasId = this.topic.name + "-Canvas-" + this.i;
+      this.canvasId = this.learnItem.topicName + "-Canvas-" + this.i;
     }
 
     ngAfterViewInit() {
-        let fullImgPath = 'assets/media/compounds/' + this.topic.name + "/" + this.learnItem.imagePath;
+        let fullImgPath = 'assets/media/compounds/' + this.learnItem.topicName + "/" + this.learnItem.imagePath;
 
         if(this.learnItem.imgWidth){
           var imgWidth = this.learnItem.imgWidth;

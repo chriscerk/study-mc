@@ -7,6 +7,8 @@ import { ITestItem, TestProblem } from './../../shared/models/test';
 import { CourseService } from './../../core/services/course/course.service';
 import { Component, OnInit } from '@angular/core';
 
+enum CurrentAction {'View', 'Edit', 'Add'};
+
 @Component({
   selector: 'test-data',
   templateUrl: './test-data.component.html',
@@ -14,16 +16,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TestDataComponent implements OnInit {
     testItems: ITestItem[] = [];
+    afTestProblems: FirebaseListObservable<any[]>;
     courses: ICourse[] = [];
     topics: ITopic[] = [];
+
     searchedTestItems: ITestItem[] = [];
     filterProperties = ['topicName', 'courseId', 'question', 'answer'];
     searchPlaceholder = 'Search by: ' + this.filterProperties + '...';
     searchTerm: string;
     isLoading: boolean;
-    afTestProblems: FirebaseListObservable<any[]>;
+
     currentTestProblem: TestProblem;
-    editBoxDisplayed: boolean;
+    currentTestProblemKey: string;
+    CurrentAction: typeof CurrentAction = CurrentAction;
+    action: CurrentAction;
 
     constructor(private testService: TestService, private af: AngularFire) { }
 
@@ -39,7 +45,17 @@ export class TestDataComponent implements OnInit {
             }
         );
         this.afTestProblems = this.af.database.list('/testproblems');
+        this.action = CurrentAction.View;
         this.resetTestProblem();
+    }
+
+    submit() {
+        if(this.action == CurrentAction.Add) {
+            this.addTestProblem();
+        }
+        else if(this.action == CurrentAction.Edit) {
+            this.updateTestProblem();
+        }
     }
 
     getTopicsByCourse() {
@@ -55,8 +71,21 @@ export class TestDataComponent implements OnInit {
         const key = this.afTestProblems.push(this.currentTestProblem).key;
         this.currentTestProblem.key = key;
         this.afTestProblems.$ref.ref.child(key).update(this.currentTestProblem);
-        this.editBoxDisplayed = false;
+        this.action = CurrentAction.View;
         this.resetTestProblem();
+    }
+
+    updateTestProblem() {
+        this.afTestProblems.$ref.ref.child(this.currentTestProblemKey).update(this.currentTestProblem);
+        this.action = CurrentAction.View;
+        this.resetTestProblem();
+    }
+
+    setEditKey(key: string) {
+        this.action = CurrentAction.Edit;
+        this.currentTestProblemKey = key;
+        let afObject = this.af.database.object('/testproblems/' + key);
+        afObject.subscribe((testProblem: TestProblem) => { this.currentTestProblem = testProblem; });
     }
 
     addOption() {
@@ -71,13 +100,9 @@ export class TestDataComponent implements OnInit {
         this.afTestProblems.remove(key);
     }
 
-    updateTestProblem(key: string, item: ITestItem) {
-        this.afTestProblems.$ref.ref.child(key).update(item);
-    }
-
     cancelAction() {
+        this.action = CurrentAction.View;
         this.resetTestProblem();
-        this.editBoxDisplayed = false;
     }
 
     resetTestProblem() {

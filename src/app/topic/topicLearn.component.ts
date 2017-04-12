@@ -1,3 +1,5 @@
+import { ILearnItem } from './../shared/models/learn';
+import { LearnService } from './../core/services/learn/learn.service';
 import { EndMessageComponent } from './../shared/components/end-message/end-message.component';
 import { IOldTopic } from './../shared/models/topic';
 declare var hotspotsModule: any;
@@ -20,10 +22,8 @@ type Orientation = ( 'void' | 'next' | 'none' | 'previous' );
   animations: [ nextPrevAnimation ]
 })
 
-
 export class TopicLearnComponent implements OnInit {
-
-  topic: IOldTopic;
+  learnItems: ILearnItem[];
   private sub: Subscription;
   router: Router;
   userAnswer: string;
@@ -39,7 +39,8 @@ export class TopicLearnComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    router: Router, private dataService: DataService,
+    router: Router,
+    private learnService: LearnService,
     private changeDetectorRef: ChangeDetectorRef) {
 
       this.router = router;
@@ -55,9 +56,9 @@ export class TopicLearnComponent implements OnInit {
 
   ngOnInit() {
       this.sub = this.route.parent.params.subscribe(params => {
-        let id = +params['id'];
-        this.dataService.getTopic(id)
-            .subscribe((topic: IOldTopic) => this.topic = topic);
+        let name = params['name'];
+        this.learnService.getLearnsByTopic(name)
+            .subscribe((items: ILearnItem[]) => this.learnItems = items);
       });
 
       this.orientation = 'void';
@@ -90,7 +91,7 @@ export class TopicLearnComponent implements OnInit {
     this.userAnswer = 'Current Question Not Answered Yet';
     this.currentQuestion++;
 
-    if(this.topic.learnItems.length == this.currentQuestion)
+    if(this.learnItems.length == this.currentQuestion)
     {
       this.moduleIsComplete = true;
     }

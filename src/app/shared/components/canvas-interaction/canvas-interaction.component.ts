@@ -14,7 +14,6 @@ import { Component, OnInit, Input, AfterViewInit } from '@angular/core';
 
 export class CanvasInteractionComponent implements OnInit, AfterViewInit {
     @Input() currentAnimation: MovementAnimation;
-    @Input() topic: ITopic;
     @Input() i: number;
     canvasId: string;
     options: AnimationOptions;
@@ -22,9 +21,9 @@ export class CanvasInteractionComponent implements OnInit, AfterViewInit {
     constructor() { }
 
     ngOnInit() {
-      this.canvasId = this.topic.name + '-Canvas-' + this.i;
+      this.canvasId = this.currentAnimation.topicName + '-Canvas-' + this.i;
 
-      let path = 'assets/media/compounds/' + this.topic.name + '/';
+      let path = 'assets/media/compounds/' + this.currentAnimation.topicName + '/';
       this.options = { 'relativeImgPath': path, 'canvasSize': { 'width': 400 , 'height': 600 } }
     }
 

@@ -34,9 +34,9 @@
             <td>{{testproblem.title}}</td> 
             <td>{{testproblem.question}}</td> 
             <td>{{testproblem.answer}}</td>
-            <td *ngIf="!editBoxDisplayed">
+            <td *ngIf="action == CurrentAction.View">
                 <div *ngIf="!testproblem.isLocked; else locked" class="pull-right">
-                    <button class="btn btn-info" *ngIf="testproblem.key" (click)="updateTestProblem(testproblem.key)">Update</button>&nbsp;&nbsp;
+                    <button class="btn btn-info" *ngIf="testproblem.key" (click)="setEditKey(testproblem.key)">Update</button>&nbsp;&nbsp;
                     <button class="btn btn-danger" *ngIf="testproblem.key" (click)="deleteTestProblem(testproblem.key)">Delete</button>&nbsp;&nbsp;
                 </div>
             </td>
@@ -47,11 +47,11 @@
 </table>
 
 
-<div class="shaded" *ngIf="!editBoxDisplayed">
-    <button type='button' class="btn-success add-button" (click)="editBoxDisplayed = true">+</button>
+<div class="shaded" *ngIf="action == CurrentAction.View">
+    <button type='button' class="btn-success add-button" (click)="action = CurrentAction.Add">+</button>
 </div>
-<div *ngIf="editBoxDisplayed" class="input-group input-group-sm text-center" id="editBox">
-    <h2>Add Test Problem</h2>
+<div *ngIf="action != CurrentAction.View" class="input-group input-group-sm text-center" id="editBox">
+    <h2>{{CurrentAction[action]}} Test Problem</h2>
     <form (ngSubmit)="submit()" #testProblemForm="ngForm" class="testproblem-form" novalidate>
     <div class="form-group">
         <label for="courseId">Course Id</label>
@@ -129,7 +129,7 @@
       Cancel
     </button>
     <button type='button' *ngIf="testProblemForm.valid" class="btn-success btn-default btn" (click)="addTestProblem()">
-       Add Topic
+       {{CurrentAction[action]}} Topic
     </button>
     </form>
 </div>

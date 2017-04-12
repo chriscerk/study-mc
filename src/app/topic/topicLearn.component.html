@@ -1,14 +1,11 @@
-<div *ngIf="topic">
-  <span class="nav-title">{{topic.name}}</span>
-
-    <div class="content">
-      <end-message *ngIf="moduleIsComplete" [topicName]="topic.name" [incorrectAnswers]="incorrectAnswers">
-      </end-message>
-
-    <div *ngFor="let learnItem of topic.learnItems; let i = index" [@NextPrevAnimation]="orientation">
+<div *ngIf="learnItems" class="content">
+    <div *ngFor="let learnItem of learnItems; let i = index" [@NextPrevAnimation]="orientation">
+      <span class="nav-title">{{learnItem.topicName}}</span>
+       <end-message *ngIf="moduleIsComplete" [topicName]="learnItem.topicName" [incorrectAnswers]="incorrectAnswers">
+       </end-message>
       <div *ngIf="currentQuestion == i">
 
-        <h3>{{i/topic.learnItems.length | MyPercentPipe }} Complete</h3>
+        <h3>{{i/learnItems.length | MyPercentPipe }} Complete</h3>
 
         <alert-box [learnItem]="learnItem" [validAnswer]="validAnswer" [answerSubmitted]="answerSubmitted"></alert-box>
   
@@ -46,16 +43,16 @@
             </div>
 
           <div *ngIf="learnItem.compoundHotspots">
-            <canvas-compound [learnItem]="learnItem" [topic]="topic" [i]="i">Loading Canvas...</canvas-compound>
+            <canvas-compound [learnItem]="learnItem" [i]="i">Loading Canvas...</canvas-compound>
           </div>
 
            <div *ngIf="learnItem.objects">
-            <canvas-interaction [currentAnimation]="learnItem" [topic]="topic" [i]="i">Loading Canvas...</canvas-interaction>
+            <canvas-interaction [currentAnimation]="learnItem" [i]="i">Loading Canvas...</canvas-interaction>
           </div>
 
           <ul *ngIf="!learnItem.compoundHotspots && !learnItem.objects" class="flex-container">
             <li class="flex-item">
-              <img src="assets/media/compounds/{{topic.name}}/{{learnItem.imagePath}}" id="logo" alt="logo">
+              <img src="assets/media/compounds/{{learnItem.topicName}}/{{learnItem.imagePath}}" id="logo" alt="logo">
             </li>
             <li class="flex-item" style="width: 400px;">
               <ul>
@@ -79,14 +76,10 @@
 
       </div>
     </div>
-
-    <div *ngIf="!topic.learnItems.length">
-        <div class="alert alert-info review-alert" role="alert">
-          <a href="#" class="alert-link"> There are currently no Learning items for {{topic.name}}.</a>
-        </div>
-    </div>
-  </div>
-  <div *ngIf="!topic" class="row">
-    No topic found
-  </div>
 </div> 
+
+<div *ngIf="!learnItems">
+    <div class="alert alert-info review-alert" role="alert">
+      <a href="#" class="alert-link"> There are currently no Learning items for this topic.</a>
+    </div>
+</div>

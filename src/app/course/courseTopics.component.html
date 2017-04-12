@@ -5,7 +5,7 @@
 
         <ul class="flex-container"> 
         <div *ngFor="let topic of course.topics;">
-            <a [routerLink]="['/topic', topic.id,'learn']" class="{{topic.status + '-link' }}">
+            <a [routerLink]="['/topic', topic.name,'learn']" class="{{topic.status + '-link' }}">
                 <li class="flex-item topicBox hvr-back-pulse {{topic.status + '-box' }}">{{topic.name}}</li>
             </a>
         </div>

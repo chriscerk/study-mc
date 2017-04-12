@@ -1,6 +1,5 @@
-<div *ngIf="topic">
+<div *ngIf="reviewItems">
 <div class="review-print-hide">
-  <span class="nav-title">{{topic.name}}</span>
   <div class="review-alert" role="alert" style="display:none;">
       <div class="action-buttons">
         <div class="shaded">
@@ -31,7 +30,8 @@
             <button type="button" class="btn btn-success" *ngIf="reviewComplete" (click)="printPage()"> Print! </button>
         </div>
 
-  <div *ngFor="let reviewItem of topic.reviewItems; let i = index" [@NextPrevAnimation]="orientation">
+  <div *ngFor="let reviewItem of reviewItems; let i = index" [@NextPrevAnimation]="orientation">
+    <span class="nav-title">{{reviewItem.name}}</span>
     <div *ngIf="currentItem == i">    
         <h2>Section {{i+1}}: {{reviewItem.title}}</h2> 
 
@@ -46,7 +46,7 @@
                       required>
               <br>
               <div *ngIf="section.imagePath">
-                <img src="assets/media/compounds/{{topic.name}}/{{section.imagePath}}" id="logo" alt="{{section.imagePath}}" style="max-width: 150px;">
+                <img src="assets/media/compounds/{{reviewItem.topicName}}/{{section.imagePath}}" id="logo" alt="{{section.imagePath}}" style="max-width: 150px;">
               </div>
               <div *ngIf="!section.imagePath">
                 <textarea class="form-control" 
@@ -69,9 +69,9 @@
           <label for="studentName">Your Name: </label>
           <input type="text" class="form-control" [(ngModel)]="studentName" name="studentName" required>
   </div>
-  <div *ngIf="!topic.reviewItems.length">
+  <div *ngIf="!reviewItems.length">
         <div class="alert alert-info review-alert" role="alert">
-          <a href="#" class="alert-link"> There is currently no Review for {{topic.name}}.</a>
+          <a href="#" class="alert-link">There is currently no Review for {{reviewItem.topicName}}.</a>
         </div>
   </div>
   <hr>
@@ -80,7 +80,7 @@
   </form>
  </div>
 </div>
-  <h1 style="text-align: center;"><strong>{{topic.name}}</strong> | {{studentName}} </h1>
+  <h1 style="text-align: center;"><strong>{{reviewItem.topicName}}</strong> | {{studentName}} </h1>
     <ul class="flex-container">
         <li *ngFor="let reviewItem of topic.reviewItems;" class="flex-item review-print-item">
             <h3><strong>{{reviewItem.title}}</strong></h3>
@@ -90,7 +90,7 @@
                 <h4>{{section.title}}</h4>
                 <p class="review">{{section.content}}</p>
                 <div *ngIf="section.imagePath">
-                  <img src="assets/media/compounds/{{topic.name}}/{{section.imagePath}}" id="logo" alt="{{section.imagePath}}" style="max-width: 150px;">
+                  <img src="assets/media/compounds/{{reviewItem.topicName}}/{{section.imagePath}}" id="logo" alt="{{section.imagePath}}" style="max-width: 150px;">
                 </div>  
               </li>
             </ul>
@@ -98,6 +98,6 @@
     </ul>
 </div>
 
-<div *ngIf="!topic" class="row">
+<div *ngIf="!reviewItems" class="row">
 No topic found
 </div>

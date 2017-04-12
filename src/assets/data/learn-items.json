@@ -1,4 +1,6 @@
 [{
+    "topicName": "Benzodiazepines",
+    "courseId": 600,
     "title":"SAR Requirements",  
     "name" : "Hover over the compound to learn about the SAR Characteristics",
     "imagePath" : "slide-4a.PNG",
@@ -70,6 +72,8 @@
     ]
 },
 {
+    "topicName": "Benzodiazepines",
+    "courseId": 600,
     "title":"SAR Requirements",  
     "name" : "Hover over the compound to learn about the SAR Characteristics",
     "imagePath" : "slide-4b.PNG",
@@ -141,6 +145,8 @@
     ]
 },
 {
+    "topicName": "Benzodiazepines",
+    "courseId": 600,
     "title":"SAR Requirements",  
     "name" : "Hover over Lorazepam to learn about the SAR Characteristics",
     "imagePath" : "slide-5a.PNG",
@@ -214,6 +220,8 @@
     ]
 },
 {
+    "topicName": "Benzodiazepines",
+    "courseId": 600,
     "title":"SAR Requirements",
     "name" : "Hover over Alprazolam to learn about the SAR Characteristics",
     "imagePath" : "slide-5b.PNG",
@@ -261,6 +269,8 @@
     ]
 },
 {
+    "topicName": "Benzodiazepines",
+    "courseId": 600,
     "title":"SAR Practice Problem",
     "name" : "Activity Change",
     "imagePath" : "slide7-transition.jpg",
@@ -274,6 +284,8 @@
     "explanation" : "Addition of a bulky group at N1 prevents binding to the BZR; methyl group is preferred"
 },
 {
+    "topicName": "Benzodiazepines",
+    "courseId": 600,
     "title":"SAR Practice Problem",  
     "name" : "Activity Change",
     "imagePath" : "slide8.PNG",
@@ -287,6 +299,8 @@
     "explanation" : "Addition of Cl to position 2 reduces aromatic hydroxylation (phase one P450 metabolism) and increases half-life"
 },
 {
+    "topicName": "Benzodiazepines",
+    "courseId": 600,
     "title":"SAR Practice Problem",  
     "name" : "Compare Compounds",
     "imagePath" : "slide10.PNG",
@@ -300,6 +314,8 @@
     "explanation" : "It already has the hydroxyl handle (position 3) so it is quickly metabolized to an inactive metabolite by conjugation; thus it has a short elimination half-life, which is ideal for hypnotics"
 },
 {
+    "topicName": "Benzodiazepines",
+    "courseId": 600,
     "title":"SAR Practice Problem",  
     "name" : "Compare Compounds",
     "imagePath" : "slide11.PNG",
@@ -313,6 +329,8 @@
     "explanation" : "The compound is slowly absorbed because it has a carboxylic acid that must be cleaved first (like a prodrug) and it is metabolized to an active metabolite; thus it has a long elimination half-life (40-50 hr), which is ideal for anxiolytics"
 },
 {
+    "topicName": "Benzodiazepines",
+    "courseId": 600,
     "title":"SAR Practice Problem",  
     "name" : "Predict Metabolite Activity",
     "imagePath" : "slide13.PNG",
@@ -327,6 +345,8 @@
     "explanation" : ""
 },
 {
+    "topicName": "Benzodiazepines",
+    "courseId": 600,
     "title":"SAR Practice Problem",  
     "name" : "Predict Metabolite Activity",
     "imagePath" : "slide14.PNG",
@@ -341,6 +361,8 @@
     "explanation" : ""
 },
 {
+    "topicName": "Benzodiazepines",
+    "courseId": 600,
     "title":"SAR Practice Problem",  
     "name" : "Predict Metabolite Activity",
     "imagePath" : "slide15.PNG",

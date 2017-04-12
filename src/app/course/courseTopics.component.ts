@@ -19,7 +19,8 @@ export class CourseTopicsComponent implements OnInit {
   ngOnInit() {
       this.sub = this.route.parent.params.subscribe(params => {
         let id = +params['id'];
-        this.courseService.getCourse(id)
+        this.courseService
+            .getFirebaseCourse(id)
             .subscribe((course: ICourse) => this.course = course);
       });
   }

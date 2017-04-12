@@ -1,8 +1,8 @@
-import { IOldTopic } from './../shared/models/topic';
+import { IReviewItem } from './../shared/models/review';
+import { ReviewService } from './../core/services/review/review.service';
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
-import { DataService } from '../core/services/data.service';
 import { nextPrevAnimation } from '../shared/animations';
 
 
@@ -17,7 +17,7 @@ type Orientation = ( 'void' | 'next' | 'none' | 'previous' );
 
 export class TopicReviewComponent implements OnInit {
 
-  topic: IOldTopic;
+  reviewItems: IReviewItem[];
   private sub: Subscription;
   router: Router;
   studentName: string;
@@ -30,7 +30,8 @@ export class TopicReviewComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    router: Router, private dataService: DataService,
+    router: Router,
+    private reviewService: ReviewService,
     private changeDetectorRef: ChangeDetectorRef) {
 
       this.router = router;
@@ -44,12 +45,12 @@ export class TopicReviewComponent implements OnInit {
 
   ngOnInit() {
       this.sub = this.route.parent.params.subscribe(params => {
-        let id = +params['id'];
-        this.dataService.getTopic(id)
-            .subscribe((topic: IOldTopic) => this.topic = topic);
+        let name = params['name'];
+        this.reviewService.getReviewsByTopic(name)
+            .subscribe((items: IReviewItem[]) => this.reviewItems = items);
       });
 
-      this.lastItem = this.topic.reviewItems.length - 1;
+      this.lastItem = this.reviewItems.length - 1;
       this.orientation = 'void';
   }
 
@@ -94,7 +95,7 @@ export class TopicReviewComponent implements OnInit {
   }
 
   generateExampleReview() {
-    this.topic.reviewItems = this.topic.exampleReview;
+    this.reviewItems = null; //this.reviewService.getExampleReviewsByTopic();
     this.studentName = 'MC Student';
     this.reviewComplete = true;
   }

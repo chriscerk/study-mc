@@ -1,3 +1,4 @@
+import { AngularFire } from 'angularfire2';
 import { ErrorHandlerService } from './../error-handler/error-handler.service';
 import { Http, Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
@@ -15,7 +16,40 @@ export class CourseService {
   errorMessage = 'Course Data could not be retrieved.' +
    '\n 1. Verify ' + this.courseDataUrl + ' exists. \n 2. JSON Lint the courses.json file.';
 
-  constructor(private http: Http, private errorHandler: ErrorHandlerService) { }
+  constructor(
+    private http: Http,
+    private af: AngularFire,
+    private errorHandler: ErrorHandlerService) { }
+
+
+  getFirebaseCourses(): Observable<ICourse[]> {
+    if(!this.courses) {
+      return this.af.database
+        .list('/courses')
+        .map((courses: ICourse[]) => {
+                return courses;
+            }
+        )._catch(this.handleCourseError.bind(this));
+    } else {
+        return this.createObservable(this.courses);
+    }
+  }
+
+  getFirebaseCourse(id: number): Observable<ICourse> {
+    if (this.courses) {
+        return this.findCourseObservable(id);
+    } else {
+        return Observable.create((observer: Observer<ICourse>) => {
+          this.getFirebaseCourses().subscribe((courses: ICourse[]) => {
+              this.courses = courses;
+              const course = this.filterCourses(id);
+              observer.next(course);
+              observer.complete();
+          });
+        })
+        .catch(this.handleCourseError.bind(this));
+    }
+  }
 
   getCourses(): Observable<ICourse[]> {
     if(!this.courses) {
@@ -51,12 +85,12 @@ export class CourseService {
     return this.errorHandler.handleServiceWithMessage(error, this.errorMessage);
   }
 
-  private filterCourses(id: number) : ICourse {
+  private filterCourses(id: number): ICourse {
     const cs = this.courses.filter((c) => c.id === id);
     return (cs.length) ? cs[0] : null;
   }
 
-  private findCourseObservable(id: number) : Observable<ICourse> {
+  private findCourseObservable(id: number): Observable<ICourse> {
       return this.createObservable(this.filterCourses(id));
   }
 

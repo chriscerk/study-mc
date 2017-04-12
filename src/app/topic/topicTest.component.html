@@ -1,10 +1,9 @@
-<div *ngIf="topic">
-  <span class="nav-title">{{topic.name}}</span>
-<div class="content">
-  <end-message *ngIf="moduleIsComplete" [topicName]="topic.name" [incorrectAnswers]="incorrectAnswers"></end-message>
-    <div *ngFor="let testItem of topic.testItems; let i = index" [@NextPrevAnimation]="orientation">
+<div *ngIf="testItems" class="content">
+    <div *ngFor="let testItem of testItems; let i = index" [@NextPrevAnimation]="orientation">
+      <span class="nav-title">{{testItem.topicName}}</span>
+      <end-message *ngIf="moduleIsComplete" [topicName]="testItem.topicName" [incorrectAnswers]="incorrectAnswers"></end-message>
       <div *ngIf="currentQuestion == i">
-          <h3> {{i/topic.testItems.length | MyPercentPipe }} Complete</h3> 
+          <h3> {{i/testItems.length | MyPercentPipe }} Complete</h3> 
         <form #f="ngForm" (ngSubmit)="onSubmit(testItem.answer)" *ngIf="validAnswer" method="post">
           <p class="test-question">
             {{testItem.question}}
@@ -30,15 +29,10 @@
 
       </div>
     </div>
+</div>
 
-    <div *ngIf="!topic.testItems.length">
-        <div class="alert alert-info review-alert" role="alert">
-          <a href="#" class="alert-link"> There are currently no Test items for {{topic.name}}.</a>
-        </div>
+<div *ngIf="!testItems">
+    <div class="alert alert-info review-alert" role="alert">
+      <a href="#" class="alert-link"> There are currently no Test items for this topic.</a>
     </div>
-
-</div>
-<div *ngIf="!topic" class="row">
-  No topic found
-</div>
 </div>
