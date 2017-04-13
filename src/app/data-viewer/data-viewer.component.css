@@ -70,3 +70,46 @@ select {
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
+
+.full-screen {
+    background-color: #007bcb;
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999999;
+}
+
+.admin-input {
+    width: 400px;
+    margin-top: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.backhome {
+    position: absolute;
+    width: 200px;
+    bottom: 50px;
+    left: 50%;
+    margin-left: -100px;
+    color: white;
+    text-align: center;
+}
+.huge-icon {
+    font-size: 50px;
+}
+.back-link {
+   color: white;
+}
+
+.enter-button {
+    margin-left: auto;
+    margin-right: auto;
+    display: inherit;
+    margin-top: 20px;
+}
+
+
