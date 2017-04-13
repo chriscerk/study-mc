@@ -25,10 +25,10 @@
           <div class="shaded">
             <button type="button" class="btn btn-default" *ngIf="reviewComplete" (click)="toNextItem()"> Next </button>
           </div>
-              <br>
-              <button type="button" class="btn btn-success" *ngIf="!reviewComplete" (click)="toNextItem()"> Next </button>
-              <button type="button" class="btn btn-success" *ngIf="reviewComplete" (click)="printPage()"> Print! </button>
-          </div>
+          <br>
+          <button type="button" class="btn btn-success" *ngIf="!reviewComplete" (click)="toNextItem()"> Next </button>
+          <button type="button" class="btn btn-success" *ngIf="reviewComplete" (click)="printPage()"> Print! </button>
+        </div>
 
         <div *ngFor="let reviewItem of reviewItems; let i = index" [@NextPrevAnimation]="orientation">
           <span class="nav-title">{{reviewItem.name}}</span>

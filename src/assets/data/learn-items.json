@@ -375,6 +375,2748 @@
     ],
     "answer" : "Hypnotic, Inactive, Active, Inactive",
     "explanation" : ""
+},
+{
+    "topicName": "Barbiturates",
+    "courseId": 600,
+    "title":"SAR Requirements",  
+    "name" : "Hover over the compound to learn about the SAR Characteristics",
+    "imagePath" : "slide26.PNG",
+    "compoundHotspots" : [
+            {
+                "name": "N1",
+                "y": 234,
+                "x": 191,
+                "size": 40,
+                "color": "red",
+                "text": "Must be a nitrogen and unsubstitued if N3 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action."
+            },
+            {
+                "name": "N3",
+                "y": 234,
+                "x": 307,
+                "size": 40,
+                "color": "orange",
+                "text": "Must be a nitrogen and unsubstituted if N1 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action."
+            },
+            {
+                "name": "C2",
+                "y": 164,
+                "x": 250,
+                "size": 40,
+                "color": "green",
+                "text": "Changing C=O → C=S increases lipophilicity and more rapid onset of action"
+            },
+            {
+                "name": "C4 & C6",
+                "y": 311,
+                "x": 334,
+                "size": 40,
+                "color": "blue",
+                "text": "Must contain C=O"
+            },
+            {
+                "name": "C4 & C6",
+                "y": 311,
+                "x": 163,
+                "size": 40,
+                "color": "blue",
+                "text": "Must contain C=O"
+            },
+            {
+                "name": "R1 & R2",
+                "y": 365,
+                "x": 253,
+                "size": 55,
+                "color": "deeppink",
+                "text": "bulky carbon groups increases lipophilicity and more rapid onset of action"
+            },
+            {
+                "name": "5,5",
+                "y": 300,
+                "x": 250,
+                "size": 30,
+                "color": "goldenrod",
+                "text": "disubstitution required for activity"
+            }
+    ]
+},
+{
+    "topicName": "Barbiturates",
+    "courseId": 600,
+    "title":"SAR Requirements",  
+    "name" : "Disubstitution Required for Activity",
+    "imagePath" : "slide27a.PNG",
+    "colorLocationAssociations" : [
+            {"color": "black", "location": "N1", "description" : "Barbiturates can undergo enol-keto tautomerization, which gives them near neutral pkas (7.4). Less than 50% gets ionized, so good balance of solubility and CNS penetration." }
+    ]
+},
+{
+    "topicName": "Barbiturates",
+    "courseId": 600,
+    "title":"SAR Requirements",  
+    "name" : "Disubstitution Required for Activity",
+    "imagePath" : "slide27b.PNG",
+    "colorLocationAssociations" : [
+            {"color": "black", "location": "N1", "description" : "Without any substitution at position 5, the acidic hydrogen gets deprotonated. Resonance stabilization leads to lower pka (4) and 99% ionization occurs, so unable to penetrate the CNS." }
+    ]
+},
+{
+    "topicName": "Barbiturates",
+    "courseId": 600,
+    "title":"SAR Requirements",  
+    "name" : "Hover over Phenobarbital to learn about the SAR Characteristics",
+    "imagePath" : "slide28a.PNG",
+    "compoundHotspots" : [
+            {
+                "name": "N1",
+                "y": 218,
+                "x": 180,
+                "size": 40,
+                "color": "red",
+                "text": "Must be a nitrogen and unsubstitued if N3 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action."
+            },
+            {
+                "name": "N3",
+                "y": 218,
+                "x": 302,
+                "size": 40,
+                "color": "orange",
+                "text": "Must be a nitrogen and unsubstituted if N1 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action."
+            },
+            {
+                "name": "C2",
+                "y": 162,
+                "x": 238,
+                "size": 40,
+                "color": "green",
+                "text": "Changing C=O → C=S increases lipophilicity and more rapid onset of action"
+            },
+            {
+                "name": "C4 & C6",
+                "y": 294,
+                "x": 162,
+                "size": 40,
+                "color": "blue",
+                "text": "Must contain C=O"
+            },
+            {
+                "name": "C4 & C6",
+                "y": 294,
+                "x": 314,
+                "size": 40,
+                "color": "blue",
+                "text": "Must contain C=O"
+            },
+            {
+                "name": "R1 & R2",
+                "y": 385,
+                "x": 262,
+                "size": 80,
+                "color": "deeppink",
+                "text": "bulky carbon groups increases lipophilicity and more rapid onset of action"
+            },
+            {
+                "name": "5,5",
+                "y": 288,
+                "x": 238,
+                "size": 30,
+                "color": "goldenrod",
+                "text": "disubstitution required for activity"
+            }
+    ]
+},
+{
+    "topicName": "Barbiturates",
+    "courseId": 600,
+    "title":"SAR Requirements",  
+    "name" : "Hover over Thiopental to learn about the SAR Characteristics",
+    "imagePath" : "slide28b.PNG",
+    "compoundHotspots" : [
+            {
+                "name": "N1",
+                "y": 210,
+                "x": 174,
+                "size": 40,
+                "color": "red",
+                "text": "Must be a nitrogen and unsubstitued if N3 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action."
+            },
+            {
+                "name": "N3",
+                "y": 210,
+                "x": 274,
+                "size": 40,
+                "color": "orange",
+                "text": "Must be a nitrogen and unsubstituted if N1 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action."
+            },
+            {
+                "name": "C2",
+                "y": 160,
+                "x": 222,
+                "size": 40,
+                "color": "green",
+                "text": "Changing C=O → C=S increases lipophilicity and more rapid onset of action"
+            },
+            {
+                "name": "C4 & C6",
+                "y": 270,
+                "x": 152,
+                "size": 40,
+                "color": "blue",
+                "text": "Must contain C=O"
+            },
+            {
+                "name": "C4 & C6",
+                "y": 270,
+                "x": 294,
+                "size": 40,
+                "color": "blue",
+                "text": "Must contain C=O"
+            },
+            {
+                "name": "R1 & R2",
+                "y": 364,
+                "x": 234,
+                "size": 80,
+                "color": "deeppink",
+                "text": "bulky carbon groups increases lipophilicity and more rapid onset of action"
+            },
+            {
+                "name": "5,5",
+                "y": 268,
+                "x": 223,
+                "size": 30,
+                "color": "goldenrod",
+                "text": "disubstitution required for activity"
+            }
+    ],
+    "colorLocationAssociations" : [
+            {"color": "red", "location": "N1", "description" : "N1: Must be a nitrogen and unsubstitued if N3 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action." },
+            {"color": "orange", "location": "N3", "description" : "N3: must be a nitrogen and unsubstituted if N1 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action " },
+            {"color": "green", "location": "C2", "description" : "C2: changing C=O → C=S increases lipophilicity and more rapid onset of action" },
+            {"color": "blue", "location": "C4 & C6", "description" : "C4 & C6: must contain C=O" },
+            {"color": "deeppink", "location": "R1 & R2", "description" : "R1 & R2: bulky carbon groups increases lipophilicity and more rapid onset of action " }
+    ]
+},
+{
+    "topicName": "Barbiturates",
+    "courseId": 600,
+    "title":"SAR Practice Problem",  
+    "name" : "Activity Change",
+    "imagePath" : "slide30.PNG",
+    "question" : "Would the following change to the compound increase, decrease, or have no effect upon activity?",
+    "options" : [
+            "Increase", 
+            "Decrease", 
+            "No Effect"
+    ],
+    "answer" : "Decrease",
+    "explanation" : "Changing C=S to C=O decreases lipophilicity and onset of action"
+},
+{
+    "topicName": "Barbiturates",
+    "courseId": 600,
+    "title":"SAR Practice Problem",  
+    "name" : "Activity Change",
+    "imagePath" : "slide31.PNG",
+    "question" : "Would the following change to the compound increase, decrease, or have no effect upon activity?",
+    "options" : [
+            "Increase", 
+            "Decrease", 
+            "No Effect"
+    ],
+    "answer" : "Increase",
+    "explanation" : "5,5- disubstitution needed for activity in order for CNS penetration"
+},
+{
+    "topicName": "Barbiturates",
+    "courseId": 600,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide33.PNG",
+    "question" : "Which of these 3 compounds would be a CNS active barbiturate?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 3",
+    "explanation" : "5,5- disubstitution and weak acid (N1 or N3 must be unsubstituted) are required for activity in order for CNS penetration"
+},
+{
+    "topicName": "Z-Drugs",
+    "courseId": 600,
+    "title":"Useful Structures",  
+    "name" : "Zaleplon",
+    "imagePath" : "zaleplon-useful.PNG",
+    "colorLocationAssociations" : [
+            {"color": "black", "location": "none", "description" : "Circled parts of each structure are helpful to associate with the compounds. There are no SAR Requirements for Z-Drugs" }
+    ]
+},
+{
+    "topicName": "Z-Drugs",
+    "courseId": 600,
+    "title":"Useful Structures",  
+    "name" : "Eszopiclone",
+    "imagePath" : "eszopiclone-useful.PNG",
+    "colorLocationAssociations" : [
+            {"color": "black", "location": "none", "description" : "Circled parts of each structure are helpful to associate with the compounds. There are no SAR Requirements for Z-Drugs" }
+    ]
+},
+{
+    "topicName": "Z-Drugs",
+    "courseId": 600,
+    "title":"Useful Structures",  
+    "name" : "Zolpidem",
+    "imagePath" : "zolpidem-useful.PNG",
+    "colorLocationAssociations" : [
+            {"color": "black", "location": "none", "description" : "Circled parts of each structure are helpful to associate with the compounds. There are no SAR Requirements for Z-Drugs" }
+    ]
+},
+{
+    "topicName": "Z-Drugs",
+    "courseId": 600,
+    "title":"Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide44.PNG",
+    "question" : "Trissa is 30-year old female suffering from anxiety and insomnia. What one compound would be best to treat both her anxiety and insomnia?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 2",
+    "explanation" : "Benzodiazepine (Compound 2)"
+},
+{
+    "topicName": "Z-Drugs",
+    "courseId": 600,
+    "title":"Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide45.PNG",
+    "question" : "Sakiya is 24-year old female suffering from anxiety and insomnia. Sakiya’s boyfriend takes one of these hypnotics for insomnia and it helps keep him asleep with no hangover effects in the morning. LM decides to take one of his pills, but in the morning she is still sleepy. Which of these compounds did she take and why is she still experiencing effects in the morning?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 1",
+    "explanation" : "Zolpidem (Compound 1); women metabolize slower"
+},
+{
+    "topicName": "Z-Drugs",
+    "courseId": 600,
+    "title":"Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide46.PNG",
+    "question" : "Lance is 27-year old female suffering from anxiety and insomnia. Unfortunately, Lance has had abuse disorders in the past. Which of these compounds would be safest to use to treat her insomnia?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 3",
+    "explanation" : "Ramelteon (Compound 3); not a scheduled drug"
+},
+{
+    "topicName": "Anticonvulsants",
+    "courseId": 600,
+    "title":"SAR Trends",  
+    "name" : "Hover over Phenobarbital (barbiturate) to learn about the SAR Trends",
+    "imagePath" : "phenobarbital-sar.PNG",
+    "compoundHotspots" : [
+            {
+                "name": "Phenobarbital Ureide",
+                "y": 214,
+                "x": 300,
+                "size": 65,
+                "color": "green",
+                "text": "Phenobarbital's Ureide Common Scaffold"
+            }
+    ]
+},
+{
+    "topicName": "Anticonvulsants",
+    "courseId": 600,
+    "title":"SAR Trends",  
+    "name" : "Hover over Ethosuximide (succinimide) to learn about the SAR Trends",
+    "imagePath" : "ethosuximide-sar.PNG",
+    "compoundHotspots" : [
+            {
+                "name": "Ethosuximide Ureide",
+                "y": 300,
+                "x": 250,
+                "size": 50,
+                "color": "green",
+                "text": "Ethosuximide's Ureide Common Scaffold"
+            }
+    ]
+},
+{
+    "topicName": "Anticonvulsants",
+    "courseId": 600,
+    "title":"SAR Trends",  
+    "name" : "Hover over Phenytoin (hydantion) to learn about the SAR Trends",
+    "imagePath" : "phenytoin-sar.PNG",
+    "compoundHotspots" : [
+            {
+                "name": "Phenytoin Ureide",
+                "y": 286,
+                "x": 270,
+                "size": 50,
+                "color": "green",
+                "text": "Phenytoin's Ureide Common Scaffold"
+            }
+    ]
+},
+{
+    "topicName": "Anticonvulsants",
+    "courseId": 600,
+    "title":"SAR Trends",  
+    "name" : "Hover over Fosphenytoin (hydantion) to learn about the SAR Trends",
+    "imagePath" : "fosphenytoin-sar.PNG",
+    "compoundHotspots" : [
+            {
+                "name": "Fosphenytoin Ureide",
+                "y": 250,
+                "x": 255,
+                "size": 40,
+                "color": "green",
+                "text": "Fosphenytoin's Ureide Common Scaffold"
+            }
+    ]
+},
+{
+    "topicName": "Anticonvulsants",
+    "courseId": 600,
+    "title":"Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide63.PNG",
+    "question" : "Henry is 45-year old male who has recently been suffering from  what is believed to be absence seizures. Which compound should he be prescribed?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 2",
+    "explanation" : "Ethosuximide (Compound 2); best used for absence seizures"
+},
+{
+    "topicName": "Anticonvulsants",
+    "courseId": 600,
+    "title":"Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide64.PNG",
+    "question" : "Amir is 48-year old male who has recently been suffering from what is believed to be absence seizures. Unfortunately, ethosuximide was not effective, and it is decided that Amir needs a medication for partial seizures instead. Amir also is taking several other medications. Which compound should he take?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 3",
+    "explanation" : ": Lamotrigine (Compound 3); not metabolized by CYP and does not induce CYP, which could interfere with other medications"
+},
+{
+    "topicName": "SRIs",
+    "courseId": 600,
+    "title":"SAR Requirements",  
+    "name" : "Phenoxyphenylalkyl Amines",
+    "imagePath" : "slide3.PNG",
+    "colorLocationAssociations" : [
+            {"color": "green", "location": "Basic Nitrogen", "description" : "Basic nitrogen: protonated at physiological pH; pKa 8.7−9.8" },
+            {"color": "deeppink", "location": "Electron-withdrawing group", "description" : "Electron-withdrawing group: para or meta substitution enhances binding affinity for SERT; while Ortho substitution (except CF3) enhances binding affinity for NET and results in NRI" },
+            {"color": "red", "location": "Phenoxy", "description" : "Phenoxy: distinguishes antidepressant and antihistamine activity (derived from diphenhydramine)." }
+    ]
+},
+{
+    "topicName": "SRIs",
+    "courseId": 600,
+    "title":"Phenoxyphenylalkyl Amines Example",  
+    "name" : "Fluoxetine",
+    "imagePath" : "slide-5a.PNG",
+    "colorLocationAssociations" : [
+            {"color": "green", "location": "Basic Nitrogen", "description" : "Basic nitrogen: protonated at physiological pH; pKa 8.7−9.8" },
+            {"color": "deeppink", "location": "Electron-withdrawing group", "description" : "Electron-withdrawing group: para or meta substitution enhances binding affinity for SERT; while Ortho substitution (except CF3) enhances binding affinity for NET and results in NRI" },
+            {"color": "red", "location": "Phenoxy", "description" : "Phenoxy: distinguishes antidepressant and antihistamine activity (derived from diphenhydramine)." }
+    ]
+},
+{
+    "topicName": "SRIs",
+    "courseId": 600,
+    "title":"SAR Requirements",  
+    "name" : "Phenylalkyl Amines",
+    "imagePath" : "slide4.PNG",
+    "colorLocationAssociations" : [
+            {"color": "green", "location": "Basic Nitrogen", "description" : "Basic nitrogen: protonated at physiological pH; pKa 9.5" },
+            {"color": "deeppink", "location": "Chlorine", "description" : "Chlorine: enhances SERT selectivity" }
+    ]
+},
+{
+    "topicName": "SRIs",
+    "courseId": 600,
+    "title":"Phenylalkyl Amines Example",  
+    "name" : "Sertraline",
+    "imagePath" : "slide-5b.PNG",
+    "colorLocationAssociations" : [
+            {"color": "green", "location": "Basic Nitrogen", "description" : "Basic nitrogen: protonated at physiological pH; pKa 9.5" },
+            {"color": "deeppink", "location": "Chlorine", "description" : "Chlorine: enhances SERT selectivity" }
+    ]
+},
+{
+    "topicName": "SRIs",
+    "courseId": 600,
+    "title":"SAR Practice Problem",  
+    "name" : "Activity Change",
+    "imagePath" : "slide7.PNG",
+    "question" : "Would the following change to the compound increase, decrease, or have no effect upon activity at SERT?",
+    "options" : [
+            "Increase", 
+            "Decrease", 
+            "No Effect"
+    ],
+    "answer" : "Decrease",
+    "explanation" : "The presence of an EWG (CF3) increases SERT activity of phenoxyphenylalkyl amines"
+},
+{
+    "topicName": "SRIs",
+    "courseId": 600,
+    "title":"SAR Practice Problem",  
+    "name" : "Activity Change",
+    "imagePath" : "slide8.PNG",
+    "question" : "Would the following change to the compound increase, decrease, or have no effect upon activity at SERT?",
+    "options" : [
+            "Increase", 
+            "Decrease", 
+            "No Effect"
+    ],
+    "answer" : "Increase",
+    "explanation" : "The presence of the phenoxy (O directly attached to phenyl ring) distinguishes SRIs from diphenhydramine"
+},
+{
+    "topicName": "SRIs",
+    "courseId": 600,
+    "title":"SAR Practice Problem",  
+    "name" : "Activity Change",
+    "imagePath" : "slide9.PNG",
+    "question" : "Would the following change to the compound increase, decrease, or have no effect upon activity at SERT?",
+    "options" : [
+            "Increase", 
+            "Decrease", 
+            "No Effect"
+    ],
+    "answer" : "Increase",
+    "explanation" : "The S isomer of fluoxetine is 100x more selective for SERT"
+},
+{
+    "topicName": "SRIs",
+    "courseId": 600,
+    "title":"SAR Practice Problem",  
+    "name" : "Activity Change",
+    "imagePath" : "slide10.PNG",
+    "question" : "Would the following change to the compound increase, decrease, or have no effect upon activity at SERT?",
+    "options" : [
+            "Increase", 
+            "Decrease", 
+            "No Effect"
+    ],
+    "answer" : "Decrease",
+    "explanation" : "Ortho EWG substitution results in NRI and decreases SERT affinity"
+},
+{
+    "topicName": "SRIs",
+    "courseId": 600,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide12.PNG",
+    "question" : "Which of these 3 antidepressants has major side effects as GI upset and sexual dysfunction?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 1",
+    "explanation" : "Paroxetine is an SRI, which commonly shows these adverse events"
+},
+{
+    "topicName": "SRIs",
+    "courseId": 600,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide13.PNG",
+    "question" : "Which of these 3 antidepressants is most selective for SERT?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 3",
+    "explanation" : "Sertraline is an SRI, which is selective for SERT. Compound 1 is an NRI and compound 2 is a secondary amine TCA, which is more selective for NET."
+},
+{
+    "topicName": "SRIs",
+    "courseId": 600,
+    "title":"SAR Practice Problem",  
+    "name" : "Predict Metabolite Activity",
+    "imagePath" : "slide15.PNG",
+    "question" : "Predict whether the metabolites will be active or inactive for the compounds (1, 3)",
+    "options" : [ 
+            "Active, Active",
+            "Active, Inactive",
+            "Inactive, Active",
+            "Inactive, Inactive"
+    ],
+    "answer" : "Inactive, Active",
+    "explanation" : ""
+},
+{
+    "topicName": "SNRIs",
+    "courseId": 600,
+    "title":"Helpful Strucures to Know",  
+    "name" : "Duloxetine",
+    "imagePath" : "slide-23a.PNG",
+    "colorLocationAssociations" : [
+            {"color": "black", "location": "None", "description" : "Serotonin and Norepinephrine Reuptake Inhibitors do not have any Structure Activity Requirements but these are some helpful structures to be familiar with." }
+    ]
+},
+{
+    "topicName": "SNRIs",
+    "courseId": 600,
+    "title":"Helpful Strucures to Know",  
+    "name" : "Venlafaxine",
+    "imagePath" : "slide-23b.PNG",
+    "colorLocationAssociations" : [
+            {"color": "black", "location": "None", "description" : "Serotonin and Norepinephrine Reuptake Inhibitors do not have any Structure Activity Requirements but these are some helpful structures to be familiar with." }
+    ]
+},
+{
+    "topicName": "SNRIs",
+    "courseId": 600,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide25.PNG",
+    "question" : "Which of these 3 antidepressants is active at both SERT and NET?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 2",
+    "explanation" : "Duloxetine is an SNRI, which is active at SERT and NET. Compound 1 is SRI and Compound 3 is bupropion, which weakly blocks DAT and NET"
+},
+{
+    "topicName": "SNRIs",
+    "courseId": 600,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide26.PNG",
+    "question" : "Which of these 3 antidepressants is considered activating and may raise blood pressure?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 3",
+    "explanation" : " Venlafaxine is an SNRI, which is known to be activating"
+},
+{
+    "topicName": "SNRIs",
+    "courseId": 600,
+    "title":"SAR Practice Problem",  
+    "name" : "Clinical Case Study ",
+    "imagePath" : "slide28.PNG",
+    "question" : "Alfred Smith is 80-year old male suffering from depression. He is currently taking paroxetine, but it is not helping. What one compound would you recommend he try next?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 3",
+    "explanation" : "Compound 1 is an SRI, which he was currently taking and not helping. Compound 2 is a tertiary amine TCA, which acts as a SNRI and would be helpful, but leads to adverse effects such as sedation and hypotension so not recommended in elderly. Compound 3 (venlafaxine) is best choice as it is SNRI, with few adverse effects."
+},
+{
+    "topicName": "TCAs",
+    "courseId": 600,
+    "title":"SAR Requirements",
+    "name" : "Tertiary Amines",
+    "imagePath" : "slide34.PNG",
+    "colorLocationAssociations" : [
+            {"color": "red", "location": "Linker of 3 carbons", "description" : "Linker of 3 carbons between tricyclic ring system and basic nitrogen. Branching from linker decreases binding affinity for SERT and NET. Unsaturation of linker is tolerated." },
+            {"color": "deeppink", "location": "R→ CH3", "description" : "R→ CH3, tertiary amine imparts selectivity for SERT" },
+            {"color": "blue", "location": "R’→ Cl or CN (EWG)", "description" : "R’→ Cl or CN (EWG) enhances binding affinity for SERT" },
+            {"color": "green", "location": "Y→ can be C or N", "description" : "Y→ can be C or N" },
+            {"color": "purple", "location": "Conformationally rigid [6.7.6]-fused ring system", "description" : "Conformationally rigid [6.7.6]-fused ring system - 7 membered ring in the middle is not coplanar; results in twisted shape" }
+    ]
+},
+{
+    "topicName": "TCAs",
+    "courseId": 600,
+    "title":"Tertiary Amines Example Compound",  
+    "name" : "Clomipramine",
+    "imagePath" : "slide-36a.PNG",
+    "colorLocationAssociations" : []
+},
+{
+    "topicName": "TCAs",
+    "courseId": 600,
+    "title":"SAR Requirements",  
+    "name" : "Secondary Amines",
+    "imagePath" : "slide35.PNG",
+    "colorLocationAssociations" : [
+            {"color": "red", "location": "Linker of 3 carbons", "description" : "Linker of 3 carbons between tricyclic ring system and basic nitrogen. Branching from linker decreases binding affinity for SERT and NET. Unsaturation of linker is tolerated." },
+            {"color": "deeppink", "location": "R→ CH3", "description" : "R→ H, secondary amine imparts selectivity for NET" },
+            {"color": "blue", "location": "R’→ Cl or CN (EWG)", "description" : "R’→ no substitution decreases SERT preference" },
+            {"color": "green", "location": "Y→ can be C or N", "description" : "Y→ can be C or N" },
+            {"color": "purple", "location": "Conformationally rigid [6.7.6]-fused ring system", "description" : "Conformationally rigid [6.7.6]-fused ring system - 7 membered ring in the middle is not coplanar; results in twisted shape" }
+    ]
+},
+{
+    "topicName": "TCAs",
+    "courseId": 600,
+    "title":"Secondary Amines Example Compound",  
+    "name" : "Nortriptyline",
+    "imagePath" : "slide-36b.PNG",
+    "colorLocationAssociations" : []
+},
+{
+    "topicName": "TCAs",
+    "courseId": 600,
+    "title":"SAR Practice Problem",  
+    "name" : "Activity Change",
+    "imagePath" : "slide38.PNG",
+    "question" : "Would the following change to the compound increase, decrease, or have no effect upon activity at SERT?",
+    "options" : [
+            "Increase", 
+            "Decrease", 
+            "No Effect"
+    ],
+    "answer" : "Decrease",
+    "explanation" : "Tertiary→ Secondary amine decreases binding affinity for SERT"
+},
+{
+    "topicName": "TCAs",
+    "courseId": 600,
+    "title":"SAR Practice Problem",  
+    "name" : "Activity Change",
+    "imagePath" : "slide39.PNG",
+    "question" : "Would the following change to the compound increase, decrease, or have no effect upon activity at SERT?",
+    "options" : [
+            "Increase", 
+            "Decrease", 
+            "No Effect"
+    ],
+    "answer" : "Increase",
+    "explanation" : "Presence of EWG (Cl) enhances binding affinity for SERT"
+},
+{
+    "topicName": "TCAs",
+    "courseId": 600,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide41.PNG",
+    "question" : "Which of these 3 antidepressants is active at both SERT and NET?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 2",
+    "explanation" : "Compound 2, amitriptyline is a tertiary TCA, which is active at SERT and NET. Compound 1 is SRI and Compound 3 is a secondary TCA, only active at NET"
+},
+{
+    "topicName": "TCAs",
+    "courseId": 600,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide42.PNG",
+    "question" : "Which of these 3 antidepressants causes significant dry mouth, constipation, and sedation?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 1",
+    "explanation" : "Compound 1, clomipramine is a tertiary TCA, which is can bind to muscarinic and histamine receptors resulting in off target adverse effects. Compound 2 is a SRI and does not cause these adverse effects. Compound 3 is a mirtazepine and while it can cause sedation, it does not display anticholinergic effects such as dry mouth and constipation."
+},
+{
+    "topicName": "TCAs",
+    "courseId": 600,
+    "title":"SAR Practice Problem",  
+    "name" : "Predict Metabolite Activity",
+    "imagePath" : "slide44.PNG",
+    "question" : "Predict whether the metabolites will be active or inactive for the compound products. Would amitriptyline be an ideal antidepressant for the elderly?",
+    "options" : [ 
+            "Active, Active, Yes",
+            "Active, Inactive, No", 
+            "Inactive, Inactive, No",
+            "Inactive, Active, Yes"
+    ],
+    "answer" : "Active, Inactive, No",
+    "explanation" : "Aamitriptyline causes anticholinergic effects, therefore it is not an ideal antidepressant for the elderly."
+},
+{
+    "topicName": "TCAs",
+    "courseId": 600,
+    "title":"SAR Practice Problem",  
+    "name" : "Predict Metabolite Activity",
+    "imagePath" : "slide45.PNG",
+    "question" : "Predict whether the metabolites will be active or inactive for the compound products",
+    "options" : [ 
+            "Active, Active",
+            "Active, Inactive", 
+            "Inactive, Inactive",
+            "Inactive, Active"
+    ],
+    "answer" : "Active, Inactive",
+    "explanation" : "No explanation for this item."
+},
+{
+    "topicName": "TCAs",
+    "courseId": 600,
+    "title":"SAR Practice Problem",  
+    "name" : "Predict Metabolite Activity",
+    "imagePath" : "slide46.PNG",
+    "question" : "Predict whether the metabolites will be active or inactive for the compound product. Is nortriptyline considered an SNRI or NRI?",
+    "options" : [ 
+            "Active, NRI",
+            "Active, SNRI", 
+            "Inactive, NRI",
+            "Inactive, SNRI"
+    ],
+    "answer" : "Inactive, NRI",
+    "explanation" : "Nortriptyline is a secondary TCA so it is more selective for NET."
+},
+{
+    "topicName": "TCAs",
+    "courseId": 600,
+    "title":"Useful Structures",  
+    "name" : "Trazodone",
+    "imagePath" : "slide-53a.PNG",
+    "colorLocationAssociations" : [
+            {"color": "black", "location": "none", "description" : "Circled parts of each structure are helpful to associate with the compounds. There are no SAR Requirements for Atypical Antidepressants" }
+    ]
+},
+{
+    "topicName": "Atypical-Antidepressants",
+    "courseId": 600,
+    "title":"Useful Structures",
+    "name" : "Mirtazepine",
+    "imagePath" : "slide-53b.PNG",
+    "colorLocationAssociations" : [
+            {"color": "black", "location": "none", "description" : "Circled parts of each structure are helpful to associate with the compounds. There are no SAR Requirements for Atypical Antidepressants" }
+    ]
+},
+{
+    "topicName": "Atypical-Antidepressants",
+    "courseId": 600,
+    "title":"Useful Structures",  
+    "name" : "Bupropion",
+    "imagePath" : "slide-53c.PNG",
+    "colorLocationAssociations" : [
+            {"color": "black", "location": "none", "description" : "Circled parts of each structure are helpful to associate with the compounds. There are no SAR Requirements for Atypical Antidepressants" }
+    ]
+},
+{
+    "topicName": "Atypical-Antidepressants",
+    "courseId": 600,
+    "title":"Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide55.PNG",
+    "question" : "Which of these 3 antidepressants can also be used for smoking cessation?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 2",
+    "explanation" : "Bupropion"
+},
+{
+    "topicName": "Atypical-Antidepressants",
+    "courseId": 600,
+    "title":"Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide56.PNG",
+    "question" : "Which of these 3 antidepressants causes sedation by blocking histamine receptors?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 3",
+    "explanation" : "Mirtazepine"
+},
+{
+    "topicName": "Atypical-Antidepressants",
+    "courseId": 600,
+    "title":"Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide57.PNG",
+    "question" : "Which of these 3 antidepressants can result in a hepatotoxic metabolite?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 2",
+    "explanation" : "Metabolism of Trazodone"
+},
+{
+    "topicName": "Atypical-Antidepressants",
+    "courseId": 600,
+    "title":"SAR Practice Problem",  
+    "name" : "Clinical Case Study ",
+    "imagePath" : "slide59.PNG",
+    "question" : "Mary Sue is 25-year old male suffering from depression. She complains of feeling tired and gaining weight with her last course of antidepressants. Which compound would you recommend her to try?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 3",
+    "explanation" : "Compound 1 (trazodone) can cause sedation. Compound 2 (amitriptyline) can cause weight gain. Compound 3 (bupropion) would be a good alternative for this patient to prevent unwanted adverse effects."
+},
+{
+    "topicName": "CWB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Requirements",
+    "name" : "Fosfomycin: Hover over compound to view areas.",
+    "imagePath" : "slide2-fosfomycin.PNG",
+    "imgWidth" : 300,
+    "imgPadding" : 100,
+    "compoundHotspots" : [
+            {
+                "name": "Reactive Epoxide Group",
+                "y": 210,
+                "x": 262,
+                "size": 55,
+                "color": "blue",
+                "text": "Reactive Epoxide Group"
+            },
+            {
+                "name": "PEP Mimic",
+                "y": 270,
+                "x": 142,
+                "size": 75,
+                "color": "red",
+                "text": "PEP Mimic"
+            }
+    ]
+},
+{
+    "topicName": "CWB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Requirements",  
+    "name" : "Cycloserine: Hover over compound to view areas.",
+    "imagePath" : "slide2-cycloserine.PNG",
+    "compoundHotspots" : [
+            {
+                "name": "D-Ala analogue",
+                "y": 260,
+                "x": 154,
+                "size": 120,
+                "color": "red",
+                "text": "D-Ala analogue"
+            },
+            {
+                "name": "5-membered ring",
+                "y": 254,
+                "x": 264,
+                "size": 50,
+                "color": "blue",
+                "text": "5-membered ring"
+            }
+    ]
+    
+},
+{
+    "topicName": "CWB-Inhibitors",
+    "courseId": 610,
+    "title": "D Alanine & D Cycloserine",
+    "name": "Click 'Play' or drag the compounds.",
+    "options": [
+            {
+                "canvasSize": { "width": 400, "height": 600 }
+            }
+    ],
+    "objects": [
+            { 
+                "image": "d-alanine-overlay.PNG", 
+                "startY": 10, 
+                "startX": 10, 
+                "opacity": ".5", 
+                "movementLocked": "x",
+                "controlLocked": "all",
+                "text": {
+                        "value": "D Alanine",
+                        "left": 0,
+                        "top": -100,
+                        "fontSize": 30
+                },
+                "movement":
+                        {
+                            "destination": { "x": 150, "y":157 },
+                            "on": ""
+                        }
+            },
+            { 
+                "image": "d-cycloserine-overlay.PNG", 
+                "startY": 400, 
+                "startX": 20, 
+                "opacity": ".5", 
+                "movementLocked": "x",
+                "controlLocked": "all",
+                "text": {
+                        "value": "D Cycloserine",
+                        "left": 0,
+                        "top": 100,
+                        "fontSize": 30
+                },
+                "movement":
+                        {
+                            "destination": { "x": 160, "y":200 },
+                            "on": ""
+                        }
+            }
+    ]
+},
+{
+    "topicName": "CWB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Requirements",  
+    "name" : "Bacitracin: Hover over compound to view areas.",
+    "imagePath" : "slide3-bacitracin.PNG",
+    "imgWidth" : 500,
+    "imgPadding" : 75,
+    "compoundHotspots" : [
+            {
+                "name": "Peptide Bond",
+                "y": 310,
+                "x": 207,
+                "size": 40,
+                "color": "red",
+                "text": "Bacitracin contains many peptide bonds"
+            },
+            {
+                "name": "Peptide Bond",
+                "y": 310,
+                "x": 323,
+                "size": 40,
+                "color": "red",
+                "text": "Bacitracin contains many peptide bonds"
+            }
+    ]
+    
+},
+{
+    "topicName": "CWB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Requirements",  
+    "name" : "Vancomycin: Hover over compound to view areas.",
+    "imagePath" : "slide4-vancomycin.PNG",
+    "imgWidth" : 500,
+    "imgPadding" : 100,
+    "compoundHotspots" : [
+            {
+                "name": "Peptide Bond",
+                "y": 216,
+                "x": 435,
+                "size": 30,
+                "color": "blue",
+                "text": "Vancomycin contains many peptide bonds"
+            },
+            {
+                "name": "H-Bond with D-Ala-D-Ala",
+                "y": 233,
+                "x": 410,
+                "size": 20,
+                "color": "red",
+                "text": "This atom forms hydrogen bonds with D-Ala-D-Ala"
+            },
+            {
+                "name": "H-Bond with D-Ala-D-Ala",
+                "y": 320,
+                "x": 394,
+                "size": 20,
+                "color": "red",
+                "text": "This atom forms hydrogen bonds with D-Ala-D-Ala"
+            },
+            {
+                "name": "H-Bond with D-Ala-D-Ala",
+                "y": 386,
+                "x": 387,
+                "size": 20,
+                "color": "red",
+                "text": "This atom forms hydrogen bonds with D-Ala-D-Ala"
+            },
+            {
+                "name": "H-Bond with D-Ala-D-Ala",
+                "y": 544,
+                "x": 306,
+                "size": 20,
+                "color": "red",
+                "text": "This atom forms hydrogen bonds with D-Ala-D-Ala"
+            }
+    ]
+    
+},
+{
+    "topicName": "CWB-Inhibitors",
+    "courseId": 610,
+    "title":"Practice Problem",  
+    "name" : "Mechanism of Action",
+    "imagePath" : "slide5-9.PNG",
+    "question" : "Which compound below interferes with peptide cross-linking?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 3",
+    "explanation" : "Vancomycin (Compound 3) Binds directly to the D-Ala-D-Ala terminal to prevent peptide cross-linking."
+},
+{
+    "topicName": "CWB-Inhibitors",
+    "courseId": 610,
+    "title":"Practice Problem",  
+    "name" : "Mechanism of Action",
+    "imagePath" : "slide6-7-8.PNG",
+    "question" : "Which compound below inhibits the conversion of UDP-NAG→ UDP-NAM?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 2",
+    "explanation" : "Fosfomycin (Compound 2) Results in irreversible alkylation of the active cysteine on MurA."
+},
+{
+    "topicName": "CWB-Inhibitors",
+    "courseId": 610,
+    "title":"Practice Problem",  
+    "name" : "Mechanism of Action",
+    "imagePath" : "slide6-7-8.PNG",
+    "question" : "Which compound below inhibits Ala racemase & D-Ala ligase?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 3",
+    "explanation" : "Cycloserine (Compound 3) Prevents conversion of L-Ala→ D-Ala and the joining of D-Ala & D-Ala."
+},
+{
+    "topicName": "CWB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Mechanism of Action",
+    "imagePath" : "slide6-7-8.PNG",
+    "question" : "Which compound below inhibits pyrophosphatase?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 1",
+    "explanation" : "Bacitracin (Compound 1) Inhibits the recycling of bactoprene molecule."
+},
+{
+    "topicName": "CWB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Clinical Case Study ",
+    "imagePath" : "slide5-9.PNG",
+    "question" : "GT is diagnosed with C. difficile. Which oral antibiotic would be best to treat his infection?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 3",
+    "explanation" : "Vancomycin (Compound 3) is not orally absorbed, so it will stay in the gut to treat the infection in the large intestine"
+},
+{
+    "topicName": "CWB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Clinical Case Study ",
+    "imagePath" : "slide10-11.PNG",
+    "question" : "SM is diagnosed with a UTI infection. Which compound would be best to treat his infection and has few side effects?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 2",
+    "explanation" : "Fosfomycin (Compound 2) is indicated for urinary tract infections, and is especially active against E. Coli"
+},
+{
+    "topicName": "CWB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Clinical Case Study ",
+    "imagePath" : "slide10-11.PNG",
+    "question" : "GT has a history of psychosis. Which antibiotic below is best avoided in this patient?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 1",
+    "explanation" : "Cycloserine (Compound 1) acts as a partial agonist at the NMDA receptor can result in dose-dependent neurologic and psychiatric disturbances."
+},
+{
+    "topicName": "CWB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Clinical Case Study ",
+    "imagePath" : "slide12-13.PNG",
+    "question" : "BK has kidney dysfunction. Which 2 antibiotics below have side effects that would be harmful to this patient?",
+    "options" : [
+            "Compound 1 & 2", 
+            "Compound 1 & 3", 
+            "Compound 2 & 3"
+    ],
+    "answer" : "Compound 1 & 3",
+    "explanation" : "Bacitracin (Compound 1) and vancomycin (Compound 3) can both result in nephrotoxicity."
+},
+{
+    "topicName": "CWB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Clinical Case Study ",
+    "imagePath" : "slide12-13.PNG",
+    "question" : "AM’s bacterial infection is not responding to treatment. The bacteria in her body have become resistant to the antibiotic by producing D-Ala-D-Lac. Which of the antibiotics was she taking?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 3",
+    "explanation" : "Vancomycin (Compound 3) normally binds to D-Ala-D-Ala of the pentapeptide tail, but with this change to D-Ala-D-Lac, it can no longer bind."
+},
+{
+    "topicName": "Beta-Lactams",
+    "courseId": 610,
+    "title":"SAR Requirements",  
+    "name" : "Penicillin: Hover over compound to view areas.",
+    "imagePath" : "slide2-penicillin.PNG",
+    "imgWidth" : 500,
+    "imgPadding" : 150,
+    "compoundHotspots" : [
+            {
+                "name": "β-Lactam Ring",
+                "y": 287,
+                "x": 400,
+                "size": 40,
+                "color": "black",
+                "text": "β-Lactam Ring & Fused Bicyclic System: Creates a strained system (but less strain than the penicillins, so less reactive)"
+            },
+            {
+                "name": "Position 1",
+                "y": 340,
+                "x": 437,
+                "size": 35,
+                "color": "green",
+                "text": "Must be a nitrogen"
+            },
+            {
+                "name": "Position 2",
+                "y": 423,
+                "x": 550,
+                "size": 90,
+                "color": "blue",
+                "text": "Must be a carboxylic acid for activity; binds to charged nitrogen of a lysine residue in the binding site"
+            },
+            {
+                "name": "Position 3",
+                "y": 280,
+                "x": 588,
+                "size": 55,
+                "color": "darkorange",
+                "text": "Any change will lower activity"
+            },
+            {
+                "name": "Position 4",
+                "y": 209,
+                "x": 512,
+                "size": 45,
+                "color": "purple",
+                "text": "Sulfur is usual, but not essential"
+            },
+            {
+                "name": "Position 5",
+                "y": 192,
+                "x": 397,
+                "size": 70,
+                "color": "deeppink",
+                "text": "No substitutions allowed; cis stereochemistry with hydrogens at position 5 & 6 is essential"
+            },
+            {
+                "name": "R Group",
+                "y": 215,
+                "x": 182,
+                "size": 40,
+                "color": "grey",
+                "text": "EWG: increases the acid stability of the compound. Bulky group: directly attached to the amide will make the compound more B-lactamase resistant. Polar group: broadens the spectrum as this allows the compound to pass through the porins of gram negative bacteria"
+            },
+            {
+                "name": "Position 7",
+                "y": 360,
+                "x": 333,
+                "size": 60,
+                "color": "red",
+                "text": "Must be a carbonyl"
+            }
+    ]
+    
+},
+{
+    "topicName": "Beta-Lactams",
+    "courseId": 610,
+    "title":"SAR Requirements",  
+    "name" : "Cephalosporin: Hover over compound to view areas.",
+    "imagePath" : "slide4-cephalosporin.PNG",
+    "imgWidth" : 500,
+    "imgPadding" : 150,
+    "compoundHotspots" : [
+            {
+                "name": "β-Lactam Ring",
+                "y": 271,
+                "x": 404,
+                "size": 35,
+                "color": "black",
+                "text": "β-Lactam Ring & Fused Bicyclic System: Creates a strained system."
+            },
+            {
+                "name": "Position 1",
+                "y": 320,
+                "x": 438,
+                "size": 35,
+                "color": "green",
+                "text": "Must be a nitrogen"
+            },
+            {
+                "name": "Position 2",
+                "y": 403,
+                "x": 516,
+                "size": 70,
+                "color": "blue",
+                "text": "Must be a carboxylic acid for activity; binds to charged nitrogen of a lysine residue in the binding site"
+            },
+            {
+                "name": "Position 3",
+                "y": 319,
+                "x": 604,
+                "size": 70,
+                "color": "darkorange",
+                "text": "R2 Group: Non-metabolized group: increases oral activity & acid stability. MTT group: extended spectrum, longer-half life, higher potency. Pyrimidine ring (positive charge): forms a zwitterion & increases solubility. 1,3 thiazole ring: Anti-MRSA activity"
+            },
+            {
+                "name": "Position 5",
+                "y": 185,
+                "x": 497,
+                "size": 38,
+                "color": "purple",
+                "text": "Sulfur is usual, but not essential"
+            },
+            {
+                "name": "Position 6",
+                "y": 200,
+                "x": 437,
+                "size": 45,
+                "color": "deeppink",
+                "text": "No substitutions allowed"
+            },
+            {
+                "name": "R1 Group",
+                "y": 215,
+                "x": 182,
+                "size": 40,
+                "color": "grey",
+                "text": "EWG: increases the acid stability of the compound. Bulky group: directly attached to the amide will make the compound more B-lactamase resistant. Polar group: broadens the spectrum as this allows the compound to pass through the porins of gram negative bacteria. Oxime: increases B-lactamase resistance."
+            },
+            {
+                "name": "Position 7",
+                "y": 195,
+                "x": 369,
+                "size": 45,
+                "color": "brown",
+                "text": "R3 group: Addition of OCH3 (7-alpha-methoxy) increases B-lactamase resistance"
+            },
+            {
+                "name": "Position 8",
+                "y": 353,
+                "x": 340,
+                "size": 60,
+                "color": "red",
+                "text": "Must be a carbonyl"
+            }
+    ]
+    
+},
+{
+    "topicName": "Beta-Lactams",
+    "courseId": 610,
+    "title":"SAR Requirements",  
+    "name" : "Cephalosporin / Ceftaroline: Hover over compound to view areas.",
+    "imagePath" : "ceftaroline.PNG",
+    "imgWidth" : 500,
+    "imgPadding" : 150,
+    "compoundHotspots" : [
+            {
+                "name": "",
+                "y": 169,
+                "x": 136,
+                "size": 50,
+                "color": "orangered",
+                "text": "Info: Specific requirements for Ceftaroline (5th generation) to be aware of"
+            }
+    ]
+    
+},
+{
+    "topicName": "Beta-Lactams",
+    "courseId": 610,
+    "title":"Other β-lactam Classes",  
+    "name" : "Carbapenems: Hover over Imipenem to view areas.",
+    "imagePath" : "imipenem.PNG",
+    "imgWidth" : 500,
+    "imgPadding" : 150,
+    "compoundHotspots" : [
+            {
+                "name": "",
+                "y": 286,
+                "x": 340,
+                "size": 85,
+                "color": "orangered",
+                "text": "Unsaturated 5-membered ring connected to the β-lactam ring"
+            }
+    ]
+    
+},
+{
+    "topicName": "Beta-Lactams",
+    "courseId": 610,
+    "title":"Other β-lactam Classes",  
+    "name" : "Monobactams: Hover over Aztreonam to view areas.",
+    "imagePath" : "aztreonam.PNG",
+    "imgWidth" : 400,
+    "imgPadding" : 150,
+    "compoundHotspots" : [
+            {
+                "name": "",
+                "y": 317,
+                "x": 442,
+                "size": 50,
+                "color": "orangered",
+                "text": "Only a single B-lactam ring"
+            }
+    ]
+    
+},
+{
+    "topicName": "Beta-Lactams",
+    "courseId": 610,
+    "title":"β-lactamase Inhibitors",  
+    "name" : "Hover over each molecule to view names.",
+    "imagePath" : "exampleInhibitors.PNG",
+    "imgWidth" : 500,
+    "imgPadding" : 150,
+    "compoundHotspots" : [
+            {
+                "name": "Clavulanic Acid",
+                "y": 215,
+                "x": 270,
+                "size": 115,
+                "color": "red",
+                "text": "Clavulanic Acid"
+            },
+            {
+                "name": "Avibactam",
+                "y": 406,
+                "x": 543,
+                "size": 115,
+                "color": "blue",
+                "text": "Avibactam"
+            },
+            {
+                "name": "Sulbactam",
+                "y": 404,
+                "x": 263,
+                "size": 115,
+                "color": "darkorange",
+                "text": "Sulbactam"
+            },
+            {
+                "name": "Tazobactam",
+                "y": 228,
+                "x": 533,
+                "size": 115,
+                "color": "purple",
+                "text": "Tazobactam"
+            }
+    ]
+    
+},
+{
+    "topicName": "Beta-Lactams",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Choose the Correct Answer",
+    "imagePath" : "slide8-9-10.PNG",
+    "question" : "Which addition to amide side chain (R) broadens the spectrum of penicillins?",
+    "options" : [
+            "Bulky group", 
+            "Heterocyclic ring", 
+            "Polar group",
+            "Electron withdrawing group"
+    ],
+    "answer" : "Polar group",
+    "explanation" : "No explanation provided."
+},
+{
+    "topicName": "Beta-Lactams",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Choose the Correct Answer",
+    "imagePath" : "slide8-9-10.PNG",
+    "question" : "Which addition to amide side chain (R) makes penicillins more acid stable?",
+    "options" : [
+            "Bulky group", 
+            "Heterocyclic ring", 
+            "Polar group",
+            "Electron withdrawing group"
+    ],
+    "answer" : "Electron withdrawing group",
+    "explanation" : "No explanation provided."
+},
+{
+    "topicName": "Beta-Lactams",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Choose the Correct Answer",
+    "imagePath" : "slide8-9-10.PNG",
+    "question" : "Which addition to amide side chain (R) makes penicillins less susceptible to B-lactamases?",
+    "options" : [
+            "Bulky group", 
+            "Heterocyclic ring", 
+            "Polar group",
+            "Electron withdrawing group"
+    ],
+    "answer" : "Bulky group",
+    "explanation" : "No explanation provided."
+},
+{
+    "topicName": "Beta-Lactams",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Activity Change",
+    "imagePath" : "slide11.PNG",
+    "question" : "Will the following change increase or decrease activity?",
+    "options" : [
+            "Increase", 
+            "Decrease"
+    ],
+    "answer" : "Decrease",
+    "explanation" : "Sulfate group essential for activity."
+},
+{
+    "topicName": "Beta-Lactams",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Activity Change",
+    "imagePath" : "slide12.PNG",
+    "question" : "Will the following change increase or decrease activity?",
+    "options" : [
+            "Increase", 
+            "Decrease"
+    ],
+    "answer" : "Decrease",
+    "explanation" : "Carboxylic acid essential for activity."
+},
+{
+    "topicName": "Beta-Lactams",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide13.PNG",
+    "question" : "Which compound(s) are acid stable and can be taken orally?",
+    "options" : [
+            "Compound 1 & 3",
+            "Compound 2 & 3", 
+            "Compound 1 & 2"
+    ],
+    "answer" : "Compound 1 & 2",
+    "explanation" : "Both compound 1 (cefaclor) & compound 2 (cefdinir) contain non-metabolizable groups at position 3."
+},
+{
+    "topicName": "Beta-Lactams",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide14.PNG",
+    "question" : "Which compound(s) has increased β-lactamase resistance?",
+    "options" : [
+            "Compound 1 & 3",
+            "Compound 2 & 3", 
+            "Compound 1 & 2"
+    ],
+    "answer" : "Compound 1 & 2",
+    "explanation" : "Both compound 1 (cefepime) and compound 2 (cefdinir) contains oxime group as R1"
+},
+{
+    "topicName": "Beta-Lactams",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide15.PNG",
+    "question" : "Which compound has increased β-lactamase resistance?",
+    "options" : [
+            "Compound 1",
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 3",
+    "explanation" : "Compound 3 (cefotetan) Contains 7-alpha-methoxy group."
+},
+{
+    "topicName": "Beta-Lactams",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide16.PNG",
+    "question" : "Which compound is most active against staph infections?",
+    "options" : [
+            "Compound 1",
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 2",
+    "explanation" : "Compound 2 (methicillin) contain non-metabolizable groups at position."
+},
+{
+    "topicName": "Beta-Lactams",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide17.PNG",
+    "question" : "Which compound shows the highest oral bioavailability?",
+    "options" : [
+            "Compound 1",
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 1",
+    "explanation" : "Compound 1 (amoxicillin) contains polar R group and does not form a Zwitterion around pH of the GIT. "
+},
+{
+    "topicName": "Beta-Lactams",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide18.PNG",
+    "question" : "Which compound is associated with Disulfiram-like reaction?",
+    "options" : [
+            "Compound 1",
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 2",
+    "explanation" : "Compound 2 (cefamandole) because R2- contains MTT ring."
+},
+{
+    "topicName": "Beta-Lactams",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide19.PNG",
+    "question" : "Which compound is NOT used with β-lactamase inhibitors?",
+    "options" : [
+            "Compound 1",
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 3",
+    "explanation" : "Compound 3 (nafcillin) contains bulky R group directly attached to amide."
+},
+{
+    "topicName": "Beta-Lactams",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide20.PNG",
+    "question" : "Which compound shows the least amount of antimicrobial activity?",
+    "options" : [
+            "Compound 1",
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 2",
+    "explanation" : "Compound 2 (clavulanic acid) β-lactamase inhibitor; no antimicrobial activity."
+},
+{
+    "topicName": "Beta-Lactams",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide21.PNG",
+    "question" : "Which compound must be used in combination with cilastin?",
+    "options" : [
+            "Compound 1",
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 2",
+    "explanation" : "Compound 2 (imipenem) is hydrolyzed by dehydropeptidase in the kidney to a nephrotoxic metabolite. Cilastin inhibits dehydropeptisdase."
+},
+{
+    "topicName": "Beta-Lactams",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Clinical Case Study",
+    "imagePath" : "slide22.PNG",
+    "question" : "GM is experienced a life-threatening reaction from amoxicillin, which antibiotic is safe for this patient to use?",
+    "options" : [
+            "Compound 1",
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 3",
+    "explanation" : "Compound 3 (aztreonam) because no cross-allergic reactions with other β-lactams."
+},
+{
+    "topicName": "Beta-Lactams",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Clinical Case Study",
+    "imagePath" : "slide23.PNG",
+    "question" : "Which compound(s) are acid stable and can be taken orally?",
+    "options" : [
+            "Compound 1",
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 1",
+    "explanation" : "Compound 1 (ceftriaxone) contains heterocyclic ring, which broadens spectrum and increases anti-pseudomonal activity."
+},
+{
+    "topicName": "FAB-Inhibitors",
+    "courseId": 610,
+    "title":"Sulfonamides",  
+    "name" : "Hover over the molecule to view SAR Requirements.",
+    "imagePath" : "sulfonamidesSAR.PNG",
+    "imgWidth" : 500,
+    "imgPadding" : 150,
+    "compoundHotspots" : [
+            {
+                "name": "Amine",
+                "y": 248,
+                "x": 205,
+                "size": 75,
+                "color": "blue",
+                "text": "Amine is essential: Must be un-substituted, Must be para to the sulfonamide"
+            },
+            {
+                "name": "Benzene Ring",
+                "y": 248,
+                "x": 375,
+                "size": 90,
+                "color": "red",
+                "text": "Benzene ring is essential"
+            },
+            {
+                "name": "Sulfonamide",
+                "y": 248,
+                "x": 550,
+                "size": 100,
+                "color": "green",
+                "text": "Sulfonamide is essential: Must be un-ionized to cross bacterial cell membrane, Must be ionized to interact with DHPS active site, Mono-substitution allowed (EWG & heterocycle are favorable), Di-substitution abolishes activity, Must be para to the amine."
+            }
+    ]
+    
+},
+{
+    "topicName": "FAB-Inhibitors",
+    "courseId": 610,
+    "title":"Trimethoprim",  
+    "name" : "Hover over Trimethoprim to view characteristic parts.",
+    "imagePath" : "trimethoprimSAR.PNG",
+    "imgWidth" : 400,
+    "imgPadding" : 150,
+    "compoundHotspots" : [
+            {
+                "name": "",
+                "y": 222,
+                "x": 263,
+                "size": 115,
+                "color": "red",
+                "text": "First Characteristic part of Trimethoprim"
+            },
+            {
+                "name": "",
+                "y": 360,
+                "x": 433,
+                "size": 130,
+                "color": "red",
+                "text": "Second Characteristic part of Trimethoprim"
+            }
+    ]
+    
+},
+{
+    "topicName": "FAB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Activity Change",
+    "imagePath" : "slide4.PNG",
+    "question" : "Will the following change increase or decrease activity?",
+    "options" : [
+            "Increase", 
+            "Decrease"
+    ],
+    "answer" : "Increase",
+    "explanation" : "Addition of heterocycle to sulfonamide is favorable and decreases pH to optimal range."
+},
+{
+    "topicName": "FAB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Activity Change",
+    "imagePath" : "slide5.PNG",
+    "question" : "Will the following change increase or decrease activity?",
+    "options" : [
+            "Increase", 
+            "Decrease"
+    ],
+    "answer" : "Decrease",
+    "explanation" : "Amine essential for activity."
+},
+{
+    "topicName": "FAB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide6.PNG",
+    "question" : "Which of the two compounds has greatest antimicrobial activity?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2"
+    ],
+    "answer" : "Compound 1",
+    "explanation" : "The negative charge on the sulfonamide can be stabilized by resonance with the ring."
+},
+{
+    "topicName": "FAB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide7.PNG",
+    "question" : "Which is a prodrug?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2",
+            "Compound 3"
+    ],
+    "answer" : "Compound 1",
+    "explanation" : "Compound 1 (prontosil) Metabolized by reductases to give active form of sulfonamide."
+},
+{
+    "topicName": "FAB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide8.PNG",
+    "question" : "Which is the longest acting sulfonamide?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2",
+            "Compound 3"
+    ],
+    "answer" : "Compound 2",
+    "explanation" : "Compound 2 (sulfadoxine) Has a half life of 150 hours."
+},
+{
+    "topicName": "FAB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Choose the correct answer",
+    "imagePath" : "slide9.PNG",
+    "question" : "Which characteristics, at physiological pH, would provide the most effective sulfonamide?",
+    "options" : [
+            "Low lipophilicity, unionized", 
+            "High lipophilicity, unionized",
+            "Low lipophilicity, ionized",
+            "High lipophilicity, ionized"
+    ],
+    "answer" : "High lipophilicity, ionized",
+    "explanation" : "Lipophilicity is needed to enter the cell and ionization is required to bind to enzyme."
+},
+{
+    "topicName": "FAB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Mechanism of Action",
+    "imagePath" : "slide10.PNG",
+    "question" : "Which of the following inhibits DHPS?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2",
+            "Compound 3"
+    ],
+    "answer" : "Compound 1",
+    "explanation" : "Compound 1 is sulfamethoxazole."
+},
+{
+    "topicName": "FAB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Mechanism of Action",
+    "imagePath" : "slide11.PNG",
+    "question" : "Which of the following inhibits DHFR?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2",
+            "Compound 3"
+    ],
+    "answer" : "Compound 1",
+    "explanation" : "Compound 1 is trimethoprim."
+},
+{
+    "topicName": "FAB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Clinical Case Study",
+    "imagePath" : "slide12.PNG",
+    "question" : "KT has a history of Steven Johnson Syndrome, which antibiotic is best avoided in her?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2",
+            "Compound 3"
+    ],
+    "answer" : "Compound 3",
+    "explanation" : "Compound 3 (sulfamethoxazole) is a sulfonamide which can lead to this life-threatening rash."
+},
+{
+    "topicName": "DNA-Topo",
+    "courseId": 610,
+    "title":"Quinolones",  
+    "name" : "Hover over the Quinolones compound to view SAR.",
+    "imagePath" : "quinolones.PNG",
+    "imgWidth" : 400,
+    "imgPadding" : 150,
+    "compoundHotspots" : [
+            {
+                "name": "Position 1",
+                "y": 407,
+                "x": 342,
+                "size": 60,
+                "color": "red",
+                "text": "Position 1: Nitrogen can allow substitutions of alkyl (Me, Et, cPr) or aryl (2,4-difluorophenyl) groups"
+            },
+            {
+                "name": "Position 2",
+                "y": 327,
+                "x": 420,
+                "size": 40,
+                "color": "darkorange",
+                "text": "Position 2: Can be either a carbon or nitrogen"
+            },
+            {
+                "name": "Position 3",
+                "y": 225,
+                "x": 480,
+                "size": 75,
+                "color": "gold",
+                "text": "Position 3: Must be unsubstituted carboxylic acid"
+            },
+            {
+                "name": "Position 4",
+                "y": 175,
+                "x": 342,
+                "size": 60,
+                "color": "green",
+                "text": "Position 4: Must be ketone"
+            },
+            {
+                "name": "Position 6",
+                "y": 253,
+                "x": 166,
+                "size": 40,
+                "color": "blue",
+                "text": "Position 6: Fluorine substitution increases activity and broadens spectrum"
+            },
+            {
+                "name": "Position 7",
+                "y": 333,
+                "x": 162,
+                "size": 40,
+                "color": "purple",
+                "text": "Position 7: Substitution with nitrogen containing heterocycles (piperazine ring) broadens spectrum; potential for zwitterion"
+            },
+            {
+                "name": "Position 8",
+                "y": 375,
+                "x": 235,
+                "size": 40,
+                "color": "deeppink",
+                "text": "Position 8: Substitution with small polar groups (OCH3, F, Cl) increases activity"
+            }
+    ]
+},
+{
+    "topicName": "DNA-Topo",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Activity Change",
+    "imagePath" : "slide3.PNG",
+    "question" : "Will the following change increase or decrease activity?",
+    "options" : [
+            "Increase", 
+            "Decrease"
+    ],
+    "answer" : "Increase",
+    "explanation" : "Ketone at position 4 is essential to bind to target."
+},
+{
+    "topicName": "DNA-Topo",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Activity Change",
+    "imagePath" : "slide4.PNG",
+    "question" : "Will the following change increase or decrease activity?",
+    "options" : [
+            "Increase", 
+            "Decrease"
+    ],
+    "answer" : "Increase",
+    "explanation" : "F at position 6 increases activity and broadens spectrum."
+},
+{
+    "topicName": "DNA-Topo",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Activity Change",
+    "imagePath" : "slide5.PNG",
+    "question" : "Will the following change increase or decrease activity?",
+    "options" : [
+            "Increase", 
+            "Decrease"
+    ],
+    "answer" : "Increase",
+    "explanation" : "Methoxy substitution at position 8 increases activity."
+},
+{
+    "topicName": "DNA-Topo",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide6.PNG",
+    "question" : "Which is the most active quinolone?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2",
+            "Compound 3"
+    ],
+    "answer" : "Compound 1",
+    "explanation" : "Moxifloxacin (compound 1) because the addition of methoxy at position 8 improves activity."
+},
+{
+    "topicName": "DNA-Topo",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Choose the Correct Answer",
+    "imagePath" : "slide7.PNG",
+    "question" : "What does the addition of the circled group result in?",
+    "options" : [
+            "Improves activity", 
+            "Increases half life",
+            "Broadens spectrum",
+            "Decreases resistance"
+    ],
+    "answer" : "Broadens spectrum",
+    "explanation" : "Because it increases activity against pseudomonas."
+},
+{
+    "topicName": "DNA-Topo",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Choose the Correct Answer",
+    "imagePath" : "slide8.PNG",
+    "question" : "What can the circled moities lead to?",
+    "options" : [
+            "Broadening spectrum", 
+            "Increasing half life",
+            "Decreasing resistance",
+            "Chelation with metals"
+    ],
+    "answer" : "Chelation with metals",
+    "explanation" : "Chelation with metals can reduce oral absorption; do not take with antacids, mineral supplements, or dairy products."
+},
+{
+    "topicName": "DNA-Topo",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Clinical Case Study",
+    "imagePath" : "slide9.PNG",
+    "question" : "JT is a 4-year-old boy diagnosed with a gram-negative infection, which antibiotic do you NOT recommend?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2",
+            "Compound 3"
+    ],
+    "answer" : "Compound 2",
+    "explanation" : "Ciprofloxacin (Compound 2) should be recommended since quinolones can lead to tendon rupture in young children and should never be used first line."
+},
+{
+    "topicName": "DNA-Topo",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Clinical Case Study",
+    "imagePath" : "slide10.PNG",
+    "question" : "AM is diagnosed with a pseudomonal infection, which antibiotic do you recommend?",
+    "options" : [
+            "Compound 1", 
+            "Compound 2",
+            "Compound 3"
+    ],
+    "answer" : "Compound 2",
+    "explanation" : "Norfloxacin (Compound 2) contains piperazine ring, which gives it anti-pseudomonal activity."
+},
+{
+    "topicName": "30S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"Aminoglycosides",  
+    "name" : "Hover over the Aminoglycosides compound to view SAR.",
+    "imagePath" : "aminoglycosides.PNG",
+    "imgWidth" : 450,
+    "imgPadding" : 200,
+    "compoundHotspots" : [
+            {
+                "name": "Ring 1",
+                "y": 241,
+                "x": 275,
+                "size": 80,
+                "color": "blue",
+                "text": "Ring 1: The amine can be methylated or changed to a hydroxyl group, but its removal will abolish activity."
+            },
+            {
+                "name": "Ring 2",
+                "y": 300,
+                "x": 416,
+                "size": 80,
+                "color": "red",
+                "text": "Ring 2: Many modifications are possible, for example the 3- amine can be substituted or acylated."
+            },
+            {
+                "name": "Ring 3",
+                "y": 231,
+                "x": 547,
+                "size": 90,
+                "color": "green",
+                "text": "Ring 3: -Crucial for broad-spectrum activity. -First target of inactivating enzymes. -The 2-, 3-, 4- hydroxyl groups are not essential for activity. -Methylation of the amine will retain activity and will lower susceptibility to transferases. -All substitutions must be equatorial"
+            }
+    ]
+},
+{
+    "topicName": "30S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"Tetracyclines",  
+    "name" : "Hover over the Tetracyclines compound to view SAR.",
+    "imagePath" : "tetracyclines.PNG",
+    "imgWidth" : 400,
+    "imgPadding" : 150,
+    "compoundHotspots" : [
+            {
+                "name": "Position 1",
+                "y": 315,
+                "x": 426,
+                "size": 30,
+                "color": "deeppink",
+                "text": "Positions 1, 10, 11, 12 and 12a: any changes will completely abolish activity, even changes in the stereochemical configuration."
+            },
+            {
+                "name": "Position 2",
+                "y": 285,
+                "x": 507,
+                "size": 60,
+                "color": "red",
+                "text": "Position 2: Any changes leads to decreased activity, even substitution to the amide."
+            },
+            {
+                "name": "Position 4",
+                "y": 170,
+                "x": 438,
+                "size": 35,
+                "color": "blue",
+                "text": "Position 3: Amine in the α-position is essential, but monosubstitution is also active."
+            },
+            {
+                "name": "Position 5",
+                "y": 188,
+                "x": 348,
+                "size": 35,
+                "color": "green",
+                "text": "Position 5: R4 can be a hydroxyl, keto group or a hydrogen, and all are active."
+            },
+            {
+                "name": "Position 6",
+                "y": 184,
+                "x": 282,
+                "size": 35,
+                "color": "gold",
+                "text": "Position 6: Both substitutions (R2 and R3) are not necessary."
+            },
+            {
+                "name": "Position 7",
+                "y": 194,
+                "x": 208,
+                "size": 30,
+                "color": "darkorange",
+                "text": "Position 7: Cl, F, Br, NO2 and a tertiary amine are all active."
+            },
+            {
+                "name": "Position 8",
+                "y": 216,
+                "x": 162,
+                "size": 30,
+                "color": "purple",
+                "text": "Position 8: Any electron withdrawing or donating group is still active"
+            },
+            {
+                "name": "Position 9",
+                "y": 274,
+                "x": 164,
+                "size": 30,
+                "color": "grey",
+                "text": "Position 9: Bulky substitution decreases resistance."
+            },
+            {
+                "name": "Position 10",
+                "y": 315,
+                "x": 211,
+                "size": 30,
+                "color": "deeppink",
+                "text": "Positions 1, 10, 11, 12 and 12a: any changes will completely abolish activity, even changes in the stereochemical configuration."
+            },
+            {
+                "name": "Position 11",
+                "y": 315,
+                "x": 284,
+                "size": 30,
+                "color": "deeppink",
+                "text": "Positions 1, 10, 11, 12 and 12a: any changes will completely abolish activity, even changes in the stereochemical configuration."
+            },
+            {
+                "name": "Position 12",
+                "y": 315,
+                "x": 355,
+                "size": 30,
+                "color": "deeppink",
+                "text": "Positions 1, 10, 11, 12 and 12a: any changes will completely abolish activity, even changes in the stereochemical configuration."
+            },
+            {
+                "name": "Position 12a",
+                "y": 315,
+                "x": 355,
+                "size": 30,
+                "color": "deeppink",
+                "text": "Positions 1, 10, 11, 12 and 12a: any changes will completely abolish activity, even changes in the stereochemical configuration."
+            }
+    ]
+},
+{
+    "topicName": "30S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Activity Change",
+    "imagePath" : "slide4.PNG",
+    "question" : "Will the following change increase or decrease chemical stability?",
+    "options" : [
+            "Increase", 
+            "Decrease"
+    ],
+    "answer" : "Increase",
+    "explanation" : "Replacement of OH with H at position 6 makes the compound more stable."
+},
+{
+    "topicName": "30S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Activity Change",
+    "imagePath" : "slide5.PNG",
+    "question" : "Will the following change increase or decrease bacterial resistance?",
+    "options" : [
+            "Increase", 
+            "Decrease"
+    ],
+    "answer" : "Decrease",
+    "explanation" : "Addition of bulky group protects the compound from inactivating enzymes."
+},
+{
+    "topicName": "30S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide6.PNG",
+    "question" : "Which of the following binds to both the 30S and 50S ribosomal units?",
+    "options" : [
+            "Compound 1",
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 2",
+    "explanation" : "Tobramycin (compound 2) is the only aminoglycoside that binds to both ribosomal units."
+},
+{
+    "topicName": "30S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide7.PNG",
+    "question" : "Which of the following is only used topically?",
+    "options" : [
+            "Compound 1",
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 1",
+    "explanation" : "Neomycin (Compound 1) because only used topically due to nephrotoxicity."
+},
+{
+    "topicName": "30S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide8.PNG",
+    "question" : "Which of the following does NOT bind to the 30S ribosomal unit?",
+    "options" : [
+            "Compound 1",
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 2",
+    "explanation" : "Azithromycin (Compound 2) because Macrolides bind to the 50S ribosomal unit."
+},
+{
+    "topicName": "30S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide9.PNG",
+    "question" : "Which of the following is NOT bactericidal?",
+    "options" : [
+            "Compound 1",
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 2",
+    "explanation" : "Tetracycline (Compound 2) because Tetracyclines are bacteriostatic."
+},
+{
+    "topicName": "30S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide10.PNG",
+    "question" : "Which is less susceptible to bacterial resistance?",
+    "options" : [
+            "Compound 1",
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 3",
+    "explanation" : "Tigecycline (Compound 3) because addition of bulky group to position 9."
+},
+{
+    "topicName": "30S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide11.PNG",
+    "question" : "Which antibiotic is used primarily by IV injections?",
+    "options" : [
+            "Compound 1",
+            "Compound 2", 
+            "Compound 3"
+    ],
+    "answer" : "Compound 3",
+    "explanation" : "Gentamicin (Compound 3) because Aminoglycosides are not orally absorbed."
+},
+{
+    "topicName": "30S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Choose the Correct Answer",
+    "imagePath" : "slide12.PNG",
+    "question" : "What is the main advantage of the circled group?",
+    "options" : [
+            "Retains activity",
+            "Increases half life", 
+            "Broadens spectrum",
+            "Decreases resistance"
+    ],
+    "answer" : "Decreases resistance",
+    "explanation" : "Less spots for inactivating enzymes to act."
+},
+{
+    "topicName": "30S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Choose the Correct Answer",
+    "imagePath" : "slide13.PNG",
+    "question" : "What is the importance of retaining the stereochemistry of the circled group?",
+    "options" : [
+            "Retains activity",
+            "Increases half life", 
+            "Broadens spectrum",
+            "Decreases resistance"
+    ],
+    "answer" : "Retains activity",
+    "explanation" : "Essential for activity."
+},
+{
+    "topicName": "30S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Choose the Correct Answer",
+    "imagePath" : "slide14.PNG",
+    "question" : "Which reaction of this compound leads to a toxic product?",
+    "options" : [
+            "Decompositon in acidic medium",
+            "Decompositon in basic medium", 
+            "Chelation",
+            "Epimerization"
+    ],
+    "answer" : "Decompositon in acidic medium",
+    "explanation" : "Nephrotoxic product."
+},
+{
+    "topicName": "30S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Choose the Correct Answer",
+    "imagePath" : "slide15.PNG",
+    "question" : "Which reactions inactivate this compound?",
+    "options" : [
+            "Decompositon in acidic medium & Chelation",
+            "Decompositon in basic medium & Epimerization", 
+            "Decompositon in basic medium & Chelation",
+            "Decompositon in acidic medium & Epimerization"
+    ],
+    "answer" : "Decompositon in basic medium & Epimerization",
+    "explanation" : "No explanation provided."
+},
+{
+    "topicName": "30S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Clinical Case Study",
+    "imagePath" : "slide16.PNG",
+    "question" : "Carly Sandbergin is going on vacation to sunny Florida, which antibiotic(s) should she avoid?",
+    "options" : [
+            "Compound 1",
+            "Compound 2", 
+            "Compound 3",
+            "Compound 1 & 2",
+            "Compound 2 & 3"
+    ],
+    "answer" : "Compound 1 & 2",
+    "explanation" : "Doxycycline (Compound 1) & Ciprofloxacin (Compound 2) because both tetracyclines and quinolones can lead to phototoxicity."
+},
+{
+    "topicName": "50S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"Macrolides",  
+    "name" : "Hover over the Macrolides compound to view SAR.",
+    "imagePath" : "macrolides-sar.PNG",
+    "imgWidth" : 450,
+    "imgPadding" : 100,
+    "compoundHotspots" : [
+            {
+                "name": "Sugar",
+                "y": 401,
+                "x": 392,
+                "size": 60,
+                "color": "red",
+                "text": "Macrolides contain one or two sugars usually desosamine and/or cladinose."
+            },
+            {
+                "name": "Sugar",
+                "y": 262,
+                "x": 465,
+                "size": 60,
+                "color": "red",
+                "text": "Macrolides contain one or two sugars usually desosamine and/or cladinose."
+            },
+            {
+                "name": "Lactone Ring ",
+                "y": 246,
+                "x": 278,
+                "size": 80,
+                "color": "blue",
+                "text": "Large lactone ring (12, 14, or 16 membered ring)."
+            }
+    ]
+},
+{
+    "topicName": "50S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"Ketolides",  
+    "name" : "Hover over the Ketolides compound to view SAR.",
+    "imagePath" : "ketolides-sar.PNG",
+    "imgWidth" : 400,
+    "imgPadding" : 160,
+    "compoundHotspots" : [
+            {
+                "name": "3-keto functional group",
+                "y": 393,
+                "x": 354,
+                "size": 30,
+                "color": "red",
+                "text": "3-keto functional group replaces L-cladinose sugar of erythromycin A: Restores activity against bacteria with inducible resistance mediated by Erm, and enhances activity against streptococci with Mef-mediated macrolide efflux"
+            },
+            {
+                "name": "Carbamate Side Chain",
+                "y": 235,
+                "x": 145,
+                "size": 80,
+                "color": "blue",
+                "text": "Carbamate Side Chain Addition: Promotes activity against both erythromycin-sensitive and erythromycin-resistant bacteria by introducing an interaction with domain II of the 23S rRNA."
+            }
+    ]
+},
+{
+    "topicName": "50S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"Lincosamides",  
+    "name" : "Hover over the Lincosamides compound to view SAR.",
+    "imagePath" : "lincosamides-sar.PNG",
+    "imgWidth" : 450,
+    "imgPadding" : 100,
+    "compoundHotspots" : [
+            {
+                "name": "Eight Carbon Sugar",
+                "y": 209,
+                "x": 450,
+                "size": 130,
+                "color": "red",
+                "text": "Eight Carbon Sugar"
+            },
+            {
+                "name": "Amide bond",
+                "y": 228,
+                "x": 278,
+                "size": 40,
+                "color": "blue",
+                "text": "Amide bond."
+            }
+    ]
+},
+{
+    "topicName": "50S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"Streptogramins",  
+    "name" : "Hover over the Streptogramins compound to view SAR.",
+    "imagePath" : "streptogramins-sar.PNG",
+    "imgWidth" : 700,
+    "imgPadding" : 100,
+    "compoundHotspots" : [
+            {
+                "name": "Type A: Quinupristin",
+                "y": 275,
+                "x": 257,
+                "size": 175,
+                "color": "red",
+                "text": "Type A: Quinupristi - Type A & B used together synergistically"
+            },
+            {
+                "name": "Type B: Dalfopristin",
+                "y": 260,
+                "x": 685,
+                "size": 175,
+                "color": "blue",
+                "text": "Type B: Dalfopristin - Type A & B used together synergistically"
+            }
+    ]
+},
+{
+    "topicName": "50S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"Chloramphenicol",  
+    "name" : "Hover over the Chloramphenicol compound to view SAR.",
+    "imagePath" : "chloramphenicol-sar.PNG",
+    "imgWidth" : 500,
+    "imgPadding" : 130,
+    "compoundHotspots" : [
+            {
+                "name": "Nitro group",
+                "y": 223,
+                "x": 164,
+                "size": 40,
+                "color": "red",
+                "text": "Nitro group: can be replaced with other EWG, but activity decreases"
+            },
+            {
+                "name": "Aromatic ring",
+                "y": 223,
+                "x": 283,
+                "size": 60,
+                "color": "darkorange",
+                "text": "Aromatic ring: essential for activity"
+            },
+            {
+                "name": "Chlorines",
+                "y": 181,
+                "x": 617,
+                "size": 40,
+                "color": "green",
+                "text": "Chlorines: can be removed or replaced with other halogens, but activity decreases"
+            },
+            {
+                "name": "R, R stereoisomer",
+                "y": 223,
+                "x": 409,
+                "size": 40,
+                "color": "blue",
+                "text": "R, R stereoisomer: essential for activity"
+            }
+    ]
+},
+{
+    "topicName": "50S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"Oxazolidinones",  
+    "name" : "Hover over the Oxazolidinones compound to view SAR.",
+    "imagePath" : "oxazolidinones-sar.PNG",
+    "imgWidth" : 500,
+    "imgPadding" : 100,
+    "compoundHotspots" : [
+            {
+                "name": "Oxazolidinone ring",
+                "y": 155,
+                "x": 410,
+                "size": 70,
+                "color": "red",
+                "text": "Oxazolidinone ring"
+            }
+    ]
+},
+{
+    "topicName": "50S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Activity Change",
+    "imagePath" : "slide8.PNG",
+    "question" : "Will the following change increase or decrease chemical stability?",
+    "options" : [
+            "Increase",
+            "Decrease"
+    ],
+    "answer" : "Increase",
+    "explanation" : "Replacement of OH with OCH3 reduces acid-catalyzed degradation."
+},
+{
+    "topicName": "50S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Activity Change",
+    "imagePath" : "slide9.PNG",
+    "question" : "Will the following change increase or decrease acid stability?",
+    "options" : [
+            "Increase",
+            "Decrease"
+    ],
+    "answer" : "Increase",
+    "explanation" : "15 member ring (with no ketone) increases acid stability and permits accumulation of azithromycin in the cell."
+},
+{
+    "topicName": "50S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Activity Change",
+    "imagePath" : "slide10.PNG",
+    "question" : "Will the following change increase or decrease activity?",
+    "options" : [
+            "Increase",
+            "Decrease"
+    ],
+    "answer" : "Decrease",
+    "explanation" : "Cl increases lipophilicity and has better oral absorption."
+},
+{
+    "topicName": "50S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide11.PNG",
+    "question" : "Which compound is less susceptible to bacteria resistance?",
+    "options" : [
+            "Compound 1",
+            "Compound 2",
+            "Compound 3"
+    ],
+    "answer" : "Compound 1",
+    "explanation" : "Telithromycin (Compound 1) because the addition of 3-keto group and carbamate side chain."
+},
+{
+    "topicName": "50S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Compare Compounds",
+    "imagePath" : "slide12.PNG",
+    "question" : "Which of the following is NOT bacteriostatic?",
+    "options" : [
+            "Compound 1",
+            "Compound 2",
+            "Compound 3"
+    ],
+    "answer" : "Compound 1",
+    "explanation" : "Gentamicin (Compound 1) because Aminoglycosides are bactericidal."
+},
+{
+    "topicName": "50S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Choose the Correct Answer",
+    "imagePath" : "slide13.PNG",
+    "question" : "Gray Baby Syndrome results from inability to produce which metabolite?",
+    "options" : [
+            "Dechlorination",
+            "N-reduction",
+            "3-O-glucuronidation"
+    ],
+    "answer" : "3-O-glucuronidation",
+    "explanation" : "No explanation provided."
+},
+{
+    "topicName": "50S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Clinical Case Study",
+    "imagePath" : "slide14.PNG",
+    "question" : "Lucille Mangonzy is experiencing diarrhea after taking her antibiotic, which compound did she most likely take?",
+    "options" : [
+            "Compound 1",
+            "Compound 2",
+            "Compound 3"
+    ],
+    "answer" : "Compound 3",
+    "explanation" : "Clindamycin (Compound 3) has highest incidence of pseudomembranous colitis."
+},
+{
+    "topicName": "50S-PB-Inhibitors",
+    "courseId": 610,
+    "title":"SAR Practice Problem",  
+    "name" : "Clinical Case Study",
+    "imagePath" : "slide15.PNG",
+    "question" : "Which compound is less susceptible to bacteria resistance?",
+    "options" : [
+            "Compound 1",
+            "Compound 2",
+            "Compound 3"
+    ],
+    "answer" : "Compound 1",
+    "explanation" : "Chloramphenicol (Compound 1) has a major toxicity of aplastic anemia."
 }
 
 ]
