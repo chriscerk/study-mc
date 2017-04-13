@@ -21,6 +21,7 @@ type Orientation = ( 'void' | 'next' | 'none' | 'previous' );
 })
 export class TopicTestComponent implements OnInit {
   testItems: TestProblem[];
+  topicName: string;
   private sub: Subscription;
   router: Router;
   userAnswer: string;
@@ -48,8 +49,8 @@ export class TopicTestComponent implements OnInit {
 
   ngOnInit() {
       this.sub = this.route.parent.params.subscribe(params => {
-        let name = params['name'];
-        this.testService.getFirebaseTestProblemsByTopic(name)
+        this.topicName = params['name'];
+        this.testService.getFirebaseTestProblemsByTopic(this.topicName)
             .subscribe((items: TestProblem[]) => this.testItems = items);
       });
 

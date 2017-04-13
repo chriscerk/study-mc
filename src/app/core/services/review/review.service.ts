@@ -11,7 +11,9 @@ import 'rxjs/add/operator/catch';
 @Injectable()
 export class ReviewService {
   reviews: IReviewItem[];
+  exampleReviews: IReviewItem[];
   reviewDataUrl = 'assets/data/review-items.json';
+  exampleReviewDataUrl = 'assets/data/examplereview-items.json';
   errorMessage = 'Review Data could not be retrieved.' +
    '\n 1. Verify ' + this.reviewDataUrl + ' exists. \n 2. JSON Lint the reviews.json file.';
 
@@ -31,14 +33,44 @@ export class ReviewService {
     }
   }
 
+  getExampleReviews(): Observable<IReviewItem[]> {
+    if(!this.exampleReviews) {
+      return this.http
+      .get(this.exampleReviewDataUrl)
+      .map((res: Response) => {
+          let reviews = res.json();
+          return reviews;
+      })
+      .catch(this.handleReviewError.bind(this));
+    } else {
+        return this.createObservable(this.exampleReviews);
+    }
+  }
+
   getReviewsByTopic(topicName: string): Observable<IReviewItem[]> {
     if (this.reviews) {
-        return this.findReviewsObservable(topicName);
+        return this.findExampleReviewsObservable(topicName);
     } else {
         return Observable.create((observer: Observer<IReviewItem[]>) => {
           this.getReviews().subscribe((reviews: IReviewItem[]) => {
               this.reviews = reviews;
               const filteredReviews = this.filterReviews(topicName);
+              observer.next(filteredReviews);
+              observer.complete();
+          });
+        })
+        .catch(this.handleReviewError.bind(this));
+    }
+  }
+
+  getExampleReviewsByTopic(topicName: string): Observable<IReviewItem[]> {
+    if (this.exampleReviews) {
+        return this.findReviewsObservable(topicName);
+    } else {
+        return Observable.create((observer: Observer<IReviewItem[]>) => {
+          this.getExampleReviews().subscribe((reviews: IReviewItem[]) => {
+              this.exampleReviews = reviews;
+              const filteredReviews = this.filterExampleReviews(topicName);
               observer.next(filteredReviews);
               observer.complete();
           });
@@ -56,8 +88,17 @@ export class ReviewService {
     return (rs.length) ? rs : null;
   }
 
+  private filterExampleReviews(topicName: string): IReviewItem[] {
+    const rs = this.exampleReviews.filter((r) => r.topicName === topicName);
+    return (rs.length) ? rs : null;
+  }
+
   private findReviewsObservable(topicName: string): Observable<IReviewItem[]> {
       return this.createObservable(this.filterReviews(topicName));
+  }
+
+  private findExampleReviewsObservable(topicName: string): Observable<IReviewItem[]> {
+      return this.createObservable(this.filterExampleReviews(topicName));
   }
 
   private createObservable(data: any): Observable<any> {

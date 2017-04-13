@@ -24,6 +24,7 @@ type Orientation = ( 'void' | 'next' | 'none' | 'previous' );
 
 export class TopicLearnComponent implements OnInit {
   learnItems: ILearnItem[];
+  topicName: string;
   private sub: Subscription;
   router: Router;
   userAnswer: string;
@@ -56,8 +57,8 @@ export class TopicLearnComponent implements OnInit {
 
   ngOnInit() {
       this.sub = this.route.parent.params.subscribe(params => {
-        let name = params['name'];
-        this.learnService.getLearnsByTopic(name)
+        this.topicName = params['name'];
+        this.learnService.getLearnsByTopic(this.topicName)
             .subscribe((items: ILearnItem[]) => this.learnItems = items);
       });
 

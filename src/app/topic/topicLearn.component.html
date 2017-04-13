@@ -1,8 +1,8 @@
+<span class="nav-title">{{topicName}}</span>
+<end-message *ngIf="moduleIsComplete" [topicName]="topicName" [incorrectAnswers]="incorrectAnswers">
+</end-message>
 <div *ngIf="learnItems" class="content">
-    <end-message *ngIf="moduleIsComplete" [incorrectAnswers]="incorrectAnswers">
-    </end-message>
     <div *ngFor="let learnItem of learnItems; let i = index" [@NextPrevAnimation]="orientation">
-      <span class="nav-title">{{learnItem.topicName}}</span>
       <div *ngIf="currentQuestion == i">
 
         <h3>{{i/learnItems.length | MyPercentPipe }} Complete</h3>

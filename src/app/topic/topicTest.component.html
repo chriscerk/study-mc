@@ -1,7 +1,7 @@
+<span class="nav-title">{{topicName}}</span>
+<end-message *ngIf="moduleIsComplete" [topicName]="topicName" [incorrectAnswers]="incorrectAnswers"></end-message>
 <div *ngIf="testItems" class="content">
-    <end-message *ngIf="moduleIsComplete" [incorrectAnswers]="incorrectAnswers"></end-message>
     <div *ngFor="let testItem of testItems; let i = index" [@NextPrevAnimation]="orientation">
-      <span class="nav-title">{{testItem.topicName}}</span>
       <div *ngIf="currentQuestion == i">
           <h3> {{i/testItems.length | MyPercentPipe }} Complete</h3> 
         <form #f="ngForm" (ngSubmit)="onSubmit(testItem.answer)" *ngIf="validAnswer" method="post">

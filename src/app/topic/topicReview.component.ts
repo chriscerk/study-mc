@@ -18,6 +18,8 @@ type Orientation = ( 'void' | 'next' | 'none' | 'previous' );
 export class TopicReviewComponent implements OnInit {
 
   reviewItems: IReviewItem[];
+  exampleReviewItems: IReviewItem[];
+  topicName: string;
   private sub: Subscription;
   router: Router;
   studentName: string;
@@ -35,23 +37,25 @@ export class TopicReviewComponent implements OnInit {
     private changeDetectorRef: ChangeDetectorRef) {
 
       this.router = router;
+      this.changeDetectorRef = changeDetectorRef;
       this.studentName = '';
       this.currentItem = 0;
       this.nextItem = 1;
       this.printingOptionsVisible = false;
       this.reviewComplete = false;
-      this.changeDetectorRef = changeDetectorRef;
-   } 
+   }
 
   ngOnInit() {
       this.sub = this.route.parent.params.subscribe(params => {
-        let name = params['name'];
-        this.reviewService.getReviewsByTopic(name)
+        this.topicName = params['name'];
+        this.reviewService.getReviewsByTopic(this.topicName)
             .subscribe((items: IReviewItem[]) => this.reviewItems = items);
       });
 
-      this.lastItem = this.reviewItems ? this.reviewItems.length - 1 : 0;
       this.orientation = 'void';
+
+      this.reviewService.getExampleReviewsByTopic(this.topicName)
+            .subscribe((items: IReviewItem[]) => this.exampleReviewItems = items);
   }
 
   ngOnDestroy() {
@@ -59,6 +63,11 @@ export class TopicReviewComponent implements OnInit {
   }
 
   toNextItem() {
+
+    if(!this.lastItem) {
+      this.lastItem = this.reviewItems ? this.reviewItems.length - 1 : 0;
+    }
+
     this.orientation = 'next';
     this.changeDetectorRef.detectChanges();
 
@@ -95,7 +104,7 @@ export class TopicReviewComponent implements OnInit {
   }
 
   generateExampleReview() {
-    this.reviewItems = null; //this.reviewService.getExampleReviewsByTopic();
+    this.reviewItems = this.exampleReviewItems;
     this.studentName = 'MC Student';
     this.reviewComplete = true;
   }

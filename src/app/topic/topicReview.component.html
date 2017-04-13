@@ -66,6 +66,7 @@
         </div>
         <div class="input-group input-group-lg">
                 <label for="studentName">Your Name: </label>
+                <br>
                 <input type="text" class="form-control" [(ngModel)]="studentName" name="studentName" required>
         </div>
         <hr>
@@ -74,7 +75,7 @@
       </form>
     </div>
     </div>
-    <h1 style="text-align: center;"><strong>{{reviewItem.topicName}}</strong> | {{studentName}} </h1>
+    <h1 style="text-align: center;"><strong>{{topicName}}</strong> | {{studentName}} </h1>
     <ul class="flex-container" *ngIf="reviewItems">
         <li *ngFor="let reviewItem of reviewItems;" class="flex-item review-print-item">
             <h3><strong>{{reviewItem.title}}</strong></h3>

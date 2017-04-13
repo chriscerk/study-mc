@@ -1,0 +1,75 @@
+[
+    {
+        "topicName": "Benzodiazepines",
+        "courseId": "600",
+        "title": "Drugs",  
+        "sections" : [
+                {"title": "Diazepam (Long Acting)", "imagePath": "diazepam.PNG" },
+                {"title": "Lorazepam (Intermediate Acting)", "imagePath": "lorazepam.PNG" }, 
+                {"title": "Temazepam (Intermediate Acting)", "imagePath": "temazepam.PNG" },
+                {"title": "Triazolam (Short Acting)", "imagePath": "triazolam.PNG" },
+                {"title": "Midazolam (Short Acting)", "imagePath": "midazolam.PNG" }
+        ]
+    },
+    {
+        "topicName": "Benzodiazepines",
+        "courseId": "600",
+        "title": "SAR Characteristics",  
+        "sections" : [
+                {"title": "Ring A", "content": "Pi-Pi stacking with BZR" },
+                {"title": "C7", "content": "EWG increases activity" }, 
+                {"title": "Ring B", "content": "H-bond acceptor (O, N, S) or N-heterocycle required 1,2 annelation (N-heterocycle) increases affinity for BZR" },
+                {"title": "N1", "content": "methyl group preferred; bulky group decreases activity because it prevents binding to BZR" },
+                {"title": "C3", "content": "OH group eliminates first pass metabolism as the hydroxyl acts as a “handle” for conjugation." },
+                {"title": "Ring C", "content": "Hydrophobic interaction with BZR" },
+                {"title": "C4", "content": "Steric repulsion occurs with para substituent" },
+                {"title": "C2", "content": "F or Cl substitution reduces aromatic hydroxylation and improves half-life" }
+        ]
+    },
+    {
+        "topicName": "Benzodiazepines",
+        "courseId": "600",
+        "title": "Pharmokinetic",  
+        "sections" : [
+                {"title": "Absorption", "content": "When taken orally, most BZD show rapid and complete absorption from GI tract" },
+                {"title": "Distribution", "content": "-Increase lipophilicity = Increase rate of CNS distribution. -Cross BBB by passive diffusion." }, 
+                {"title": "Metabolism", "content": "-Do NOT induce metabolism of other drugs. -Liver metabolized to active compounds (except lorazepam)" },
+                {"title": "Excretion", "content": "By kidneys" },
+                {"title": "Duration of Action", "content": "[Short Acting]: 1.5-5 hours, Not converted into active intermediates. [Intermediate Acting]: 8-20 hours. [Long Acting]: 30-60 hours, Converted into active intermediates." }
+        ]
+    },
+    {
+        "topicName": "Benzodiazepines",
+        "courseId": "600",
+        "title": "Action",  
+        "sections" : [
+                {"title": "MOA", "imagePath": "moa.PNG" },
+                {"title": "Mechanism of Action", "content": "-Potentiates GABA by binding to allosteric site on receptor. Increase the frequency of Cl- channel opening. -Enhancement of GABA activity slows nerve impulses throughout the body, GABA produces calming effect in the brain." },
+                {"title": "Pharmacological Action", "content": "-Sedation (decrease latency and REM). -Reduction in muscle tone. -Tolerance develops after 1-2 weeks of use. -Reduction in anxiety." }
+        ]
+    },
+    {
+        "topicName": "Benzodiazepines",
+        "courseId": "600",
+        "title": "Side-Effects",  
+        "sections" : [
+                {"title": "Side-Effects", "content": "Drowsiness, Fatigue, Amnesia, Ataxia" }
+        ]
+    },
+    {
+        "topicName": "Benzodiazepines",
+        "courseId": "600",
+        "title": "Uses",  
+        "sections" : [
+                {"title": "Uses", "content": "Anti-Epileptic (diazepam, lorazepam), Insomnia (temazepam, triazolam), Anti-anxiety (diazepam, lorazepam), Muscle spasms (diazepam), Anesthesia (diazepam, lorazepam, midazolam). *Duration of Action determines therapeutic use." }
+        ]
+    },
+    {
+        "topicName": "Benzodiazepines",
+        "courseId": "600",
+        "title": "Notes",  
+        "sections" : [
+                {"title": "Notes", "content": "-Duration of action and elimination half life are NOT the same. -BZD increase frequency of Cl- channel opening. -GABA must be present for BZD to have effect. -Flumazenil = BZD receptor antagonist for treatment of acute overdose." }
+        ]
+    }
+]

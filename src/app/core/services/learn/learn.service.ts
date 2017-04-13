@@ -52,8 +52,8 @@ export class LearnService {
   }
 
   private filterLearns(topicName: string): ILearnItem[] {
-    const rs = this.learns.filter((r) => r.topicName === topicName);
-    return (rs.length) ? rs : null;
+    const ls = this.learns.filter((l) => l.topicName === topicName);
+    return (ls.length) ? ls : null;
   }
 
   private findLearnsObservable(topicName: string): Observable<ILearnItem[]> {

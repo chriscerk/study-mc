@@ -1,5 +1,7 @@
 [
     {
+        "topicName": "Benzodiazepines",
+        "courseId": "600",
         "title": "Drugs",  
         "sections" : [
                 {"title": "Diazepam", "imagePath": "diazepam.PNG" },
@@ -10,6 +12,8 @@
         ]
     },
     {
+        "topicName": "Benzodiazepines",
+        "courseId": "600",
         "title": "SAR Characteristics",  
         "sections" : [
                 {"title": "", "content": "" },
@@ -23,6 +27,8 @@
         ]
     },
     {
+        "topicName": "Benzodiazepines",
+        "courseId": "600",
         "title": "Pharmokinetic",  
         "sections" : [
                 {"title": "Absorption", "content": "" },
@@ -32,7 +38,9 @@
         ]
     },
     {
-        "title": "Action",  
+        "topicName": "Benzodiazepines",
+        "courseId": "600",
+        "title": "Action",
         "sections" : [
                 {"title": "MOA", "imagePath": "moa.PNG" },
                 {"title": "Mechanism of Action", "content": "" },
@@ -40,18 +48,24 @@
         ]
     },
     {
+        "topicName": "Benzodiazepines",
+        "courseId": "600",
         "title": "Side-Effects",  
         "sections" : [
                 {"title": "Side-Effects", "content": "" }
         ]
     },
     {
+        "topicName": "Benzodiazepines",
+        "courseId": "600",
         "title": "Uses",  
         "sections" : [
                 {"title": "Uses", "content": "" }
         ]
     },
     {
+        "topicName": "Benzodiazepines",
+        "courseId": "600",
         "title": "Notes",  
         "sections" : [
                 {"title": "Notes", "content": "" }
