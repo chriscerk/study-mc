@@ -50,6 +50,18 @@ A review sheet which students can fill out online then print upon completion.
 
 6. Navigate to `http://localhost:4200/` in your browser.
 
+7. Create a file named `firebase.config.ts` and put it in the `/src/environments/` folder
+
+8. Get your firebase credentials and insert as:
+
+`export const firebaseConfig = {
+    apiKey: "",
+    authDomain: "your-app-name.firebaseapp.com",
+    databaseURL: "https://your-app-name.firebaseio.com",
+    projectId: "your-app-name",
+    storageBucket: "your-app-name.appspot.com",
+    messagingSenderId: ""
+  };`
 
 # Development
 
@@ -75,13 +87,9 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 # Deploying the Application
 
-1. `ng test` Ensure all unit tests pass
+1. `npm run deploy` 
 
-2. `ng e2e` Ensure all end-to-end tests pass
-
-3. `npm run deploy` 
-
-4. Copy the contents of the `dist` directory to the server through FileZilla.
+2. Copy the contents of the `dist` directory to the server through FileZilla.
 
 
 # Other Information
