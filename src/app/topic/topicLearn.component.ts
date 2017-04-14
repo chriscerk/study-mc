@@ -1,13 +1,11 @@
 import { ILearnItem } from './../shared/models/learn';
 import { LearnService } from './../core/services/learn/learn.service';
 import { EndMessageComponent } from './../shared/components/end-message/end-message.component';
-import { IOldTopic } from './../shared/models/topic';
 declare var hotspotsModule: any;
 declare var fabricProcessor: any;
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
-import { DataService } from '../core/services/data.service';
 import { CanvasCompoundComponent } from '../shared/components/canvas-compound/canvas-compound.component';
 import { CanvasInteractionComponent } from '../shared/components/canvas-interaction/canvas-interaction.component';
 import { AlertBoxComponent } from '../shared/components/alert-box/alert-box.component';

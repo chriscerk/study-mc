@@ -2,7 +2,6 @@ import { CourseService } from './../core/services/course/course.service';
 import { ICourse } from './../shared/models/course';
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
-import { DataService } from '../core/services/data.service';
 
 @Component({ 
   selector: 'courses',
