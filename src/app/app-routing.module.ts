@@ -27,7 +27,7 @@ const app_routes: Routes = [
   },
   { path: 'topic/:name', component: TopicComponent,
       children: [
-        { path: '', redirectTo: '/learn', pathMatch: 'full' },
+        { path: '', redirectTo: '/test', pathMatch: 'full' },
         { path: 'learn', component: TopicLearnComponent},
         { path: 'test', component: TopicTestComponent},
         { path: 'review', component: TopicReviewComponent}
