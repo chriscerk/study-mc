@@ -70,5 +70,704 @@
         "sections" : [
                 {"title": "Notes", "content": "" }
         ]
+    },
+    {
+        "topicName": "Barbiturates",
+        "courseId": "600",
+        "title": "Drugs",
+        "sections" : [
+                {"title": "Phenobarbital (Long Acting)", "imagePath": "phenobarbital.PNG" },
+                {"title": "Butabarbital (Intermediate Acting)", "imagePath": "butabarbital.PNG" }, 
+                {"title": "Pentobarbital (Short Acting)", "imagePath": "pentobarbital.PNG" },
+                {"title": "Secobarbital (Short Acting)", "imagePath": "secobarbital.PNG" }
+        ]
+    },
+    {
+        "topicName": "Barbiturates",
+        "courseId": "600",
+        "title": "SAR Characteristics",  
+        "sections" : [
+                {"title": "", "content": "" },
+                {"title": "", "content": "" }, 
+                {"title": "", "content": "" },
+                {"title": "", "content": "" },
+                {"title": "", "content": "" },
+                {"title": "", "content": "" }
+        ]
+    },
+    {
+        "topicName": "Barbiturates",
+        "courseId": "600",
+        "title": "Pharmokinetic",  
+        "sections" : [
+                {"title": "Absorption", "content": "" },
+                {"title": "Distribution", "content": "" }, 
+                {"title": "Metabolism", "content": "" },
+                {"title": "Excretion", "content": ""  }
+        ]
+    },
+    {
+        "topicName": "Barbiturates",
+        "courseId": "600",
+        "title": "Action",  
+        "sections" : [
+                {"title": "Mechanism of Action", "imagePath": "moa-barbiturates.PNG" },
+                {"title": "MOA Explanation", "content": "" },
+                {"title": "Pharmacological Action", "content": "" }
+        ]
+    },
+    {
+        "topicName": "Barbiturates",
+        "courseId": "600",
+        "title": "Side-Effects",  
+        "sections" : [
+                {"title": "Side-Effects", "content": "" }
+        ]
+    },
+    {
+        "topicName": "Barbiturates",
+        "courseId": "600",
+        "title": "Uses",  
+        "sections" : [
+                {"title": "Uses", "content": "" }
+        ]
+    },
+    {
+        "topicName": "Barbiturates",
+        "courseId": "600",
+        "title": "Reason for Limited Use",  
+        "sections" : [
+                {"title": "Notes", "content": "" }
+        ]
+    },
+    {
+        "topicName": "Z-Drugs",
+        "courseId": "600",
+        "title": "Drugs",  
+        "sections" : [
+                {"title": "Zolpidem", "imagePath": "zolpidem.PNG" },
+                {"title": "Zaleplon", "imagePath": "zaleplon.PNG" }, 
+                {"title": "Eszopiclone", "imagePath": "eszopiclone.PNG" }
+        ]
+    },
+    {
+        "topicName": "Z-Drugs",
+        "courseId": "600",
+        "title": "Zolpidem",  
+        "sections" : [
+                {"title": "Key Characteristics", "content": "" },
+                {"title": "Key Pharmacokinetic", "content": "" }, 
+                {"title": "Action/Effect", "content": "" },
+                {"title": "Side Effects", "content": "" }
+        ]
+    },
+    {
+        "topicName": "Z-Drugs",
+        "courseId": "600",
+        "title": "Zaleplon",  
+        "sections" : [
+                {"title": "Key Characteristics", "content": "" },
+                {"title": "Key Pharmacokinetic", "content": "" }, 
+                {"title": "Action/Effect", "content": "" },
+                {"title": "Side Effects", "content": "" }
+        ]
+    },
+    {
+        "topicName": "Z-Drugs",
+        "courseId": "600",
+        "title": "Eszopiclone",  
+        "sections" : [
+                {"title": "Key Characteristics", "content": "" },
+                {"title": "Key Pharmacokinetic", "content": "" }, 
+                {"title": "Action/Effect", "content": "" },
+                {"title": "Side Effects", "content": "" }
+        ]
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title": "Epilepsy",  
+        "sections" : [
+                {"title": "Pathophysiology of a seizure", "content": "" },
+                {"title": "Common toxicities of many antiepileptic drugs", "content": "" }, 
+                {"title": "Notes", "content": "" }
+        ]
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title": "Molecular Targets for Epilepsy Treatment",  
+        "sections" : [
+                {"title": "Decrease Excitatory Activity", "content": "" },
+                {"title": "Increase Inhibitory Activity", "content": "" }
+        ]
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title": "(Target/MOA: Ca+ Channel) Treatment Drugs",  
+        "sections" : [
+                {"title": "Target/MOA", "content": "" },
+                {"title": "Neurotransmitter", "content": "" },
+                {"title": "Drugs", "content": "" }
+        ]
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title": "(Target/MOA: Na+ Channel) Treatment Drugs",  
+        "sections" : [
+                {"title": "Target/MOA", "content": "" },
+                {"title": "Neurotransmitter", "content": "" },
+                {"title": "Drugs", "content": "" }
+        ]
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title": "(Target/MOA: Synaptic Vesicle Protein) Treatment Drugs",  
+        "sections" : [
+                {"title": "Target/MOA", "content": "" },
+                {"title": "Neurotransmitter", "content": "" },
+                {"title": "Drugs", "content": "" }
+        ]
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title": "(Target/MOA: PAM @ GABA-A) Treatment Drugs",  
+        "sections" : [
+                {"title": "Target/MOA", "content": "" },
+                {"title": "Neurotransmitter", "content": "" },
+                {"title": "Drugs", "content": "" }
+        ]
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title": "(Target/MOA: GABA Metabolism) Treatment Drugs",  
+        "sections" : [
+                {"title": "Target/MOA", "content": "" },
+                {"title": "Neurotransmitter", "content": "" },
+                {"title": "Drugs", "content": "" }
+        ]
+    },
+    {
+        "topicName": "SRIs",
+        "courseId": "600",
+        "title": "Drugs",
+        "sections" : [
+                {"title": "Paroxetine (Pheno)", "imagePath": "paroxetine.PNG" },
+                {"title": "Escitalopram (Pheno)", "imagePath": "escitalopram.PNG" }, 
+                {"title": "Fluoxetine (Pheno)", "imagePath": "fluoxetine.PNG" },
+                {"title": "Sertraline (Pheny)", "imagePath": "sertraline.PNG" }
+        ]
+    },
+    {
+        "topicName": "SRIs",
+        "courseId": "600",
+        "title": "SAR Characteristics - Phenoxyphenylalkyl Amines",  
+        "sections" : [
+                {"title": "Phenoxyphenylalkyl Amines", "imagePath": "sarCharacteristics-pheno.PNG" },
+                {"title": "", "content": "" },
+                {"title": "", "content": "" }, 
+                {"title": "", "content": "" }
+        ]
+    },
+    {
+        "topicName": "SRIs",
+        "courseId": "600",
+        "title": "SAR Characteristics - Phenylalkyl Amine",  
+        "sections" : [
+                {"title": "Phenylalkyl Amine", "imagePath": "sarCharacteristics-pheny.PNG" },
+                {"title": "", "content": "" },
+                {"title": "", "content": "" }
+        ]
+    },
+    {
+        "topicName": "SRIs",
+        "courseId": "600",
+        "title": "Action",  
+        "sections" : [
+                {"title": "Mechanism of Action", "imagePath": "mechanismAction.PNG" },
+                {"title": "Explanation", "content": "" },
+                {"title": "Acute SRI Use", "content": "" },
+                {"title": "Chronic SRI Use", "content": "" }
+        ]
+    },
+    {
+        "topicName": "SRIs",
+        "courseId": "600",
+        "title": "Side-Effects",  
+        "sections" : [
+                {"title": "Side-Effects", "content": "" }
+        ]
+    },
+    {
+        "topicName": "SRIs",
+        "courseId": "600",
+        "title": "Uses",  
+        "sections" : [
+                {"title": "Uses", "content": "" }
+        ]
+    },
+    {
+        "topicName": "SRIs",
+        "courseId": "600",
+        "title": "Notes",  
+        "sections" : [
+                {"title": "Notes", "content": "" }
+        ]
+    },
+    {
+        "topicName": "TCAs",
+        "courseId": "600",
+        "title": "Drugs",  
+        "sections" : [
+                {"title": "Amitriptyline (Tertiary)", "imagePath": "review-Amitriptyline.PNG" },
+                {"title": "Nortriptyline (Secondary)", "imagePath": "review-Nortriptyline.PNG" }
+        ]
+    },
+    {
+        "topicName": "TCAs",
+        "courseId": "600",
+        "title": "SAR Characteristics",  
+        "sections" : [
+                {"title": "Example Compound", "imagePath": "review-sar.PNG" },
+                {"title": "", "content": "" },
+                {"title": "", "content": "" },
+                {"title": "", "content": "" }, 
+                {"title": "", "content": "" }, 
+                {"title": "", "content": "" }, 
+                {"title": "", "content": "" },  
+                {"title": "", "content": "" }
+        ]
+    },
+    {
+        "topicName": "TCAs",
+        "courseId": "600",
+        "title": "Mechanism of Action",  
+        "sections" : [
+                {"title": "MOA", "imagePath": "moa-TCAs.PNG" },
+                {"title": "Explanation", "content": "" }
+        ]
+    },
+    {
+        "topicName": "TCAs",
+        "courseId": "600",
+        "title": "Side-Effects",  
+        "sections" : [
+                {"title": "Side-Effects", "content": "" }
+        ]
+    },
+    {
+        "topicName": "TCAs",
+        "courseId": "600",
+        "title": "Uses",  
+        "sections" : [
+                {"title": "Uses", "content": "" }
+        ]
+    },
+    {
+        "topicName": "TCAs",
+        "courseId": "600",
+        "title": "Notes",  
+        "sections" : [
+                {"title": "Notes", "content": "" }
+        ]
+    },
+    {
+        "topicName": "Atypical-Antidepressants",
+        "courseId": "600",
+        "title": "Atypical Antidepressants (Trazodone)",  
+        "sections" : [
+                {"title": "MOA", "content": "" },
+                {"title": "SAR", "imagePath": "trazodone.PNG", "content": "None"},
+                {"title": "Side Effects", "content": ""}
+        ]
+    },
+    {
+        "topicName": "Atypical-Antidepressants",
+        "courseId": "600",
+        "title": "Atypical Antidepressants (Mirtazapine)",  
+        "sections" : [
+                {"title": "MOA", "content": "" },
+                {"title": "SAR", "imagePath": "mirtazapine.PNG", "content": "None"},
+                {"title": "Side Effects", "content": ""}
+        ]
+    },
+    {
+        "topicName": "Atypical-Antidepressants",
+        "courseId": "600",
+        "title": "Atypical Antidepressants (Bupropion)",  
+        "sections" : [
+                {"title": "MOA", "content": "" },
+                {"title": "SAR", "imagePath": "bupropion.PNG", "content": "None"},
+                {"title": "Side Effects", "content": ""}
+        ]
+    },
+    {
+        "topicName": "Atypical-Antidepressants",
+        "courseId": "600",
+        "title": "SNRIs & SRIs (Venlafaxine)",  
+        "sections" : [
+                {"title": "MOA", "content": "" },
+                {"title": "SAR", "imagePath": "venlafaxine.PNG", "content": ""},
+                {"title": "Side Effects", "content": ""}
+        ]
+    },
+    {
+        "topicName": "Atypical-Antidepressants",
+        "courseId": "600",
+        "title": "SRIs (Escitalopram, Fluoxetine, Sertraline)",  
+        "sections" : [
+                {"title": "MOA", "content": "" },
+                {"title": "SAR", "imagePath": "sri-sar.PNG", "content": ""},
+                {"title": "Phenoxyphenylalkyl SAR", "content": ""},
+                {"title": "Phenylalkyl SAR", "content": ""},
+                {"title": "Side Effects", "content": ""}
+        ]
+    },
+    {
+        "topicName": "Atypical-Antidepressants",
+        "courseId": "600",
+        "title": "Tricyclic Antidepressants (Amitriptyline & Nortriptyline)",  
+        "sections" : [
+                {"title": "MOA", "content": "" },
+                {"title": "SAR", "imagePath": "triptyline.PNG", "content": ""},
+                {"title": "SAR Explained", "content": ""},
+                {"title": "Side Effects", "content": ""}
+        ]
+    },
+    {
+        "topicName": "Atypical-Antidepressants",
+        "courseId": "600",
+        "title": "THEORIES OF DEPRESSION",  
+        "sections" : [
+                {"title": "Monoamine Theory", "content": ""},
+                {"title": "Neurotrophic Theory", "content": ""}
+        ]
+    },
+    {
+        "topicName": "Atypical-Antidepressants",
+        "courseId": "600",
+        "title": "LOW NERUOTRANSMITTER LEVELS",  
+        "sections" : [
+                {"title": "Low serotonin", "content": ""},
+                {"title": "Low norepinephrine", "content": ""},
+                {"title": "Low dopamine", "content": ""}
+        ]
+    },
+    {
+        "topicName": "Atypical-Antidepressants",
+        "courseId": "600",
+        "title": "ACTIVATION OF RECEPTORS",  
+        "sections" : [
+                {"title": "5-HT", "content": ""},
+                {"title": "Adrenergic", "content": ""},
+                {"title": "Antihistamine H1", "content": ""},
+                {"title": "Alpha1-Adrenergic", "content": ""}
+        ]
+    },
+    {
+        "topicName": "CWB-Inhibitors",
+        "courseId": "610",
+        "title": "Fosfomycin",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "fosfomycin.PNG" },
+                {"title": "SAR", "content": "" },
+                {"title": "Type of Inhibitor", "content": ""},
+                {"title": "MOA & Target", "content": ""},
+                {"title": "MOR", "content": ""},
+                {"title": "Spectrum", "content": ""},
+                {"title": "Toxicities", "content": ""}
+        ]
+    },
+    {
+        "topicName": "CWB-Inhibitors",
+        "courseId": "610",
+        "title": "Cycloserine",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "cycloserine.PNG" },
+                {"title": "SAR", "content": "" },
+                {"title": "Type of Inhibitor", "content": ""},
+                {"title": "MOA & Target", "content": ""},
+                {"title": "MOR", "content": ""},
+                {"title": "Spectrum", "content": ""},
+                {"title": "Toxicities", "content": ""}
+        ]
+    },
+    {
+        "topicName": "CWB-Inhibitors",
+        "courseId": "610",
+        "title": "Bacitracin",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "bacitracin.PNG" },
+                {"title": "SAR", "content": "" },
+                {"title": "Type of Inhibitor", "content": ""},
+                {"title": "MOA & Target", "content": ""},
+                {"title": "MOR", "content": ""},
+                {"title": "Spectrum", "content": ""},
+                {"title": "Toxicities", "content": ""}
+        ]
+    },
+    {
+        "topicName": "CWB-Inhibitors",
+        "courseId": "610",
+        "title": "Vancomycin",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "vancomycin.PNG" },
+                {"title": "SAR", "content": "" },
+                {"title": "Type of Inhibitor", "content": ""},
+                {"title": "MOA & Target", "content": ""},
+                {"title": "MOR", "content": ""},
+                {"title": "Spectrum", "content": ""},
+                {"title": "Toxicities", "content": ""}
+        ]
+    },
+    {
+        "topicName": "Beta-Lactams",
+        "courseId": "610",
+        "title": "Beta Lactamase Inhibitor",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "BetaLactamaseInhibitor.PNG" },
+                {"title": "SAR", "content": ""},
+                {"title": "MOA", "content": ""},
+                {"title": "MOR", "content": ""},
+                {"title": "Spectrum", "content": ""}
+        ]
+    },
+    {
+        "topicName": "Beta-Lactams",
+        "courseId": "610",
+        "title": "Monobactam",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "monobactam.PNG" },
+                {"title": "SAR", "content": ""},
+                {"title": "MOA", "content": ""},
+                {"title": "MOR", "content": ""},
+                {"title": "Spectrum & Toxicities", "content": ""}
+        ]
+    },
+    {
+        "topicName": "Beta-Lactams",
+        "courseId": "610",
+        "title": "Carbapenem",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "carbapenem.PNG" },
+                {"title": "SAR", "content": ""},
+                {"title": "MOA", "content": ""},
+                {"title": "MOR", "content": ""},
+                {"title": "Spectrum & Toxicities", "content": ""}
+        ]
+    },
+    {
+        "topicName": "Beta-Lactams",
+        "courseId": "610",
+        "title": "Penicillins",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "cephalosporins.PNG" },
+                {"title": "SAR", "content": ""},
+                {"title": "MOA", "content": ""},
+                {"title": "MOR", "content": ""},
+                {"title": "Spectrum, Target, Type, & Toxicities", "content": ""}
+        ]
+    },
+    {
+        "topicName": "Beta-Lactams",
+        "courseId": "610",
+        "title": "Cephalosporins",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "cephalosporins.PNG" },
+                {"title": "SAR", "content": ""},
+                {"title": "MOA", "content": ""},
+                {"title": "MOR", "content": ""},
+                {"title": "Spectrum, Target, Type, & Toxicities", "content": ""}
+        ]
+    },
+    {
+        "topicName": "FAB-Inhibitors",
+        "courseId": "610",
+        "title": "Sulfonamides (Sulfamethoxazole, Sulfacetamide, Silver Sulfadiazine)",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "sulfonamides.PNG" },
+                {"title": "SAR", "content": ""},
+                {"title": "Target", "content": ""},
+                {"title": "MOA", "content": ""},
+                {"title": "MOR", "content": ""},
+                {"title": "Spectrum", "content": ""},
+                {"title": "Toxicity", "content": ""}
+        ]
+    },
+    {
+        "topicName": "FAB-Inhibitors",
+        "courseId": "610",
+        "title": "Trimethoprim (Related Compound: Pyrimethamine)",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "trimethoprim.PNG" },
+                {"title": "SAR", "content": ""},
+                {"title": "Target", "content": ""},
+                {"title": "MOA", "content": ""},
+                {"title": "MOR", "content": ""},
+                {"title": "Spectrum", "content": ""},
+                {"title": "Toxicity", "content": ""}
+        ]
+    },
+    {
+        "topicName": "DNA-Topo",
+        "courseId": "610",
+        "title": "Fluoroquinolones SAR",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "fluoroquinolones.PNG" },
+                {"title": "Position 1", "content": ""},
+                {"title": "Position 2", "content": ""},
+                {"title": "Position 3", "content": ""},
+                {"title": "Position 4", "content": ""},
+                {"title": "Position 5", "content": ""},
+                {"title": "Position 6", "content": ""},
+                {"title": "Position 7", "content": ""},
+                {"title": "Position 8", "content": ""}
+        ]
+    },
+    {
+        "topicName": "DNA-Topo",
+        "courseId": "610",
+        "title": "Fluoroquinolones Info.",  
+        "sections" : [
+                {"title": "Examples", "content": ""},
+                {"title": "Mechanism of Action & Target", "content": ""},
+                {"title": "Mechanism of Resistance", "content": ""},
+                {"title": "Indication/Spectrum", "content": ""},
+                {"title": "Toxicities/DDI’s", "content": ""}
+        ]
+    },
+    {
+        "topicName": "30S-PB-Inhibitors",
+        "courseId": "610",
+        "title": "Aminoglycosides SAR",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "aminoglycosides.PNG" },
+                {"title": "Ring 1", "content": ""},
+                {"title": "Ring 2", "content": ""},
+                {"title": "Ring 3", "content": ""},
+                {"title": "Polycationic at physiological pH", "content": ""}
+        ]
+    },
+    {
+        "topicName": "30S-PB-Inhibitors",
+        "courseId": "610",
+        "title": "Aminoglycosides Info.",  
+        "sections" : [
+                {"title": "MOA & Target", "content": ""},
+                {"title": "MOR", "content": ""},
+                {"title": "Indication/Spectrum", "content": ""},
+                {"title": "Toxicity/DDI", "content": ""}
+        ]
+    },
+    {
+        "topicName": "30S-PB-Inhibitors",
+        "courseId": "610",
+        "title": "Tetracyclines SAR",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "tetracyclines.PNG" },
+                {"title": "Positions 1, 10, 11, 12, & 12a", "content": ""},
+                {"title": "Position 2", "content": ""},
+                {"title": "Position 4", "content": ""},
+                {"title": "Position 5", "content": ""},
+                {"title": "Position 6", "content": ""},
+                {"title": "Position 7", "content": ""},
+                {"title": "Position 8", "content": ""},
+                {"title": "Position 9", "content": ""},
+                {"title": "Warhead", "content": ""}
+        ]
+    },
+    {
+        "topicName": "30S-PB-Inhibitors",
+        "courseId": "610",
+        "title": "Tetracyclines Info.",  
+        "sections" : [
+                {"title": "MOA & Target", "content": ""},
+                {"title": "MOR", "content": ""},
+                {"title": "Indication/Spectrum", "content": ""},
+                {"title": "Toxicity/DDI", "content": ""}
+        ]
+    },
+    {
+        "topicName": "50S-PB-Inhibitors",
+        "courseId": "610",
+        "title": "Macrolides (Erythromycin, Clarithromycin, Azithromycin)",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "macrolides.PNG" },
+                {"title": "SAR", "content": ""},
+                {"title": "MOA & Target", "content": ""},
+                {"title": "MOR", "content": ""},
+                {"title": "Indication/Spectrum", "content": ""},
+                {"title": "Toxicity/DDI", "content": ""}
+        ]
+    },
+    {
+        "topicName": "50S-PB-Inhibitors",
+        "courseId": "610",
+        "title": "Ketolides (Telithromycin)",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "ketolides.PNG" },
+                {"title": "SAR", "content": ""},
+                {"title": "MOA & Target", "content": ""},
+                {"title": "MOR", "content": ""},
+                {"title": "Indication/Spectrum", "content": ""},
+                {"title": "Toxicity/DDI", "content": ""}
+        ]
+    },
+    {
+        "topicName": "50S-PB-Inhibitors",
+        "courseId": "610",
+        "title": "Lincosamides (Clindamycin)",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "lincosamides.PNG" },
+                {"title": "SAR", "content": ""},
+                {"title": "MOA & Target", "content": ""},
+                {"title": "MOR", "content": ""},
+                {"title": "Indication/Spectrum", "content": ""},
+                {"title": "Toxicity/DDI", "content": ""}
+        ]
+    },
+    {
+        "topicName": "50S-PB-Inhibitors",
+        "courseId": "610",
+        "title": "Streptogramins (Synercid, Pristamycin)",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "streptogramins.PNG" },
+                {"title": "SAR", "content": ""},
+                {"title": "MOA & Target", "content": ""},
+                {"title": "MOR", "content": ""},
+                {"title": "Indication/Spectrum", "content": ""},
+                {"title": "Toxicity/DDI", "content": ""}
+        ]
+    },
+    {
+        "topicName": "50S-PB-Inhibitors",
+        "courseId": "610",
+        "title": "Chloramphenicol",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "chloramphenicol.PNG" },
+                {"title": "SAR", "content": ""},
+                {"title": "MOA & Target", "content": ""},
+                {"title": "MOR", "content": ""},
+                {"title": "Indication/Spectrum", "content": ""},
+                {"title": "Toxicity/DDI", "content": ""}
+        ]
+    },
+    {
+        "topicName": "50S-PB-Inhibitors",
+        "courseId": "610",
+        "title": "Oxazolidiones (Linezolid, Tedizolid)",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "oxazolidiones.PNG" },
+                {"title": "SAR", "content": ""},
+                {"title": "MOA & Target", "content": ""},
+                {"title": "MOR", "content": ""},
+                {"title": "Indication/Spectrum", "content": ""},
+                {"title": "Toxicity/DDI", "content": ""}
+        ]
     }
 ]

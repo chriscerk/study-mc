@@ -46,6 +46,9 @@ export class TopicReviewComponent implements OnInit {
    }
 
   ngOnInit() {
+
+      this.reviewItems = [];
+
       this.sub = this.route.parent.params.subscribe(params => {
         this.topicName = params['name'];
         this.reviewService.getReviewsByTopic(this.topicName)

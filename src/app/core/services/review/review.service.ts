@@ -49,7 +49,7 @@ export class ReviewService {
 
   getReviewsByTopic(topicName: string): Observable<IReviewItem[]> {
     if (this.reviews) {
-        return this.findExampleReviewsObservable(topicName);
+        return this.findReviewsObservable(topicName);
     } else {
         return Observable.create((observer: Observer<IReviewItem[]>) => {
           this.getReviews().subscribe((reviews: IReviewItem[]) => {
@@ -65,7 +65,7 @@ export class ReviewService {
 
   getExampleReviewsByTopic(topicName: string): Observable<IReviewItem[]> {
     if (this.exampleReviews) {
-        return this.findReviewsObservable(topicName);
+        return this.findExampleReviewsObservable(topicName);
     } else {
         return Observable.create((observer: Observer<IReviewItem[]>) => {
           this.getExampleReviews().subscribe((reviews: IReviewItem[]) => {

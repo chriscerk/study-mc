@@ -71,5 +71,712 @@
         "sections" : [
                 {"title": "Notes", "content": "-Duration of action and elimination half life are NOT the same. -BZD increase frequency of Cl- channel opening. -GABA must be present for BZD to have effect. -Flumazenil = BZD receptor antagonist for treatment of acute overdose." }
         ]
+    },
+    {
+        "topicName": "Barbiturates",
+        "courseId": "600",
+        "title": "Drugs",  
+        "sections" : [
+                {"title": "Phenobarbital (Long Acting)", "imagePath": "phenobarbital.PNG" },
+                {"title": "Butabarbital (Intermediate Acting)", "imagePath": "butabarbital.PNG" }, 
+                {"title": "Pentobarbital (Short Acting)", "imagePath": "pentobarbital.PNG" },
+                {"title": "Secobarbital (Short Acting)", "imagePath": "secobarbital.PNG" }
+        ]
+    },
+    {
+        "topicName": "Barbiturates",
+        "courseId": "600",
+        "title": "SAR Characteristics",  
+        "sections" : [
+                {"title": "N1", "content": "Must be a nitrogen and unsubstitued if N3 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action." },
+                {"title": "N3", "content": "Must be a nitrogen and unsubstituted if N1 is substituted. Carbon group substitution will increase lipophilicity and more rapid onset of action." }, 
+                {"title": "C2", "content": "Changing C=O → C=S increases lipophilicity and more rapid onset of action" },
+                {"title": "C4 & C6", "content": "Must contain C=O" },
+                {"title": "R1 & R2", "content": "bulky carbon groups increases lipophilicity and more rapid onset of action" },
+                {"title": "C5", "content": "Must be disubstituted alkyl groups to be active in the CNS" }
+        ]
+    },
+    {
+        "topicName": "Barbiturates",
+        "courseId": "600",
+        "title": "Pharmokinetic",  
+        "sections" : [
+                {"title": "Absorption", "content": "IV and Oral" },
+                {"title": "Distribution", "content": "Increases lipid solubility = quicker entry into CNS. Barbiturates redistribute from brain to muscles and fat tissue." }, 
+                {"title": "Metabolism", "content": "Metabolized in the liver" },
+                {"title": "Excretion", "content": "Excreted in urine by kidney"  }
+        ]
+    },
+    {
+        "topicName": "Barbiturates",
+        "courseId": "600",
+        "title": "Action",  
+        "sections" : [
+                {"title": "Mechanism of Action", "imagePath": "moa-barbiturates.PNG" },
+                {"title": "MOA Explanation", "content": "Prolong GABA activity. Increase duration of Cl- channel opening. Also blocks the AMPA- receptor which is sensitive to glutamate, the excitatory transmitter. Blocking this action increases the duration of receptor response to GABA and extends the depressed condition of the cell." },
+                {"title": "Pharmacological Action", "content": "[CNS Depression]: Sedation at low doses. Hypnosis followed by anesthesia at high doses. [Respiratory Depression]: Suppress hypoxic and chemoreceptor response to C02 -> Can lead to death." }
+        ]
+    },
+    {
+        "topicName": "Barbiturates",
+        "courseId": "600",
+        "title": "Side-Effects",  
+        "sections" : [
+                {"title": "Side-Effects", "content": "Alcohol like symptoms: Impaired motor control (ataxia), dizziness, slower breathing and heart rate. Enzyme induction (CYP450). Potential for addiction." }
+        ]
+    },
+    {
+        "topicName": "Barbiturates",
+        "courseId": "600",
+        "title": "Uses",  
+        "sections" : [
+                {"title": "Uses", "content": "NOT used as sedative or hypnotic. Anesthetic: Ultra short acting (thiopental). Anti-seizure: Long acting (phenobarbital)." }
+        ]
+    },
+    {
+        "topicName": "Barbiturates",
+        "courseId": "600",
+        "title": "Reason for Limited Use",  
+        "sections" : [
+                {"title": "Notes", "content": "Physical dependence, Severe withdrawal symptoms, low toxicity threshold, tolerance develops." }
+        ]
+    },
+    {
+        "topicName": "Z-Drugs",
+        "courseId": "600",
+        "title": "Drugs",  
+        "sections" : [
+                {"title": "Zolpidem", "imagePath": "zolpidem.PNG" },
+                {"title": "Zaleplon", "imagePath": "zaleplon.PNG" }, 
+                {"title": "Eszopiclone", "imagePath": "eszopiclone.PNG" }
+        ]
+    },
+    {
+        "topicName": "Z-Drugs",
+        "courseId": "600",
+        "title": "Zolpidem",  
+        "sections" : [
+                {"title": "Key Characteristics", "content": "Women metabolize slower. Used to treat insomnia." },
+                {"title": "Key Pharmacokinetic", "content": "Rapidly absorbed in GI tract. Rapid onset and short elimination T1/2 (2-3 hours). Metabolism: Hepatic oxidation by CYP450." }, 
+                {"title": "Action/Effect", "content": "Selective for GABA-A alpha-1 subunit. Sedative." },
+                {"title": "Side Effects", "content": "Nightmares, agitation, headache, GI upset, dizziness, drowsiness." }
+        ]
+    },
+    {
+        "topicName": "Z-Drugs",
+        "courseId": "600",
+        "title": "Zaleplon",  
+        "sections" : [
+                {"title": "Key Characteristics", "content": "Used to treat insomnia." },
+                {"title": "Key Pharmacokinetic", "content": "Fewer residual effect on psychomotor and cognitive functions. Rapid elimination and T1/2 of 1 hour = Good to tak in the middle of night. Metabolism: CYP450." }, 
+                {"title": "Action/Effect", "content": "Selective for GABA-A alpha-1 subunit. Sedative." },
+                {"title": "Side Effects", "content": "Dizziness, Drowsiness, Lack of coordination." }
+        ]
+    },
+    {
+        "topicName": "Z-Drugs",
+        "courseId": "600",
+        "title": "Eszopiclone",  
+        "sections" : [
+                {"title": "Key Characteristics", "content": "Longest T1/2. Used for chronic insomnia." },
+                {"title": "Key Pharmacokinetic", "content": "Elimination half life ~6 hours. Metabolism: oxidation and demethylation via CYP450. Rapidly absorbed." }, 
+                {"title": "Action/Effect", "content": "Acts at several GABA-A subunits, including alpha-1 and alpha-2 subunit. Sedative and Anxiolytic." },
+                {"title": "Side Effects", "content": "Anxiety, dry mount, headache, peripheral edema, somnolence, unpleasant taste." }
+        ]
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title": "Epilepsy",  
+        "sections" : [
+                {"title": "Pathophysiology of a seizure", "content": "Finite episodes of brain dysfunction resulting from abnormal repetitive discharge of cerebral neurons." },
+                {"title": "Common toxicities of many antiepileptic drugs", "content": "Sedation, Rashes, Teratogenicity, Cerebellar: Ataxia & Nystagmus, CYP450 Interactions." }, 
+                {"title": "Notes", "content": "Anti-epileptics do not block ALL action potentials - blocking all would cause death." }
+        ]
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title": "Molecular Targets for Epilepsy Treatment",  
+        "sections" : [
+                {"title": "Decrease Excitatory Activity", "content": "*Works at Glutamatergic synapse. 1. Block NA+ Channels. 2. Block Ca+ Channels. 3. Activate K+ Channels. 4. Block NMDA-Receptor. 5. Block NMDA-Receptor. 6. Bind to Synaptic Vesicle Proteins." },
+                {"title": "Increase Inhibitory Activity", "content": "*Works at GABAergic synapse. 1. Block GABA Transporter (More GABA in synapse). 2. Block GABA Transaminase (Block metabolism of GABA). 3. Increase potency of GABA @ GABA-A Receptor." }
+        ]
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title": "(Ca+ Channel) Epilepsy Treatment",  
+        "sections" : [
+                {"title": "Target/MOA", "content": "Decrease Ca+ Channel Activity" },
+                {"title": "Neurotransmitter", "content": "Glutamate (Decrease excitatory activity)" },
+                {"title": "Drugs", "content": "Phenobarbital, Ethosuximide, Valproic Aid, Gabapentin, Pregabalin" }
+        ]
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title": "(Na+ Channel) Epilepsy Treatment",  
+        "sections" : [
+                {"title": "Target/MOA", "content": "Decrease Na+ Channel Activity" },
+                {"title": "Neurotransmitter", "content": "Glutamate (Decrease excitatory activity)" },
+                {"title": "Drugs", "content": "Phenytoin, Carbamazepine, Valproic Acid, Lamotrigine, Topiramate" }
+        ]
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title": "(Synaptic Vesicle Protein) Epilepsy Treatment",  
+        "sections" : [
+                {"title": "Target/MOA", "content": "Binds to synaptic vesicle protein to reduce presynaptic NT release" },
+                {"title": "Neurotransmitter", "content": "Glutamate (Decrease excitatory activity)" },
+                {"title": "Drugs", "content": "Levetiracetam" }
+        ]
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title": "(PAM @ GABA-A) Epilepsy Treatment",  
+        "sections" : [
+                {"title": "Target/MOA", "content": "PAM @ GABA-A" },
+                {"title": "Neurotransmitter", "content": "GABA (increase inhibitory activity)" },
+                {"title": "Drugs", "content": "Phenobarbital, Diazepam, Lorazepam" }
+        ]
+    },
+    {
+        "topicName": "Anticonvulsants",
+        "courseId": "600",
+        "title": "(GABA Metabolism) Epilepsy Treatment",  
+        "sections" : [
+                {"title": "Target/MOA", "content": "Inhibition of GABA metabolism" },
+                {"title": "Neurotransmitter", "content": "GABA (increase inhibitory activity)" },
+                {"title": "Drugs", "content": "Valproic Acid" }
+        ]
+    },
+    {
+        "topicName": "SRIs",
+        "courseId": "600",
+        "title": "Drugs",  
+        "sections" : [
+                {"title": "Paroxetine (Pheno)", "imagePath": "paroxetine.PNG" },
+                {"title": "Escitalopram (Pheno)", "imagePath": "escitalopram.PNG" }, 
+                {"title": "Fluoxetine (Pheno)", "imagePath": "fluoxetine.PNG" },
+                {"title": "Sertraline (Pheny)", "imagePath": "sertraline.PNG" }
+        ]
+    },
+    {
+        "topicName": "SRIs",
+        "courseId": "600",
+        "title": "SAR Characteristics - Phenoxyphenylalkyl Amines",  
+        "sections" : [
+                {"title": "Phenoxyphenylalkyl Amines", "imagePath": "sarCharacteristics-pheno.PNG" },
+                {"title": "Basic nitrogen: ", "content": "protonated at physiological pH; pKa 8.7−9.8" },
+                {"title": "Electron-withdrawing group: ", "content": "para or meta substitution enhances binding affinity for SERT. -Ortho substitution (except CF3) enhances binding affinity for NET and results in NRI" }, 
+                {"title": "Phenoxy:", "content": "distinguishes antidepressant and antihistamine activity (derived from diphenhydramine)" }
+        ]
+    },
+    {
+        "topicName": "SRIs",
+        "courseId": "600",
+        "title": "SAR Characteristics - Phenylalkyl Amine",  
+        "sections" : [
+                {"title": "Phenylalkyl Amine", "imagePath": "sarCharacteristics-pheny.PNG" },
+                {"title": "Basic Nitrogen", "content": "Protonated at physiological pH; pKa 9.5" },
+                {"title": "Chlorine", "content": "enhances SERT selectivity" }
+        ]
+    },
+    {
+        "topicName": "SRIs",
+        "courseId": "600",
+        "title": "Action",  
+        "sections" : [
+                {"title": "Mechanism of Action", "imagePath": "mechanismAction.PNG" },
+                {"title": "Explanation", "content": "Blocks Serotonin Transporter (SERT) on pre-synaptic neuron resulting in increased serotonin in the synapse which is available to bind to post synaptic serotonin receptors." },
+                {"title": "Acute SRI Use", "content": "1. Drug blocks 5-HT re-update (SERT) 2. Auto receptor (5-HT1A) activity decreases 3. 5-HT release decreases" },
+                {"title": "Chronic SRI Use", "content": "1. Auto receptor (5-HT1A) function is lost 2. 5-HT release returns to normal 3. Now serotonin in synapse is greatly increased" }
+        ]
+    },
+    {
+        "topicName": "SRIs",
+        "courseId": "600",
+        "title": "Side-Effects",  
+        "sections" : [
+                {"title": "Side-Effects", "content": "Nausea & GI symptoms, Sexual effects (decreased libido & sexual dysfunction), Mild restlessness, Mild headaches, Mild Insomnia" }
+        ]
+    },
+    {
+        "topicName": "SRIs",
+        "courseId": "600",
+        "title": "Uses",  
+        "sections" : [
+                {"title": "Uses", "content": "Depression, OCD, panic disorder, anxiety" }
+        ]
+    },
+    {
+        "topicName": "SRIs",
+        "courseId": "600",
+        "title": "Notes",  
+        "sections" : [
+                {"title": "Notes", "content": "SRIs compete with metabolism of other drugs, Never use in combo with MAOIs (MAOIs inhibit breakdown of SRIs and could lead to overdose of serotonin in the brain)" }
+        ]
+    },
+    {
+        "topicName": "TCAs",
+        "courseId": "600",
+        "title": "Drugs",
+        "sections" : [
+                {"title": "Amitriptyline (Tertiary)", "imagePath": "review-Amitriptyline.PNG" },
+                {"title": "Nortriptyline (Secondary)", "imagePath": "review-Nortriptyline.PNG" }
+        ]
+    },
+    {
+        "topicName": "TCAs",
+        "courseId": "600",
+        "title": "SAR Characteristics",  
+        "sections" : [
+                {"title": "Example Compound", "imagePath": "review-sar.PNG" },
+                {"title": "Linker of 3 carbons", "content": "Linker of 3 carbons between tricyclic ring system and basic nitrogen. Branching from linker decreases binding affinity for SERT and NET. Unsaturation of linker is tolerated." },
+                {"title": "R→ CH3, tertiary amine", "content": "R→ CH3, tertiary amine imparts selectivity for SERT" },
+                {"title": "R→ H, secondary amine", "content": "R→ H, secondary amine imparts selectivity for NET" }, 
+                {"title": "R’→ Cl or CN (EWG)", "content": "R’→ Cl or CN (EWG) enhances binding affinity for SERT" }, 
+                {"title": "R’→ no substitution", "content": "R’→ no substitution decreases SERT preference" }, 
+                {"title": "Y→ can be C or N", "content": "Y→ can be C or N" },  
+                {"title": "Conformationally rigid [6.7.6]-fused ring system", "content": "Conformationally rigid [6.7.6]-fused ring system - 7 membered ring in the middle is not coplanar; results in twisted shape" }
+        ]
+    },
+    {
+        "topicName": "TCAs",
+        "courseId": "600",
+        "title": "Mechanism of Action",  
+        "sections" : [
+                {"title": "MOA", "imagePath": "moa-TCAs.PNG" },
+                {"title": "Explanation", "content": "Block SERT & NET to inhibit seratonin and norepinephrine reuptake. Block muscarinic, Histamine H1, and Alpha adrenergic receptors" }
+        ]
+    },
+    {
+        "topicName": "TCAs",
+        "courseId": "600",
+        "title": "Side-Effects",
+        "sections" : [
+                {"title": "Side-Effects", "content": "[Amitriptyline]: Sedation, Hypotension, Anti-Muscarinic, Weight Gain. [Nortiptyline]: No major side effects." }
+        ]
+    },
+    {
+        "topicName": "TCAs",
+        "courseId": "600",
+        "title": "Notes",  
+        "sections" : [
+                {"title": "Notes", "content": "[Amitriptyline]: Can cause extreme CNS depression leading to death if OD. [Nortiptyline]: Selectively blocks NET with much more affinity than SERT." }
+        ]
+    },
+    {
+        "topicName": "Atypical-Antidepressants",
+        "courseId": "600",
+        "title": "Atypical Antidepressants (Trazodone)",  
+        "sections" : [
+                {"title": "MOA", "content": "Blocks SERT and alpha1-adrenergic receptor. Agonist at 5-HT1A on post-synaptic neuron." },
+                {"title": "SAR", "imagePath": "trazodone.PNG", "content": "None"},
+                {"title": "Side Effects", "content": "[Major]: Sedation. [Minor]: GI, Weight Gain."}
+        ]
+    },
+    {
+        "topicName": "Atypical-Antidepressants",
+        "courseId": "600",
+        "title": "Atypical Antidepressants (Mirtazapine)",  
+        "sections" : [
+                {"title": "MOA", "content": "Blocks H1 histamine receptor, 5HT2 receptor and alpha2-adrendergic receptor. Agonist at 5HT1A on post synaptic neuron." },
+                {"title": "SAR", "imagePath": "mirtazapine.PNG", "content": "None"},
+                {"title": "Side Effects", "content": "[Major]: Sedation. [Minor]: Weight Gain"}
+        ]
+    },
+    {
+        "topicName": "Atypical-Antidepressants",
+        "courseId": "600",
+        "title": "Atypical Antidepressants (Bupropion)",  
+        "sections" : [
+                {"title": "MOA", "content": "Blocks DAT and NET resulting in increased dopamine and NE in extracellular space - dopamine acts on reward pathway to improve mood." },
+                {"title": "SAR", "imagePath": "bupropion.PNG", "content": "None"},
+                {"title": "Side Effects", "content": "[Major]: Insomnia, Agitation. [Minor]: Nausea, Dry Mouth"}
+        ]
+    },
+    {
+        "topicName": "Atypical-Antidepressants",
+        "courseId": "600",
+        "title": "SNRIs & SRIs (Venlafaxine)",  
+        "sections" : [
+                {"title": "MOA", "content": "Blocks SERT and NET resulting in increased levels of serotinin and norepinephrine in the synapse." },
+                {"title": "SAR", "imagePath": "venlafaxine.PNG", "content": "None"},
+                {"title": "Side Effects", "content": "[Major]: GI, Sexual Effect."}
+        ]
+    },
+    {
+        "topicName": "Atypical-Antidepressants",
+        "courseId": "600",
+        "title": "SRIs (Escitalopram, Fluoxetine, Sertraline)",  
+        "sections" : [
+                {"title": "MOA", "content": "Selectively blocks SERT on the pre-synaptic neuron resulting in increased levels of serotonin in the synapse and increased activation of 5-HT1A receptors on post-synaptic neuron." },
+                {"title": "SAR", "imagePath": "sri-sar.PNG", "content": ""},
+                {"title": "Phenoxyphenylalkyl SAR", "content": "[Basic nitrogen]: protonated at physiological pH; pKa 8.7−9.8. [Electron-withdrawing group]: para or meta substitution enhances binding affinity for SERT. [Phenoxy]: distinguishes antidepressant and antihistamine activity derived from diphenhydramine)"},
+                {"title": "Phenylalkyl SAR", "content": "[Basic nitrogen]: protonated at physiological pH; pKa 9.5. [Chlorine]: enhances SERT selectivity."},
+                {"title": "Side Effects", "content": "[Major]: GI, Sexual Effect."}
+        ]
+    },
+    {
+        "topicName": "Atypical-Antidepressants",
+        "courseId": "600",
+        "title": "Tricyclic Antidepressants (Amitriptyline & Nortriptyline)",  
+        "sections" : [
+                {"title": "MOA", "content": "Blocks SET and NET on pre-synaptic neuron resulting in increased levels of serotonin and norepinephrine in the synapse. Some also acts as antagonists at 5HT2, Alpha1-adrenergic, histamine and muscarinic receptors." },
+                {"title": "SAR", "imagePath": "triptyline.PNG", "content": ""},
+                {"title": "SAR Explained", "content": "[Linker of 3 carbons]: between tricyclic ring system and basic nitrogen. Branching from linker decreases binding affinity for SERT and NET. Unsaturation of linker is tolerated. [R→ CH3]: tertiary amine imparts selectivity for SERT. [R’→ Cl or CN (EWG)]: enhances binding affinity for SERT. [Y→ can be C or N]. [Conformationally rigid [6.7.6]-fused ring system]: 7 membered ring in the middle is not coplanar; results in twisted shape"},
+                {"title": "Side Effects", "content": "[Major]: Weight gain, GI, Sexual Effect."}
+        ]
+    },
+    {
+        "topicName": "Atypical-Antidepressants",
+        "courseId": "600",
+        "title": "THEORIES OF DEPRESSION",  
+        "sections" : [
+                {"title": "Monoamine Theory", "content": "Deficiency of 5-HT and NE transmission in the CNS"},
+                {"title": "Neurotrophic Theory", "content": "Decrease of Brain Derived Neurotophic Factor (BDNF) resulting in reduced neuroplasticity, decreased number of spines and thus, decreased neurotransmission."}
+        ]
+    },
+    {
+        "topicName": "Atypical-Antidepressants",
+        "courseId": "600",
+        "title": "LOW NERUOTRANSMITTER LEVELS",  
+        "sections" : [
+                {"title": "Low serotonin", "content": "Anxiety, panic, phobia"},
+                {"title": "Low norepinephrine", "content": "Decreased concentration, decreased working memory, decreased information processing, fatigue."},
+                {"title": "Low dopamine", "content": "Cognitive slowing, hypersomnia, anhedonia"}
+        ]
+    },
+    {
+        "topicName": "Atypical-Antidepressants",
+        "courseId": "600",
+        "title": "ACTIVATION OF RECEPTORS",  
+        "sections" : [
+                {"title": "5-HT", "content": "GI and Nausea, Sexual Effects (decreased libido, sexual dysfunction), Mild Restlessness, Headaches and Insomnia"},
+                {"title": "Adrenergic", "content": "Agitation (awakening), small increases in blood pressure and heart rate"},
+                {"title": "Antihistamine H1", "content": "Sedation"},
+                {"title": "Alpha1-Adrenergic", "content": "Hypotension"}
+        ]
+    },
+    {
+        "topicName": "CWB-Inhibitors",
+        "courseId": "610",
+        "title": "Fosfomycin",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "fosfomycin.PNG" },
+                {"title": "SAR", "content": "PEP mimic, Reactive epoxide group" },
+                {"title": "Type of Inhibitor", "content": "Irreversible inhibitor/Suicide inhibitor"},
+                {"title": "MOA & Target", "content": "MOA: Inhibits PEP which inhibits cell peptidoglycan synthesis - specifically NAM synthesis (Stage 1: Synthesis of Building Blocks) Bactericidal Target: UDP-NAG phosphoenoylpyruvuyl (PEP) transferase = MurA"},
+                {"title": "MOR", "content": "1) Mutation of active site (Microbe has Cysteine instead of Asp) 2) Mutation of glycerophosphate transporter"},
+                {"title": "Spectrum", "content": "Broad – both Gram positive and Gram negative"},
+                {"title": "Toxicities", "content": "Low Nausea, vomiting, diarrhea, hypersensitivity, skin rash"}
+        ]
+    },
+    {
+        "topicName": "CWB-Inhibitors",
+        "courseId": "610",
+        "title": "Cycloserine",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "cycloserine.PNG" },
+                {"title": "SAR", "content": "D-Ala analogue, 5-membered ring" },
+                {"title": "Type of Inhibitor", "content": "Non-covalent/competitive inhibitor – substrate mimic Binds 100x more tightly to the enzymes (rigid structure)"},
+                {"title": "MOA & Target", "content": "MOA; Competitive inhibitor of racemase Which inhibits cell peptidoglycan synthesis. (Stage 1: Synthesis of Building Blocks) Bactericidal Target: D-Ala-D-Ala racemase and D-Ala-D-Ala ligase"},
+                {"title": "MOR", "content": "Overexpression of  D-alanine racemase (AlrA)"},
+                {"title": "Spectrum", "content": "Broad – both Gram positive and Gram negative"},
+                {"title": "Toxicities", "content": "Neurotoxic CNS disturbance, anxiety, confusion and drowsiness"}
+        ]
+    },
+    {
+        "topicName": "CWB-Inhibitors",
+        "courseId": "610",
+        "title": "Bacitracin",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "bacitracin.PNG" },
+                {"title": "SAR", "content": "Large molecule with many peptide bonds" },
+                {"title": "Type of Inhibitor", "content": "N/A"},
+                {"title": "MOA & Target", "content": "MOA: Binds to pyrophosphatase in the presence of Magnesium,thus preventing regeneration of Bactoprene. It is more active if zinc is already present in the preparation, aiding in the binding to pyrophosphatase which inhibits cell peptidoglycan synthesis. (Stage 2: Synthesis of Membrane-bound Precursors and Polymerization) Bactericidal Target: Pyrophosphatases"},
+                {"title": "MOR", "content": "Failure to penetrate membrane"},
+                {"title": "Spectrum", "content": "Gram positive only – too big to get through outer membrane of Gram negative"},
+                {"title": "Toxicities", "content": "Nephrotoxicity – not used systemically. For topical use only."}
+        ]
+    },
+    {
+        "topicName": "CWB-Inhibitors",
+        "courseId": "610",
+        "title": "Vancomycin",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "vancomycin.PNG" },
+                {"title": "SAR", "content": "Large molecule with many peptide bonds - Circled atoms form hydrogen bonds with D-Ala-D-Ala" },
+                {"title": "Type of Inhibitor", "content": "Competitive/Reversible"},
+                {"title": "MOA & Target", "content": "(Stage 2: Synthesis of Membrane-bound Precursors and Polymerization) Binds directly to the D-Ala-D-Ala terminal to prevent peptide cross-linking Bactericidal Target:  D-Ala-D-Ala"},
+                {"title": "MOR", "content": "1. Alter the substrate – make D-Ala-D-Lac. Results in loss of H-bond between vancomycin and dipeptide. 2.  Thicker cell wall of bacterium"},
+                {"title": "Spectrum", "content": " Gram positive only"},
+                {"title": "Toxicities", "content": "Redman syndrome (if infused too quickly), Nephrotoxicity, Hearing loss, Rash"}
+        ]
+    },
+    {
+        "topicName": "Beta-Lactams",
+        "courseId": "610",
+        "title": "Beta Lactamase Inhibitor",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "BetaLactamaseInhibitor.PNG" },
+                {"title": "SAR", "content": "-β-lactam ring (tetracyclic amide) is essential. -Any modification to β-lactam ring results in inactivation"},
+                {"title": "MOA", "content": "Irreversible, 'suicide' inhibitor of many (but not all) bacterial β-lactamases. Covalently bind to serine residue of active site of β-lactamases"},
+                {"title": "Spectrum", "content": "No antimicrobial activity. Used in combination with penicillins to increase spectrum of activity"}
+        ]
+    },
+    {
+        "topicName": "Beta-Lactams",
+        "courseId": "610",
+        "title": "Monobactam",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "monobactam.PNG" },
+                {"title": "SAR", "content": "- Single β-lactam ring. -A methyl group can be placed at R2 for β-lactamase stability. -R1 can be changed to an extent to improve spectrum and activity. -SO3 group facilitates ring opening. -Methoxy group improves β-lactamase stability but decreases ring stability"},
+                {"title": "MOA", "content": "Interferes with bactericidal cell wall synthesis by binding to and inactivating penicillin-binding-proteins. This binding causes the formation of elongation or bacterial filamentation resulting in cell lysis and cell death. Bactericidal"},
+                {"title": "MOR", "content": "Resistance to aztreonam is primarily through hydrolysis by beta-lactamase, alteration of penicillin-binding proteins (PBPs), and decreased permeability."},
+                {"title": "Spectrum & Toxicities", "content": "Spectrum: Gram negative. Toxicities: Rash, diarrhea"}
+        ]
+    },
+    {
+        "topicName": "Beta-Lactams",
+        "courseId": "610",
+        "title": "Carbapenem",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "carbapenem.PNG" },
+                {"title": "SAR", "content": "-Unsaturated 5-membered ring connected to the β-lactam ring. -β-lactam ring and COOH are essential for function. -R1 and R2 are variable regions that can alter spectrum, susceptibility to lactamases and stability."},
+                {"title": "MOA", "content": "Cause rapid bacterial cell death by covalently binding to penicillin-binding proteins (PBPs) involved in the biosynthesis of mucopeptides in bacterial cell walls.  Bactericidal effects result through inhibition of cellular growth and division and the loss of cell wall integrity, eventually causing cell wall lysis. The primary target is PBP-2."},
+                {"title": "MOR", "content": "1. Modified porins 2. Efflux pumps 3. Synthesis of inactivating enzymes (very uncommon)"},
+                {"title": "Spectrum & Toxicities", "content": "Spectrum: Broadest spectrum (gram positive and negative). Toxicities: GI, Renal insufficiency, Hepatic insufficiency, Anemia"}
+        ]
+    },
+    {
+        "topicName": "Beta-Lactams",
+        "courseId": "610",
+        "title": "Penicillins",
+        "sections": [{
+                "title": "Compound",
+                "imagePath": "penicillins.PNG"
+        }, {
+                "title": "SAR",
+                "content": "β-lactam ring & fused bicyclic system: creates a strained system. -Position 1: must be a nitrogen. -Position 2: must be a carboxylic acid for activity; binds to charged nitrogen of a lysine residue in the binding site. -Position 3: any change will lower activity. Position 4: sulfur is usual, but not essential. Position 5: no substitutions allowed; cis stereochemistry with hydrogens at position 5 & 6 is essential. [R Group]: EWG: increases the acid stability of the compound. Bulky group: directly attached to the amide will make the compound more β-lactamase resistant. Polar group: broadens the spectrum as this allows the compound to pass through the porins of gram negative bacteria. Position 7: must be a carbonyl"
+        }, {
+                "title": "MOA",
+                "content": "Inhibits cell peptidoglycan synthesis – specifically crosslinking of peptidoglycan strands. Bactericidal"
+        }, {
+                "title": "MOR",
+                "content": "1. Synthesis of inactivating enzymes ->  β-lactamases  (less common in cephalosporin’s) 2. Mutations to PBP (decreases affinity of drug to target). 3. Alternation of porins (decrease ability of drug to reach site of action in bacteria)."
+        }, {
+                "title": "Spectrum, Target, Type, & Toxicities",
+                "content": "[Spectrum]: Early penicillin’s gram positive only, but as a class they are broad spectrum. [Target]: Penicillin Binding Proteins (PBPs). [Inhibitor Type]: Irreversible covalent inhibitor/ suicide inhibitor – substrate mimic. [Toxicities]:Immune response (low incidence), nephrotoxicity, pseudomonas colitis, seizures."
+        }]
+    },
+    {
+        "topicName": "Beta-Lactams",
+        "courseId": "610",
+        "title": "Cephalosporins",
+        "sections": [{
+                "title": "Compound",
+                "imagePath": "cephalosporins.PNG"
+        }, {
+                "title": "SAR",
+                "content": "[β-lactam ring & fused bicyclic system]: creates a strained system (but less strain than the penicillins, so less reactive). [Position 1]: must be a nitrogen. [Position 2]: must be a carboxylic acid for activity; binds to charged nitrogen of a lysine residue in the binding site. [Position 3]: R2 group: -Non-metabolized group: increases oral activity & acid stability. MTT group: extended spectrum, longer-half life, higher potency. -Pyrimidine ring (positive charge): forms a zwitterion & increases solubility. -1,3 thiazole ring: Anti-MRSA activity. [Position 5]: sulfur is usual, but not essential. [Position 6]: no substitutions allowed. [Position 7]: R3 group-addition of OCH3 (7-alpha-methoxy) increases β-lactamase resistance. [R1 group]: -EWG: increases the acid stability of the compound. -Bulky group: directly attached to the amide will make the compound more β-lactamase resistant. -Polar group: broadens the spectrum as this allows the compound to pass through the porins of gram negative bacteria. -Oxime: increases β-lactamase resistance. [Position 8]: must be a carbonyl."
+        }, {
+                "title": "MOA",
+                "content": "Inhibits cell peptidoglycan synthesis – specifically crosslinking of peptidoglycan strands. Bactericidal"
+        }, {
+                "title": "MOR",
+                "content": "1. Synthesis of inactivating enzymes ->  β-lactamases  (less common in cephalosporin’s) 2. Mutations to PBP (decreases affinity of drug to target). 3. Alternation of porins (decrease ability of drug to reach site of action in bacteria)."
+        }, {
+                "title": "Spectrum, Target, Type, & Toxicities",
+                "content": "[Spectrum]: Dependent on generation, some have very broad spectrum – even effective against organisms that produce β-lactamases. [Target]: Penicillin Binding Proteins (PBPs). [Inhibitor Type]: Irreversible covalent inhibitor – suicide inhibitors. [Toxicities]: Immune response (cross reactivity with other β-lactams) – otherwise low, nephrotoxicity, pseudomonas colitis, seizures. A-Typical side effects due to MTT group: Hypothrombocytopenia, Disulfiram-like effect"
+        }]
+    },
+    {
+        "topicName": "FAB-Inhibitors",
+        "courseId": "610",
+        "title": "Sulfonamides (Sulfamethoxazole, Sulfacetamide, Silver Sulfadiazine)",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "sulfonamides.PNG" },
+                {"title": "SAR", "content": "Essential components: [Benzene ring]. [Un-substituted amine para to sulfonamide]. [Sulfonamide para to amine]: -Sulfonamide must be un-ionized to cross bacterial cell membrane. -Sulfonamide must be ionized to interact with DHPS active site. -Disubstitution of sulfonamide abolishes activity (acidic hydrogen required). -Mono-substituted sulfonamide may increase activity (EWG & heterocycles favorable)"},
+                {"title": "Target", "content": "Dihydropteroate Synthase(DHPS)"},
+                {"title": "MOA", "content": "PABA mimic that competitively inhibits the synthesis of dihydrofolic acid from PABA. Bacteriostatic."},
+                {"title": "MOR", "content": "1. Decreased drug uptake (most common). 2. Overexpression of DHPS 3. Increase PABA in bacteria 4. Decrease affinity for sulfonamide by DHPS"},
+                {"title": "Spectrum", "content": "Broad Spectrum but use as monotherapy is rare"},
+                {"title": "Toxicity", "content": "Nephrotoxicity; Crystalluria, Rash, Photosensitivity, Stevens-Johnson Syndrome"}
+        ]
+    },
+    {
+        "topicName": "FAB-Inhibitors",
+        "courseId": "610",
+        "title": "Trimethoprim (Related Compound: Pyrimethamine)",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "trimethoprim.PNG" },
+                {"title": "SAR", "content": "-Removal of primary amine results in complete inactivity. -Removal of one or more methoxy groups on trimethoprim results in loss of activity to varying degrees."},
+                {"title": "Target", "content": "Dihydrofolate Reductase (DHFR)"},
+                {"title": "MOA", "content": "Inhibits a step of the recycling of the folate cofactor (dihydrofolate to tetrahydrofolate) for purine and thymidine biosynthesis. Binds with ~300x more affinity to bacteria vs. human DHFR. Bacteriostatic"},
+                {"title": "MOR", "content": "1. Overexpression of DHFR. 2. Decrease affinity for sulfonamide due to mutated enzyme."},
+                {"title": "Spectrum", "content": "Broad Spectrum. Used in synergy with sulfonamides because of resistance."},
+                {"title": "Toxicity", "content": "Hypersensitivity rash, Hyperkalemia, Hematologic effects"}
+        ]
+    },
+    {
+        "topicName": "DNA-Topo",
+        "courseId": "610",
+        "title": "Fluoroquinolones SAR",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "fluoroquinolones.PNG" },
+                {"title": "Position 1", "content": "Nitrogen can allow substitutions of alkyl (Me, Et, cPr) or aryl (2,4-difluorophenyl) groups"},
+                {"title": "Position 2", "content": "Can be either a carbon or nitrogen"},
+                {"title": "Position 3", "content": "Must be unsubstituted carboxylic acid"},
+                {"title": "Position 4", "content": "Must be ketone"},
+                {"title": "Position 6", "content": "Fluorine substitution increases activity and broadens spectrum"},
+                {"title": "Position 7", "content": "Substitution with nitrogen containing heterocycles (piperazine ring) broadens spectrum; potential for zwitterion"},
+                {"title": "Position 8", "content": "Substitution with small polar groups (OCH3, F, Cl) increases activity"}
+        ]
+    },
+    {
+        "topicName": "DNA-Topo",
+        "courseId": "610",
+        "title": "Fluoroquinolones Info.",  
+        "sections" : [
+                {"title": "Examples", "content": "(Ciprofloxacin, Levofloxacin, Moxifloxacin)"},
+                {"title": "Mechanism of Action & Target", "content": "MOA: Irreversibly inhibits topoisomerase (DNA gyrase) enzymes, which inhibits relaxation of supercoiled DNA and promotes breakage of double stranded DNA. Bactericidal. Target: Topoisomerase II (DNA Gyrase)"},
+                {"title": "Mechanism of Resistance", "content": "1. Mutation to the quinolone-resistance determining region (QRDR) of gyrase that affects the binding of fluoroquinolones. 2. Active drug efflux. 3. Decrease drug uptake (reduced permeability)"},
+                {"title": "Indication/Spectrum", "content": "Broad spectrum (increases with increasing generation)"},
+                {"title": "Toxicities/DDI’s", "content": "Tendon rupture, QT prolongation, Phototoxicity. Rashes, Peripheral neuropathy. DDI: Chelation with cations, synergistic inhibition of GABA receptor with NSAIDs"}
+        ]
+    },
+    {
+        "topicName": "30S-PB-Inhibitors",
+        "courseId": "610",
+        "title": "Aminoglycosides SAR",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "aminoglycosides.PNG" },
+                {"title": "Ring 1", "content": "-Crucial for broad-spectrum activity. -First target of inactivating enzymes. -The 2-, 3-, 4- hydroxyl groups are not essential for activity. -Methylation of the amine will retain activity and will lower susceptibility to transferases. -All substitutions must be equatorial."},
+                {"title": "Ring 2", "content": "Many modifications are possible, for example the 3- amine can be substituted or acylated."},
+                {"title": "Ring 3", "content": "The amine can be methylated or changed to a hydroxyl group, but its removal will abolish activity."},
+                {"title": "Polycationic at physiological pH", "content": "Poor oral absorption"}
+        ]
+    },
+    {
+        "topicName": "30S-PB-Inhibitors",
+        "courseId": "610",
+        "title": "Aminoglycosides Info.",  
+        "sections" : [
+                {"title": "MOA & Target", "content": "-Binds irreversibly to the 30S ribosomal subunit and changes to the “A” site. -Enters cell by binding negatively charged phospholipids and entering via electron transport linked system -> method can be antagonized by divalent cations. Bactericidal. Target: 30S"},
+                {"title": "MOR", "content": "1. Decreased permeation of aminoglycosides (loss of porin). 2. Bacteria produce enzymes that acetylate or phosphorylate aminoglycosides’ hydroxyl groups to make aminoglycoside inactive. 3. Ribosomal mutations."},
+                {"title": "Indication/Spectrum", "content": "Very broad spectrum, but better against G-. Used mainly against G- bacilli AEROBES."},
+                {"title": "Toxicity/DDI", "content": "Nephrotoxicity, Ototoxicity, Neuromuscular blockade (muscular paralysis)"}
+        ]
+    },
+    {
+        "topicName": "30S-PB-Inhibitors",
+        "courseId": "610",
+        "title": "Tetracyclines SAR",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "tetracyclines.PNG" },
+                {"title": "Positions 1, 10, 11, 12, & 12a", "content": "Any changes will completely abolish activity, even changes in the stereochemical configuration. Resonance between position 10 and 11 needed for activity."},
+                {"title": "Position 2", "content": "Any changes leads to decreased activity, even substitution to the amide"},
+                {"title": "Position 4", "content": "Amine in the α-position is essential, but monosubstitution is also active"},
+                {"title": "Position 5", "content": "R4 can be a hydroxyl, keto group or a hydrogen, and all are active"},
+                {"title": "Position 6", "content": "Both substitutions (R2 and R3) are not necessary"},
+                {"title": "Position 7", "content": "Cl, F, Br, NO2 and a tertiary amine are all active"},
+                {"title": "Position 8", "content": "Any electron withdrawing or donating group is still active"},
+                {"title": "Position 9", "content": "bulky substitution decreases resistance"},
+                {"title": "Warhead", "content": "Resonance between 11 and 12"}
+        ]
+    },
+    {
+        "topicName": "30S-PB-Inhibitors",
+        "courseId": "610",
+        "title": "Tetracyclines Info.",  
+        "sections" : [
+                {"title": "MOA & Target", "content": "Binds reversibly to 30S ribosomal subunit at the A site, preventing attachment of tRNA – leading to termination of translation. Bacteriostatic. Target: 30S"},
+                {"title": "MOR", "content": "1. Develops efflux pumps. 2. Genes for tet-resistance transmitted by plasmids. 3. Enzymatic modification of antibiotic preventing binding to 30S."},
+                {"title": "Indication/Spectrum", "content": "Broad spectrum: G+, G-, aerobic and anaerobic"},
+                {"title": "Toxicity/DDI", "content": "Phototoxicity, Inhibition of bone growth, nephrotoxic, hepatotoxic , stains teeth. DDI: chelation with cations (dairy products, antacids, supplements)"}
+        ]
+    },
+    {
+        "topicName": "50S-PB-Inhibitors",
+        "courseId": "610",
+        "title": "Macrolides (Erythromycin, Clarithromycin, Azithromycin)",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "macrolides.PNG" },
+                {"title": "SAR", "content": "-Large lactone ring (12, 14, or 16 membered ring). -Contain one or two sugars usually desosamine and/or cladinose. -Connection via ester bond. -Synthetic modifications made on the sugar and the 6 and 12-OH."},
+                {"title": "MOA & Target", "content": "Inhibit elongation, promote dissociation of peptidyl t-RNA before completion of peptide synthesis by blocking exit tunnel. Reversible binding. Bacteriostatic."},
+                {"title": "MOR", "content": "Methylation A2058 by ermC"},
+                {"title": "Indication/Spectrum", "content": "100x more affinity for gram positive vs gram negative"},
+                {"title": "Toxicity/DDI", "content": "QT prolongation, hepatitis, p450 inhibitor (carbamazepines, benzodiazepines, warfarin, theophylline, prednisone, cyclosporins, statins)"}
+        ]
+    },
+    {
+        "topicName": "50S-PB-Inhibitors",
+        "courseId": "610",
+        "title": "Ketolides (Telithromycin)",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "ketolides.PNG" },
+                {"title": "SAR", "content": "-Replacement of the L-cladinose sugar of erythromycin A with a 3-keto functional group: Restores activity against bacteria with inducible resistance mediated by Erm, and enhances activity against streptococci with Mef-mediated macrolide efflux. -Addition of a carbamate side chain: Promotes activity against both erythromycin-sensitive and erythromycin-resistant bacteria by introducing an interaction with domain II of the 23S rRNA."},
+                {"title": "MOA & Target", "content": "Inhibit elongation, promote dissociation of peptidyl t-RNA before completion of peptide synthesis by blocking exit tunnel. Reversible binding. Increased affinity for ribosome (2 binding sites for 23 rRNA). Bacteriostatic"},
+                {"title": "MOR", "content": "Methylation A2058 by ermC"},
+                {"title": "Indication/Spectrum", "content": "Good gram positive"},
+                {"title": "Toxicity/DDI", "content": "QT prolongation, hepatitis, p450 inhibitor (carbamazepines, benzodiazepines, warfarin, theophylline, prednisone, cyclosporins, statins)"}
+        ]
+    },
+    {
+        "topicName": "50S-PB-Inhibitors",
+        "courseId": "610",
+        "title": "Lincosamides (Clindamycin)",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "lincosamides.PNG" },
+                {"title": "SAR", "content": "-Eight carbon sugar. -Amide bond."},
+                {"title": "MOA & Target", "content": "Reversibly binds to the 23S portion of 50S, block translocation of tRNA from A site to P site, blocks elongation. Bacteriostatic."},
+                {"title": "MOR", "content": "1. Target-site modification by methylation  of the 23S ribosomal target site, encoded by the erm(B) gene and prevents the binding of the antibiotic to its ribosomal target"},
+                {"title": "Indication/Spectrum", "content": "anaerobic gram positive and negative"},
+                {"title": "Toxicity/DDI", "content": "GI, rashes, pseudomembranous colitis"}
+        ]
+    },
+    {
+        "topicName": "50S-PB-Inhibitors",
+        "courseId": "610",
+        "title": "Streptogramins (Synercid, Pristamycin)",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "streptogramins.PNG" },
+                {"title": "SAR", "content": "None"},
+                {"title": "MOA & Target", "content": "Dalfopristin: irreversibly binds to 23S portion of the 50S (blocks the binding of aminoacyl-tRNA). Quinupristin: irreversibly binds to a nearby site on the 50S (inhibits peptide bond formation and elongation). Synergism. Conformational change of the ribosome and enhance the binding of quinupristin. Bactericidal together. Bacteriostatic alone. Target: 23S (D), 50S (Q); P site."},
+                {"title": "MOR", "content": "(2) target-site modification by methylation  of the 23S ribosomal target site, encoded by the erm(B) gene and prevents the binding of the antibiotic to its ribosomal target. (3) through efflux of the antibiotic. (4) Enzymatic inactivation of drug."},
+                {"title": "Indication/Spectrum", "content": "Gram positive. (Too big to enter gram negative)."},
+                {"title": "Toxicity/DDI", "content": "Muscle/joint pain, infusion related events (pain/thrombophlebitis). Cyp3A4 inhibitor so DDIs, myalgia and arthralgia"}
+        ]
+    },
+    {
+        "topicName": "50S-PB-Inhibitors",
+        "courseId": "610",
+        "title": "Chloramphenicol",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "chloramphenicol.PNG" },
+                {"title": "SAR", "content": "-Nitro group: can be replaced with other EWG, but activity decreases. -Aromatic ring: essential for activity. -Chlorines: can be removed or replaced with other halogens, but activity decreases. -R, R stereoisomer: essential for activity."},
+                {"title": "MOA & Target", "content": "Reversibly Inhibits peptidyl transferase reaction (blocks peptide elongation), competes for macrolide and clindamycin binding. Bacteriostatic (bacteriocidal to influenzae)."},
+                {"title": "MOR", "content": "1. Plasmid-encoded acetyltransferase that inactivates drug. 2. Chloramphenicol aetyltransferase (CAT)."},
+                {"title": "Indication/Spectrum", "content": "Broad (gram positive, gram negative, anaerobes and atypicals)"},
+                {"title": "Toxicity/DDI", "content": "Significant toxicity, so rarely used. Hemolytic anemia (GSH reasoning), mammalian mitochondrial protein synthesis can be inhibited (erythrolpoietic cells highly sensitive)"}
+        ]
+    },
+    {
+        "topicName": "50S-PB-Inhibitors",
+        "courseId": "610",
+        "title": "Oxazolidiones (Linezolid, Tedizolid)",  
+        "sections" : [
+                {"title": "Compound", "imagePath": "oxazolidiones.PNG" },
+                {"title": "SAR", "content": "-Oxazolidinone ring"},
+                {"title": "MOA & Target", "content": "Binds to alt. site on 50S from MLS drugs to prevent initiation complex formation.‘cidal for streptococci, ‘static for staphylococci and enterococci."},
+                {"title": "MOR", "content": "Mutations on 23S rRNA binding site"},
+                {"title": "Indication/Spectrum", "content": "Gram positive only (similar to vanco)"},
+                {"title": "Toxicity/DDI", "content": "MAO inhibitors so not with SSRIs, bone marrow suppression, mitochondrial toxicity"}
+        ]
     }
 ]
