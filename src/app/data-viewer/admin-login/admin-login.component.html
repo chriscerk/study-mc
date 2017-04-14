@@ -1,14 +1,14 @@
 <div *ngIf="isLoggedIn; else login">
     <h1>Adminstrator</h1>
     <br>
-    <p>View, Edit, Add, or Delete data by clicking on one of the links at the top right. Locked items can be accessed through Google's Firebase. The login information is located in the documentation on the COP IT Google Drive.</p>
+    <p>View, Edit, Add, or Delete data by clicking on one of the links at the top right. Locked items can be accessed through <a href="https://firebase.google.com" target="_newtab">Google's Firebase</a>. The login information is located in the documentation on the COP IT Google Drive.</p>
     <br>
-    <img type="image/jpg" src="assets/media/firebase.jpg" style="margin-right:auto; margin-left:auto; display:list-item;"/>
+    <a href="https://firebase.google.com" target="_newtab"><img type="image/jpg" src="assets/media/firebase.jpg" style="margin-right:auto; margin-left:auto; display:list-item;"/></a>
 </div>
 
 <ng-template #login>
     <div class="full-screen">
-        <div class="content">
+        <div class="login-box">
             <input class="form-control input-lg admin-input"
             [(ngModel)]="submission"
             type="password"
@@ -16,18 +16,11 @@
             placeholder="admin password"/>
             
             <button (click)="verifyUser()" class="btn btn-lg btn-success enter-button">Enter</button>
-
             <br>
-
             <div *ngIf="message" class="alert alert-danger" role="alert"><strong>{{message}}</strong></div>
-
-
-            <div class="backhome">
-                <a routerLink="/courses" class="back-link"> 
-                        <span class="glyphicon glyphicon-home huge-icon"></span>
-                        <h2>Home</h2>
-                </a>
-            </div>
         </div>
+         <a routerLink="/courses"> 
+            <img type="image/png" src="assets/media/logos/studymc-logo-title.jpg" style="margin-right:auto; margin-left:auto; display:list-item;"/>
+        </a>
     </div>
 </ng-template>

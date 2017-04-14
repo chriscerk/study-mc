@@ -72,7 +72,7 @@ select {
 }
 
 .full-screen {
-    background-color: #007bcb;
+    background-color: white;
     width: 100%;
     height: 100vh;
     display: inline-block;
@@ -83,26 +83,9 @@ select {
 }
 
 .admin-input {
-    width: 400px;
-    margin-top: 30vh;
+    width: 200px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.backhome {
-    position: absolute;
-    width: 200px;
-    bottom: 50px;
-    left: 50%;
-    margin-left: -100px;
-    color: white;
-    text-align: center;
-}
-.huge-icon {
-    font-size: 50px;
-}
-.back-link {
-   color: white;
 }
 
 .enter-button {
@@ -110,6 +93,19 @@ select {
     margin-right: auto;
     display: inherit;
     margin-top: 20px;
+}
+
+.login-box {
+    margin-right: auto;
+    margin-left: auto;
+    height: 800px;
+    width: 800px;
+    padding-top: 550px;
+    margin-top: -500px;
+    margin-bottom: 100px;
+    background-color: #007bcb;
+    border-radius: 500px;
+    box-shadow: 0 0 15px rgb(111, 111, 111);
 }
 
 

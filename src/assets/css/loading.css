@@ -27,6 +27,25 @@ img.loading {
     font-size: 75px;
 }
 
+@media print {
+    @page { 
+        size:8.27in 11.69in; 
+        margin:.5in .5in .5in .5in; 
+        mso-header-margin:.5in; 
+        mso-footer-margin:.5in; 
+        mso-paper-source:0; 
+    }
+
+  .print-hide {
+      display: none !important;
+  }
+
+  main, html, body {
+    /*padding-top: 0px;
+    margin-top: 0px;*/
+  }
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 800px) {
   .loading {
     font-size: 50px;
