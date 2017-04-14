@@ -17,7 +17,7 @@ Study-MC (Study Medicinal Chemistry) is a College of Pharmacy web application to
 [Screenshots](https://github.com/chriscerk/studymc#screenshots)
 
 ### Quicklinks
-App: https://apps.phar.umich.edu/studymc/
+App: https://apps.phar.umich.edu/study-mc/
 
 Sprint Planning: https://trello.com/studymc
 
@@ -93,6 +93,10 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 
 # Other Information
+
+### Images
+
+For each Topic in a Course, the images are stored in `assets/media/compounds/`. For each new topic added to a course, a new folder must be created WITH THE SAME NAME AS THE TOPIC in this location. Images for that topic must be placed inside of the new folder. 
 
 ### UM Access
 
