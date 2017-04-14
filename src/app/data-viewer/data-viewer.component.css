@@ -100,12 +100,20 @@ select {
     margin-left: auto;
     height: 800px;
     width: 800px;
-    padding-top: 550px;
+    padding-top: 525px;
     margin-top: -500px;
     margin-bottom: 100px;
     background-color: #007bcb;
     border-radius: 500px;
     box-shadow: 0 0 15px rgb(111, 111, 111);
+}
+
+.home-link {
+    text-align: center;
+    display: inherit;
+    color: white;
+    padding: 10px;
+    font-size: 16pt;
 }
 
 

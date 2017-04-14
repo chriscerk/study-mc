@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-
+// NOTE: This is not a secure login, simply a roadblock for users.
 @Component({
   selector: 'admin-login',
   templateUrl: './admin-login.component.html',
@@ -11,6 +11,7 @@ export class AdminLoginComponent implements OnInit {
   isLoggedIn: boolean;
   submission: string;
   message: string;
+  basicKey: string;
 
 
   constructor() {
@@ -19,10 +20,11 @@ export class AdminLoginComponent implements OnInit {
 
   ngOnInit() {
     this.message = '';
+    this.basicKey = 'P@ssw0rd';
   }
 
   verifyUser() {
-      if(this.submission === 'pass') {
+      if(this.submission === this.basicKey) {
         this.isLoggedIn = true;
       }
       else {

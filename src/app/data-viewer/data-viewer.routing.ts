@@ -1,3 +1,4 @@
+import { ReviewDataComponent } from './review-data/review-data.component';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { TestDataComponent } from './test-data/test-data.component';
 import { CoursesDataComponent } from './courses-data/courses-data.component';
@@ -12,7 +13,8 @@ const data_viewer_routes: Routes = [
       { path: '', redirectTo: 'admin-login', pathMatch: 'full' },
       { path: 'admin-login',  component: AdminLoginComponent },
       { path: 'courses',  component: CoursesDataComponent },
-      { path: 'test',  component: TestDataComponent }
+      { path: 'test',  component: TestDataComponent },
+      { path: 'review',  component: ReviewDataComponent }
     ]}
 ];
 

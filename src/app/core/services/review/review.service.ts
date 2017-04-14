@@ -1,3 +1,4 @@
+import { AngularFire } from 'angularfire2';
 import { IReviewItem } from './../../../shared/models/review';
 import { ErrorHandlerService } from './../error-handler/error-handler.service';
 import { Http, Response } from '@angular/http';
@@ -17,7 +18,68 @@ export class ReviewService {
   errorMessage = 'Review Data could not be retrieved.' +
    '\n 1. Verify ' + this.reviewDataUrl + ' exists. \n 2. JSON Lint the reviews.json file.';
 
-  constructor(private http: Http, private errorHandler: ErrorHandlerService) { }
+  constructor(
+    private http: Http,
+    private af: AngularFire,
+    private errorHandler: ErrorHandlerService) { }
+
+  getFirebaseReviews(): Observable<IReviewItem[]> {
+    if(!this.reviews) {
+      return this.af.database
+        .list('/reviews')
+        .map((items: IReviewItem[]) => {
+                return items;
+            }
+        )._catch(this.handleReviewError.bind(this));
+    } else {
+        return this.createObservable(this.reviews);
+    }
+  }
+
+  getFirebaseReviewsByTopic(topicName: string): Observable<IReviewItem[]> {
+    if (this.reviews) {
+        return this.findReviewsObservable(topicName);
+    } else {
+        return Observable.create((observer: Observer<IReviewItem[]>) => {
+          this.getFirebaseReviews().subscribe((reviewItems: IReviewItem[]) => {
+              this.reviews = reviewItems;
+              const items = this.filterReviews(topicName);
+              observer.next(items);
+              observer.complete();
+          });
+        })
+        .catch(this.handleReviewError.bind(this));
+    }
+  }
+
+  getFirebaseExampleReviews(): Observable<IReviewItem[]> {
+    if(!this.exampleReviews) {
+      return this.af.database
+        .list('/examplereviews')
+        .map((items: IReviewItem[]) => {
+                return items;
+            }
+        )._catch(this.handleReviewError.bind(this));
+    } else {
+        return this.createObservable(this.reviews);
+    }
+  }
+
+  getFirebaseExampleReviewsByTopic(topicName: string): Observable<IReviewItem[]> {
+    if (this.exampleReviews) {
+        return this.findExampleReviewsObservable(topicName);
+    } else {
+        return Observable.create((observer: Observer<IReviewItem[]>) => {
+          this.getFirebaseExampleReviews().subscribe((reviewItems: IReviewItem[]) => {
+              this.exampleReviews = reviewItems;
+              const items = this.filterReviews(topicName);
+              observer.next(items);
+              observer.complete();
+          });
+        })
+        .catch(this.handleReviewError.bind(this));
+    }
+  }
 
   getReviews(): Observable<IReviewItem[]> {
     if(!this.reviews) {
