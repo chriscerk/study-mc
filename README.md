@@ -12,7 +12,7 @@ Study-MC (Study Medicinal Chemistry) is a College of Pharmacy web application to
 
 [Development](https://github.com/chriscerk/study-mc#development)
 
-[File Structure](https://github.com/chriscerk/study-mc#structure)
+[File Structure](https://github.com/chriscerk/study-mc#file-structure)
 
 [Other Info.](https://github.com/chriscerk/studymc#other-information)
 
@@ -146,3 +146,5 @@ Data currently pulls from a Firebase connection for everything except 'Learn'. D
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 # Screenshots
+
+
