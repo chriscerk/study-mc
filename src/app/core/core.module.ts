@@ -6,7 +6,6 @@ import { CourseService } from './services/course/course.service';
 import { NgModule, Optional, SkipSelf } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { EnsureModuleLoadedOnceGuard } from '../shared/ensureModuleLoadedOnceGuard';
-import { DataService } from './services/data.service';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RouterModule } from '@angular/router';
 import { HttpModule } from '@angular/http';
@@ -16,10 +15,10 @@ import { HttpModule } from '@angular/http';
   imports: [ CommonModule, RouterModule, HttpModule ],
   declarations: [ NavbarComponent ],
   exports: [ NavbarComponent, RouterModule, HttpModule ],
-  providers: [ ErrorHandlerService, DataService, CourseService, TestService, LearnService, ReviewService ] // these should be singleton
+  providers: [ ErrorHandlerService, CourseService, TestService, LearnService, ReviewService ]
 })
 export class CoreModule extends EnsureModuleLoadedOnceGuard {
-  //Looks for the module in the parent injector to see if it's already been loaded
+  //Looks for the module in the parent to see if already loaded
   constructor( @Optional() @SkipSelf() parentModule: CoreModule) {
     super(parentModule);
   }
