@@ -46,18 +46,17 @@ export class TopicReviewComponent implements OnInit {
    }
 
   ngOnInit() {
-
       this.reviewItems = [];
 
       this.sub = this.route.parent.params.subscribe(params => {
         this.topicName = params['name'];
-        this.reviewService.getReviewsByTopic(this.topicName)
+        this.reviewService.getFirebaseReviewsByTopic(this.topicName)
             .subscribe((items: IReviewItem[]) => this.reviewItems = items);
       });
 
       this.orientation = 'void';
 
-      this.reviewService.getExampleReviewsByTopic(this.topicName)
+      this.reviewService.getFirebaseExampleReviewsByTopic(this.topicName)
             .subscribe((items: IReviewItem[]) => this.exampleReviewItems = items);
   }
 
@@ -107,7 +106,10 @@ export class TopicReviewComponent implements OnInit {
   }
 
   generateExampleReview() {
-    this.reviewItems = this.exampleReviewItems;
+
+    if(this.exampleReviewItems) {
+      this.reviewItems = this.exampleReviewItems;
+    }
     this.studentName = 'MC Student';
     this.reviewComplete = true;
   }

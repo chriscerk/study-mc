@@ -1,3 +1,4 @@
+import { ExampleReviewDataComponent } from './example-review-data/example-review-data.component';
 import { ReviewDataComponent } from './review-data/review-data.component';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { TestDataComponent } from './test-data/test-data.component';
@@ -14,7 +15,8 @@ const data_viewer_routes: Routes = [
       { path: 'admin-login',  component: AdminLoginComponent },
       { path: 'courses',  component: CoursesDataComponent },
       { path: 'test',  component: TestDataComponent },
-      { path: 'review',  component: ReviewDataComponent }
+      { path: 'review',  component: ReviewDataComponent },
+      { path: 'example-review',  component: ExampleReviewDataComponent }
     ]}
 ];
 

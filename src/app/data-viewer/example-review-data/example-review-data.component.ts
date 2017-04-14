@@ -11,10 +11,10 @@ enum CurrentAction {'View', 'Edit', 'Add'};
 
 @Component({
   selector: 'test-data',
-  templateUrl: './review-data.component.html',
+  templateUrl: './example-review-data.component.html',
   styleUrls: ['../data-viewer.component.css']
 })
-export class ReviewDataComponent implements OnInit {
+export class ExampleReviewDataComponent implements OnInit {
     reviewItems: IReviewItem[] = [];
     afReviewItems: FirebaseListObservable<any[]>;
     courses: ICourse[] = [];
@@ -39,12 +39,12 @@ export class ReviewDataComponent implements OnInit {
                 this.courses = courses;
             }
         );
-        this.af.database.list('/reviews').subscribe(
+        this.af.database.list('/examplereviews').subscribe(
             (items: IReviewItem[]) => {
                 this.reviewItems = this.searchedTestItems = items;
             }
         );
-        this.afReviewItems = this.af.database.list('/reviews');
+        this.afReviewItems = this.af.database.list('/examplereviews');
         this.action = CurrentAction.View;
         this.resetReviewItem();
     }
@@ -84,7 +84,7 @@ export class ReviewDataComponent implements OnInit {
     setEditKey(key: string) {
         this.action = CurrentAction.Edit;
         this.currentReviewItemKey = key;
-        let afObject = this.af.database.object('/reviews/' + key);
+        let afObject = this.af.database.object('/examplereviews/' + key);
         afObject.subscribe((reviewItem: IReviewItem) => { this.currentReviewItem = reviewItem; });
     }
 
