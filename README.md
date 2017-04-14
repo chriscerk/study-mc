@@ -8,9 +8,11 @@ Study-MC (Study Medicinal Chemistry) is a College of Pharmacy web application to
 
 [Organization](https://github.com/chriscerk/study-mc#organization)
 
-[Running the Application Locally](https://github.com/chriscerk/study-mc#development)
+[Running the Application Locally](https://github.com/chriscerk/study-mc#running-the-application-locally)
 
 [Development](https://github.com/chriscerk/study-mc#development)
+
+[File Structure](https://github.com/chriscerk/study-mc#file-structure)
 
 [Other Info.](https://github.com/chriscerk/studymc#other-information)
 
