@@ -4,6 +4,8 @@
 
 Study-MC (Study Medicinal Chemistry) is a College of Pharmacy web application to help graduate students learn, test, and review their course materials.
 
+<img align="center" src="https://raw.githubusercontent.com/chriscerk/study-mc/master/readme/lighthouseScore.png" alt="Logo">
+
 # Overview
 
 [Organization](https://github.com/chriscerk/study-mc#organization)
@@ -146,5 +148,19 @@ Data currently pulls from a Firebase connection for everything except 'Learn'. D
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 # Screenshots
+
+<img align="center" src="https://raw.githubusercontent.com/chriscerk/study-mc/master/readme/courses.png" alt="Logo">
+
+<img align="center" src="https://raw.githubusercontent.com/chriscerk/study-mc/master/readme/topics.png" alt="Logo">
+
+<img align="center" src="https://raw.githubusercontent.com/chriscerk/study-mc/master/readme/addingItem.PNG" alt="Logo">
+
+<img align="center" src="https://raw.githubusercontent.com/chriscerk/study-mc/master/readme/mobileCanvas.png" alt="Logo">
+
+<img align="center" src="https://raw.githubusercontent.com/chriscerk/study-mc/master/readme/mobileCourses.png" alt="Logo">
+
+<img align="center" src="https://raw.githubusercontent.com/chriscerk/study-mc/master/readme/mobileQuestion.png" alt="Logo">
+
+<img align="center" src="https://raw.githubusercontent.com/chriscerk/study-mc/master/readme/lighthouseScore.png" alt="Logo">
 
 
