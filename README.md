@@ -6,6 +6,10 @@ Study-MC (Study Medicinal Chemistry) is a College of Pharmacy web application to
 
 <img align="center" src="https://raw.githubusercontent.com/chriscerk/study-mc/master/readme/lighthouseScore.png" alt="Logo">
 
+# Demo
+
+https://study-mc-a8ef3.firebaseapp.com/
+
 # Overview
 
 [Organization](https://github.com/chriscerk/study-mc#organization)
@@ -128,17 +132,6 @@ For each Topic in a Course, the images are stored in `assets/media/compounds/`. 
 ### Data
 
 Data currently pulls from a Firebase connection for everything except 'Learn'. Data can be pulled from the `assets/data/` folder easily by using the respective functions in the `app/core/services` folder. Firebase allows the user to update the data instead of the data being statically served as a JSON file like the Learn Component.
-
-
-### UM Access
-
-<strong>Dev Environment</strong>: http://dev-apps.phar.umich.edu/study-mc/
-
-`/afs/umich.edu/group/acadaff/pharmacy/devapps/study-mc`
-
-<strong>Production Environment</strong>: https://apps.phar.umich.edu/study-mc/
-
-`/afs/umich.edu/group/acadaff/pharmacy/Private/html/study-mc`
 
 
 ### Further help
