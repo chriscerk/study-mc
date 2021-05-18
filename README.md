@@ -6,9 +6,6 @@ Study-MC (Study Medicinal Chemistry) is a College of Pharmacy web application to
 
 <img align="center" src="https://raw.githubusercontent.com/chriscerk/study-mc/master/readme/lighthouseScore.png" alt="Logo">
 
-# Demo
-
-https://study-mc-a8ef3.firebaseapp.com/
 
 # Overview
 
